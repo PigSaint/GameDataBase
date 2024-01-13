@@ -21,6 +21,7 @@ Rest of characters used are:
   - #cps, #system16... = arcade board
   - #coop, #vs... = Two or more players mode (cooperative, versus)
   - #mameparent = Parent arcade game in MAME por specific ID
+
 (@) = Show title in original character set, if applicable. The idea is to replace default transcribed title if wanted (one or another, not both). This is particulary useful for Japanese titles usually transcribed in roman characters. Purist, curious and of course Japanese people will enjoy this.
 
 More to come.
