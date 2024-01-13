@@ -1,6 +1,6 @@
 # GameDataBase
 
-GameDataBase project aims to provide the most detailed information about every videogame (console, computer and arcade) for sorting purposes. Goal is to unify in one place all available useful information for emulation purposes like MiSTer, to make possible more efficient and specific searchs. GameDataBase will be published in different files (by platform).
+GameDataBase project aims to provide the most detailed information about every videogame (console, computer and arcade) for sorting purposes. Goal is to unify in one place all available useful information for emulation projects like MiSTer, to make possible more efficient and specific searchs. GameDataBase will be published in different files (by platform).
 
 These are basically five-column files separated by semicolons (;) as following:
 
