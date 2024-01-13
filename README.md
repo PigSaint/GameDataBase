@@ -12,7 +12,7 @@ These are basically five-column files separated by semicolons (;) as following:
 
 Rest of characters used are:
 
- # = Tags with additional information about the game:
+(#) = Tags with additional information about the game:
   - #1P, #2P... = Number of maximum players available
   - #4W, #8W... = Joystick ways / #0W means there's no stick
   - #1B, #2B... = Number of buttons
@@ -21,6 +21,6 @@ Rest of characters used are:
   - #cps, #system16... = arcade board
   - #coop, #vs... = Two or more players mode (cooperative, versus)
   - #mameparent = Parent arcade game in MAME por specific ID
- @ = Show title in original character set, if applicable. The idea is to replace default transcribed title if wanted (one or another, not both). This is particulary useful for Japanese titles usually transcribed in roman characters. Purist, curious and of course Japanese people will enjoy this.
+(@) = Show title in original character set, if applicable. The idea is to replace default transcribed title if wanted (one or another, not both). This is particulary useful for Japanese titles usually transcribed in roman characters. Purist, curious and of course Japanese people will enjoy this.
 
 More to come.
