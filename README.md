@@ -12,7 +12,7 @@ These are basically five-column files separated by semicolons (;) as following:
 
 Rest of characters used are:
 
-# = Tags with additional information about the game:
+/# = Tags with additional information about the game:
   - #1P, #2P... = Number of maximum players available
   - #4W, #8W... = Joystick ways / #0W means there's no stick
   - #1B, #2B... = Number of buttons
