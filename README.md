@@ -2,7 +2,7 @@
 
 GameDataBase project aims to provide the most detailed information about every videogame (console, computer and arcade) for sorting purposes. Goal is to unify in one place all available useful information for emulation projects like MiSTer, to make possible more efficient and specific searchs. GameDataBase will be published in different files (by platform).
 
-These are basically seven-column files made of metadata fields separated by commas (CSV) as following:
+These lists are basically eight-column files made of metadata fields separated by commas (CSV) as following:
 
 1. Full title
 2. Title in original character set, if applicable. This is particulary useful for Japanese titles usually transcribed in roman characters. Purist, curious and of course Japanese people will enjoy this.
