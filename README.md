@@ -11,6 +11,7 @@ These are basically seven-column files made of metadata fields separated by comm
 5. Developer
 6. Tags with additional information about the game
 7. File
+8. Hash (MD5, SHA1, SHA256 and SHA512, in that order)
 
 Tags (#):
   - Maximum players available = #1P, #2P...
