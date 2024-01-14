@@ -2,13 +2,14 @@
 
 GameDataBase project aims to provide the most detailed information about every videogame (console, computer and arcade) for sorting purposes. Goal is to unify in one place all available useful information for emulation projects like MiSTer, to make possible more efficient and specific searchs. GameDataBase will be published in different files (by platform).
 
-These are basically five-column files separated by semicolons (;) as following:
+These are basically five-column files full of metadata fields separated by commas (CSV) as following:
 
 1. Game full title
 2. ID (to identify multiple versions of the same game)
 3. Date in format YYYY adding MM and DD if known (YYYY-MM-DD)
 4. Developer
-5. File
+5. Tags
+6. File
 
 Rest of characters used are:
 
