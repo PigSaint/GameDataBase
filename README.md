@@ -24,5 +24,5 @@ Tags (#):
   - System tags are: #cps (all CAPCOM CP System boards), #cps1 (CAPCOM CP System), #cpsdash (CAPCOM CP System Dash), #cpschanger (CAPCOM CP System Changer), #cps2 (CAPCOM CP System II), #cps3 (CAPCOM CP System III)
   - #multigame = Game includes a selection of different games to play
   - #mameparent = Parent arcade game in MAME por specific ID
-  - #prototype = Game never released but WIP were dumped
+  - #prototype = Game never released but a WIP file were dumped
   - More to come.
