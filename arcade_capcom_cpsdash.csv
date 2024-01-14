@@ -1,19 +1,19 @@
-Game title,ID,Release date,Region,Developer,Tags,MAME ROM
-Cadillacs Kyōryū Shinseiki @Cadillacs 恐竜新世紀,cadillacsanddinosaurs,Japan,1993-02-01,CAPCOM,#3P #8W #2B #coop #cpsdash,dinoj.zip|dino.zip
-Cadillacs and Dinosaurs,cadillacsanddinosaurs,Taiwan,1993-02-23,CAPCOM,#3P #8W #2B #coop #cpsdash,dinoa.zip|dino.zip
-Cadillacs and Dinosaurs,cadillacsanddinosaurs,USA,1993-02-01,CAPCOM,#3P #8W #2B #coop #cpsdash,dinou.zip|dino.zip
-Cadillacs and Dinosaurs,cadillacsanddinosaurs,World,1993-02-01,CAPCOM,#3P #8W #2B #coop #cpsdash #mameparent,dino.zip
-Muscle Bomber: The Body Explosion,musclebomber,Japan,1993-07-13,CAPCOM,#4P #8W #3B #vs #cpsdash,mbomberj.zip|slammast.zip
-Saturday Night Slam Masters,musclebomber,USA,1993-07-13,CAPCOM,#4P #8W #3B #vs #cpsdash,slammastu.zip|slammast.zip
-Saturday Night Slam Masters,musclebomber,World,1993-07-13,CAPCOM,#4P #8W #3B #vs #cpsdash #mameparent,slammast.zip
-Muscle Bomber Duo: Heat Up Warriors,musclebomberduo,Japan,1993-12-06,CAPCOM,#4P #8W #3B #vs #cpsdash,mbombrdj.zip|mbombrd.zip
-Muscle Bomber Duo: Ultimate Team Battle,musclebomberduo,World,1993-12-06,CAPCOM,#4P #8W #3B #vs #cpsdash #mameparent,mbombrd.zip
-Tenchi wo Kurau II: Sekiheki no Tatakai @天地を喰らうII 赤壁の戦い,tenchiwokurau2,Japan,1992-10-31,CAPCOM,#3P #8W #2B #coop #cpsdash,wofj.zip|wof.zip
-Sangokushi II @三国志II,tenchiwokurau2,Asia,1992-10-05,CAPCOM,#3P #8W #2B #coop #cpsdash,wofa.zip|wof.zip
-Warriors of Fate,tenchiwokurau2,USA,1992-10-31,CAPCOM,#3P #8W #2B #coop #cpsdash,wofu.zip|wof.zip
-Warriors of Fate,tenchiwokurau2,World,1992-10-02,CAPCOM,#3P #8W #2B #coop #cpsdash,wofr1.zip|wof.zip
-Warriors of Fate,tenchiwokurau2,World,1992-10-31,CAPCOM,#3P #8W #2B #coop #cpsdash #mameparent,wof.zip
-The Punisher,thepunisher,Japan,1993-04-22,CAPCOM,#2P #8W #2B #coop #cpsdash,punisherj.zip|punisher.zip
-The Punisher,thepunisher,USA,1993-04-22,CAPCOM,#2P #8W #2B #coop #cpsdash,punisheru.zip|punisher.zip
-The Punisher,thepunisher,Hispanic,1993-04-22,CAPCOM,#2P #8W #2B #co#cpsdash op #cpsdash,punisherh.zip|punisher.zip
-The Punisher,thepunisher,World,1993-04-22,CAPCOM,#2P #8W #2B #coop #mameparent,punisher.zip
+Game title,Original character set,ID,Release date,Region,Developer,Tags,MAME ROM
+Cadillacs Kyōryū Shinseiki,Cadillacs 恐竜新世紀,cadillacsanddinosaurs,Japan,1993-02-01,CAPCOM,#3P #8W #2B #coop #cpsdash,dinoj.zip|dino.zip
+Cadillacs and Dinosaurs,,cadillacsanddinosaurs,Taiwan,1993-02-23,CAPCOM,#3P #8W #2B #coop #cpsdash,dinoa.zip|dino.zip
+Cadillacs and Dinosaurs,,cadillacsanddinosaurs,USA,1993-02-01,CAPCOM,#3P #8W #2B #coop #cpsdash,dinou.zip|dino.zip
+Cadillacs and Dinosaurs,,cadillacsanddinosaurs,World,1993-02-01,CAPCOM,#3P #8W #2B #coop #cpsdash #mameparent,dino.zip
+Muscle Bomber: The Body Explosion,musclebomber,,Japan,1993-07-13,CAPCOM,#4P #8W #3B #vs #cpsdash,mbomberj.zip|slammast.zip
+Saturday Night Slam Masters,,musclebomber,USA,1993-07-13,CAPCOM,#4P #8W #3B #vs #cpsdash,slammastu.zip|slammast.zip
+Saturday Night Slam Masters,,musclebomber,World,1993-07-13,CAPCOM,#4P #8W #3B #vs #cpsdash #mameparent,slammast.zip
+Muscle Bomber Duo: Heat Up Warriors,,musclebomberduo,Japan,1993-12-06,CAPCOM,#4P #8W #3B #vs #cpsdash,mbombrdj.zip|mbombrd.zip
+Muscle Bomber Duo: Ultimate Team Battle,,musclebomberduo,World,1993-12-06,CAPCOM,#4P #8W #3B #vs #cpsdash #mameparent,mbombrd.zip
+Tenchi wo Kurau II: Sekiheki no Tatakai,天地を喰らうII 赤壁の戦い,tenchiwokurau2,Japan,1992-10-31,CAPCOM,#3P #8W #2B #coop #cpsdash,wofj.zip|wof.zip
+Sangokushi II,三国志II,tenchiwokurau2,Asia,1992-10-05,CAPCOM,#3P #8W #2B #coop #cpsdash,wofa.zip|wof.zip
+Warriors of Fate,,tenchiwokurau2,USA,1992-10-31,CAPCOM,#3P #8W #2B #coop #cpsdash,wofu.zip|wof.zip
+Warriors of Fate,,tenchiwokurau2,World,1992-10-02,CAPCOM,#3P #8W #2B #coop #cpsdash,wofr1.zip|wof.zip
+Warriors of Fate,,tenchiwokurau2,World,1992-10-31,CAPCOM,#3P #8W #2B #coop #cpsdash #mameparent,wof.zip
+The Punisher,,thepunisher,Japan,1993-04-22,CAPCOM,#2P #8W #2B #coop #cpsdash,punisherj.zip|punisher.zip
+The Punisher,,thepunisher,USA,1993-04-22,CAPCOM,#2P #8W #2B #coop #cpsdash,punisheru.zip|punisher.zip
+The Punisher,,thepunisher,Hispanic,1993-04-22,CAPCOM,#2P #8W #2B #co#cpsdash op #cpsdash,punisherh.zip|punisher.zip
+The Punisher,,thepunisher,World,1993-04-22,CAPCOM,#2P #8W #2B #coop #mameparent,punisher.zip
