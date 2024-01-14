@@ -9,17 +9,19 @@ These are basically seven-column files made of metadata fields separated by comm
 3. ID (to identify multiple versions of the same game)
 4. Date in format YYYY adding MM and DD if known (YYYY-MM-DD)
 5. Developer
-6. Tags
+6. Tags with additional information about the game
 7. File
 
-Tags (#) with additional information about the game:
-  - #1P, #2P... = Number of maximum players available
-  - #4W, #8W... = Joystick ways / #0W means there's no stick
-  - #1B, #2B... = Number of buttons
-  - #spinner, #lightgun... = Non common control system
-  - #tate, #triple... = Non common screen
-  - #cps, #system16... = arcade board
-  - #coop, #vs... = Two or more players mode (cooperative, versus)
+Tags (#):
+  - Maximum players available = #1P, #2P...
+  - Joystick ways = #0W, #2W, #4W, #8W... (#0W means there's no stick)
+  - Number of buttons = #1B, #2B...
+  - Non-common control system = #spinner, #lightgun
+  - Non-common screen = #tate, #triple
+  - Two or more players mode = #coop (cooperative), #vs (versus)
+  - Genre tags are: #shmup (AKA shoot'em up), #brawler (AKA beat'em up), #puzzle, #fighting, #platformer, #runandgun, #hackandslash, #kiddieride, #quiz, #mogurataiji (AKA whack-a-mole), #sports, #soccer, #basket, #tennis
+  - System tags are: #cps (all CAPCOM CP System boards), #cps1 (CAPCOM CP System), #cpsdash (CAPCOM CP System Dash), #cpschanger (CAPCOM CP System Changer), #cps2 (CAPCOM CP System II), #cps3 (CAPCOM CP System III)
+  - #multigame = Game includes a selection of different games to play
   - #mameparent = Parent arcade game in MAME por specific ID
-
-More to come.
+  - #prototype = Game never released but WIP were dumped
+  - More to come.
