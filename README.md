@@ -12,9 +12,7 @@ These are basically seven-column files made of metadata fields separated by comm
 6. Tags
 7. File
 
-Tags:
-
-(#) = Tags with additional information about the game:
+Tags (#) with additional information about the game:
   - #1P, #2P... = Number of maximum players available
   - #4W, #8W... = Joystick ways / #0W means there's no stick
   - #1B, #2B... = Number of buttons
