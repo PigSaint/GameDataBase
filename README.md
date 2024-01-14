@@ -10,7 +10,7 @@ These are basically seven-column files made of metadata fields separated by comm
 4. Date in format YYYY adding MM and DD if known (YYYY-MM-DD)
 5. Developer
 6. Tags with additional information about the game
-7. File
+7. MAME filename
 8. Hash (MD5, SHA1, SHA256 and SHA512, in that order)
 
 Tags (#):
