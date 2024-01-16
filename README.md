@@ -20,11 +20,13 @@ Tags (#):
   - Maximum players available = #1P, #2P...
   - Joystick ways = #0W, #2W, #4W, #8W... (#0W means there's no stick)
   - Number of buttons = #1B, #2B...
-  - Non-common control system = #spinner, #lightgun
+  - Non-common control system = #spinner, #lightgun (specific lightgun shows as #lightgun:lightphaser)
   - Non-common screen = #tate, #triple
-  - Two or more players mode = #coop (cooperative), #vs (versus)
-  - Genre tags are: #shmup (AKA shoot'em up), #brawler (AKA beat'em up), #puzzle, #fighting, #platformer, #runandgun, #hackandslash, #kiddieride, #quiz, #mogurataiji (AKA whack-a-mole), #sports, #soccer, #basket, #tennis
-  - System tags are: #cps (all CAPCOM CP System boards), #cps1 (CAPCOM CP System), #cpsdash (CAPCOM CP System Dash), #cpschanger (CAPCOM CP System Changer), #cps2 (CAPCOM CP System II), #cps3 (CAPCOM CP System III)
+  - Two or more players mode = #coop (cooperative), #vs (versus), #alternating (when players play one after another)
+  - Genre tags are: #shmup (shoot'em up; joined to :danmaku is a bullet-hell), #brawler (AKA beat'em up), #puzzle, #fighting, #platformer, #runandgun, #hackandslash, #kiddieride, #quiz, #mogurataiji (AKA whack-a-mole), #datesim (date simulator), #maze, #adventure, #sports (:soccer, :basketball, :tennis, :football (American), :formula1, :boxing, :wrestling, :baseball, :golf)
+  - System tags are: #cps (all CAPCOM CP System boards) joined with :cps1 (CAPCOM CP System), :cpsdash (CAPCOM CP System Dash), :cpschanger (CAPCOM CP System Changer), :cps2 (CAPCOM CP System II) and :cps3 (CAPCOM CP System III)
+  - #licence = Game is based on a commercial licence
+  - #celeb = Game uses famous name
   - #multigame = Game includes a selection of different games to play
   - #mameparent = Parent arcade game in MAME por specific ID
   - #prototype = Game never released but a WIP file were dumped
