@@ -114,8 +114,9 @@ These lists are basically table files made of metadata fields separated by comma
 
 #port=Ported from another system
 :arcade=Arcade
-:c64=Coomodore 64
+:c64=Commodore 64
 :amiga=Commodore Amiga
+:apple2=Apple II
 :pc88=NEC PC-8801
 :msx=MSX
 :gamegear=SEGA Game Gear
