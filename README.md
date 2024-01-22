@@ -45,10 +45,10 @@ These lists are basically table files made of metadata fields separated by comma
 
 #way=Number of joystick ways to move
 :0=No joystick
-:2h=2-Way horizontal
-:2v=2-Way vertical
-:4=4-Way
-:8=8-Way
+:2h=2-way horizontal
+:2v=2-way vertical
+:4=4-way
+:8=8-way
 
 #buttons=Number of in-game buttons
 :0=No buttons
