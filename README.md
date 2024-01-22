@@ -27,7 +27,7 @@ These lists are basically table files made of metadata fields separated by comma
 #lightgun=Lightgun
 #spinner=Spinner
 
-/////Group tags (#)+(:)
+/////Group tags (#)+(:)+(>)
 
 #players=Maximum number of players
 :1=1 player
@@ -65,7 +65,6 @@ These lists are basically table files made of metadata fields separated by comma
 :fighting=Fighting
 :brawler=Beat'em up
 :shmup=Shoot'em up
-:danmaku=Bullet hell
 :shootinggallery=Shooting gallery
 :runandgun=Run and gun
 :hackandslash=Hack and slash
@@ -88,27 +87,30 @@ These lists are basically table files made of metadata fields separated by comma
 :sports=Sports
 
 #genre:sports
-:soccer=Soccer
-:basketball=Basketball
-:baseball=Baseball
-:volleyball=Volleyball
-:tennis=Tennis
-:football=American football
-:hockey=Ice Hockey
-:ski=Skiing
-:formula1=Formula 1
-:motogp=Moto GP
-:golf=Golf
-:boxing=Boxing
-:wrestling=Wrestling
-:decathlon=Decathlon
-:billiard=Billiard
-:chess=Chess
-:mahjong=Mahjong
+>soccer=Soccer
+>basketball=Basketball
+>baseball=Baseball
+>volleyball=Volleyball
+>tennis=Tennis
+>football=American football
+>hockey=Ice Hockey
+>ski=Skiing
+>formula1=Formula 1
+>motogp=Moto GP
+>golf=Golf
+>boxing=Boxing
+>wrestling=Wrestling
+>decathlon=Decathlon
+>billiard=Billiard
+>chess=Chess
+>mahjong=Mahjong
 
 #genre:rpg
-:a=Action RPG
-:j=JRPG
+>a=Action RPG
+>j=JRPG
+
+#genre:shmup
+>danmaku=Bullet hell
 
 #port=Ported from another system
 :arcade=Arcade
