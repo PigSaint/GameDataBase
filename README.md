@@ -18,7 +18,7 @@ These lists are basically table files made of metadata fields separated by comma
 - SHA512 hash
 
 # Guide for tags
-GameDataBase uses a simple tag taxonomy to classify games in the many ways as possible. This tag main purpose is to improve sorting and searching. Of course this list will be updated as new ones emerge from darkness.
+GameDataBase uses a simple tag taxonomy to classify games in as many ways as possible. These tags main purpose is to improve sorting and searching. Of course this list will be updated as new ones emerge from darkness.
 
 **Stand alone tags (#)**
 This kind of tags defines useful uncommon attributes we can find in multiple games of multiple systems. They are intended to be visible. Let's imagine the following tags inside little color labels before (or after) the line of their respective titles in a list. These are:
