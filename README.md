@@ -132,7 +132,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:gamegear** (SEGA Game Gear)
 **:megadrive** (SEGA MegaDrive/Genesis)
 **:famicom** (Nintendo Famicom/NES)
-**:superfamicom** (Super Famicom/SNES)
+**:superfamicom** (Nintendo Super Famicom/SNES)
 
 **#addon** (Specific external hardware recommended or required)
 **:3dglasses** (SEGA 3-D Glasses)
