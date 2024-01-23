@@ -21,7 +21,7 @@ These lists are basically table files made of metadata fields separated by comma
 GameDataBase uses a simple tag taxonomy to classify games in the many ways as possible. This tag main purpose is to improve sorting and searching. Of course this list will be updated as new ones emerge from darkness.
 
 **Stand alone tags (#)**
-This kind of tags defines useful uncommon attributes we can find in multiple games of multiple systems. They are intended to be visible. Let's imagine the following tags inside little color labels before (or after) the line of their respective titles in a list.
+This kind of tags defines useful uncommon attributes we can find in multiple games of multiple systems. They are intended to be visible. Let's imagine the following tags inside little color labels before (or after) the line of their respective titles in a list. These are:
 
 **#licensed** (Licensed)
 **#compilation** (Compilation)
@@ -35,7 +35,7 @@ This kind of tags defines useful uncommon attributes we can find in multiple gam
 **Group tags (#)+(:)+(>)**
 This kind of tags uses subcategories to organize more complex things. There are three levels. The first (#) is for the main attribute, the second (:) is its value, and the third (>) is a subvalue. This subvalue is only specific information about their most inmediate (:) value.
 
-Several values and subvalues can be added for every main attribute. So, if we have **#genre:sports>wrestling:fighting**, we have two genre (_sports_ and _fighting_) and one subgenre only for the _sports_ tag (_wrestling_).
+Several values and subvalues can be added for every main attribute. So, if we have **#genre:sports>wrestling:fighting**, we have two genre (_sports_ and _fighting_) and one subgenre only for the _sports_ tag (_wrestling_). There are:
 
 **#players** (Maximum number of players)
 **:1** (1 player)
@@ -182,7 +182,7 @@ The goal of this kind of tags is just for searching purposes. They are designed 
 **Commercial tags for searching purposes**
 This kind of tags provides us information about famous franchises and characters. For example, if we search for games based on Alien movie franchise and just write "alien", we probably get a huge list of games that have nothing to do with the franchise like _Alien Soldier_, _Alien Storm_ or _Alien Syndrome_. However, this tag unlocks the "did you mean" feature. This can be used as an additional useful search tool.
 
-These tags even allow us to search for famous characters like Dracula. If we were to write "dracula" in a regular game search engine, we would only get games which contans the word _Dracula_, but there would be no _Castlevania_ or _Master of Darkness_. This tag can solve that. More tags will be added as soon new interesting franchises appeared in the process. At the end they will be a lot. For now, take a look to these ones.
+These tags even allow us to search for famous characters like Dracula. If we were to write "dracula" in a regular game search engine, we would only get games which contans the word _Dracula_, but there would be no _Castlevania_ or _Master of Darkness_. This tag can solve that. More tags will be added as soon new interesting franchises appeared in the process. At the end they will be a lot. For now, take a look to these ones:
 
 **$alien** (Alien)
 **$asterix** (Astérix & Obélix)
