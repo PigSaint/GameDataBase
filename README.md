@@ -17,183 +17,201 @@ These lists are basically table files made of metadata fields separated by comma
 - SHA256 hash
 - SHA512 hash
 
-**Stand alone tags (#)**
+# Guide for tags
+GameDataBase uses a simple tag taxonomy to classify games in the many ways as possible. This tag main purpose is to improve sorting and searching. Of course this list will be updated as new ones emerge from darkness.
 
-#licensed=Licensed
-#compilation=Compilation
-#mameparent=MAME Parent
-#tate=Vertical screen
-#multigame=Multigame
-#lightgun=Lightgun
-#spinner=Spinner
+**Stand alone tags (#)**
+This kind of tags defines useful uncommon attributes we can find in multiple games of multiple systems. They are intended to be visible. Let's imagine the following tags inside little color labels before (or after) the line of their respective titles in a list.
+
+**#licensed** (Licensed)
+**#compilation** (Compilation)
+**#mameparent** (MAME parent file)
+**#tate** (Vertical screen)
+**#multigame** (Multigame)
+**#lightgun** (Lightgun)
+**#spinner** (Spinner)
+**#qsound** (QSound)
 
 **Group tags (#)+(:)+(>)**
+This kind of tags uses subcategories to organize more complex things. There are three levels. The first (#) is for the main attribute, the second (:) is its value, and the third (>) is a subvalue. This subvalue is only specific information about their most inmediate (:) value.
 
-**#players**=Maximum number of players
-**:1**=1 player
-**:2**=2 players
-**:3**=3 players
-**:4**=4 players
-**:6**=6 players
-**:8**=8 players
-**:10**=10 players
+Several values and subvalues can be added for every main attribute. So, if we have **#genre:sports>wrestling:fighting**, we have two genre (_sports_ and _fighting_) and one subgenre only for the _sports_ tag (_wrestling_).
 
-**#multiplayer**=Relation between players inside the game
-**:coop**=Cooperative
-**:vs**=Versus
-**:alt**=Alternating
+**#players** (Maximum number of players)
+**:1** (1 player)
+**:2** (2 players)
+**:3** (3 players)
+**:4** (4 players)
+**:6** (6 players)
+**:8** (8 players)
+**:10** (10 players)
 
-**#way**=Number of joystick ways to move
-**:0**=No joystick
-**:2h**=2-way horizontal
-**:2v**=2-way vertical
-**:4**=4-way
-**:8**=8-way
+**#multiplayer** (Relation between players inside the game)
+**:coop** (Cooperative)
+**:vs** (Versus)
+**:alt** (Alternating)
 
-**#buttons**=Number of in-game buttons
-**:0**=No buttons
-**:1**=1 button
-**:2**=2 buttons
-**:3**=3 buttons
-**:4**=4 buttons
-**:6**=6 buttons
+**#way** (Number of joystick ways to move)
+**:0** (No joystick))
+**:2h** (2-way horizontal)
+**:2v** (2-way vertical)
+**:4** (4-way)
+**:8** (8-way)
 
-**#genre**=Genre of the game
-**:action**=Action
-**:platformer**=Platformer
-**:adventure**=Adventure
-**:fighting**=Fighting
-**:brawler**=Beat'em up
-**:shmup**=Shoot'em up
-**:shootinggallery**=Shooting gallery
-**:runandgun**=Run and gun
-**:hackandslash**=Hack and slash
-**:puzzle**=Puzzle
-**:maze**=Maze
-**:board**=Board game
-**:minigames**=Mini games
-**:kiddieride**=Kiddie ride
-**:strategy**=Strategy
-**:god**=God game
-**:redemption**=Redemption
-**:datesim**=Date simulator
-**:flightsim**=Flight simulator
-**:railshooter**=Rail shooter
-**:racing**=Racing
-**:mogurataiji**=Whac-A-Mole
-**:quiz**=Quiz game
-**:blockbreaker**=Block breaker
-**:rpg**=RPG
-**:sports**=Sports
+**#buttons** (Number of in-game buttons)
+**:0** (No buttons)
+**:1** (1 button)
+**:2** (2 buttons)
+**:3** (3 buttons)
+**:4** (4 buttons)
+**:6** (6 buttons)
+
+**#genre** (Genre of the game)
+**:action** (Action)
+**:platformer** (Platformer)
+**:adventure** (Adventure)
+**:fighting** (Fighting)
+**:brawler** (Beat'em up)
+**:shmup** (Shoot'em up)
+**:shootinggallery** (Shooting gallery)
+**:runandgun** (Run and gun)
+**:hackandslash** (Hack and slash)
+**:puzzle** (Puzzle)
+**:maze** (Maze)
+**:board** (Board game)
+**:minigames** (Mini games)
+**:kiddieride** (Kiddie ride)
+**:strategy** (Strategy)
+**:god** (God game)
+**:redemption** (Redemption)
+**:datesim** (Date simulator)
+**:flightsim** (Flight simulator)
+**:railshooter** (Rail shooter)
+**:racing** (Racing)
+**:mogurataiji** (Whac-A-Mole)
+**:billiard** (Billiard)
+**:quiz** (Quiz game)
+**:blockbreaker** (Block breaker)
+**:rpg** (RPG)
+**:sports** (Sports)
 
 **#genre:sports**
-**\>soccer**=Soccer
-**\>basketball**=Basketball
-**\>baseball**=Baseball
-**\>volleyball**=Volleyball
-**\>tennis**=Tennis
-**\>football**=American football
-**\>hockey**=Ice Hockey
-**\>ski**=Skiing
-**\>formula1**=Formula 1
-**\>motogp**=Moto GP
-**\>golf**=Golf
-**\>boxing**=Boxing
-**\>wrestling**=Wrestling
-**\>decathlon**=Decathlon
-**\>billiard**=Billiard
-**\>chess**=Chess
-**\>mahjong**=Mahjong
+**\>soccer** (Soccer)
+**\>basketball** (Basketball)
+**\>baseball** (Baseball)
+**\>volleyball** (Volleyball)
+**\>tennis** (Tennis)
+**\>football** (American football)
+**\>hockey** (Ice Hockey)
+**\>ski** (Skiing)
+**\>formula1** (Formula 1)
+**\>motogp** (Moto GP)
+**\>golf** (Golf)
+**\>boxing** (Boxing)
+**\>wrestling** (Wrestling)
+**\>decathlon** (Decathlon)
+
+**#genre:board**
+**>chess** (Chess)
+**>mahjong** (Mahjong)
 
 **#genre:rpg**
-**\>a**=Action RPG
-**\>j**=JRPG
+**\>a** (Action RPG)
+**\>j** (JRPG)
 
 **#genre:shmup**
-**\>danmaku**=Bullet hell
+**\>danmaku** (Bullet hell)
 
-**#port**=Ported from another system
-**:arcade**=Arcade
-**:c64**=Commodore 64
-**:amiga**=Commodore Amiga
-**:apple2**=Apple II
-**:pc88**=NEC PC-8801
-**:msx**=MSX
-**:gamegear**=SEGA Game Gear
-**:megadrive**=SEGA MegaDrive/Genesis
-**:famicom**=Nintendo Famicom/NES
-**:superfamicom**=Super Famicom/SNES
+**#port** (Ported from another system)
+**:arcade** (Arcade)
+**:c64** (Commodore 64)
+**:amiga** (Commodore Amiga)
+**:apple2** (Apple II)
+**:pc88** (NEC PC-8801)
+**:msx** (MSX)
+**:gamegear** (SEGA Game Gear)
+**:megadrive** (SEGA MegaDrive/Genesis)
+**:famicom** (Nintendo Famicom/NES)
+**:superfamicom** (Super Famicom/SNES)
 
-**#addon**=Specific external hardware recommended or required
-**:3dglasses**=SEGA 3-D Glasses
-**:fmsoundunit**=SEGA FM Sound Unit
-**:lightphaser**=SEGA Light Phaser
-**:paddlecontrol**=SEGA Paddle Control
-**:sportspad**=SEGA Sports Pad
+**#addon** (Specific external hardware recommended or required)
+**:3dglasses** (SEGA 3-D Glasses)
+**:fmsoundunit** (SEGA FM Sound Unit)
+**:lightphaser** (SEGA Light Phaser)
+**:paddlecontrol** (SEGA Paddle Control)
+**:sportspad** (SEGA Sports Pad)
 
-**#embed**=Embed extra hardware inside game
-**:ram**=Extra RAM
+**#embed** (Embed extra hardware inside game)
+**:ram** (Extra RAM)
 
-**#save**=The way you can save your progress
-**:backup**=Battery back-up
-**:password**=Password
+**#save** (The way you can save your progress)
+**:backup** (Battery back-up)
+**:password** (Password)
 
-**#lang**=Language
-**:ja**=Japanese
-**:en**=English
-**:es**=Spanish
-**:fr**=French
-**:pt**=Portuguese
-**:de**=German
-**:it**=Italian
-**:sv**=Swedish
-**:nl**=Dutch
-**:no**=Norwegian
+**#lang** (Language)
+**:ja** (Japanese)
+**:en** (English)
+**:es** (Spanish)
+**:fr** (French)
+**:pt** (Portuguese)
+**:de** (German)
+**:it** (Italian)
+**:sv** (Swedish)
+**:nl** (Dutch)
+**:no** (Norwegian)
 
-**#3d**=Game uses some kind of 3D effect
-**:stereoscopic**=Stereoscopic 3D
-**:anaglyph**=Anaglyph 3D
+**#3d** (Game uses some kind of 3D effect)
+**:stereoscopic** (Stereoscopic 3D)
+**:anaglyph** (Anaglyph 3D)
 
-**#cps**=CAPCOM CP Systems
-**:cps1**=CAPCOM CP System
-**:cpsdash**=CAPCOM CP System Dash
-**:cpschanger**=CAPCOM CP System Changer
-**:cps2**=CAPCOM CP System II
-**:cps3**=CAPCOM CP System III
+**#cps** (CAPCOM CP Systems)
+**:cps1** (CAPCOM CP System)
+**:cpsdash** (CAPCOM CP System Dash)
+**:cpschanger** (CAPCOM CP System Changer)
+**:cps2** (CAPCOM CP System II)
+**:cps3** (CAPCOM CP System III)
 
-**#edition**=Edition
-**:blue**=Blue
-**:purple**=Purple
-**:kixx**=Kixx
+**#edition** (Edition)
+**:blue** (Blue)
+**:purple** (Purple)
+**:kixx** (Kixx)
 
-**Commercial tags for searching purposes ($)**
+**Searching tags ($)**
+The goal of this kind of tags is just for searching purposes. They are designed to be internal (invisible) to provide additional information we can unlock when we search for it.
 
-**$alien**="Alien"
-**$asterix**="Astérix & Obélix"
-**$batman**="Batman"
-**$disney**="Walt Disney"
-**$donald**="Donald Duck"
-**$dracula**="Dracula"
-**$d&d**="Dungeons & Dragons"
-**$jurassicpark**="Jurassic Park"
-**$loneytunes**="Looney Tunes"
-**$marvel**="Marvel Comics"
-**$mickey**="Mickey Mouse"
-**$pacman**="Pac-Man"
-**$sherlock**="Sherlock Holmes"
-**$simpsons**="The Simpsons"
-**$smurfs**="The Smurfs"="Les Schtroumpfs"="Los Pitufos"
-**$sonic**="Sonic The Hedgehog"
-**$spiderman**="Spider-Man"
-**$starwars**="Star Wars"
-**$superman**="Superman"
-**$wonderboy**="Wonder Boy"
-**$xmen**="X-Men"
-**$zillion**="Akai Kōdan Zillion"="赤い光弾ジリオン"
+**Commercial tags for searching purposes**
+This kind of tags provides us information about famous franchises and characters. For example, if we search for games based on Alien movie franchise and just write "alien", we probably get a huge list of games that have nothing to do with the franchise like _Alien Soldier_, _Alien Storm_ or _Alien Syndrome_. However, this tag unlocks the "did you mean" feature. This can be used as an additional useful search tool.
 
-**Keyword tags for searching purposes ($)**
+These tags even allow us to search for famous characters like Dracula. If we were to write "dracula" in a regular game search engine, we would only get games which contans the word _Dracula_, but there would be no _Castlevania_ or _Master of Darkness_. This tag can solve that. More tags will be added as soon new interesting franchises appeared in the process. At the end they will be a lot. For now, take a look to these ones.
 
-**$manganime**=manga=anime
-**$movie**=cinema=film
-**$celeb**=celebrity=famous
-**$licensed**=license=licence
+**$alien** (Alien)
+**$asterix** (Astérix & Obélix)
+**$batman** (Batman)
+**$disney** (Walt Disney)
+**$donald** (Donald Duck)
+**$dracula** (Dracula)
+**$d&d** (Dungeons & Dragons)
+**$jurassicpark** (Jurassic Park)
+**$loneytunes** (Looney Tunes)
+**$marvel** (Marvel Comics)
+**$mickey** (Mickey Mouse)
+**$pacman** (Pac-Man)
+**$sherlock** (Sherlock Holmes)
+**$simpsons** (The Simpsons)
+**$smurfs** (The Smurfs/Les Schtroumpfs/Los Pitufos)
+**$sonic** (Sonic The Hedgehog)
+**$spiderman** (Spider-Man)
+**$starwars** (Star Wars)
+**$superman** (Superman)
+**$wonderboy** (Wonder Boy)
+**$xmen** (X-Men)
+**$zillion** (Akai Kōdan Zillion/赤い光弾ジリオン)
+
+**Keyword tags**
+In the same way, these tags are just for searching purposes based on keywords. If we look for games based on a movie or a manga, this kind of tags allow you to find more easier if implemented. Values of the right are like synonyms. Infinite possibilities. We can add tags like _ninja_, _cute_, _gore_ or, don't know, _rockandroll_. But for now, there's only these:
+
+**$manganime** /manga/anime
+**$movie** /cinema/film
+**$celeb** /celebrity/famous
+
+Please, be welcome and enjoy. Thank you very much for coming. Pretty nice things to come.
