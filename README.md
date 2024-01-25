@@ -23,13 +23,13 @@ GameDataBase uses a simple tag taxonomy to classify games in as many ways as pos
 **Stand alone tags (#)**
 This kind of tags defines useful uncommon attributes we can find in multiple games of multiple systems. They are intended to be visible. Let's imagine the following tags inside little color labels before (or after) the line of their respective titles in a list. These are:
 
-**#licensed** (Licensed)
-**#compilation** (Compilation)
 **#mameparent** (MAME parent file)
 **#tate** (Vertical screen)
-**#multigame** (Multigame)
 **#lightgun** (Lightgun)
 **#spinner** (Spinner)
+**#licensed** (Licensed)
+**#unauthorized** (Unauthorized)
+**#rerelease** (Re-release)
 **#qsound** (QSound)
 
 **Group tags (#)+(:)+(>)**
@@ -66,34 +66,46 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:4** (4 buttons)
 **:6** (6 buttons)
 
+**#multigame** (Multigame)
+**:compilation** (Compilation)
+
 **#genre** (Genre of the game)
 **:action** (Action)
 **:platformer** (Platformer)
-**:adventure** (Adventure)
 **:fighting** (Fighting)
 **:brawler** (Beat'em up)
+**:rpg** (RPG)
+**:sports** (Sports)
 **:shmup** (Shoot'em up)
+**:puzzle** (Puzzle)
+**:racing** (Racing)
+**:railshooter** (Rail shooter)
+**:blockbreaker** (Block breaker)
+**:maze** (Maze)
+**:adventure** (Adventure)
 **:shootinggallery** (Shooting gallery)
 **:runandgun** (Run and gun)
 **:hackandslash** (Hack and slash)
-**:puzzle** (Puzzle)
-**:maze** (Maze)
+**:pinball** (Pinball)
+**:strategy** (Strategy)
+**:redemption** (Redemption)
+**:flightsim** (Flight simulator)
 **:board** (Board game)
+**:quiz** (Quiz game)
+**:cards** (Cards game)
+**:billiard** (Billiard)
+**:jackpot** (Jackpot)
 **:minigames** (Mini games)
 **:kiddieride** (Kiddie ride)
-**:strategy** (Strategy)
-**:god** (God game)
-**:redemption** (Redemption)
-**:datesim** (Date simulator)
-**:flightsim** (Flight simulator)
-**:railshooter** (Rail shooter)
-**:racing** (Racing)
+**:bowling** (Bowling)
 **:mogurataiji** (Whac-A-Mole)
-**:billiard** (Billiard)
-**:quiz** (Quiz game)
-**:blockbreaker** (Block breaker)
-**:rpg** (RPG)
-**:sports** (Sports)
+**:datesim** (Date simulator)
+**:god** (God game)
+**:educational** (Educational)
+**:sound** (Only sound)
+**:marketing** (Marketing)
+**:drawing** (Drawing)
+**:test** (Test)
 
 **#genre:sports**
 **\>soccer** (Soccer)
@@ -103,17 +115,20 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **\>tennis** (Tennis)
 **\>football** (American football)
 **\>hockey** (Ice Hockey)
-**\>ski** (Skiing)
+**\>skiing** (Skiing)
 **\>formula1** (Formula 1)
 **\>motogp** (Moto GP)
 **\>golf** (Golf)
 **\>boxing** (Boxing)
 **\>wrestling** (Wrestling)
 **\>decathlon** (Decathlon)
+**\>archery** (Archery)
+**\>rowing** (Rowing)
+**\>swimming** (Swimming)
 
 **#genre:board**
-**>chess** (Chess)
-**>mahjong** (Mahjong)
+**\>chess** (Chess)
+**\>mahjong** (Mahjong)
 
 **#genre:rpg**
 **\>a** (Action RPG)
@@ -121,6 +136,21 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 
 **#genre:shmup**
 **\>danmaku** (Bullet hell)
+
+**#genre:racing**
+**\>combat** (Combat racing)
+
+**#lang** (Language)
+**:ja** (Japanese)
+**:en** (English)
+**:es** (Spanish)
+**:fr** (French)
+**:pt** (Portuguese)
+**:de** (German)
+**:it** (Italian)
+**:sv** (Swedish)
+**:nl** (Dutch)
+**:no** (Norwegian)
 
 **#port** (Ported from another system)
 **:arcade** (Arcade)
@@ -141,6 +171,26 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:paddlecontrol** (SEGA Paddle Control)
 **:sportspad** (SEGA Sports Pad)
 
+**#addon:fmsoundunit**
+**\>hidden** (FM Sound Unit: Hidden)
+
+**#rev** (Revision)
+**:1** (1)
+**:2** (2)
+**:a** (A)
+**:b** (B)
+
+**#unfinished** (Unfinished)
+**:beta** (Beta)
+**:proto** (Prototype)
+**:demo** (Demo)
+**:sample** (Sample)
+
+**unfinished:beta**
+**\>1**
+**\>2**
+**\>3**
+
 **#embed** (Embed extra hardware inside game)
 **:ram** (Extra RAM)
 
@@ -148,33 +198,37 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:backup** (Battery back-up)
 **:password** (Password)
 
-**#lang** (Language)
-**:ja** (Japanese)
-**:en** (English)
-**:es** (Spanish)
-**:fr** (French)
-**:pt** (Portuguese)
-**:de** (German)
-**:it** (Italian)
-**:sv** (Swedish)
-**:nl** (Dutch)
-**:no** (Norwegian)
-
 **#3d** (Game uses some kind of 3D effect)
 **:stereoscopic** (Stereoscopic 3D)
 **:anaglyph** (Anaglyph 3D)
 
-**#cps** (CAPCOM CP Systems)
-**:cps1** (CAPCOM CP System)
-**:cpsdash** (CAPCOM CP System Dash)
-**:cpschanger** (CAPCOM CP System Changer)
-**:cps2** (CAPCOM CP System II)
-**:cps3** (CAPCOM CP System III)
+**#arcadeboard** (Arcade board)
+**:cps** (All CAPCOM CP Systems)
 
-**#edition** (Edition)
-**:blue** (Blue)
-**:purple** (Purple)
-**:kixx** (Kixx)
+**#arcadeboard:cps**
+**>cps1** (CAPCOM CP System)
+**>cpsdash** (CAPCOM CP System Dash)
+**>cpschanger** (CAPCOM CP System Changer)
+**>cps2** (CAPCOM CP System II)
+**>cps3** (CAPCOM CP System III)
+
+**#format**
+**:mycard** (SEGA My Card)
+**:thesegacard** (The SEGA Card)
+**:themegacartridge** (The Mega Cartridge Japan version)
+**:silvercartridge** (Silver Cartridge)
+**:goldcartridge** (Gold Cartridge)
+
+**#format:goldcartridge**
+**\>1m**
+**\>2m**
+**\>4m**
+
+**#reboxed** (Reboxed)
+**:bluebox** (Blue Box)
+**:purplebox** (Purple Box)
+**:classicedition** (Classic Edition)
+**:kixxedition** (Kixx Edition)
 
 **Searching tags ($)**
 The goal of this kind of tags is just for searching purposes. They are designed to be internal (invisible) to provide additional information we can unlock when we search for it.
