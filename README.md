@@ -25,7 +25,6 @@ This kind of tags defines useful uncommon attributes we can find in multiple gam
 
 **#mameparent** (MAME parent file)
 **#tate** (Vertical screen)
-**#lightgun** (Lightgun)
 **#spinner** (Spinner)
 **#licensed** (Licensed)
 **#unauthorized** (Unauthorized)
@@ -83,7 +82,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:blockbreaker** (Block breaker)
 **:maze** (Maze)
 **:adventure** (Adventure)
-**:shootinggallery** (Shooting gallery)
+**:shooting** (Shooting gallery)
 **:runandgun** (Run and gun)
 **:hackandslash** (Hack and slash)
 **:pinball** (Pinball)
@@ -151,6 +150,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:sv** (Swedish)
 **:nl** (Dutch)
 **:no** (Norwegian)
+**:kr** (Korean)
 
 **#port** (Ported from another system)
 **:arcade** (Arcade)
@@ -267,5 +267,6 @@ In the same way, these tags are just for searching purposes based on keywords. I
 **$manganime** /manga/anime
 **$movie** /cinema/film
 **$celeb** /celebrity/famous
+**$lightgun**
 
 Please, be welcome and enjoy. Thank you very much for coming. Pretty nice things to come.
