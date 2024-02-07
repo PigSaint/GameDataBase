@@ -24,12 +24,14 @@ GameDataBase uses a simple tag taxonomy to classify games in as many ways as pos
 This kind of tags defines useful uncommon attributes we can find in multiple games of multiple systems. They are intended to be visible. Let's imagine the following tags inside little color labels before (or after) the line of their respective titles in a list. These are:
 
 **#mameparent** (MAME parent file)
+**#bios** (BIOS game)
 **#tate** (Vertical screen)
 **#spinner** (Spinner)
 **#licensed** (Licensed)
-**#unauthorized** (Unauthorized)
+**#unlicensed** (Unlicensed)
 **#rerelease** (Re-release)
 **#qsound** (QSound)
+**#nsfw** (NSFW content)
 
 **Group tags (#)+(:)+(>)**
 This kind of tags uses subcategories to organize more complex things. There are three levels. The first (#) is for the main attribute, the second (:) is its value, and the third (>) is a subvalue. This subvalue is only specific information about their most inmediate (:) value.
@@ -44,8 +46,6 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:6** (6 players)
 **:8** (8 players)
 **:10** (10 players)
-
-**#multiplayer** (Relation between players inside the game)
 **:coop** (Cooperative)
 **:vs** (Versus)
 **:alt** (Alternating)
@@ -87,19 +87,26 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:hackandslash** (Hack and slash)
 **:pinball** (Pinball)
 **:strategy** (Strategy)
-**:redemption** (Redemption)
 **:flightsim** (Flight simulator)
+**:trainsim** (Train simulator)
+**:datesim** (Date simulator)
+**:lifesim** (Life simulator)
 **:board** (Board game)
 **:quiz** (Quiz game)
+**:cardgame** (Card game)
 **:cards** (Cards game)
+**:hanafuda** (Hanafuda)
 **:billiard** (Billiard)
 **:jackpot** (Jackpot)
+**:pachinko** (Pachinko)
 **:minigames** (Mini games)
 **:kiddieride** (Kiddie ride)
 **:bowling** (Bowling)
 **:mogurataiji** (Whac-A-Mole)
-**:datesim** (Date simulator)
+**:redemption** (Redemption)
+**:visualnovel** (Visual novel)
 **:god** (God game)
+**:derby** (Derby horse ride)
 **:educational** (Educational)
 **:sound** (Only sound)
 **:marketing** (Marketing)
@@ -113,6 +120,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **\>volleyball** (Volleyball)
 **\>tennis** (Tennis)
 **\>football** (American football)
+**\>dodgeball** (Dodgeball)
 **\>hockey** (Ice Hockey)
 **\>skiing** (Skiing)
 **\>formula1** (Formula 1)
@@ -121,17 +129,21 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **\>boxing** (Boxing)
 **\>wrestling** (Wrestling)
 **\>decathlon** (Decathlon)
+**\>snowboarding** (Snowboarding)
 **\>archery** (Archery)
 **\>rowing** (Rowing)
 **\>swimming** (Swimming)
 
 **#genre:board**
 **\>chess** (Chess)
+**\>shouji** (Shōji)
 **\>mahjong** (Mahjong)
+**\>reversi** (Reversi)
 
 **#genre:rpg**
 **\>a** (Action RPG)
 **\>j** (JRPG)
+**\>s** (Strategy RPG)
 
 **#genre:shmup**
 **\>danmaku** (Bullet hell)
@@ -159,6 +171,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:apple2** (Apple II)
 **:pc88** (NEC PC-8801)
 **:msx** (MSX)
+**:sg1000** (SEGA SG-1000)
 **:gamegear** (SEGA Game Gear)
 **:megadrive** (SEGA MegaDrive/Genesis)
 **:famicom** (Nintendo Famicom/NES)
@@ -172,7 +185,10 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:sportspad** (SEGA Sports Pad)
 
 **#addon:fmsoundunit**
-**\>hidden** (FM Sound Unit: Hidden)
+**\>hidden** (Hidden FM Sound Unit)
+
+**#addon:3dglasses**
+**\>hidden** (Hidden 3-D Glasses)
 
 **#rev** (Revision)
 **:1** (1)
@@ -186,10 +202,19 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:demo** (Demo)
 **:sample** (Sample)
 
-**unfinished:beta**
+**#unfinished:beta**
 **\>1**
 **\>2**
 **\>3**
+
+**#unfinished:demo**
+**\>1**
+**\>2**
+
+**#clone** (Clone)
+**:mario** (Mario)
+**:sf2** (Street Fighter II)
+**:tetris** (Tetris)
 
 **#embed** (Embed extra hardware inside game)
 **:ram** (Extra RAM)
