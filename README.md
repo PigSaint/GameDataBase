@@ -25,10 +25,7 @@ This kind of tags defines useful uncommon attributes we can find in multiple gam
 
 **#mameparent** (MAME parent file)
 **#bios** (BIOS game)
-**#tate** (Vertical screen)
-**#spinner** (Spinner)
 **#licensed** (Licensed)
-**#unlicensed** (Unlicensed)
 **#rerelease** (Re-release)
 **#qsound** (QSound)
 **#nsfw** (NSFW content)
@@ -37,6 +34,43 @@ This kind of tags defines useful uncommon attributes we can find in multiple gam
 This kind of tags uses subcategories to organize more complex things. There are three levels. The first (#) is for the main attribute, the second (:) is its value, and the third (>) is a subvalue. This subvalue is only specific information about their most inmediate (:) value.
 
 Several values and subvalues can be added for every main attribute. So, if we have **#genre:sports>wrestling:fighting**, we have two genre (_sports_ and _fighting_) and one subgenre only for the _sports_ tag (_wrestling_). There are:
+
+**#input** (Input system)
+**:joystick** (Joystick)
+**:doublejoystick** (Double joystick)
+**:rotary** (Rotary joystick)
+**:stick** (Stick)
+**:twinstick** (Twin Stick)
+**:trackball** (Trackball)
+**:paddle** (Paddle)
+**:spinner** (Spinner)
+**:wheel** (Wheel)
+**:dial** (Dial)
+**:lightgun** (Lightgun)
+**:puncher** (Puncher)
+**:motion** (Motion detection)
+**:buttons** (In-game buttons)
+**:keys:** (Keyboard keys)
+**:pedals** (Pedals)
+
+**#input:joystick** / **#input:doublejoystick**
+**\>2h** (2-way horizontal)
+**\>2v** (2-way vertical)
+**\>3** (3-way)
+**\>4** (4-way)
+**\>8** (8-way)
+
+**#input:buttons** = **#input:pedals** = **#input:keys**
+**\>1** (1)
+**\>2** (2)
+**\>3** (3)
+**\>4** (4)
+**\>6** (6)
+**\>11** (11)
+**\>12** (12)
+**\>19** (19)
+**\>23** (23)
+**\>pneumatic** (Pneumatic buttons)
 
 **#players** (Maximum number of players)
 **:1** (1 player)
@@ -50,25 +84,18 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:vs** (Versus)
 **:alt** (Alternating)
 
-**#way** (Number of joystick ways to move)
-**:0** (No joystick))
-**:2h** (2-way horizontal)
-**:2v** (2-way vertical)
-**:4** (4-way)
-**:8** (8-way)
-
-**#buttons** (Number of in-game buttons)
-**:0** (No buttons)
-**:1** (1 button)
-**:2** (2 buttons)
-**:3** (3 buttons)
-**:4** (4 buttons)
-**:6** (6 buttons)
+**#tate** (Vertical screen)
+**:cw** (Clockwise)
+**:ccw** (Counter clockwise)
 
 **#multigame** (Multigame)
 **:compilation** (Compilation)
 
-**#genre** (Genre of the game)
+**#unlicensed** (Unlicensed)
+**:bootleg** (Bootleg)
+**:hack** (Hack)
+
+**#genre** (Genre)
 **:action** (Action)
 **:platformer** (Platformer)
 **:fighting** (Fighting)
@@ -83,18 +110,25 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:maze** (Maze)
 **:adventure** (Adventure)
 **:shooting** (Shooting gallery)
+**:shooter** (Shooter)
 **:runandgun** (Run and gun)
 **:hackandslash** (Hack and slash)
+**:dungeoncrawler** (Dungeon crawler)
 **:pinball** (Pinball)
 **:strategy** (Strategy)
+**:roguelite** (Roguelite)
 **:flightsim** (Flight simulator)
 **:trainsim** (Train simulator)
 **:datesim** (Date simulator)
 **:lifesim** (Life simulator)
+**:farmsim** (Farm simulator)
+**:petsim** (Pet simulator)
 **:board** (Board game)
 **:quiz** (Quiz game)
+**:fishing** (Fishing)
+**:cooking** (Cooking)
 **:cardgame** (Card game)
-**:cards** (Cards game)
+**:cards** (Classic cards)
 **:hanafuda** (Hanafuda)
 **:billiard** (Billiard)
 **:jackpot** (Jackpot)
@@ -103,14 +137,17 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:kiddieride** (Kiddie ride)
 **:bowling** (Bowling)
 **:mogurataiji** (Whac-A-Mole)
-**:redemption** (Redemption)
 **:visualnovel** (Visual novel)
 **:god** (God game)
 **:derby** (Derby horse ride)
+**:vending** (Vending machine)
+**:redemption** (Redemption)
+**:mechanical** (Mechanical)
 **:educational** (Educational)
 **:sound** (Only sound)
 **:marketing** (Marketing)
 **:drawing** (Drawing)
+**:application** (Application)
 **:test** (Test)
 
 **#genre:sports**
@@ -125,18 +162,24 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **\>skiing** (Skiing)
 **\>formula1** (Formula 1)
 **\>motogp** (Moto GP)
+**\>motocross** (Motocross)
 **\>golf** (Golf)
 **\>boxing** (Boxing)
 **\>wrestling** (Wrestling)
+**\>sumo** (Sumo)
+**\>judo** (Judo)
 **\>decathlon** (Decathlon)
 **\>snowboarding** (Snowboarding)
 **\>archery** (Archery)
+**\>pingpong** (Ping Pong)
 **\>rowing** (Rowing)
 **\>swimming** (Swimming)
+**\>squash** (Squash)
 
 **#genre:board**
 **\>chess** (Chess)
-**\>shouji** (Shōji)
+**\>shougi** (Shōgi)
+**\>go** (Go)
 **\>mahjong** (Mahjong)
 **\>reversi** (Reversi)
 
@@ -147,9 +190,21 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 
 **#genre:shmup**
 **\>danmaku** (Bullet hell)
+**\>h** (Horizontal shoot'em up)
+**\>v** (Vertical shoot'em up)
+
+**#genre:puzzle**
+**\>drop** (Drop pieces puzzle)
 
 **#genre:racing**
 **\>combat** (Combat racing)
+
+**#genre:shooter**
+**\>3p** (Third person shooter)
+
+**#genre:vending**
+**\>popcorn** (Popcorn)
+**\>purikura** (Photo stickers)
 
 **#lang** (Language)
 **:ja** (Japanese)
@@ -162,6 +217,9 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:sv** (Swedish)
 **:nl** (Dutch)
 **:no** (Norwegian)
+**:fi** (Finnish)
+**:cs** (Czech)
+**:sl** (Slovenian)
 **:kr** (Korean)
 
 **#port** (Ported from another system)
@@ -183,6 +241,9 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:lightphaser** (SEGA Light Phaser)
 **:paddlecontrol** (SEGA Paddle Control)
 **:sportspad** (SEGA Sports Pad)
+**:ngplink** (SNK NeoGeo Pocket Link Cable)
+**:radiounitwireless** (SNK Radio Unit Wireless Adaptor)
+**:setsuzoku** (SNK NeoGeo Pocket/Dreamcast Setsuzoku Cable)
 
 **#addon:fmsoundunit**
 **\>hidden** (Hidden FM Sound Unit)
@@ -190,17 +251,28 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **#addon:3dglasses**
 **\>hidden** (Hidden 3-D Glasses)
 
+**#ngp** (NeoGeo Pocket)
+**:mono** (Monochrome)
+**:color** (Color)
+
 **#rev** (Revision)
 **:1** (1)
 **:2** (2)
 **:a** (A)
 **:b** (B)
+**:c** (C)
+**:g** (G)
+
+**#set** (Set)
+**:1** (1)
+**:2** (2)
 
 **#unfinished** (Unfinished)
 **:beta** (Beta)
 **:proto** (Prototype)
 **:demo** (Demo)
 **:sample** (Sample)
+**:debug** (Debug)
 
 **#unfinished:beta**
 **\>1**
@@ -218,24 +290,76 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 
 **#embed** (Embed extra hardware inside game)
 **:ram** (Extra RAM)
+**:gbkiss** (Hudson GB Kiss)
+**:pocketsonar** (Bandai Pocket Sonar)
 
 **#save** (The way you can save your progress)
-**:backup** (Battery back-up)
+**:battery** (Battery back-up)
 **:password** (Password)
+**:sram** (SRAM back-up)
+**:rom** (ROM back-up)
 
 **#3d** (Game uses some kind of 3D effect)
 **:stereoscopic** (Stereoscopic 3D)
 **:anaglyph** (Anaglyph 3D)
 
 **#arcadeboard** (Arcade board)
-**:cps** (All CAPCOM CP Systems)
+**:capcom** (All CAPCOM boards)
+**:sega** (All SEGA boards)
+**:irem** (All Irem boards)
+**:toaplan** (All Toaplan boards)
+**:jaleco** (All Jaleco boards)
 
-**#arcadeboard:cps**
-**>cps1** (CAPCOM CP System)
-**>cpsdash** (CAPCOM CP System Dash)
-**>cpschanger** (CAPCOM CP System Changer)
-**>cps2** (CAPCOM CP System II)
-**>cps3** (CAPCOM CP System III)
+**#arcadeboard:capcom**
+**\>cps** (CAPCOM CP System)
+**\>cpsdash** (CAPCOM CP System Dash)
+**\>cpschanger** (CAPCOM CP System Changer)
+**\>cps2** (CAPCOM CP System II)
+**\>cps3** (CAPCOM CP System III)
+
+**#arcadeboard:sega**
+**\>1** (SEGA System 1)
+**\>2** (SEGA System 2)
+**\>16** (SEGA System 16)
+**\>16a** (SEGA System 16A)
+**\>16b** (SEGA System 16B)
+**\>16c** (SEGA System 16C)
+**\>18** (SEGA System 18)
+**\>24** (SEGA System 24)
+**\>32** (SEGA System 32)
+**\>m32** (SEGA System Multi 32)
+**\>c** (SEGA System C)
+**\>c2** (SEGA System C-2)
+**\>e** (SEGA System E)
+**\>x** (SEGA X Board)
+**\>y** (SEGA Y Board)
+**\>stv** (SEGA Titan Video)
+
+**#arcadeboard:irem**
+**\>m10** (Irem M10)
+**\>m15** (Irem M15)
+**\>m27** (Irem M27)
+**\>m52** (Irem M52)
+**\>m57** (Irem M57)
+**\>m58** (Irem M58)
+**\>m62** (Irem M62)
+**\>m63** (Irem M63)
+**\>m72** (Irem M72)
+**\>m75** (Irem M75)
+**\>m81** (Irem M81)
+**\>m82** (Irem M82)
+**\>m84** (Irem M84)
+**\>m90** (Irem M90)
+**\>m92** (Irem M92)
+**\>m97** (Irem M97)
+**\>m107** (Irem M107)
+
+**#arcadeboard:toaplan**
+**>1** (Toaplan Version 1)
+**>2** (Toaplan Version 2)
+
+**arcadeboard:jaleco**
+**\>ms1** (Jaleco Mega System 1)
 
 **#format**
 **:mycard** (SEGA My Card)
@@ -254,6 +378,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:purplebox** (Purple Box)
 **:classicedition** (Classic Edition)
 **:kixxedition** (Kixx Edition)
+**:snkbestcollection** (Best Collection)
 
 **Searching tags ($)**
 The goal of this kind of tags is just for searching purposes. They are designed to be internal (invisible) to provide additional information we can unlock when we search for it.
@@ -266,12 +391,17 @@ These tags even allow us to search for famous characters like Dracula. If we wer
 **$alien** (Alien)
 **$asterix** (Astérix & Obélix)
 **$batman** (Batman)
+**$castlevania** (Castlevania/Akumajō Dracula/悪魔城ドラキュラ)
+**$compatihero** (Compati Hero)
 **$disney** (Walt Disney)
 **$donald** (Donald Duck)
 **$dracula** (Dracula)
 **$d&d** (Dungeons & Dragons)
+**$gundam** (Gundam)
 **$jurassicpark** (Jurassic Park)
+**$kuniokun** (Kunio-kun/くにおくん)
 **$loneytunes** (Looney Tunes)
+**$mario** (Mario)
 **$marvel** (Marvel Comics)
 **$mickey** (Mickey Mouse)
 **$pacman** (Pac-Man)
@@ -295,3 +425,7 @@ In the same way, these tags are just for searching purposes based on keywords. I
 **$lightgun**
 
 Please, be welcome and enjoy. Thank you very much for coming. Pretty nice things to come.
+
+******
+
+:lever palanca de cambio???????????????
