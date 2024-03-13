@@ -399,7 +399,3 @@ In the same way, these tags are just for searching purposes based on keywords. I
 **$lightgun**
 
 Please, be welcome and enjoy. Thank you very much for coming. Pretty nice things to come.
-
-******
-
-:lever palanca de cambio???????????????
