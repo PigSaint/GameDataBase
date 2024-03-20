@@ -160,7 +160,9 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **\>dodgeball** (Dodgeball)
 **\>hockey** (Ice Hockey)
 **\>skiing** (Skiing)
+**\>skateboarding** (Skateboarding)
 **\>formula1** (Formula 1)
+**\>rally** (Rally)
 **\>motogp** (Moto GP)
 **\>motocross** (Motocross)
 **\>golf** (Golf)
@@ -243,8 +245,6 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:lightphaser** (SEGA Light Phaser)
 **:paddlecontrol** (SEGA Paddle Control)
 **:sportspad** (SEGA Sports Pad)
-**:barcodeboy** (NAMCO Barcode Boy)
-**:reeladapter** (Bandai Reel Adapter)
 **:ngplink** (SNK NeoGeo Pocket Link Cable)
 **:radiounitwireless** (SNK Radio Unit Wireless Adaptor)
 **:setsuzoku** (SNK NeoGeo Pocket/Dreamcast Setsuzoku Cable)
@@ -290,6 +290,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 
 **#clone** (Clone)
 **:mario** (Mario)
+**:sonic** (Sonic)
 **:sf2** (Street Fighter II)
 **:tetris** (Tetris)
 
@@ -307,6 +308,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 
 **#arcadeboard** (Arcade board)
 **:capcom** (All CAPCOM boards)
+**:sega** (All SEGA boards)
 **:irem** (All Irem boards)
 
 **#arcadeboard:capcom**
@@ -315,6 +317,24 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **\>cpschanger** (CAPCOM CP System Changer)
 **\>cps2** (CAPCOM CP System II)
 **\>cps3** (CAPCOM CP System III)
+
+**#arcadeboard:sega**
+**\>1** (SEGA System 1)
+**\>2** (SEGA System 2)
+**\>16** (SEGA System 16)
+**\>16a** (SEGA System 16A)
+**\>16b** (SEGA System 16B)
+**\>16c** (SEGA System 16C)
+**\>18** (SEGA System 18)
+**\>24** (SEGA System 24)
+**\>32** (SEGA System 32)
+**\>m32** (SEGA System Multi 32)
+**\>c** (SEGA System C)
+**\>c2** (SEGA System C-2)
+**\>e** (SEGA System E)
+**\>x** (SEGA X Board)
+**\>y** (SEGA Y Board)
+**\>stv** (SEGA Titan Video)
 
 **#arcadeboard:irem**
 **\>m10** (Irem M10)
