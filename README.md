@@ -222,6 +222,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:fi** (Finnish)
 **:cs** (Czech)
 **:sl** (Slovenian)
+**:kh** (Simplified Chinese)
 **:kr** (Korean)
 
 **#port** (Ported from another system)
@@ -245,6 +246,16 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:lightphaser** (SEGA Light Phaser)
 **:paddlecontrol** (SEGA Paddle Control)
 **:sportspad** (SEGA Sports Pad)
+**:supergameboy** (Super GameBoy & Super GameBoy 2)
+**:sfcmultitap** (Nintendo Super Famicom Multitap)
+**:gamelinkcable** (Nintendo Game Link Cable)
+**:fourplayeradapter** (Nintendo Four Player Adapter)
+**:pocketcamera** (Nintendo Pocket Camera)
+**:pocketprinter** (Nintendo Pocket Printer)
+**:transferpak** (Nintendo Transfer Pak)
+**:barcodeboy** (NAMCO Barcode Boy)
+**:reeladapter** (Bandai Reel Adapter)
+**:workboy** (Fabtek WorkBoy)
 **:ngplink** (SNK NeoGeo Pocket Link Cable)
 **:radiounitwireless** (SNK Radio Unit Wireless Adaptor)
 **:setsuzoku** (SNK NeoGeo Pocket/Dreamcast Setsuzoku Cable)
@@ -254,6 +265,15 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 
 **#addon:3dglasses**
 **\>hidden** (Hidden 3-D Glasses)
+
+**#gb** (GameBoy)
+**:mono** (Monochrome)
+**:color** (Color)
+**:sgb** (Super GameBoy & Super GameBoy 2)
+**:np** (Nintendo Power GB-Memory Cartridge)
+
+**#sfc** (Super Famicom)
+**:np** (Nintendo Power SF-Memory Cassette)
 
 **#ngp** (NeoGeo Pocket)
 **:mono** (Monochrome)
@@ -296,6 +316,8 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 
 **#embed** (Embed extra hardware inside game)
 **:ram** (Extra RAM)
+**:gbkiss** (Hudson GB Kiss)
+**:pocketsonar** (Bandai Pocket Sonar)
 
 **#save** (The way you can save your progress)
 **:password** (Password)
@@ -310,6 +332,8 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:capcom** (All CAPCOM boards)
 **:sega** (All SEGA boards)
 **:irem** (All Irem boards)
+**:toaplan** (All Toaplan boards)
+**:jaleco** (All Jaleco boards)
 
 **#arcadeboard:capcom**
 **\>cps** (CAPCOM CP System)
@@ -355,6 +379,13 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **\>m97** (Irem M97)
 **\>m107** (Irem M107)
 
+**#arcadeboard:toaplan**
+**>1** (Toaplan Version 1)
+**>2** (Toaplan Version 2)
+
+**arcadeboard:jaleco**
+**\>ms1** (Jaleco Mega System 1)
+
 **#format**
 **:mycard** (SEGA My Card)
 **:thesegacard** (The SEGA Card)
@@ -372,6 +403,9 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:purplebox** (Purple Box)
 **:classicedition** (Classic Edition)
 **:kixxedition** (Kixx Edition)
+**:playerschoice** (Player's Choice / Million Seller)
+**:classicserie** (Game Boy Classic Serie)
+**:disneysclassic** (Disney's Classic Video Games)
 **:snkbestcollection** (Best Collection)
 
 **Searching tags ($)**
