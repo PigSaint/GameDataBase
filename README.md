@@ -433,7 +433,7 @@ These tags even allow us to search for famous characters like Dracula. If we wer
 **$gundam** (Gundam)
 **$jurassicpark** (Jurassic Park)
 **$kuniokun** (Kunio-kun/くにおくん)
-**$loneytunes** (Looney Tunes)
+**$looneytunes** (Looney Tunes)
 **$mario** (Mario)
 **$marvel** (Marvel Comics)
 **$mickey** (Mickey Mouse)
