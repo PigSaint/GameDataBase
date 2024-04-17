@@ -95,6 +95,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:bootleg** (Bootleg)
 **:hack** (Hack)
 **:translation** (Translation)
+**:aftermarket** (Aftermarket)
 
 **#genre** (Genre)
 **:action** (Action)
@@ -149,6 +150,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:drawing** (Drawing)
 **:application** (Application)
 **:test** (Test)
+**:sdk** (Software Development Kit)
 **:sound** (Only sound)
 
 **#genre:sports**
@@ -234,7 +236,9 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:apple2** (Apple II)
 **:mac** (Apple Macintosh)
 **:pc88** (NEC PC-8801)
+**:pc98** (NEC PC-9801)
 **:msx** (MSX)
+**:pc** (PC)
 **:sg1000** (SEGA SG-1000)
 **:gamegear** (SEGA Game Gear)
 **:mark3** (SEGA Mark III/Master System)
@@ -250,7 +254,17 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:lightphaser** (SEGA Light Phaser)
 **:paddlecontrol** (SEGA Paddle Control)
 **:sportspad** (SEGA Sports Pad)
+**:6button** (SEGA Six Button Control Pad)
+**:segatap** (SEGA Tap / Multiplayer / Team Player)
 **:xe1ap** (Dempa XE-1 AP)
+**:pcemultitap** (NEC Multitap / NEC TurboTap)
+**:comcable** (NEC COM Cable / TurboExpress)
+**:illustbooster** (NEC Illust Booster)
+**:printbooster** (NEC Print Booster)
+**:photoreader** (NEC Photo Reader)
+**:avenuepad3** (NEC Avenue Pad 3)
+**:avenuepad6** (NEC Avenue Pad 6)
+**:tennokoe** (Hudson Ten no Koe 1&2 / NEC Backup Booster I&II / NEC TurboBooster-Plus)
 **:supergameboy** (Nintendo Super GameBoy 1&2)
 **:sfcmultitap** (Nintendo Super Famicom Multitap)
 **:gamelinkcable** (Nintendo Tsūshin Cable / Game Link Cable)
@@ -279,6 +293,9 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 
 **#sfc** (Super Famicom)
 **:np** (Nintendo Power SF-Memory Cassette)
+
+**#pce** (PC Engine)
+**:pcsg** (PC SuperGrafx)
 
 **#ngp** (NeoGeo Pocket)
 **:mono** (Monochrome)
@@ -339,6 +356,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:irem** (All Irem boards)
 **:toaplan** (All Toaplan boards)
 **:jaleco** (All Jaleco boards)
+**:snk** (All SNK boards)
 
 **#arcadeboard:capcom**
 **\>cps** (CAPCOM CP System)
@@ -383,6 +401,9 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **\>m92** (Irem M92)
 **\>m97** (Irem M97)
 **\>m107** (Irem M107)
+
+**#arcadeboard:snk**
+**\>mvs** (MVS / Multi Video System)
 
 **#arcadeboard:toaplan**
 **>1** (Toaplan Version 1)
