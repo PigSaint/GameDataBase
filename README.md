@@ -29,6 +29,7 @@ This kind of tags defines useful uncommon attributes we can find in multiple gam
 **#bios** (BIOS game)
 **#licensed** (Licensed)
 **#rerelease** (Re-release)
+**#promo** (Promotion product)
 **#qsound** (QSound)
 **#nsfw** (NSFW content)
 
@@ -109,6 +110,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:shmup** (Shoot'em up)
 **:puzzle** (Puzzle)
 **:racing** (Racing)
+**:rhythm** (Rhythm)
 **:railshooter** (Rail shooter)
 **:blockbreaker** (Block breaker)
 **:maze** (Maze)
@@ -138,6 +140,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:jackpot** (Jackpot)
 **:pachinko** (Pachinko)
 **:minigames** (Mini games)
+**:jankenpon** (Rock paper scissors)
 **:kiddieride** (Kiddie ride)
 **:bowling** (Bowling)
 **:mogurataiji** (Whac-A-Mole)
@@ -175,6 +178,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **\>kickboxing** (Kick Boxing)
 **\>wrestling** (Wrestling)
 **\>sumo** (Sumo)
+**\>karate** (Karate)
 **\>judo** (Judo)
 **\>decathlon** (Decathlon)
 **\>snowboarding** (Snowboarding)
@@ -197,9 +201,9 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **\>s** (Strategy RPG)
 
 **#genre:shmup**
-**\>danmaku** (Bullet hell)
 **\>h** (Horizontal shoot'em up)
 **\>v** (Vertical shoot'em up)
+**\>danmaku** (Bullet hell)
 
 **#genre:puzzle**
 **\>drop** (Drop pieces puzzle)
@@ -213,6 +217,10 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **#genre:vending**
 **\>popcorn** (Popcorn)
 **\>purikura** (Photo stickers)
+
+**#disc** (Disc)
+**\:1** (1, 2, 3, etc)
+**\>2** (2, 3, 4, etc)
 
 **#lang** (Language)
 **:ja** (Japanese)
@@ -236,6 +244,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:c64** (Commodore 64)
 **:amiga** (Commodore Amiga)
 **:apple2** (Apple II)
+**:atari400** (Atari 400)
 **:mac** (Apple Macintosh)
 **:pc88** (NEC PC-8801)
 **:pc98** (NEC PC-9801)
@@ -258,16 +267,22 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:sportspad** (SEGA Sports Pad)
 **:6button** (SEGA Six Button Control Pad)
 **:segatap** (SEGA Tap / Multiplayer / Team Player)
+**:super32x** (SEGA Super 32X / MegaDrive 32X / Genesis 32X)
 **:xe1ap** (Dempa XE-1 AP)
-**:pcemultitap** (NEC Multitap / NEC TurboTap)
 **:comcable** (NEC COM Cable / TurboExpress)
 **:illustbooster** (NEC Illust Booster)
 **:printbooster** (NEC Print Booster)
 **:photoreader** (NEC Photo Reader)
 **:avenuepad3** (NEC Avenue Pad 3)
 **:avenuepad6** (NEC Avenue Pad 6)
+**:pcemultitap** (Hudson Multitap / NEC TurboTap)
 **:tennokoe** (Hudson Ten no Koe 1&2 / NEC Backup Booster I&II / NEC TurboBooster-Plus)
+**:disksystem** (Nintendo Famicom Disk System)
 **:supergameboy** (Nintendo Super GameBoy 1&2)
+**:3dsystem** (Nintendo Famicom 3D System)
+**:networksystem** (Nintendo Family Computer Network System)
+**:4playersadaptor** (Hori 4 Player Adaptor / Nintendo Four Score)
+**:pianokeyboard** (Konami Keyboard)
 **:sfcmultitap** (Nintendo Super Famicom Multitap)
 **:gamelinkcable** (Nintendo Tsūshin Cable / Game Link Cable)
 **:fourplayeradapter** (Nintendo Four Player Adapter)
@@ -292,6 +307,9 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:color** (Color)
 **:sgb** (Super GameBoy / Super GameBoy 2)
 **:np** (Nintendo Power GB-Memory Cartridge)
+
+**#fds** (Famicom Disk System)
+**:dw** (Disk Writer)
 
 **#sfc** (Super Famicom)
 **:np** (Nintendo Power SF-Memory Cassette)
