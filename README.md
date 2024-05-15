@@ -268,6 +268,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:6button** (SEGA Six Button Control Pad)
 **:segatap** (SEGA Tap / Multiplayer / Team Player)
 **:super32x** (SEGA Super 32X / MegaDrive 32X / Genesis 32X)
+**:taisencable** (SEGA Game Gear Taisen Cable / Gear-to-Gear Cable)
 **:xe1ap** (Dempa XE-1 AP)
 **:comcable** (NEC COM Cable / TurboExpress)
 **:illustbooster** (NEC Illust Booster)
@@ -349,6 +350,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **#unfinished:demo**
 **\>1**
 **\>2**
+**\>auto** (Automatic)
 
 **#clone** (Clone)
 **:mario** (Mario)
@@ -449,6 +451,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:purplebox** (Purple Box)
 **:classicedition** (Classic Edition)
 **:kixxedition** (Kixx Edition)
+**:meisaku** (Meisaku Collection)
 **:playerschoice** (Players Choice / Million Seller)
 **:classicserie** (Game Boy Classic Serie)
 **:disneysclassic** (Disney's Classic Video Games)
@@ -497,5 +500,6 @@ In the same way, these tags are just for searching purposes based on keywords. I
 **$movie** /cinema/film
 **$celeb** /celebrity/famous
 **$lightgun**
+**$spinner**
 
 Please, be welcome and enjoy. Thank you very much for coming. Pretty nice things to come.
