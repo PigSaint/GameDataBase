@@ -452,6 +452,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:classicedition** (Classic Edition)
 **:kixxedition** (Kixx Edition)
 **:meisaku** (Meisaku Collection)
+**:majesco** (Majesco)
 **:playerschoice** (Players Choice / Million Seller)
 **:classicserie** (Game Boy Classic Serie)
 **:disneysclassic** (Disney's Classic Video Games)
