@@ -265,6 +265,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:superfamicom** (Nintendo Super Famicom/SNES)
 **:gameboy** (Nintendo Game Boy)
 **:playstation** (Sony PlayStation)
+**:fmtowns** (Fujitsu FM Towns)
 
 **#addon** (Specific external hardware recommended or required)
 **:3dglasses** (SEGA 3-D Glasses)
@@ -288,6 +289,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:memorybase128** (NEC Memory Base 128)
 **:mouse>pce** (NEC PC Engine Mouse)
 **:10key** (NEC 10 Key Controller Pad)
+**:pachinkocontroller** (Coconuts Pachinko Controller)
 **:cdromrom** (NEC CD-ROM² / Super CD-ROM² / Arcade CD-ROM² / PC Engine Duo / TurboGrafx-CD / TurboDuo)
 **:supersystemcard** (NEC PC Engine Super System Card CD-ROM²)
 **:arcadecard (NEC PC Engine Arcade Card Pro CD-ROM² / NEC PC Engine Arcade Card Duo CD-ROM²)
