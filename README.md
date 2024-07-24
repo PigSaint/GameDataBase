@@ -147,6 +147,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:mogurataiji** (Whac-A-Mole)
 **:visualnovel** (Visual novel)
 **:god** (God game)
+**:building** (Building)
 **:derby** (Derby horse ride)
 **:strip** (Strip)
 **:vending** (Vending machine)
@@ -185,6 +186,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **\>sumo** (Sumo)
 **\>karate** (Karate)
 **\>judo** (Judo)
+**\>kendo** (Kendo)
 **\>decathlon** (Decathlon)
 **\>snowboarding** (Snowboarding)
 **\>archery** (Archery)
@@ -200,6 +202,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **\>go** (Go)
 **\>mahjong** (Mahjong)
 **\>reversi** (Reversi)
+**\>othello** (Othello)
 
 **#genre:rpg**
 **\>a** (Action RPG)
@@ -272,6 +275,8 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:fmtowns** (Fujitsu FM Towns)
 
 **#addon** (Specific external hardware recommended or required)
+**:bikehandle** (SEGA Bike Handle)
+**:graphicboard** (SEGA Graphic Board)
 **:3dglasses** (SEGA 3-D Glasses)
 **:fmsoundunit** (SEGA FM Sound Unit)
 **:lightphaser** (SEGA Light Phaser)
@@ -292,6 +297,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:tennokoe** (Hudson Ten no Koe 1&2 / NEC Backup Booster I&II / NEC TurboBooster-Plus)
 **:memorybase128** (NEC Memory Base 128)
 **:mouse>pce** (NEC PC Engine Mouse)
+**:mouse>n64** (Nintendo 64 Mouse)
 **:10key** (NEC 10 Key Controller Pad)
 **:pachinkocontroller** (Coconuts Pachinko Controller)
 **:cdromrom** (NEC CD-ROM² / Super CD-ROM² / Arcade CD-ROM² / PC Engine Duo / TurboGrafx-CD / TurboDuo)
@@ -311,9 +317,15 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:fourplayeradapter** (Nintendo Four Player Adapter)
 **:pocketcamera** (Nintendo Pocket Camera / GameBoy Camera)
 **:pocketprinter** (Nintendo Pocket Printer / GameBoy Printer)
+**:controllerpak** (Nintendo Controller Pak)
 **:transferpak** (Nintendo 64GB Pak / Transfer Pak)
 **:rumblepak** (Nintendo Shindō Pak / Rumble Pak)
 **:expansionpak** (Nintendo Memory Kakuchō Pak / Expansion Pak)
+**:64dd** (Nintendo 64DD)
+**:randnetmodem** (Randnet Modem)
+**:capturecassette** (Nintendo 64 Capture Cassette)
+**:n64mic** (Nintendo 64 Mic)
+**:keyboard>n64 (Nintendo 64 Keyboard)
 **:biosensor** (SETA Bio Sensor)
 **:smartmediacard** (Hagiwara Syscom SmartMedia Card)
 **:vrs** (VRS / Onseininshiki System / Voice Recognition Unit)
@@ -332,10 +344,14 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **#addon:3dglasses**
 **\>hidden** (Hidden 3-D Glasses)
 
+**#sg1000** (SEGA SG-1000)
+**:sc3000** (SEGA SC-3000)
+**:othello** (Tsukuda Original Othello Multivision)
+
 **#gb** (GameBoy)
 **:mono** (Monochrome)
 **:color** (Color)
-**:sgb** (Super GameBoy / Super GameBoy 2)
+**:sgb** (Nintendo Super GameBoy / Super GameBoy 2)
 **:np** (Nintendo Power GB-Memory Cartridge)
 
 **#fds** (Famicom Disk System)
@@ -380,6 +396,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **\>1**
 **\>2**
 **\>auto** (Automatic)
+**\>kiosk** (Kiosk)
 
 **#clone** (Clone)
 **:mario** (Mario)
