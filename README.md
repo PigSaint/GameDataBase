@@ -191,6 +191,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **\>snowboarding** (Snowboarding)
 **\>archery** (Archery)
 **\>pingpong** (Ping Pong)
+**\>paddle** (Paddle)
 **\>rowing** (Rowing)
 **\>swimming** (Swimming)
 **\>squash** (Squash)
@@ -212,6 +213,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **#genre:shmup**
 **\>h** (Horizontal shoot'em up)
 **\>v** (Vertical shoot'em up)
+**\>i** (Isometric shoot'em up)
 **\>danmaku** (Bullet hell)
 
 **#genre:puzzle**
@@ -297,6 +299,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:tennokoe** (Hudson Ten no Koe 1&2 / NEC Backup Booster I&II / NEC TurboBooster-Plus)
 **:memorybase128** (NEC Memory Base 128)
 **:mouse>pce** (NEC PC Engine Mouse)
+**:mouse>pcfx** (NEC PC-FX Mouse)
 **:mouse>n64** (Nintendo 64 Mouse)
 **:10key** (NEC 10 Key Controller Pad)
 **:pachinkocontroller** (Coconuts Pachinko Controller)
