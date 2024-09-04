@@ -285,6 +285,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:virtualconsole>wiiu** (Nintendo Wii-U Virtual Console)
 **:virtualconsole>3ds** (Nintendo 3DS Virtual Console)
 **:ereader** (Nintendo e-Reader)
+**:capcomtown** (CAPCOM Town)
 
 **#addon** (Specific external hardware recommended or required)
 **:bikehandle** (SEGA Bike Handle)
@@ -321,6 +322,8 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:develobox** (Tokuma Shoten Develo Box)
 **:disksystem** (Nintendo Famicom Disk System)
 **:zapper** (Nintendo Zapper)
+**:rob>gyro** (Nintendo Family Computer Robot Gyro Set / R.O.B. / Robotic Operating Buddy)
+**:rob>block** (Nintendo Family Computer Robot Block Set)
 **:turbofile** (ASCII Turbo File / Turbo File II / Turbo File GB / Turbo File Adapter / Turbo File Twin)
 **:datarecorder** (Panasonic Famicom Data Recorder)
 **:arkanoid** (Taito Arkanoid controller)
@@ -335,6 +338,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:pianokeyboard** (Konami Keyboard)
 **:taikanfamicom** (Konami Taikan Famicom / 大汗ファミコン)
 **:climberstick** (Nichibutsu Climber Stick)
+**:partytap** (PR21 Party Tap)
 **:supergameboy** (Nintendo Super GameBoy 1&2)
 **:sfcmultitap** (Nintendo Super Famicom Multitap)
 **:gamelinkcable** (Nintendo Tsūshin Cable / Game Link Cable)
@@ -441,6 +445,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:vrc6** (Konami VRC VI chip)
 **:vrc7** (Konami VRC VII chip)
 **:n163** (NAMCO 163 chip)
+**:5b** (Sunsoft 5B chip)
 **:m50805** (Mitsubishi M50805 chip)
 **:rj11** (RJ-11 port)
 **:gbkiss** (Hudson GB Kiss)
@@ -471,6 +476,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **\>cps3** (CAPCOM CP System III)
 
 **#arcadeboard:sega**
+**\>vco** (SEGA VCO Object)
 **\>1** (SEGA System 1)
 **\>2** (SEGA System 2)
 **\>16** (SEGA System 16)
