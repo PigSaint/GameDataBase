@@ -51,7 +51,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:puncher** (Puncher)
 **:motion** (Motion detection)
 **:buttons** (In-game buttons)
-**:keys:** (Keyboard keys)
+**:keys** (Keyboard keys)
 **:pedals** (Pedals)
 
 **#input:joystick** / **#input:doublejoystick**
@@ -144,6 +144,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:jankenpon** (Rock paper scissors)
 **:kiddieride** (Kiddie ride)
 **:bowling** (Bowling)
+**:darts** (Darts)
 **:mogurataiji** (Whac-A-Mole)
 **:visualnovel** (Visual novel)
 **:god** (God game)
@@ -286,6 +287,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:virtualconsole>wiiu** (Nintendo Wii-U Virtual Console)
 **:virtualconsole>3ds** (Nintendo 3DS Virtual Console)
 **:ereader** (Nintendo e-Reader)
+**:animalcrossing** (Nintendo Dōbutsu no Mori+ / どうぶつの森+ / Animal Crossing)
 **:capcomtown** (CAPCOM Town)
 
 **#addon** (Specific external hardware recommended or required)
@@ -333,6 +335,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:deckenhancer** (Camerica Aladdin Deck Enhancer)
 **:familytrainer** (Bandai Family Trainer / Power Pad / Family Fun Fitness)
 **:karaokestudio** (Bandai Karaoke Studio)
+**:oyagame** (Sunsoft Oyagame / 親ガメ)
 **:powerglove** (Mattel Power Glove)
 **:3dsystem** (Nintendo Famicom 3D System)
 **:networksystem** (Nintendo Family Computer Network System)
@@ -372,6 +375,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:radiounitwireless** (SNK Musen Unit / Radio Unit Wireless Adaptor)
 **:setsuzoku** (SNK NeoGeo Pocket-Dreamcast Setsuzoku Cable)
 **:barcodebattler2** (Epoch Barcode Battler II + Sen'yō Setsuzoku Cord)
+
 
 **#addon:fmsoundunit**
 **\>hidden** (Hidden FM Sound Unit)
@@ -452,6 +456,8 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:n163** (NAMCO 163 chip)
 **:5b** (Sunsoft 5B chip)
 **:m50805** (Mitsubishi M50805 chip)
+**:7756** (NEC µPD7756C chip)
+**:oyagame** (Sunsoft Kogame Cassette Slot / 子ガメカセット)
 **:rj11** (RJ-11 port)
 **:gbkiss** (Hudson GB Kiss)
 **:pocketsonar** (Bandai Pocket Sonar)
@@ -548,7 +554,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:meisaku** (Meisaku Collection)
 **:majesco** (Majesco)
 **:playerschoice** (Players Choice / Million Seller)
-**:classicserie** (Game Boy Classic Serie)
+**:classicserie** (NES / Game Boy Classic Serie)
 **:disneysclassic** (Disney's Classic Video Games)
 **:snkbestcollection** (Best Collection)
 
