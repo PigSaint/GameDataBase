@@ -376,7 +376,6 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:setsuzoku** (SNK NeoGeo Pocket-Dreamcast Setsuzoku Cable)
 **:barcodebattler2** (Epoch Barcode Battler II + Sen'yō Setsuzoku Cord)
 
-
 **#addon:fmsoundunit**
 **\>hidden** (Hidden FM Sound Unit)
 
@@ -457,7 +456,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:5b** (Sunsoft 5B chip)
 **:m50805** (Mitsubishi M50805 chip)
 **:7756** (NEC µPD7756C chip)
-**:oyagame** (Sunsoft Kogame Cassette Slot / 子ガメカセット)
+**:kogame** (Sunsoft Kogame Cassette Slot / 子ガメカセット)
 **:rj11** (RJ-11 port)
 **:gbkiss** (Hudson GB Kiss)
 **:pocketsonar** (Bandai Pocket Sonar)
