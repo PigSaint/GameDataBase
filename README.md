@@ -27,8 +27,6 @@ This kind of tags defines useful uncommon attributes we can find in multiple gam
 
 **#mameparent** (MAME parent file)
 **#bios** (BIOS game)
-**#licensed** (Licensed)
-**#official** (Official licensed product)
 **#promo** (Promotion product)
 **#qsound** (QSound)
 
@@ -256,6 +254,17 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:kh** (Simplified Chinese)
 **:ch** (Chinese)
 **:kr** (Korean)
+
+**#based** (Coming from another media)
+**:movie** (Movie)
+**:manganime** (Manga and/or anime)
+
+**#official** (Official sealed)
+**:sports** (Sports license)
+
+**#endorsed** (Endorsed)
+**:celeb** (Famous people)
+**:company** (Company or brand)
 
 **#port** (Ported from another system)
 **#remake** (Remake from another system)
@@ -616,15 +625,10 @@ These tags even allow us to search for famous characters like Dracula. If we wer
 **$superman** (Superman)
 **$wonderboy** (Wonder Boy)
 **$xmen** (X-Men)
-**$zillion** (Akai Kōdan Zillion/赤い光弾ジリオン)
 
 **Keyword tags**
 In the same way, these tags are just for searching purposes based on keywords. If we look for games based on a movie or a manga, this kind of tags allow you to find more easier if implemented. Values of the right are like synonyms. Infinite possibilities. We can add tags like _ninja_, _cute_, _gore_ or, don't know, _rockandroll_. But for now, there's only these:
 
-**$manganime** (manga/anime)
-**$movie** (cinema/film)
-**$celeb** (celebrity/famous)
-**$endorsed**
 **$lightgun**
 **$spinner**
 
