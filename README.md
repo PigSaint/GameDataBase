@@ -254,6 +254,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:kh** (Simplified Chinese)
 **:ch** (Chinese)
 **:kr** (Korean)
+**:fremen** (Fremen)
 
 **#based** (Coming from another media)
 **:movie** (Movie)
@@ -282,6 +283,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:pc88** (NEC PC-8801)
 **:pc98** (NEC PC-9801)
 **:pcengine** (NEC PC Engine)
+**:cdrom2** (NEC CD-ROM²)
 **:msx** (MSX)
 **:x1** (Sharp X1)
 **:pc** (PC)
@@ -321,7 +323,13 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:paddlecontrol** (SEGA Paddle Control)
 **:sportspad** (SEGA Sports Pad)
 **:6button** (SEGA Six Button Control Pad)
+**:menacer** (SEGA Menacer)
+**:justifier** (Konami The Justifier / サ・ジャスティファイアー)
+**:gamegun** (American Laser GameGun)
 **:segatap** (SEGA Tap / Multiplayer / Team Player)
+**:4wayplay** (Electronic Arts 4 Way Play)
+**:backupramcart** (Mega-CD Back Up RAM Cartridge / バックアップRAMカートリッジ)
+**:megacd** (SEGA Mega-CD / SEGA-CD)
 **:super32x** (SEGA Super 32X / MegaDrive 32X / Genesis 32X)
 **:taisencable** (SEGA Game Gear Taisen Cable / Gear-to-Gear Cable)
 **:xe1ap** (Dempa XE-1 AP)
@@ -334,6 +342,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:pcemultitap** (Hudson Multitap / NEC TurboTap)
 **:tennokoe** (Hudson Ten no Koe 1&2 / NEC Backup Booster I&II / NEC TurboBooster-Plus)
 **:memorybase128** (NEC Memory Base 128)
+**:mouse>md** (SEGA Mouse)
 **:mouse>pce** (NEC PC Engine Mouse)
 **:mouse>pcfx** (NEC PC-FX Mouse)
 **:mouse>n64** (Nintendo 64 Mouse)
@@ -590,6 +599,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:kousenjuu** (Kōsenjū Series / 光線銃シリーズ)
 **:disneysclassic** (Disney's Classic Video Games)
 **:snkbestcollection** (Best Collection)
+**:xeye** (JVC X'Eye)
 
 **Searching tags ($)**
 The goal of this kind of tags is just for searching purposes. They are designed to be internal (invisible) to provide additional information we can unlock when we search for it.
