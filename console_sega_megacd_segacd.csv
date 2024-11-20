@@ -1,12 +1,7 @@
 Screen title @ Exact,Cover title @ Exact,ID,Region,Release date,Developer,Publisher,Tags
-3 Ninjas Kick Back,3 Ninjas Kick Back / Hook,3ninjaskickback,USA,1994,Malibu,Sony Imagesoft,#players:2:alt #genre:action:platformer #addon:megacd #port:megadrive #based:movie #multigame:compilation #lang:en
 A-Rank Thunder: Tanjō-hen@A-Rank サンダー　誕生編,A-Rank Thunder: Tanjō-hen@A-Rank サンダー　誕生編,arankthundertanjouhen,Japan,1993-06-25,Telenet,Riot,#players:1 #genre:adventure:rpg #addon:megacd:backupramcart #save:backup #lang:ja
-A/X-101,A/X-101,ax101,USA,1994,Genki/Micronet,Absolute,#players:1 #genre:railshooter #addon:megacd #lang:en
 After Armageddon Gaiden: Majū Tōshōden Eclipse@アフターハルマゲドン外伝　魔獣闘将伝エクリプス,After Armageddon Gaiden: Majū Tōshōden Eclipse@アフターハルマゲドン外伝　魔獣闘将伝エクリプス,afterarmageddongaidenmajuutoushoudeneclipse,Japan,1994-11-11,Micro Design/Pandora Box,SEGA,#players:1 #genre:rpg>j #addon:megacd:backupramcart #save:backup #lang:ja
-After Burner III,After Burner III,afterburner3,Europe,1993-09,CRI,SEGA,#players:1 #genre:railshooter #addon:megacd:6button:xe1ap #port:fmtowns #lang:en
 After Burner III,After Burner III@After Burner III アフターバーナーIII,afterburner3,Japan,1992-12-18,CRI,CRI,#players:1 #genre:railshooter #addon:megacd:6button:xe1ap #port:fmtowns #lang:en
-After Burner III,After Burner III,afterburner3,USA,1993-05,CRI,SEGA,#players:1 #genre:railshooter #addon:megacd:6button:xe1ap #port:fmtowns #lang:en
-AH-3: Thunderstrike,AH-3: Thunderstrike,thunderhawk,USA,1993-11,Core Design,JVC,#players:1 #genre:flightsim:shooting #addon:megacd:backupramcart #save:backup #lang:en
 Aisle Lord,Aisle Lord,aislelord,Japan,1992-05-29,Wolf Team,Telenet,#players:1 #genre:dungeoncrawler:rpg #addon:megacd:backupramcart #save:backup #lang:ja
 Alshark,Alshark@Alshark アルシャーク,alshark,Japan,1993-11-26,CRC,Sandstorm,#players:1 #genre:rpg>j #addon:megacd:backupramcart #save:backup #port:pc98 #lang:ja
 Annett Futatabi: Earnest Evans Series@アネット再び アーネスト・エバンス・シリーズ,Annett Futatabi@アネット再び,annettfutatabi,Japan,1993-03-30,Wolf Team,Wolf Team,#players:1 #genre:brawler #addon:megacd #lang:ja
@@ -14,233 +9,547 @@ Aoki Ookami to Shiroki Mejika: Genchō Hishi@蒼き狼と白き牝鹿 元朝秘�
 Arcus I・II・III@Arcus アークス I・II・III,Arcus I・II・III@Arcus アークス I・II・III,arcus123,Japan,1993-07-23,Wolf Team,Wolf Team,#players:1 #genre:adventure:dungeoncrawler #addon:megacd:backupramcart #save:backup #port:pc88 #multigame:compilation #lang:ja
 Arslān Senki@アルスラーン戦記,Arslān Senki: The Heroic Legend of Arslān@アルスラーン戦記 The Heroic Legend of Arslān,arslansenki,Japan,1993-11-19,BEC/Cube/Layup,SEGA,#players:1 #genre:rpg>s #addon:megacd:backupramcart #save:backup #based:manganime #lang:ja
 AX-101,AX-101@AX-101 エーエックス101,ax101,Japan,1994-03-25,Genki/Micronet,SEGA,#players:1 #genre:railshooter #addon:megacd #lang:ja
+[AÝA] Psychic Detective Series Vol 3,[AÝA] Psychic Detective Series Vol.3,ayapsychicdetectiveseriesvol3,Japan,1993-01-03,Data West,Data West,#players:1 #genre:adventure #addon:megacd:backupramcart #save:backup #port:fmtowns #lang:ja
 Bakuden: Unbalance Zone@爆伝 Bakufu-Slump　アンバランスゾーン,Bakuden@爆伝,bakudenunbalancezone,Japan,1994-04-22,Kogado,Sony/Amuse,#players:1 #genre:adventure #addon:megacd:backupramcart #save:backup #lang:ja
-Bari-Arm,Android Assault: The Revenge of Bari-Arm,bariarm,USA,1994-10,Human,Big Fun,#players:1 #genre:shmup>h #addon:megacd #lang:en
 Bari-Arm,Bari-Arm,bariarm,Japan,1993-07-30,Human,Human,#players:1 #genre:shmup>h #addon:megacd #lang:en
-Batman Returns,Batman Returns,batmanreturns,Europe,1993-09,Malibu,SEGA,#players:1 #genre:action:platformer:racing #addon:megacd #port:megadrive #based:movie $batman #lang:en
-Batman Returns,Batman Returns,batmanreturns,Europe,,Malibu,SEGA,#players:1 #genre:action:platformer:racing #addon:megacd #port:megadrive #based:movie $batman #lang:en #alt
+Battle Fantasy,Battle Fantasy@Battle Fantasy バトル ファンタジー,battlefantasy,Japan,1994-04-15,Micronet,Micronet,#players:2:vs #genre:fighting #addon:megacd #lang:ja
+Battlecorps,Battlecorps@Battlecorps バトルコープス,battlecorps,Japan,1994-09-30,Core Design,Victor,#players:1 #genre:shooter #addon:megacd #lang:ja
+Black Hole Assault,Black Hole Assault@Black Hole Assault ブラックホールアサルト,blackholeassault,Japan,1992-10-23,Micronet,Micronet,#players:2:vs #genre:fighting #addon:megacd:backupramcart #save:backup #lang:ja
+Burai: Yatsudama no Yūshi Densetsu@Burai 八玉の勇士伝説,Burai: Yatsudama no Yūshi Densetsu@Burai ブライ　八玉の勇士伝説,buraihachigyokunoyuushidensetsu,Japan,1992-09-11,Pandora Box,SEGA,#players:1 #genre:rpg>j #addon:megacd:backupramcart #save:backup #port:cdrom2 #lang:ja
+Captain Tsubasa@キャプテン翼,Captain Tsubasa@キャプテン翼,captaintsubasacd,Japan,1994-09-30,Tecmo/T's Music,Tecmo,#players:2:vs #genre:sim:sports>soccer #addon:megacd #based:manganime #lang:ja
+Cosmic Fantasy Stories@コズミック・ファンタジー Stories,Cosmic Fantasy Stories@コズミック・ファンタジー Stories,cosmicfantasystories,Japan,1992-03-27,Telenet,Riot,#players:1 #genre:rpg>j #addon:megacd #save:backup #port:cdrom2 #lang:ja
+Cyborg 009@サイボーグ009,Cyborg 009@サイボーグ009,cyborg009cd,Japan,1993-07-30,Telenet,Riot,#players:1 #genre:action #addon:megacd:backupramcart #save:backup #based:manganime #lang:ja
+Daihōshinden@大封神伝,Daihōshinden@大封神伝,daihoushinden,Japan,1995-02-24,MBA/Flashback/Ocarina System/Grouper,Victor,#players:1 #genre:rpg>j #addon:megacd #save:backup #lang:ja
+Dark Wizard: Yomigaerishi Yami no Madōshi@Dark Wizard 蘇りし闇の魔導士,Dark Wizard: Yomigaerishi Yami no Madōshi@Dark Wizard ダーク・ウィザード　蘇りし闇の魔導士,darkwizardyynm,Japan,1993-11-12,SEGA CS2/SEGA CS3,SEGA,#players:1 #genre:rpg>s #addon:megacd:backupramcart #save:backup #lang:ja
+Death Bringer@Death Bringer デス・ブリンガー,Death Bringer@Death Bringer デスブリンガー The Knight of Darkness,deathbringer,Japan,1992-04-17,Telenet/Opera House,Riot,#players:1 #genre:dungeoncrawler:rpg #addon:megacd:backupramcart #save:backup #port:pc98 #lang:ja
+Dennin Aleste: Nobunaga and His Ninja Force@電忍アレスタ Nobunaga and His Ninja Force,Dennin Aleste: Nobunaga and His Ninja Force@電忍アレスタ Nobunaga and His Ninja Force,denninalestenobunagaandhisninjaforce,Japan,1992-11-27,Compile,Compile,#players:1 #genre:shmup>v #addon:megacd #lang:ja
+Detonator Orgun@Detonator オーガン,Detonator Orgun@Detonator オーガン,detonatororgun,Japan,1992-07-31,Hot-B/Darts,Hot-B,#players:1 #genre:adventure #addon:megacd:backupramcart #save:backup #based:manganime #lang:ja
+Devastator,Devastator,devastator,Japan,1993-05-28,Wolf Team/Telenet,Wolf Team,#players:1 #genre:action:platformer:shmup>h #addon:megacd #based:manganime #lang:ja
+Double Switch,Double Switch@Double Switch ダブルスイッチ,doubleswitch,Japan,1995-03-24,Digital Pictures,SEGA,#players:1 #genre:adventure #addon:megacd #lang:ja
+Dragon's Lair,Dragon's Lair@Dragon's Lair ドラゴンズ・レア,dragonslair,Japan,1994-06-03,ReadySoft,SEGA,#players:1 #genre:action #addon:megacd #lang:en:fr:de:it:ja
+Dungeon Master II,Dungeon Master II: Skullkeep@Dungeon Master II: Skullkeep ダンジョン・マスターII　スカルキープ,dungeonmaster2skullkeep,Japan,1994-03-25,FTL,Victor,#players:1 #genre:dungeoncrawler:rpg #addon:megacd:backupramcart:mouse>md #save:backup #port:pc #lang:en
+Dynamic Country Club@ダイナミックカントリークラブ,Dynamic Country Club@ダイナミックカントリークラブ,dynamiccc,Japan,1993-07-16,SEGA AM3,SEGA,#players:4:vs #genre:sports>golf #addon:megacd:backupramcart:segatap #save:backup #port:arcade #lang:ja
+Earnest Evans,Earnest Evans,earnestevans,Japan,1991-12-20,Wolf Team,Wolf Team,#players:1 #genre:action:platformer #addon:megacd #lang:ja
+Ecco,Ecco the Dolphin CD,eccothedolphin,Japan,1995-02-24,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #save:password #disc:1>2 #multigame:compilation #lang:ja
+Ecco: The Tides of Time,Ecco the Dolphin CD,eccothetidesoftime,Japan,1995-02-24,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #save:password #disc:2>2 #multigame:compilation #lang:ja
+Egawa Suguru no Super League CD@江川卓のSuper League CD,Egawa Suguru no Super League CD@江川卓のSuper League CD 江川卓のスーパー・リーグCD,egawasugurunosuperleaguecd,Japan,1993-08-06,SEGA,SEGA,#players:8:coop:vs #genre:sports>baseball #addon:megacd:backupramcart:segatap #save:backup #offical:sports #endorsed:celeb #lang:ja
+Eye of the Beholder,Eye of the Beholder,eyeofthebeholder,Japan,1994-04-22,Opera House,Pony Canyon,#players:1 #genre:dungeoncrawler:rpg #addon:megacd:backupramcart:mouse>md #save:backup #port:pc #based $dnd #lang:ja
+F1 Circus CD,F1 Circus CD@F1 Circus CD エフワン　サーカス　シーディー,f1circuscd,Japan,1994-03-18,Cream,Nichibutsu,#players:2:vs #genre:racing:sports>formula1 #addon:megacd:backupramcart #save:backup:password #based #official:sports #lang:ja
+Fahrenheit,Fahrenheit@Fahrenheit ファーレンハイト,fahrenheit,Japan,1995-09-01,SEGA/TLA,SEGA,#players:1 #genre:adventure #addon:megacd #lang:ja
+Final Fight CD,Final Fight CD@Final Fight CD ファイナルファイト CD,finalfight,Japan,1993-04-02,A-Wave/T's Music,SEGA,#players:2:coop #genre:brawler #addon:megacd #port:arcade #lang:ja
+Final Fight CD,Final Fight CD@Final Fight CD ファイナルファイト CD,finalfight,Japan,,A-Wave/T's Music,SEGA,#players:2:coop #genre:brawler #addon:megacd #port:arcade #lang:ja #rev:1
+Formula One World Championship 1993: Heavenly Symphony,Heavenly Symphony: Formula One World Championship 1993@Heavenly Symphony ヘブンリーシンフォニー Formula One World Championship 1993,heavenlysymphony,Japan,1994-04-23,SEGA CS3/Fuji TV,SEGA,#players:1 #genre:racing:sports>formula1 #addon:megacd:backupramcart #save:backup #based #official:sports $sonic #lang:ja
+Fresh Cleaner,Fresh Cleaner@Fresh Cleaner フレッシュクリーナー,freshcleaner,Japan,1993-10-08,Mumin,Mumin,#players:1 #genre:application #addon:megacd #lang:ja
+Gambler Jiko Chūshinha 2: Gekitō! Tokyo Mahjongland Hen@ぎゅわんぶらあ自己中心派2　激闘! 東京マージャンランド編,Gambler Jiko Chūshinha 2: Gekitō! Tokyo Mahjongland Hen@ぎゅわんぶらあ自己中心派2　激闘! 東京マージャンランド編,gamblerjikochuushinsha2gtmh,Japan,1992-12-18,Yellow Horn,Game Arts,#players:1 #genre:boards>mahjong:adventure #addon:megacd:backupramcart #save:backup #based:manganime #lang:ja
+Game Garden: WonderMega Collection,WonderMega Collection,gamegarden,Japan,1992-04-01,JVC,Victor,#players:1 #genre:karaoke:platformer:puzzle #addon:megacd #port:megadrive #multigame:compilation #lang:ja
+Game no Kanzume Vol. 1@ゲームのかんづめ Vol. 1,Game no Kanzume: SEGA Games Can Vol. 1@ゲームのかんづめ　SEGA Games Can Vol.1,gamenokanzume1,Japan,1994-03-18,SEGA,SEGA,#players:2:vs #genre:action:platformer:puzzle:adventure #addon:megacd #port:megadrive #multigame:compilation #lang:ja
+Game no Kanzume Vol. 2@ゲームのかんづめ Vol. 2,Game no Kanzume: SEGA Games Can Vol. 2@ゲームのかんづめ　SEGA Games Can Vol.2,gamenokanzume2,Japan,1994-03-18,SEGA,SEGA,#players:2:vs #genre:action:platformer:puzzle:adventure #addon:megacd #port:megadrive #multigame:compilation #lang:ja
+Garō Densetsu Special@餓狼伝説 Special,Garō Densetsu Special@餓狼伝説 Special がろうでんせつスペシャル,garoudensetsuspecial,Japan,1995-03-31,Funcom,Victor,#players:2:vs #genre:fighting #addon:megacd:6button #port:arcade #lang:ja
+Gen'ei Toshi@幻影都市,Gen'ei Toshi: Illusion City@幻影都市　Illusion City,geneitoshi,Japan,1993-05-28,Aisystem Tokyo/Arrow,Micro Cabin,#players:1 #genre:rpg>j #addon:megacd:backupramcart #save:backup #port:msx #lang:ja
+Heavy Nova,Heavy Nova,heavynova,Japan,1991-12-12,Micronet,Micronet,#players:2:vs #genre:action:fighting #addon:megacd #port:x68000 #lang:en
+Heimdall,Heimdall@Heimdall ハイムドール,heimdall,Japan,1994-03-18,The 8th Day,Victor,#players:1 #genre:rpg #addon:megacd:backupramcart #save:backup #port:amiga #lang:ja
+Ishii Hisaichi no Daiseikai@いしいひさいちの大政界,Ishii Hisaichi no Daiseikai@いしいひさいちの大政界,ishiihisaichinodaiseikai,Japan,1994-01-28,G-Sat/T's Music,SEGA,#players:1 #genre:strategy #addon:megacd:backupramcart #save:backup #based:manganime #lang:ja
+Jaguar XJ220,Jaguar XJ220,jaguarxj220,Japan,1993-03-26,Core Design,Victor,#players:2:vs #genre:racing #addon:megacd:backupramcart #save:backup #port:amiga #endorsed:company #lang:en:ja
+Jangō World Cup@雀豪ワールドカップ,Jangō World Cup@雀豪ワールドカップ,jangouworldcup,Japan,1993-08-27,Victor,Victor,#players:1 #genre:board>mahjong:shmup #addon:megacd:backupramcart #save:backup #lang:ja
+Jurassic Park,Jurassic Park@Jurassic Park ジュラシック・パーク,jurassicparkcd,Japan,1994-09-30,SEGA Multimedia,SEGA,#players:1 #genre:adventure:pointandclick:educational #addon:megacd:backupramcart #save:backup #based:movie $jurassicpark #endorsed:celeb #lang:ja
+Kamen Rider ZO@仮面ライダーZO,Kamen Rider ZO@仮面ライダーZO,kamenriderzo,Japan,1994-05-13,Wolf Team,Toei,#players:1 #genre:action:adventure #addon:megacd #based:movie #lang:ja
+Keiō Yūgekitai@慶応遊撃隊,Keiō Yūgekitai@慶応遊撃隊,keiouyuugekitai,Japan,1993-08-06,Victor,Victor,#players:1 #genre:shmup>h #addon:megacd #lang:ja
+Keiō Yūgekitai@慶応遊撃隊,Keiō Yūgekitai (Kira Kira Lucky Takarabako)@慶応遊撃隊 (キラキラ★ラッキー宝箱),keiouyuugekitai,Japan,1993-08-06,Victor,Victor,#players:1 #genre:shmup>h #addon:megacd #reboxed #promo #lang:ja
+Lethal Enforcers,Lethal Enforcers@Lethal Enforcers リーサルエンフォーサーズ,lethalenforcers,Japan,1993-10-29,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #lang:en
+Lethal Enforcers,Lethal Enforcers (Famitsu-ban)@Lethal Enforcers リーサルエンフォーサーズ (ファミ通版),lethalenforcers,Japan,,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #promo #lang:en
+Lethal Enforcers II: The Western,Lethal Enforcers II: The Western@Lethal Enforcers II: The Western リーサルエンフォーサーズII　ザ・ウエスタン,lethalenforcers2thewestern,Japan,1994-11-25,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #lang:en
+Lethal Enforcers II: The Western,Lethal Enforcers II: The Western (Including The Justifier)@Lethal Enforcers II: The Western リーサルエンフォーサーズII　ザ・ウエスタン (Including The Justifier),lethalenforcers2thewestern,Japan,1994-11-25,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #reboxed #lang:en
+Lunar: The Silver Star,Lunar: The Silver Star@Lunar: The Silver Star ルナ　ザ・シルバースター,lunarthesilverstar,Japan,1992-06-26,Game Arts/Studio Alex/Cube,Game Arts,#players:1 #genre:rpg>j #addon:megacd:backupramcart #save:backup #lang:ja
+Lunar: Eternal Blue,Lunar: Eternal Blue,lunareternalblue,Japan,1994-12-22,Game Arts/Studio Alex/Cube,Game Arts,#players:1 #genre:rpg>j #addon:megacd:backupramcart #save:backup #lang:ja
+Lunar: Eternal Blue,Lunar: Eternal Blue,lunareternalblue,Japan,,Game Arts/Studio Alex/Cube,Game Arts,#players:1 #genre:rpg>j #addon:megacd:backupramcart #save:backup #lang:ja #rev:1
+Mahō no Shōjo: Silky Lip@魔法の少女　シルキーリップ,Mahō no Shōjo: Silky Lip@魔法の少女　シルキーリップ,mahounoshoujosilkylip,Japan,1992-06-19,Telenet,Riot,#players:1 #genre:adventure #addon:megacd:backupramcart #save:backup #lang:ja
+Microcosm,Microcosm@Microcosm マイクロコズム,microcosm,Japan,1994-02-25,Psygnosis,Victor,#players:1 #genre:shooting #addon:megacd #save:password #port:pc #lang:ja
+Might and Magic III: Isles of Terra,Might and Magic III: Isles of Terra,mightandmagic3islesofterra,Japan,1993-11-26,New World Computing/CRI/Cube,CRI,#players:1 #genre:rpg #addon:megacd:backupramcart:mouse>md #save:backup #port:pc #lang:ja
+Mortal Kombat,Mortal Kombat: Shinken Kōrin Densetsu (Kanzenban)@Mortal Kombat モータルコンバット　神拳降臨伝説 (完全版),mortalkombat,Japan,1994-06-03,Probe/Grey Team,Acclaim,#players:2:vs #genre:fighting #addon:megacd:6button #port:arcade #lang:en
+NBA Jam,NBA Jam@NBA Jam: NBAジャム,nbajam,Japan,1994-12-20,Iguana,Acclaim,#players:4:coop:vs #genre:sports>basketball #addon:megacd:segatap #save:backup #port:arcade:megadrive #official:sports #lang:en
+Night Striker,Night Striker@Night Striker ナイト・ストライカー,nightstriker,Japan,1993-05-28,Aisystem Tokyo,Taito,#players:1 #genre:railshooter #addon:megacd:xe1ap #port:arcade #lang:en
+Night Trap,Night Trap@Night Trap ナイトトラップ,nighttrap,Japan,1993-11-19,Digital Pictures/Hasbro,SEGA,#players:1 #genre:adventure #addon:megacd #disc:1>2 #lang:ja
+Night Trap,Night Trap@Night Trap ナイトトラップ,nighttrap,Japan,1993-11-19,Digital Pictures/Hasbro,SEGA,#players:1 #genre:adventure #addon:megacd #disc:2>2 #lang:ja
+Nobunaga no Yabō: Haōden@信長の野望　覇王伝,Nobunaga no Yabō: Haōden@信長の野望　覇王伝,nobunaganoyabouhaouden,Japan,1994-03-25,Koei,Koei,#players:8:vs #genre:strategy #addon:megacd:backupramcart:mouse>md #save:backup #port:pc88:megadrive #lang:ja
+Nostalgia 1907,Nostalgia 1907@ノスタルジア1907,nostalgia1907,Japan,1991-12-14,Takeru,Sur Dé Wave,#players:1 #genre:adventure #addon:megacd #port:x68000 #lang:ja
+Orgel: Psychic Detective Series Vol.4,Orgel: Psychic Detective Series Vol.4,orgelpsychicdetectiveseriesvol4,Japan,1993-12-10,Data West,Data West,#players:1 #genre:adventure #addon:megacd:backupramcart #save:backup #port:fmtowns #lang:ja
+PopfulMail@ぽっぷるメイル,PopfulMail: Magical Fantasy Adventure@ぽっぷるメイル PopfulMail: Magical Fantasy Adventure,popfulmail,Japan,1994-04-01,SEGA FALCOM,SEGA,#players:1 #genre:rpg>a:action #addon:megacd:backupramcart #save:backup #port:pc88 #lang:ja
+Prince of Persia,Prince of Persia@Prince of Persia プリンス・オブ・ペルシャ,princeofpersia,Japan,1992-08-07,Bits Laboratory,Victor,#players:1 #genre:action #addon:megacd #save:backup #port:apple2 #lang:ja
+Prize Fighter,Prize Fighter@Prize Fighter プライズ ファイター,prizefighter,Japan,1995-03-24,Digital Pictures,SEGA,#players:1 #genre:fighting:sports>boxing #addon:megacd:6button #save:backup #disc:1>2 #lang:ja
+Prize Fighter,Prize Fighter@Prize Fighter プライズ ファイター,prizefighter,Japan,1995-03-24,Digital Pictures,SEGA,#players:1 #genre:fighting:sports>boxing #addon:megacd:6button #save:backup #disc:2>2 #lang:ja
+Pro Yakyū Super League CD@プロ野球 Super League CD,Pro Yakyū Super League CD@プロ野球 Super League CD プロ野球スーパーリーグCD,proyakyuusuperleaguecd,Japan,1992-10-30,SEGA,SEGA,#players:2:vs #genre:sports>baseball #addon:megacd:backupramcart #save:backup #official:sports #lang:ja
+Quiz Scramble Special,Quiz Scramble Special@Quiz Scramble Special クイズスクランブル スペシャル,quizscramblespecial,Japan,1992-05-29,SEGA CS1,SEGA,#players:2:vs #genre:quiz:educational #addon:megacd #lang:ja
+Quiz Tonosama no Yabō@クイズ殿様の野望,Quiz Tonosama no Yabō@クイズ殿様の野望,quiztonosamanoyabou,Japan,1992-12-25,SIMS,SIMS,#players:2:vs #genre:quiz #addon:megacd #port:arcade #lang:ja
+Ranma ½: Byakuranaika@らんま½　白蘭愛歌,Ranma ½: Byakuranaika@らんま½　Ranma Nibunnoichi 白蘭愛歌,ranmanibunnoichibyakuranaika,Japan,1993-04-23,NCS,Masaya,#players:1 #genre:adventure #addon:megacd #based:manganime #save:backup #lang:ja
+Record of Lodoss War,Record of Lodoss War: Eiyū Sensō@Record of Lodoss War ロードス島戦記　英雄戦争,recordoflodosswareiyuusensou,Japan,1994-05-20,Kogado,SEGA,#players:1 #genre:rpg>s #addon:megacd:backupramcart #save:backup #based:manganime #lang:ja
+Record of Lodoss War,Record of Lodoss War: Eiyū Sensō (Taikenban)@Record of Lodoss War ロードス島戦記　英雄戦争 (体験版),recordoflodosswareiyuusensou,Japan,1994-05-20,Kogado,SEGA,#players:1 #genre:rpg>s #addon:megacd:backupramcart #save:backup #based:manganime #reboxed #lang:ja
+Rise of the Dragon: A Blade Hunter Mystery,Rise of the Dragon: A Blade Hunter Mystery@Rise of the Dragon: A Blade Hunter Mystery ライズ・オブ・ザ・ドラゴン　ブレイド・ハンター・ミステリー,riseofthedragonabladehuntermystery,Japan,1992-09-25,Game Arts/Bits Laboratory,SEGA,#players:1 #genre:adventure #addon:megacd:backupramcart #save:backup #lang:ja
+Road Blaster FX,Road Blaster FX,roadblaster,Japan,1992-12-18,Wolf Team,Wolf Team,#players:1 #genre:action:racing #addon:megacd #port:arcade #lang:ja
+Sangokushi III@三國志III,Sangokushi III@三國志III,sangokushi3,Japan,1993-04-23,Koei,Koei,#players:8:vs #genre:strategy #addon:megacd:backupramcart #save:backup #port:pc98 #lang:ja
+Schwarzschild,Mega Schwarzschild@Mega Schwarzschild メガシュヴァルツシルト,schwarzschild2,Japan,1993-06-25,Kogado/T's Music,SEGA,#players:1 #genre:strategy #addon:megacd:backupramcart #save:backup #remake:msx #lang:ja
+SEGA Classic Arcade Collection,SEGA Classic Arcade Collection: Limited Edition@SEGA Classic セガクラシック Arcade Collection: Limited Edition,segaclassicarcadecollection,Japan,1993-04-23,SEGA,SEGA,#players:2:coop:vs #genre:brawler:action:puzzle>drop #addon:megacd #port:megadrive #multigame:compilation #lang:en
+Seima Densetsu 3x3 Eyes@聖魔伝説　3X3 Eyes,Seima Densetsu 3x3 Eyes@聖魔伝説　3X3 Eyes サザンアイズ,seimadensetsu3x3eyes,Japan,1993-07-23,SEGA CS3/SEGA CS2/SEGA CS1/Arc System Works/Shout!,SEGA,#players:1 #genre:rpg>j #addon:megacd:backupramcart #save:backup #based:manganime #lang:ja
+Seirei Shinseiki: Fhey Area@精霊神世紀　フェイエリア,Seirei Shinseiki: Fhey Area@精霊神世紀　フェイエリア,seireishinseikifheyarea,Japan,1992-02-18,Wolf Team,Wolf Team,#players:1 #genre:rpg>j #addon:megacd #save:backup #lang:ja
+Sengoku Denshō@戦国伝承 Sengoku Densyo,Sengoku Denshō@戦国伝承,sengokudenshou,Japan,1993-12-28,Dragnet/Kan's,Sammy,#players:1 #genre:brawler #addon:megacd #port:arcade #lang:ja
+Shadow of the Beast II,Shadow of the Beast II: Jūshin no Jubaku@Shadow of the Beast II シャドー・オブ・ザ・ビーストII　獣神の呪縛,shadowofthebeast2,Japan,1994-07-29,Digital Developments,Victor,#players:1 #genre:action #addon:megacd #port:amiga #lang:ja
+Shadowrun,Shadowrun@Shadowrun シャドウラン,shadowruncd,Japan,1996-02-23,Compile/LMS,Compile,#players:1 #genre:rpg>s #addon:megacd:backupramcart:mouse>md #save:backup #based #lang:ja
+Shin Megami Tensei@真・女神転生,Shin Megami Tensei@真・女神転生,shinmegamitensei,Japan,1994-02-25,SIMS,SIMS,#players:1 #genre:rpg>j:dungeoncrawler #addon:megacd:backupramcart:6button:mouse>md #save:backup #port:superfamicom #lang:ja
+Shining Force CD,Shining Force CD,shiningforcecd,Japan,1994-07-22,Seraphic/Rit's/Winds,SEGA,#players:1 #genre:rpg>s #addon:megacd:backupramcart #save:backup #remake:gamegear #multigame:compilation #lang:ja
+Silpheed,Silpheed,silpheed,Japan,1993-07-30,Game Arts/Mecano,Game Arts,#players:1 #genre:shmup>v #addon:megacd #remake:pc88 #lang:ja
+SimEarth,SimEarth@SimEarth シムアース,simearth,Japan,1993-03-12,Game Arts,SEGA,#players:1 #genre:sim:god #addon:megacd:backupramcart #save:backup #port:pc #lang:ja
+Sing!! SEGA Game Music Presented by B. B. Queens,Teddy Boy Blues,teddyboyblues,Japan,1992-07-26,SEGA,BMG Victor,#players:1 #genre:action:platformer:media #addon:megacd #endorsed:celeb #remake:arcade #lang:en
+Sol-Feace,Sol-Feace,solfeace,Japan,1991-12-12,Wolf Team,Wolf Team,#players:1 #genre:shmup>h #addon:megacd #port:x68000 #lang:ja
+Sonic The Hedgehog CD,Sonic The Hedgehog CD,sonicthehedgehogcd,Japan,1993-09-23,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en
+SoulStar,SoulStar@SoulStar ソウルスター,soulstar,Japan,1994-12-22,Core Design,Victor,#players:2:coop #genre:railshooter:shmup #addon:megacd:6button #lang:en
+Star Wars: Rebel Assault,Star Wars: Rebel Assault,rebelassault,Japan,1994-09-22,LucasArts,Victor,#players:1 #genre:railshooter:shooting #addon:megacd #save:password #port:pc #based $starwars #lang:ja
+StarBlade,StarBlade@StarBlade スターブレード,starblade,Japan,1994-10-28,Technosoft,NAMCOT,#players:1 #genre:shooting #addon:megacd:backupramcart:xe1ap:mouse>md #save:backup #port:arcade #lang:en
+Surgical Strike,Surgical Strike@Surgical Strike サージカルストライク,surgicalstrike,Japan,1995-12-22,The Code Monkeys/Stargames,SEGA,#players:1 #genre:shooting #addon:megacd #save:backup #lang:ja
+Switch,Switch@Switch スイッチ,switch,Japan,1993-04-23,SEGA CS3/SEGA CS2/SEGA CS1,SEGA,#players:1 #genre:educational #addon:megacd:backupramcart:mouse>md #save:backup #lang:ja
+Tenbu Mega CD Special@天舞 メガCDスペシャル,Tenbu Mega CD Special@天舞 メガCDスペシャル,tenbu,Japan,1992-12-25,Wolf Team,Wolf Team,#players:1 #genre:strategy #addon:megacd #port:pc98 #lang:ja
+Tenkafubu: Eiyūtachi no Hōkō@天下布武　英雄たちの咆哮,Tenkafubu: Eiyūtachi no Hōkō@天下布武　英雄たちの咆哮,tenkafubueiyuutachinohoukou,Japan,1991-12-28,Game Arts,Game Arts,#players:1 #genre:strategy #addon:megacd #save:backup #lang:ja
+The IIIrd World War@ザ・サード ワールド ウォー The IIIrd World War,The IIIrd World War@ザ・サード ワールド ウォー The IIIrd World War,thethirdworldwar,Japan,1993-11-26,Micronet,Micronet,#players:1 #genre:strategy #addon:megacd:backupramcart #save:backup #lang:ja
+The Ninja Warriors,The Ninja Warriors@The Ninja Warriors ニンジャウォリアーズ,theninjawarriors,Japan,1993-03-12,Aisystem Tokyo/Zuntata,Taito,#players:2:coop #genre:hackandslash #addon:megacd #port:arcade #lang:ja
+The Secret of Monkey Island,The Secret of Monkey Island: Yūrei Kaizoku Daisōdō!@The Secret of Monkey Island モンキー・アイランド　ユーレイ海賊大騒動!,thesecretofmonkeyisland,Japan,1993-09-23,LucasArts,Victor,#players:1 #genre:adventure #addon:megacd:mouse>md #port:pc #lang:ja
+Thunder Storm FX,Thunder Storm FX,thunderstorm,Japan,1992-08-28,Wolf Team,Wolf Team,#players:1 #genre:shooting #addon:megacd #port:arcade #lang:ja
+Thunderhawk,Thunderhawk@Thunderhawk サンダーホーク,thunderhawk,Japan,1993-09-17,Core Design,Victor,#players:1 #genre:flightsim:shooting #addon:megacd:backupramcart #save:backup #lang:ja
+Time Gal@Time Gal タイム ギャル,Time Gal@Time Gal タイム ギャル,timegal,Japan,1992-11-13,Wolf Team,Wolf Team,#players:1 #genre:action #addon:megacd #save:password #port:arcade #lang:ja
+Tomcat Alley,Tomcat Alley@Tomcat Alley トムキャット アレイ,tomcatalley,Japan,1994-12-22,The Code Monkeys,SEGA,#players:1 #genre:shooting #addon:megacd #lang:ja
+Urusei Yatsura: Dear My Friends@うる星やつら　ディア マイ フレンズ,Urusei Yatsura: Dear My Friends@うる星やつら　ディア マイ フレンズ,uruseiyatsuradearmyfriends,Japan,1994-04-15,Game Arts/Bits Laboratory,Game Arts,#players:1 #genre:adventure #addon:megacd:backupramcart:6button:mouse>md #save:backup #based:manganime #lang:ja
+Vay,Vay: Ryūsei no Yoroi@Vay ヴァイ　流星の鎧,vay,Japan,1993-10-22,Hertz,SIMS,#players:1 #genre:rpg>j #addon:megacd:backupramcart #save:backup #lang:ja
+Wakusei Woodstock: Funky Horror Band@惑星ウッドストック　ファンキーホラーバンド,Wakusei Woodstock: Funky Horror Band@F.H.B Funky Horror Band 惑星ウッドストック　ファンキー・ホラー・バンド,wakuseiwoodstockfunkyhorrorband,Japan,1991-12-20,ACC,SEGA,#players:1 #genre:rpg>j #addon:megacd #save:backup #lang:ja
+Warau Salesman@笑ゥせぇるすまん,Warau Salesman@笑ゥせぇるすまん,warausalesman,Japan,1993-09-17,Compile,SEGA,#players:1 #genre:adventure:pointandclick #addon:megacd:backupramcart:mouse>md #save:backup #based:manganime #lang:ja
+Wing Commander,Wing Commander@Wing Commander ウイングコマンダー,wingcommander,Japan,1994-03-25,Game Arts/Bits Laboratory/CRI,SEGA,#players:1 #genre:adventure:flightsim:shooting #addon:megacd:backupramcart:6button #save:backup #port:pc #lang:ja
+Winning Post,Winning Post@Winning Post ウイニングポスト,winningpost,Japan,1993-09-17,Koei,Koei,#players:1 #genre:derby #addon:megacd:backupramcart #save:backup #port:pc98 #lang:ja
+Wolfchild,Wolfchild,wolfchild,Japan,1993-03-19,Core Design,Victor,#players:1 #genre:action:platformer #addon:megacd #port:amiga #lang:ja
+Wonder Dog,Wonder Dog,wonderdog,Japan,1992-09-25,Core Design,Victor,#players:1 #genre:platformer #addon:megacd #save:password #lang:ja
+WWF: Rage in the Cage,WWF Mania Tour: WWF: Rage in the Cage@WWF マニア・ツアー WWF: Rage in the Cage,wwfrageinthecagecd,Japan,1994-06-24,Sculptured/The Black Team,Acclaim,#players:2:vs #genre:fighting:sports>wrestling #addon:megacd:6button #official:sports #lang:en
+Yumemi Yakata no Monogatari@夢見館の物語,Yumemi Yakata no Monogatari@夢見館の物語,yumemiyakatanomonogatari,Japan,1993-12-10,System Sacom/SEGA CS/DMP,SEGA,#players:1 #genre:adventure #addon:megacd:backupramcart:mouse>md #save:backup #lang:ja
+Yumimi Mix@ゆみみ みっくす,Yumimi Mix@ゆみみ みっくす,yumimimix,Japan,1993-01-29,Game Arts/Mecano,Game Arts,#players:1 #genre:adventure #addon:megacd:backupramcart #save:backup #lang:ja
+3 Ninjas Kick Back,3 Ninjas Kick Back / Hook,3ninjaskickback,USA,1994,Malibu,Sony Imagesoft,#players:2:alt #genre:action:platformer #addon:megacd #port:megadrive #based:movie #multigame:compilation #lang:en
+A/X-101,A/X-101,ax101,USA,1994,Genki/Micronet,Absolute,#players:1 #genre:railshooter #addon:megacd #lang:en
+After Burner III,After Burner III,afterburner3,USA,1993-05,CRI,SEGA,#players:1 #genre:railshooter #addon:megacd:6button:xe1ap #port:fmtowns #lang:en
+AH-3: Thunderstrike,AH-3: Thunderstrike,thunderhawk,USA,1993-11,Core Design,JVC,#players:1 #genre:flightsim:shooting #addon:megacd:backupramcart #save:backup #lang:en
+Bari-Arm,Android Assault: The Revenge of Bari-Arm,bariarm,USA,1994-10,Human,Big Fun,#players:1 #genre:shmup>h #addon:megacd #lang:en
 Batman Returns,Batman Returns,batmanreturns,USA,1993-05-19,Malibu,SEGA,#players:1 #genre:action:platformer:racing #addon:megacd #port:megadrive #based:movie $batman #lang:en
 Batman Returns,Batman Returns,batmanreturns,USA,,Malibu,SEGA,#players:1 #genre:action:platformer:racing #addon:megacd #port:megadrive #based:movie $batman #lang:en #alt
-Battle Fantasy,Battle Fantasy@Battle Fantasy バトル ファンタジー,battlefantasy,Japan,1994-04-15,Micronet,Micronet,#players:2:vs #genre:fighting #addon:megacd #lang:ja
-Battle Frenzy,Battle Frenzy,battlefrenzy,USA,2003,The Kremlin,Good Deal,#players:2:vs #genre:shooter #addon:megacd #port:megadrive #lang:en #unlicensed
-Battlecorps,Battlecorps,battlecorps,Europe,1994-08,Core Design,Core Design,#players:1 #genre:shooter #addon:megacd #lang:en:fr:de:es
-Battlecorps,Battlecorps,battlecorps,Europe,,Core Design,Core Design,#players:1 #genre:shooter #addon:megacd #lang:en #unfinished:demo
-Battlecorps,Battlecorps@Battlecorps バトルコープス,battlecorps,Japan,1994-09-30,Core Design,Victor,#players:1 #genre:shooter #addon:megacd #lang:ja
 Battlecorps,Battlecorps,battlecorps,USA,1994-08,Core Design,Core Design,#players:1 #genre:shooter #addon:megacd #lang:en
-BattleTech: Gray Death Legion,BattleTech: Gray Death Legion,battletechgraydeathlegion,USA,,Imagineering,Good Deal,#players:1 #genre:shooter #addon:megacd #based #lang:en #unlicensed
-BC Racers,BC Racers,bcracers,Europe,1994-12,Core Design,Core Design/SEGA,#players:2:vs #genre:racing>combat #addon:megacd:6button #lang:en:fr:de
-BC Racers,BC Racers,bcracers,Europe,,Core Design,Core Design/SEGA,#players:2:vs #genre:racing>combat #addon:megacd:6button #lang:en #unfinished:demo>1
-BC Racers,BC Racers,bcracers,Europe,,Core Design,Core Design/SEGA,#players:2:vs #genre:racing>combat #addon:megacd:6button #lang:en #unfinished:demo>2
 BC Racers,BC Racers,bcracers,USA,1995-02,Core Design,Core Design/SEGA,#players:2:vs #genre:racing>combat #addon:megacd:6button #lang:en
-Bill Walsh College Football,Bill Walsh College Football,billwalshcollegefootball,Europe,1994-03,High Score,Electronic Arts,#players:4:coop:vs #genre:sports>football #addon:megacd:4wayplay #port:megadrive #endorsed:celeb #lang:en
 Bill Walsh College Football,Bill Walsh College Football,billwalshcollegefootball,USA,1993-12,High Score,Electronic Arts,#players:4:coop:vs #genre:sports>football #addon:megacd:4wayplay #port:megadrive #endorsed:celeb #lang:en
-Black Hole Assault,Black Hole Assault@Black Hole Assault ブラックホールアサルト,blackholeassault,Japan,1992-10-23,Micronet,Micronet,#players:2:vs #genre:fighting #addon:megacd:backupramcart #save:backup #lang:ja
-Black Hole Assault,Blackhole Assault,blackholeassault,Europe,1993-09,Micronet,SEGA,#players:2:vs #genre:fighting #addon:megacd:backupramcart #save:backup #lang:en
 Black Hole Assault,Blackhole Assault,blackholeassault,USA,1992-11,Micronet,Bignet,#players:2:vs #genre:fighting #addon:megacd:backupramcart #save:backup #lang:en
 Black Hole Assault,Blackhole Assault,blackholeassault,USA,,Micronet,Bignet,#players:2:vs #genre:fighting #addon:megacd:backupramcart #save:backup #lang:en #alt
-Bloodshot / Battle Frenzy,Bloodshot,battlefrenzy,Europe,1995-06,The Kremlin,Domark,#players:2:vs #genre:shooter #addon:megacd #lang:en:fr:de:es
-Bloodshot / Battle Frenzy,Battle Frenzy,battlefrenzy,Germany,1995-06,The Kremlin,Domark,#players:2:vs #genre:shooter #addon:megacd #reboxed #lang:en:fr:de:es
 Bouncers,Bouncers,bouncers,USA,1994-12,Dynamix/Sierra,SEGA,#players:2:vs #genre:action:fighting #addon:megacd #lang:en
 Bram Stoker's Dracula,Bram Stoker's Dracula,bramstokersdraculacd,USA,1993-11,Psygnosis,Sony Imagesoft,#players:1 #genre:action #addon:megacd #based:movie $dracula #lang:en
 Bram Stoker's Dracula,Bram Stoker's Dracula,bramstokersdraculacd,USA,1993-11,Psygnosis,Sony Imagesoft,#players:1 #genre:action #addon:megacd #based:movie $dracula #lang:en #alt:1
 Bram Stoker's Dracula,Bram Stoker's Dracula,bramstokersdraculacd,USA,1993-11,Psygnosis,Sony Imagesoft,#players:1 #genre:action #addon:megacd #based:movie $dracula #lang:en #alt:2
-Bram Stoker's Dracula,Mary Shelley's Frankenstein / Bram Stoker's Dracula,bramstokersdraculacd,USA,1994,Psygnosis,Sony Imagesoft,#players:1 #genre:action #addon:megacd #based:movie $dracula #lang:en #multigame:compilation #lang:en
-Brutal: Paws of Fury,Brutal: Paws of Fury,brutalpawsoffury,Europe,1994-09,GameTek,GameTek,#players:2:vs #genre:fighting #addon:megacd:6button #lang:en:fr:de
-Brutal: Paws of Fury,Paws of Fury,brutalpawsoffury,Germany,1994-09,GameTek,GameTek,#players:2:vs #genre:fighting #addon:megacd:6button #reboxed #lang:en:fr:de
+Bram Stoker's Dracula,Mary Shelley's Frankenstein / Bram Stoker's Dracula,bramstokersdraculacd,USA,1994,Psygnosis,Sony Imagesoft,#players:1 #genre:action #addon:megacd #based:movie $dracula #lang:en #multigame:compilation #reboxed #lang:en
 Brutal: Paws of Fury,Brutal: Paws of Fury,brutalpawsoffury,USA,1994-11,GameTek,GameTek,#players:2:vs #genre:fighting #addon:megacd:6button #lang:en
-Burai: Yatsudama no Yūshi Densetsu@Burai 八玉の勇士伝説,Burai: Yatsudama no Yūshi Densetsu@Burai ブライ　八玉の勇士伝説,buraihachigyokunoyuushidensetsu,Japan,1992-09-11,Pandora Box,SEGA,#players:1 #genre:rpg>j #addon:megacd:backupramcart #save:backup #port:cdrom2 #lang:ja
 Cadillacs and Dinosaurs: The Second Cataclysm,Cadillacs and Dinosaurs: The Second Cataclysm,cadillacsanddinosaursthesecondcataclysm,USA,1994-12,Rocket Science,Rocket Science,#players:2:coop #genre:railshooter:shooting #addon:megacd #based #save:backup #lang:en
-Captain Tsubasa@キャプテン翼,Captain Tsubasa@キャプテン翼,captaintsubasacd,Japan,1994-09-30,Tecmo/T's Music,Tecmo,#players:2:vs #genre:sim:sports>soccer #addon:megacd #based:manganime #lang:ja
-CD Sonic the Hedgehog,Sonic The Hedgehog CD,sonicthehedgehogcd,Japan,1992-12-04,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd $sonic #lang:en #unfinished:beta>1
-CD Sonic the Hedgehog,Sonic The Hedgehog CD,sonicthehedgehogcd,Japan,1993-05-12,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd $sonic #lang:en #unfinished:beta>2
-CD Sonic the Hedgehog,Sonic The Hedgehog CD,sonicthehedgehogcd,Japan,1993-06-21,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd $sonic #lang:en #unfinished:beta>3
 Championship Soccer '94,Championship Soccer '94,sensiblesoccer,USA,1994-09,Psygnosis,Renegade/Sony Imagesoft,#players:2:vs #genre:sports>soccer #addon:megacd #port:amiga #lang:en:fr:de:it
-Chuck Rock,Chuck Rock,chuckrock,Europe,1993-08,Core Design,Sony Imagesoft,#players:1 #genre:action:platformer #addon:megacd #save:password #port:amiga #lang:en
 Chuck Rock,Chuck Rock,chuckrock,USA,1992-12,Core Design,Sony Imagesoft,#players:1 #genre:action:platformer #addon:megacd #save:password #port:amiga #lang:en
-Chuck II: Son of Chuck,Chuck Rock II: Son of Chuck,chuckrock2soc,Europe,1994-01,Core Design,Core Design,#players:1 #genre:platformer:action #addon:megacd #port:amiga:megadrive #lang:en
 Chuck II: Son of Chuck,Chuck Rock II: Son of Chuck,chuckrock2soc,USA,1993,Core Design,Virgin,#players:1 #genre:platformer:action #addon:megacd #port:amiga:megadrive #lang:en
-Citizen X,Citizen X,citizenx,USA,2002,Digital Pictures,Good Deal,#players:1 #genre:action:adventure #addon:megacd #lang:en #unlicensed
 Cliffhanger,Cliffhanger,cliffhanger,USA,1993-11,Malibu,Sony Imagesoft,#players:1 #genre:brawler:sports>snowboarding #addon:megacd #port:megadrive #based:movie #lang:en
-Cobra Command,Sol-Feace / Cobra Command,thunderstorm,Europe,1993,Wolf Team,SEGA,#players:1 #genre:shooting #addon:megacd #port:arcade #lang:en
 Cobra Command,Cobra Command,thunderstorm,USA,1992-11,Wolf Team,SEGA,#players:1 #genre:shooting #addon:megacd #port:arcade #lang:en
 Compton's Interactive Encyclopedia,Compton's Interactive Encyclopedia: Edition 1995,comptonsinterativeencyclopedia,USA,1994,Compton's NewMedia,Compton's NewMedia,#players:1 #genre:application:educational #addon:megacd #port:pc #lang:en
 Compton's Interactive Encyclopedia,Compton's Interactive Encyclopedia,comptonsinterativeencyclopedia,USA,1994,Compton's NewMedia,Compton's NewMedia,#players:1 #genre:application:educational #addon:megacd #port:pc #reboxed:xeye #lang:en
 Compton's Interactive Encyclopedia,Compton's Interactive Encyclopedia,comptonsinterativeencyclopedia,USA,,Compton's NewMedia,Compton's NewMedia,#players:1 #genre:application:educational #addon:megacd #port:pc #reboxed:xeye #lang:en #rev:1
 Compton's Interactive Encyclopedia,Compton's Interactive Encyclopedia,comptonsinterativeencyclopedia,USA,,Compton's NewMedia,Compton's NewMedia,#players:1 #genre:application:educational #addon:megacd #port:pc #reboxed:xeye #lang:en #rev:2
-Corpse Killer,Corpse Killer,corpsekiller,Europe,1995-03,Digital Pictures,Digital Pictures,#players:1 #genre:shooting #addon:megacd:menacer $lightgun #lang:en
-Corpse Killer,Corpse Killer,corpsekiller,Europe,1995-07,Digital Pictures,Digital Pictures,#players:1 #genre:shooting #addon:megacd:super32x:menacer $lightgun #lang:en
 Corpse Killer,Corpse Killer,corpsekiller,USA,1994-11,Digital Pictures,Digital Pictures,#players:1 #genre:shooting #addon:megacd:menacer $lightgun #lang:en
 Corpse Killer,Corpse Killer,corpsekiller,USA,1995,Digital Pictures,Digital Pictures,#players:1 #genre:shooting #addon:megacd:super32x:menacer $lightgun #lang:en
-Cosmic Fantasy Stories@コズミック・ファンタジー Stories,Cosmic Fantasy Stories@コズミック・ファンタジー Stories,cosmicfantasystories,Japan,1992-03-27,Telenet,Riot,#players:1 #genre:rpg>j #addon:megacd #save:backup #port:cdrom2 #lang:ja
 Crime Patrol,Crime Patrol,crimepatrol,USA,1994-10,American Laser Games,American Laser Games,#players:2:coop #genre:shooting #addon:megacd:menacer:justifier:mouse>md #lang:en
-Cyborg 009@サイボーグ009,Cyborg 009@サイボーグ009,cyborg009cd,Japan,1993-07-30,Telenet,Riot,#players:1 #genre:action #addon:megacd:backupramcart #save:backup #based:manganime #lang:ja
-Daihōshinden@大封神伝,Daihōshinden@大封神伝,daihoushinden,Japan,1995-02-24,MBA/Flashback/Ocarina System/Grouper,Victor,#players:1 #genre:rpg>j #addon:megacd #save:backup #lang:ja
 Dark Wizard,Dark Wizard,darkwizardyynm,USA,1994-03,SEGA CS2/SEGA CS3,SEGA,#players:1 #genre:rpg>s #addon:megacd:backupramcart #save:backup #lang:en
-Dark Wizard: Yomigaerishi Yami no Madōshi@Dark Wizard 蘇りし闇の魔導士,Dark Wizard: Yomigaerishi Yami no Madōshi@Dark Wizard ダーク・ウィザード　蘇りし闇の魔導士,darkwizardyynm,Japan,1993-11-12,SEGA CS2/SEGA CS3,SEGA,#players:1 #genre:rpg>s #addon:megacd:backupramcart #save:backup #lang:ja
-Death Bringer@Death Bringer デス・ブリンガー,Death Bringer@Death Bringer デスブリンガー The Knight of Darkness,deathbringer,Japan,1992-04-17,Telenet/Opera House,Riot,#players:1 #genre:dungeoncrawler:rpg #addon:megacd:backupramcart #save:backup #port:pc98 #lang:ja
 Demolition Man,Demolition Man,demolitionman,USA,1995-11-15,Alexandria/Orca,Acclaim,#players:1 #genre:action:runandgun #addon:megacd #based:movie #port:megadrive #lang:en
-Dennin Aleste: Nobunaga and His Ninja Force@電忍アレスタ Nobunaga and His Ninja Force,Dennin Aleste: Nobunaga and His Ninja Force@電忍アレスタ Nobunaga and His Ninja Force,denninalestenobunagaandhisninjaforce,Japan,1992-11-27,Compile,Compile,#players:1 #genre:shmup>v #addon:megacd #lang:ja
-Detonator Orgun@Detonator オーガン,Detonator Orgun@Detonator オーガン,detonatororgun,Japan,1992-07-31,Hot-B/Darts,Hot-B,#players:1 #genre:adventure #addon:megacd:backupramcart #save:backup #based:manganime #lang:ja
-Devastator,Devastator,devastator,Japan,1993-05-28,Wolf Team/Telenet,Wolf Team,#players:1 #genre:action:platformer:shmup>h #addon:megacd #based:manganime #lang:ja
-Double Switch,Double Switch,doubleswitch,Europe,1994-07-15,Digital Pictures,SEGA,#players:1 #genre:adventure #addon:megacd #lang:en
-Double Switch,Double Switch@Double Switch ダブルスイッチ,doubleswitch,Japan,1995-03-24,Digital Pictures,SEGA,#players:1 #genre:adventure #addon:megacd #lang:ja
 Double Switch,Double Switch,doubleswitch,USA,1993-12,Digital Pictures,SEGA,#players:1 #genre:adventure #addon:megacd #lang:en
-Dracula Unleashed,Dracula Unleashed,draculaunleashed,Europe,1994-05,ICOM Simulations/Viacom New Media,SEGA,#players:1 #genre:adventure #addon:megacd #save:backup #disc:1>2 $dracula #lang:en
-Dracula Unleashed,Dracula Unleashed,draculaunleashed,Europe,1994-05,ICOM Simulations/Viacom New Media,SEGA,#players:1 #genre:adventure #addon:megacd #save:backup #disc:1>2 $dracula #lang:en #alt
-Dracula Unleashed,Dracula Unleashed,draculaunleashed,Europe,1994-05,ICOM Simulations/Viacom New Media,SEGA,#players:1 #genre:adventure #addon:megacd #save:backup #disc:2>2 $dracula #lang:en
-Dracula Unleashed,Dracula Unleashed,draculaunleashed,Europe,1994-05,ICOM Simulations/Viacom New Media,SEGA,#players:1 #genre:adventure #addon:megacd #save:backup #disc:2>2 $dracula #lang:en #alt
 Dracula Unleashed,Dracula Unleashed,draculaunleashed,USA,1993,ICOM Simulations/Viacom New Media,SEGA,#players:1 #genre:adventure #addon:megacd #save:backup #disc:1>2 $dracula #lang:en
 Dracula Unleashed,Dracula Unleashed,draculaunleashed,USA,1993,ICOM Simulations/Viacom New Media,SEGA,#players:1 #genre:adventure #addon:megacd #save:backup #disc:2>2 $dracula #lang:en
-Dragon's Lair,Dragon's Lair,dragonslair,Europe,1994-03,ReadySoft,SEGA,#players:1 #genre:action #addon:megacd #port:arcade #lang:en:fr:de:it
-Dragon's Lair,Dragon's Lair@Dragon's Lair ドラゴンズ・レア,dragonslair,Japan,1994-06-03,ReadySoft,SEGA,#players:1 #genre:action #addon:megacd #lang:en:fr:de:it:ja
 Dragon's Lair,Dragon's Lair,dragonslair,USA,1993-12,ReadySoft,SEGA,#players:1 #genre:action #addon:megacd #port:arcade #lang:en
-Dragon's Lair,Dragon's Lair,dragonslair,USA,,ReadySoft,SEGA,#players:1 #genre:action #addon:megacd #port:arcade #lang:en #unfinished:demo
-Dune,Dune,dune,Europe,1994-01,Cryo,Virgin,#players:1 #genre:adventure:strategy #addon:megacd #based:movie #port:amiga #save:backup #lang:en:fr:de:it:es:fremen
-Dune,Dune,dune,USA,1993-12,Cryo,Virgin,#players:1 #genre:adventure:strategy #addon:megacd #based:movie #port:amiga #save:backup #lang:en:fr:de:it:es:fremen
-Dungeon Explorer,Dungeon Explorer,dungeonexplorercd,Europe,1995,Westone/Hudson,Hudson,#players:4:coop #genre:action:maze:rpg #save:backup #addon:megacd:segatap #lang:en
+Dune,Dune,dune,USA,1993-12,CRYO,Virgin,#players:1 #genre:adventure:strategy #addon:megacd #based:movie #port:amiga #save:backup #lang:en:fr:de:it:es:fremen
 Dungeon Explorer,Dungeon Explorer,dungeonexplorercd,USA,1995-04,Westone/Hudson,SEGA,#players:4:coop #genre:action:maze:rpg #save:backup #addon:megacd:segatap #lang:en
-Dungeon Master II,Dungeon Master II: Skullkeep,dungeonmaster2skullkeep,Europe,1994-12,FTL,JVC,#players:1 #genre:dungeoncrawler:rpg #addon:megacd:backupramcart:mouse>md #save:backup #port:pc #lang:en
-Dungeon Master II,Dungeon Master II: Skullkeep@Dungeon Master II: Skullkeep ダンジョン・マスターII　スカルキープ,dungeonmaster2skullkeep,Japan,1994-03-25,FTL,Victor,#players:1 #genre:dungeoncrawler:rpg #addon:megacd:backupramcart:mouse>md #save:backup #port:pc #lang:en
 Dungeon Master II,Dungeon Master II: Skullkeep,dungeonmaster2skullkeep,USA,1994-09,FTL,JVC,#players:1 #genre:dungeoncrawler:rpg #addon:megacd:backupramcart:mouse>md #save:backup #port:pc #lang:en
-Dynamic Country Club@ダイナミックカントリークラブ,Dynamic Country Club@ダイナミックカントリークラブ,dynamiccc,Japan,1993-07-16,SEGA AM3,SEGA,#players:4:vs #genre:sports>golf #addon:megacd:backupramcart:segatap #save:backup #port:arcade #lang:ja
-Earnest Evans,Earnest Evans,earnestevans,Japan,1991-12-20,Wolf Team,Wolf Team,#players:1 #genre:action:platformer #addon:megacd #lang:ja
-Earthworm Jim: Special Edition,Earthworm Jim: Special Edition,earthwormjim,Europe,1995-06,Shiny/Tommy Tallarico Studios,Interplay,#players:1 #genre:action:platformer #addon:megacd #save:password #port:megadrive #lang:en
 Earthworm Jim: Special Edition,Earthworm Jim: Special Edition,earthwormjim,USA,1995-04,Shiny/Tommy Tallarico Studios,Interplay,#players:1 #genre:action:platformer #addon:megacd #save:password #port:megadrive #lang:en
-Ecco,Ecco the Dolphin,eccothedolphin,Australia,,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #port:megadrive #save:password #lang:en
-Ecco,Ecco the Dolphin,eccothedolphin,Europe,1993-11-05,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #port:megadrive #save:password #lang:en
-Ecco,Ecco the Dolphin,eccothedolphin,Europe,,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #port:megadrive #reboxed #save:password #lang:en
 Ecco,Ecco the Dolphin,eccothedolphin,USA,1993-07,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #port:megadrive #save:password #lang:en
 Ecco,SEGA Classics Arcade Collection / Ecco the Dolphin,eccothedolphin,USA,1993,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #save:password #multigame:compilation #reboxed #lang:en
-Ecco,Ecco the Dolphin CD,eccothedolphin,Japan,1995-02-24,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #save:password #disc:1>2 #multigame:compilation #lang:ja
-Ecco: The Tides of Time,Ecco the Dolphin CD,eccothetidesoftime,Japan,1995-02-24,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #save:password #disc:2>2 #multigame:compilation #lang:ja
-Ecco: The Tides of Time,Ecco: The Tides of Time,eccothetidesoftime,Europe,1995-06,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #save:password #lang:en:fr:de:es
 Ecco: The Tides of Time,Ecco: The Tides of Time,eccothetidesoftime,USA,1994-11,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #save:password #lang:en
 Ecco: The Tides of Time,Ecco: The Tides of Time,eccothetidesoftime,USA,1994-11,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #save:password #lang:en #alt
-Egawa Suguru no Super League CD@江川卓のSuper League CD,Egawa Suguru no Super League CD@江川卓のSuper League CD 江川卓のスーパー・リーグCD,egawasugurunosuperleaguecd,Japan,1993-08-06,SEGA,SEGA,#players:8:coop:vs #genre:sports>baseball #addon:megacd:backupramcart:segatap #save:backup #offical:sports #endorsed:celeb #lang:ja
-ESPN Baseball Tonight,ESPN Baseball Tonight,espnbaseballtonight,Europe,1994,Sony Imagesoft,Sony Imagesoft,#players:2:vs #genre:sports>baseball #addon:megacd #port:megadrive #based #official:sports #lang:en
 ESPN Baseball Tonight,ESPN Baseball Tonight,espnbaseballtonight,USA,1994-10,Sony Imagesoft,Sony Imagesoft,#players:2:vs #genre:sports>baseball #addon:megacd #port:megadrive #based #official:sports #lang:en
 ESPN National Hockey Night,ESPN National Hockey Night,espnnationalhockeynight,USA,1994-11,Sony Imagesoft,Sony Imagesoft,#players:4:coop:vs #genre:sports>hockey #addon:megacd:segatap #save:backup #port:megadrive #based #official:sports #lang:en
 ESPN NBA Hangtime '95 / ESPN 2on2 Basketball World Tour,ESPN NBA Hangtime '95,espnnbahangtime95,USA,1994,Sony Imagesoft,Sony Imagesoft,#players:4:coop:vs #genre:sports>basketball #addon:megacd:segatap #official:sports #lang:en
 ESPN Sunday Night NFL,ESPN Sunday Night NFL,espnsundaynightnfl,USA,1994-11,Sony Imagesoft/Ringler/Absolute,Sony Imagesoft,#players:2:vs #genre:sports>football #addon:megacd #port:megadrive #based #official:sports #lang:en
-Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道　悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,Europe,1995-05,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:megacd:6button #save:backup #port:megadrive #lang:en
-Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道　悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,Europe,,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:megacd:6button #save:backup #port:megadrive #lang:en #unfinished:beta
-Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道　悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,USA,1995-06-06,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:megacd:6button #save:backup #port:megadrive #lang:en
-Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道　悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,USA,,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:megacd:6button #save:backup #port:megadrive #lang:en #rev:1
-Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道　悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,USA,,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:megacd:6button #save:backup #port:megadrive #lang:en #unfinished:beta
-Eye of the Beholder,Eye of the Beholder,eyeofthebeholder,Europe,1994-12,Opera House,FCI,#players:1 #genre:dungeoncrawler:rpg #addon:megacd:backupramcart:mouse>md #save:backup #port:pc #based $dnd #lang:en
-Eye of the Beholder,Eye of the Beholder,eyeofthebeholder,Japan,1994-04-22,Opera House,Pony Canyon,#players:1 #genre:dungeoncrawler:rpg #addon:megacd:backupramcart:mouse>md #save:backup #port:pc #based $dnd #lang:ja
+Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道 悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,USA,1995-06-06,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:megacd:6button #save:backup #port:megadrive #lang:en
+Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道 悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,USA,,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:megacd:6button #save:backup #port:megadrive #lang:en #rev:1
 Eye of the Beholder,Eye of the Beholder,eyeofthebeholder,USA,1994-08,Opera House,FCI,#players:1 #genre:dungeoncrawler:rpg #addon:megacd:backupramcart:mouse>md #save:backup #port:pc #based $dnd #lang:en
-F1 Circus CD,F1 Circus CD@F1 Circus CD エフワン　サーカス　シーディー,f1circuscd,Japan,1994-03-18,Cream,Nichibutsu,#players:2:vs #genre:racing:sports>formula1 #addon:megacd:backupramcart #save:backup:password #based #official:sports #lang:ja
-Fahrenheit,Fahrenheit,fahrenheit,Europe,1995-05,SEGA/TLA,SEGA,#players:1 #genre:adventure #addon:megacd #lang:en
-Fahrenheit,Fahrenheit,fahrenheit,France,1995-05,SEGA/TLA,SEGA,#players:1 #genre:adventure #addon:megacd #lang:fr
-Fahrenheit,Fahrenheit@Fahrenheit ファーレンハイト,fahrenheit,Japan,1995-09-01,SEGA/TLA,SEGA,#players:1 #genre:adventure #addon:megacd #lang:ja
 Fahrenheit,Fahrenheit,fahrenheit,USA,1995-04,SEGA/TLA,SEGA,#players:1 #genre:adventure #addon:megacd #disc:1>2 #lang:en
 Fahrenheit,Fahrenheit,fahrenheit,USA,1995-04,SEGA/TLA,SEGA,#players:1 #genre:adventure #addon:megacd:super32x #disc:2>2 #lang:en
-Fatal Fury Special,Fatal Fury Special,garoudensetsuspecial,Europe,1995-07,Funcom,JVC,#players:2:vs #genre:fighting #addon:megacd:6button #port:arcade #lang:en
-Fatal Fury Special,Fatal Fury Special,garoudensetsuspecial,Europe,,Funcom,JVC,#players:2:vs #genre:fighting #addon:megacd:6button #port:arcade #lang:en #unfinished:beta
-Fatal Fury Special,Fatal Fury Special,garoudensetsuspecial,Europe,,Funcom,JVC,#players:2:vs #genre:fighting #addon:megacd:6button #port:arcade #lang:en #unfinished:demo
 Fatal Fury Special,Fatal Fury Special,garoudensetsuspecial,USA,1995-06,Funcom,JVC,#players:2:vs #genre:fighting #addon:megacd:6button #port:arcade #lang:en
-FIFA International Soccer,FIFA International Soccer,fifa94,USA,1994,Extended Play,Electronic Arts,#players:4:coop>vs #genre:sports>soccer #addon:megacd:segatap #port:megadrive #endorsed:company #official:sports #lang:en:fr:de:es
-FIFA International Soccer,FIFA International Soccer: Championship Edition,fifa94,Europe,1994-06,Extended Play,Electronic Arts,#players:4:coop>vs #genre:sports>soccer #addon:megacd:segatap #port:megadrive #endorsed:company #official:sports #lang:en:fr:de:es
-FIFA International Soccer,FIFA International Soccer: Championship Edition,fifa94,Europe,,Extended Play,Electronic Arts,#players:4:coop>vs #genre:sports>soccer #addon:megacd:segatap #port:megadrive #endorsed:company #official:sports #lang:en #unfinished:demo
-FIFA International Soccer,FIFA International Soccer: Championship Edition,fifa94,Europe,,Extended Play,Electronic Arts,#players:4:coop>vs #genre:sports>soccer #addon:megacd:segatap #port:megadrive #endorsed:company #official:sports #lang:en #unfinished:demo>alt
-Final Fight CD,Final Fight CD,finalfight,Europe,1993-09,A-Wave/T's Music,SEGA,#players:2:coop #genre:brawler #addon:megacd #port:arcade #lang:en
-Final Fight CD,Final Fight CD@Final Fight CD ファイナルファイト CD,finalfight,Japan,1993-04-02,A-Wave/T's Music,SEGA,#players:2:coop #genre:brawler #addon:megacd #port:arcade #lang:ja
-Final Fight CD,Final Fight CD@Final Fight CD ファイナルファイト CD,finalfight,Japan,,A-Wave/T's Music,SEGA,#players:2:coop #genre:brawler #addon:megacd #port:arcade #lang:ja #rev:1
+FIFA International Soccer,FIFA International Soccer,fifa94,USA,1994,Extended Play,Electronic Arts,#players:4:coop:vs #genre:sports>soccer #addon:megacd:segatap #port:megadrive #endorsed:company #official:sports #lang:en:fr:de:es
 Final Fight CD,Final Fight CD,finalfight,USA,1993-06,A-Wave/T's Music,SEGA,#players:2:coop #genre:brawler #addon:megacd #port:arcade #lang:en
 Final Fight CD,Final Fight CD,finalfight,USA,1993-06,A-Wave/T's Music,SEGA,#players:2:coop #genre:brawler #addon:megacd #port:arcade #lang:en #alt:1
 Final Fight CD,Final Fight CD,finalfight,USA,1993-06,A-Wave/T's Music,SEGA,#players:2:coop #genre:brawler #addon:megacd #port:arcade #lang:en #alt:2
-Flashback,,flashback,Europe,1994,Delphine,U.S. Gold,#players:1 #genre:action:platformer #addon:megacd #port:megadrive #save:password #lang:en #unfinished:proto
 Flashback,Flashback: The Quest for Identity,flashback,USA,1994-11,Delphine,U.S. Gold,#players:1 #genre:action:platformer #addon:megacd #port:megadrive #save:password #lang:en
-The Misadventures of Flink,Flink,flink,Europe,1994,Psygnosis,Sony Electronic,#players:1 #genre:platformer #addon:megacd #port:megadrive #lang:en:fr:de:es:nl
 The Misadventures of Flink,Flink,flink,USA,1995-02,Psygnosis,VIC Tokai,#players:1 #genre:platformer #addon:megacd #port:megadrive #lang:en:fr:de:es:nl
-Force Striker,Burning Fists: Force Striker,burningfistsforcestriker,USA,2006,KAZe/SEGA CS3,Good Deal,#players:2:vs #genre:fighting #addon:megacd:6button #lang:en #unlicensed
-Formula One World Championship: Beyond the Limit,Formula One World Championship: Beyond the Limit,heavenlysymphony,Europe,1994-09,SEGA CS3/Fuji TV,SEGA,#players:1 #genre:racing:sports>formula1 #addon:megacd:backupramcart #save:backup #based #official:sports $sonic #lang:en
 Formula One World Championship: Beyond the Limit,Formula One World Championship: Beyond the Limit,heavenlysymphony,USA,1994-08,SEGA CS3/Fuji TV,SEGA,#players:1 #genre:racing:sports>formula1 #addon:megacd:backupramcart #save:backup #based #official:sports $sonic #lang:en
-Formula One World Championship 1993: Heavenly Symphony,Heavenly Symphony: Formula One World Championship 1993@Heavenly Symphony ヘブンリーシンフォニー Formula One World Championship 1993,heavenlysymphony,Japan,1994-04-23,SEGA CS3/Fuji TV,SEGA,#players:1 #genre:racing:sports>formula1 #addon:megacd:backupramcart #save:backup #based #official:sports $sonic #lang:ja
-Formula One World Championship 1993: Heavenly Symphony,Heavenly Symphony: Formula One World Championship 1993@Heavenly Symphony ヘブンリーシンフォニー Formula One World Championship 1993,heavenlysymphony,Japan,,SEGA CS3/Fuji TV,SEGA,#players:1 #genre:racing:sports>formula1 #addon:megacd:backupramcart #save:backup #based #official:sports $sonic #lang:ja #unfinished:sample
-Fresh Cleaner,Fresh Cleaner@Fresh Cleaner フレッシュクリーナー,freshcleaner,Japan,1993-10-08,Mumin,Mumin,#players:1 #genre:application #addon:megacd #lang:ja
-Gambler Jiko Chūshinha 2: Gekitō! Tokyo Mahjongland Hen@ぎゅわんぶらあ自己中心派2　激闘! 東京マージャンランド編,Gambler Jiko Chūshinha 2: Gekitō! Tokyo Mahjongland Hen@ぎゅわんぶらあ自己中心派2　激闘! 東京マージャンランド編,gamblerjikochuushinsha2gtmh,Japan,1992-12-18,Yellow Horn,Game Arts,#players:1 #genre:boards>mahjong:adventure #addon:megacd:backupramcart #save:backup #based:manganime #lang:ja
-Game no Kanzume Vol. 1@ゲームのかんづめ Vol. 1,Game no Kanzume: SEGA Games Can Vol. 1@ゲームのかんづめ　SEGA Games Can Vol.1,gamenokanzume1,Japan,1994-03-18,SEGA,SEGA,#players:2:vs #genre:action:platformer:puzzle:adventure #addon:megacd #port:megadrive #multigame:compilation #lang:ja
-Game no Kanzume Vol. 2@ゲームのかんづめ Vol. 2,Game no Kanzume: SEGA Games Can Vol. 2@ゲームのかんづめ　SEGA Games Can Vol.2,gamenokanzume2,Japan,1994-03-18,SEGA,SEGA,#players:2:vs #genre:action:platformer:puzzle:adventure #addon:megacd #port:megadrive #multigame:compilation #lang:ja
-Garō Densetsu Special@餓狼伝説 Special,Garō Densetsu Special@餓狼伝説 Special がろうでんせつスペシャル,garoudensetsuspecial,Japan,1995-03-31,Funcom,Victor,#players:2:vs #genre:fighting #addon:megacd:6button #port:arcade #lang:ja
-Gen'ei Toshi@幻影都市,Gen'ei Toshi: Illusion City@幻影都市　Illusion City,geneitoshi,Japan,1993-05-28,Aisystem Tokyo/Arrow,Micro Cabin,#players:1 #genre:rpg>j #addon:megacd:backupramcart #save:backup #port:msx #lang:ja
-Ground Zero Texas,Ground Zero Texas,groundzerotexas,Europe,1994-02-18,Digital Pictures,Sony Imagesoft,#players:1 #genre:shooting #addon:megacd #disc:1>2 #lang:en
-Ground Zero Texas,Ground Zero Texas,groundzerotexas,Europe,1994-02-18,Digital Pictures,Sony Imagesoft,#players:1 #genre:shooting #addon:megacd #disc:2>2 #lang:en
 Ground Zero Texas,Ground Zero Texas,groundzerotexas,USA,1993-11,Digital Pictures,Sony Imagesoft,#players:1 #genre:shooting #addon:megacd #disc:1>2 #lang:en
 Ground Zero Texas,Ground Zero Texas,groundzerotexas,USA,1993-11,Digital Pictures,Sony Imagesoft,#players:1 #genre:shooting #addon:megacd #disc:2>2 #lang:en
 Ground Zero Texas,Ground Zero Texas,groundzerotexas,USA,1993-11,Digital Pictures,Sony Imagesoft,#players:1 #genre:shooting #addon:megacd #disc:2>2 #lang:en #alt
 Heart of the Alien: Out of This World Part II,Heart of the Alien: Out of This World Parts I and II,heartofthealien,USA,1994-07,Interplay/Delphine,Virgin,#players:1 #genre:action #addon:megacd #save:password #port:amiga #multigame:compilation #lang:en
-Heavy Nova,Heavy Nova,heavynova,Japan,1991-12-12,Micronet,Micronet,#players:2:vs #genre:action:fighting #addon:megacd #port:x68000 #lang:en
-Heimdall,Heimdall@Heimdall ハイムドール,heimdall,Japan,1994-03-18,The 8th Day,Victor,#players:1 #genre:rpg #addon:megacd:backupramcart #save:backup #port:amiga #lang:ja
 Heimdall,Heimdall,heimdall,USA,1994-04,The 8th Day,JVC,#players:1 #genre:rpg #addon:megacd:backupramcart #save:backup #port:amiga #lang:en
-Hook,Hook,hook,Europe,1993-11-19,Core Design,Sony Imagesoft,#players:1 #genre:platformer #addon:megacd #based:movie #port:superfamicom #lang:en
 Hook,Hook,hook,USA,1993-08,Core Design,Sony Imagesoft,#players:1 #genre:platformer #addon:megacd #based:movie #port:superfamicom #lang:en
-Hook,3 Ninjas Kick Back / Hook Bundle,hook,USA,,Core Design,Sony Imagesoft,#players:1 #genre:platformer #addon:megacd #based:movie #port:superfamicom #multigame:compilation #lang:en #alt
+Hook,3 Ninjas Kick Back / Hook Bundle,hook,USA,,Core Design,Sony Imagesoft,#players:1 #genre:platformer #addon:megacd #based:movie #port:superfamicom #multigame:compilation #reboxed #lang:en
 Iron Helix,Iron Helix,ironhelix,USA,1994-09,Brian A. Rice,Spectrum Holobyte,#players:1 #genre:adventure:survivalhorror #addon:megacd #save:backup #port:pc #lang:en
-Ishii Hisaichi no Daiseikai@いしいひさいちの大政界,Ishii Hisaichi no Daiseikai@いしいひさいちの大政界,ishiihisaichinodaiseikai,Japan,1994-01-28,G-Sat/T's Music,SEGA,#players:1 #genre:strategy #addon:megacd:backupramcart #save:backup #based:manganime #lang:ja
-Jaguar XJ220,Jaguar XJ220,jaguarxj220,Europe,1993-09,Core Design,SEGA,#players:2:vs #genre:racing #addon:megacd:backupramcart #save:backup #port:amiga #endorsed:company #lang:en:ja
-Jaguar XJ220,Jaguar XJ220,jaguarxj220,Japan,1993-03-26,Core Design,Victor,#players:2:vs #genre:racing #addon:megacd:backupramcart #save:backup #port:amiga #endorsed:company #lang:en:ja
 Jaguar XJ220,Jaguar XJ220,jaguarxj220,USA,1993-04,Core Design,JVC,#players:2:vs #genre:racing #addon:megacd:backupramcart #save:backup #port:amiga #endorsed:company #lang:en
-Jangō World Cup@雀豪ワールドカップ,Jangō World Cup@雀豪ワールドカップ,jangouworldcup,Japan,1993-08-27,Victor,Victor,#players:1 #genre:board>mahjong:shmup #addon:megacd:backupramcart #save:backup #lang:ja
 Jeopardy!,Jeopardy!,jeopardycd,USA,1994-11,Absolute,Sony Imagesoft,#players:3:vs #genre:quiz:board #addon:megacd:segatap #based #lang:en
 Joe Montana's NFL Football,Joe Montana's NFL Football,joemontanasnflfootball,USA,1993-10,Malibu,SEGA,#players:2:vs #genre:sports>football #addon:megacd #endorsed:celeb #official:sports #lang:en
 Joe Montana's NFL Football,Joe Montana's NFL Football (SEGA Sports System),joemontanasnflfootball,USA,,Malibu,SEGA,#players:2:vs #genre:sports>football #addon:megacd #endorsed:celeb #official:sports #lang:en
-Johnny Mnemonic,Johnny Mnemonic,johnnymnemonic,USA,2012,Sony Imagesoft,Good Deal,#players:1 #genre:adventure #addon:megacd #disc:1>2 #based:movie #port:pc #lang:en #unlicensed
-Johnny Mnemonic,Johnny Mnemonic,johnnymnemonic,USA,2012,Sony Imagesoft,Good Deal,#players:1 #genre:adventure #addon:megacd #disc:2>2 #based:movie #port:pc #lang:en #unlicensed
+Jurassic Park,Jurassic Park,jurassicparkcd,USA,1993-12,SEGA Multimedia,SEGA,#players:1 #genre:adventure:pointandclick:educational #addon:megacd:backupramcart #save:backup #based:movie $jurassicpark #endorsed:celeb #lang:en
+Keio Flying Squadron@慶応遊撃隊 Keio Flying Squadron,Keio Flying Squadron@Keio Flying Squadron 慶応遊撃隊,keiouyuugekitai,USA,1995-02,Victor,JVC,#players:1 #genre:shmup>h #addon:megacd #lang:en
+Kids on Site,Kids on Site,kidsonsite,USA,1994-11,Digital Pictures,Digital Pictures,#players:1 #genre:adventure #addon:megacd #lang:en
+Lethal Enforcers,Lethal Enforcers,lethalenforcers,USA,1993-11,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #lang:en
+Lethal Enforcers,Lethal Enforcers,lethalenforcers,USA,1993-11,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #lang:en #alt
+Lethal Enforcers II: Gun Fighters,Lethal Enforcers II: Gun Fighters,lethalenforcers2thewestern,USA,1994-11-24,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #lang:en
+Links,Links: The Challenge of Golf,linksthechallengeofgolf,USA,1994-09,Access/Papyrus,Virgin,#players:6:vs #genre:sports>golf #addon:megacd:teevgolf:mouse>md #save:backup #port:pc #lang:en
+Links,Links: The Challenge of Golf,linksthechallengeofgolf,USA,,Access/Papyrus,Virgin,#players:6:vs #genre:sports>golf #addon:megacd:teevgolf:mouse>md #save:backup #port:pc #lang:en #rev:1
+Loadstar: The Legend of Tully Bodine,Loadstar: The Legend of Tully Bodine,loadstarthelegendoftullybodine,USA,1994-11,Rocket Science,Rocket Science,#players:1 #genre:shooting #addon:megacd:6button #save:backup #lang:en
+Lords of Thunder,Lords of Thunder,windsofthunder,USA,1995-03-28,Eleven/T's Music,SEGA,#players:1 #genre:shmup>h #addon:megacd #port:cdrom2 #lang:en
+Lunar: The Silver Star,Lunar: The Silver Star,lunarthesilverstar,USA,1993-12,Game Arts/Studio Alex/Cube,Working Designs,#players:1 #genre:rpg>j #addon:megacd:backupramcart #save:backup #lang:en
+Lunar: The Silver Star,Lunar: The Silver Star,lunarthesilverstar,USA,,Game Arts/Studio Alex/Cube,Working Designs,#players:1 #genre:rpg>j #addon:megacd:backupramcart #save:backup #lang:en #rev:1
+Lunar: Eternal Blue,Lunar: Eternal Blue,lunareternalblue,USA,1995-09,Game Arts/Studio Alex/Cube,Working Designs,#players:1 #genre:rpg>j #addon:megacd:backupramcart #save:backup #lang:en
+Mad Dog McCree,Mad Dog McCree,maddogmccree,USA,1993,American Laser Games,American Laser Games,#players:2:coop #genre:shooting #addon:megacd:menacer:justifier:gamegun:mouse>md $lightgun #port:arcade #lang:en
+Mad Dog II: The Lost Gold,Mad Dog II: The Lost Gold,maddog2thelostgold,USA,1994,American Laser Games,American Laser Games,#players:2:coop #genre:shooting #addon:megacd:menacer:justifier:gamegun:mouse>md $lightgun #port:arcade #lang:en
+Make My Video: C+C Music Factory,Power Factory Featuring C+C Music Factory,powerfactory,USA,1993-09,Digital Pictures,Sony Imagesoft,#players:1 #genre:application:marketing #addon:megacd #endorsed:celeb #lang:en
+Make My Video: INXS,Make My Video: INXS,makemyvideoinxs,USA,1993-01,Digital Pictures,SEGA,#players:1 #genre:application:marketing #addon:megacd #endorsed:celeb #lang:en
+Make My Video: Kris Kross,Kris Kross,makemyvideokriskross,USA,1992-12,Digital Pictures,Sony Imagesoft,#players:1 #genre:application:marketing #addon:megacd #endorsed:celeb #lang:en
+Make My Video: Marky Mark and the Funky Bunch,Make My Video: Marky Mark and the Funky Bunch,makemyvideomarkymarkandthefunkybunch,USA,1993-01,Digital Pictures,SEGA,#players:1 #genre:application:marketing #addon:megacd #endorsed:celeb #lang:en
+Mansion of Hidden Souls,Mansion of Hidden Souls,yumemiyakatanomonogatari,USA,1994-02,System Sacom/SEGA CS/DMP,VIC Tokai,#players:1 #genre:adventure #addon:megacd:backupramcart:mouse>md #save:backup #lang:en
+Mary Shelley's Frankenstein,Mary Shelley's Frankenstein / Bram Stoker's Dracula,maryshelleysfrankensteincd,USA,,Psygnosis,Sony Imagesoft,#players:1 #genre:adventure:fighting #addon:megacd #save:backup #based:movie #multigame:compilation #lang:en
+MegaRace,MegaRace,megarace,USA,1994-12,CRYO,The Software Toolworks,#players:1 #genre:racing>combat #addon:megacd #port:pc #lang:en
+Mickey Mania: The Timeless Adventures of Mickey Mouse,Mickey Mania: The Timeless Adventures of Mickey Mouse,mickeymaniattaomm,USA,1994-11,Traveller's Tales/Psygnosis,Sony Imagesoft/Disney,#players:1 #genre:platformer #addon:megacd #port:megadrive #based $disney $mickey #lang:en
+Midnight Raiders,Midnight Raiders,midnightraiders,USA,1994-10,Stargate,SEGA,#players:1 #genre:shooting #addon:megacd #lang:en
+Mighty Morphin Power Rangers@Saban's Mighty Morphin Power Rangers,Mighty Morphin Power Rangers@Saban's Mighty Morphin Power Rangers,mightymorphinpowerrangerscd,USA,1994-11,Orion,SEGA,#players:1 #genre:action #addon:megacd #based #lang:en
+Mortal Kombat,Mortal Kombat,mortalkombat,USA,1994-04,Probe/Grey Team,Arena,#players:2:vs #genre:fighting #addon:megacd:6button #port:arcade #lang:en
+Multi Entertainment System X'Eye,What is X'Eye Multi Entertainment System,whatisxeye,USA,1994,JVC,JVC,#players:1 #genre:marketing #addon:megacd #lang:en
+My Paint,My Paint: The Animated Paint Program,mypaint,USA,1994,WayForward,Saddleback Graphics,#players:1 #genre:drawing:application #addon:megacd:mouse>md #port:amiga #lang:en
+NBA Jam,NBA Jam,nbajam,USA,1994-12,Iguana,Acclaim,#players:4:coop:vs #genre:sports>basketball #addon:megacd:segatap #save:backup #port:arcade:megadrive #official:sports #lang:en
+NFL Football Trivia Challenge,NFL Football Trivia Challenge,nflfootballtriviachallenge,USA,1994-11,CapDisc/Philips,CapDisc,#players:2:vs #genre:quiz:board:sports>football #addon:megacd #official:sports #lang:en
+NFL's Greatest: San Francisco vs. Dallas,NFL's Greatest: San Francisco vs. Dallas 1978-1993,nflsgreatestsanfranciscovsdallas,USA,1993-10,Park Place,SEGA,#players:2:vs #genre:sim:sports>football #addon:megacd #official:sports #lang:en
+NHL Hockey '94,NHL '94,nhlhockey94,USA,1993,High Score,Electronic Arts,#players:4:coop:vs #genre:sports>hockey #addon:megacd:4wayplay #official:sports #lang:en
+Night Trap,Night Trap,nighttrap,USA,1992-11,Digital Pictures/Hasbro,SEGA,#players:1 #genre:adventure #addon:megacd #disc:1>2 #lang:en
+Night Trap,Night Trap,nighttrap,USA,1992-11,Digital Pictures/Hasbro,SEGA,#players:1 #genre:adventure #addon:megacd #disc:1>2 #lang:en #alt
+Night Trap,Night Trap,nighttrap,USA,1992-11,Digital Pictures/Hasbro,SEGA,#players:1 #genre:adventure #addon:megacd #disc:2>2 #lang:en
+Night Trap,Night Trap,nighttrap,USA,1995-01,Digital Pictures/Hasbro,Digital Pictures,#players:1 #genre:adventure #addon:megacd #disc:1>2 #reboxed #lang:en
+Night Trap,Night Trap,nighttrap,USA,1995-01,Digital Pictures/Hasbro,Digital Pictures,#players:1 #genre:adventure #addon:megacd #disc:1>2 #reboxed #lang:en #alt
+Night Trap,Night Trap,nighttrap,USA,1995-01,Digital Pictures/Hasbro,Digital Pictures,#players:1 #genre:adventure #addon:megacd #disc:2>2 #reboxed #lang:en
+Night Trap,Night Trap,nighttrap,USA,1995-01,Digital Pictures/Hasbro,Digital Pictures,#players:1 #genre:adventure #addon:megacd #disc:2>2 #reboxed #lang:en #alt
+Night Trap,Night Trap,nighttrap,USA,1995-01,Digital Pictures/Hasbro,Digital Pictures,#players:1 #genre:adventure #addon:megacd:super32x #disc:1>2 #lang:en
+Night Trap,Night Trap,nighttrap,USA,1995-01,Digital Pictures/Hasbro,Digital Pictures,#players:1 #genre:adventure #addon:megacd:super32x #disc:2>2 #lang:en
+Novastorm,Novastorm,novastorm,USA,1995-02,Psygnosis,Psygnosis,#players:1 #genre:railshooter #addon:megacd #save:backup #lang:en
+Panic!,Panic!,switch,USA,1993-04-23,SEGA CS3/SEGA CS2/SEGA CS1,Data East,#players:1 #genre:educational #addon:megacd:backupramcart:mouse>md #save:backup #lang:en
+Pitfall: The Mayan Adventure,Pitfall: The Mayan Adventure,pitfallthemayanadventure,USA,1994-12,Activision/Freestyle/Krisalis,Activision,#players:1 #genre:action:platformer #addon:megacd:6button #lang:en
+PopfulMail,PopfulMail: Magical Fantasy Adventure,popfulmail,USA,1995-02-23,SEGA FALCOM,Working Designs,#players:1 #genre:rpg>a:action #addon:megacd:backupramcart #save:backup #port:pc88 #lang:en
+PowerMonger,Power Monger,powermonger,USA,1994-01,Sprytes,Electronic Arts,#players:1 #genre:strategy #addon:megacd #port:amiga:megadrive #save:backup #lang:en
+Prime,Ultraverse Prime / Microcosm,ultraverseprime,USA,1994-12,Malibu,Sony Imagesoft,#players:1 #genre:brawler #addon:megacd #multigame:compilation #based #lang:en
+Prince of Persia,Prince of Persia,princeofpersia,USA,1992-11,Bits Laboratory,SEGA,#players:1 #genre:action #addon:megacd #save:backup #port:apple2 #lang:en
+Prize Fighter,Prize Fighter,prizefighter,USA,1993-12,Digital Pictures,SEGA,#players:1 #genre:fighting:sports>boxing #addon:megacd:6button #save:backup #disc:1>2 #lang:en
+Prize Fighter,Prize Fighter,prizefighter,USA,1993-12,Digital Pictures,SEGA,#players:1 #genre:fighting:sports>boxing #addon:megacd:6button #save:backup #disc:2>2 #lang:en
+Prize Fighter,Prize Fighter,prizefighter,USA,,Digital Pictures,JVC,#players:1 #genre:fighting:sports>boxing #addon:megacd:6button #save:backup #disc:1>2 #reboxed:xeye #lang:en
+Prize Fighter,Prize Fighter,prizefighter,USA,,Digital Pictures,JVC,#players:1 #genre:fighting:sports>boxing #addon:megacd:6button #save:backup #disc:2>2 #reboxed:xeye #lang:en
+Puggsy,Puggsy,puggsy,USA,1994-01-06,Traveller's Tales,Psygnosis,#players:1 #genre:platformer:puzzle #addon:megacd #port:megadrive #lang:en
+Racing Aces,Racing Aces,racingaces,USA,1993-12,Hammond & Leyland,SEGA,#players:1 #genre:racing>combat #addon:megacd #save:backup #lang:en
+Radical Rex,Radical Rex,radicalrex,USA,1994-11,Beam,Activision,#players:2:alt #genre:platformer #addon:megacd #port:superfamicom #lang:en
+RDF: Global Conflict,RDF: Global Conflict,rdfglobalconflict,USA,1994-11,Imagineering,Absolute,#players:1 #genre:shooter #addon:megacd #save:backup #lang:en
+Revenge of the Ninja,Revenge of the Ninja,ninjahayate,USA,1994-03,Wolf Team,Renovation,#players:1 #genre:action #addon:megacd #port:arcade #lang:en
+Revengers of Vengeance,Revengers of Vengeance,battlefantasy,USA,1994-07,Micronet,Extreme,#players:2:vs #genre:fighting #addon:megacd #lang:en
+Rise of the Dragon: A Blade Hunter Mystery,Rise of the Dragon,riseofthedragonabladehuntermystery,USA,1994-03,Game Arts/Bits Laboratory,SEGA,#players:1 #genre:adventure #addon:megacd:backupramcart #save:backup #lang:en
+Rise of the Dragon: A Blade Hunter Mystery,Rise of the Dragon,riseofthedragonabladehuntermystery,USA,,Game Arts/Bits Laboratory,Dynamix,#players:1 #genre:adventure #addon:megacd:backupramcart #save:backup #reboxed #lang:en
+Road Avenger,Road Avenger,roadblaster,USA,1993-02,Wolf Team,Renovation,#players:1 #genre:action:racing #addon:megacd #port:arcade #lang:en
+Road Rash,Road Rash,roadrash3do,USA,1995-04,Monkey Do/New Level,Electronic Arts,#players:2:vs #genre:racing>combat #addon:megacd #port:3do #lang:en
+Robo Aleste,Robo Aleste,denninalestenobunagaandhisninjaforce,USA,1993-08,Compile,Tengen,#players:1 #genre:shmup>v #addon:megacd #lang:en
+Samurai Shodown,Samurai Shodown,samuraispirits,USA,1995-02,Funcom,JVC,#players:2:vs #genre:fighting #addon:megacd:6button #port:arcade #lang:en
+SEGA Classics Arcade Collection,SEGA Classics Arcade Collection / Sherlock Holmes: Consulting Detective,segaclassicarcadecollection,USA,1992-11,SEGA,SEGA,#players:2:coop:vs #genre:brawler:action:puzzle>drop #addon:megacd #port:megadrive #multigame:compilation #lang:en
+SEGA Classics Arcade Collection,SEGA Classics Arcade Collection / Sherlock Holmes: Consulting Detective,segaclassicsarcadecollection,USA,1993,SEGA,SEGA,#players:2:coop:vs #genre:brawler:racing:sports>formula1:action:puzzle>drop #addon:megacd #port:megadrive #multigame:compilation #lang:en
+SEGA Classics Arcade Collection,SEGA Classics Arcade Collection / Ecco The Dolphin,segaclassicsarcadecollection,USA,1993,SEGA,SEGA,#players:2:coop:vs #genre:brawler:racing:sports>formula1:action:puzzle>drop #addon:megacd #port:megadrive #multigame:compilation #lang:en
+Sewer Shark,Sewer Shark,sewershark,USA,1993,Digital Pictures,Sony Imagesoft,#players:1 #genre:shooting #addon:megacd #reboxed #lang:en
+Sewer Shark,Sewer Shark,sewershark,USA,1993,Digital Pictures,Sony Imagesoft,#players:1 #genre:shooting #addon:megacd #reboxed #lang:en #alt:1
+Sewer Shark,Sewer Shark,sewershark,USA,1993,Digital Pictures,Sony Imagesoft,#players:1 #genre:shooting #addon:megacd #reboxed #lang:en #alt:2
+Sewer Shark,Sewer Shark,sewershark,USA,1992-11,Digital Pictures,Sony Imagesoft,#players:1 #genre:shooting #addon:megacd #lang:en
+Sewer Shark,Sewer Shark,sewershark,USA,1992-11,Digital Pictures,Sony Imagesoft,#players:1 #genre:shooting #addon:megacd #lang:en #rev:1
+Shadow of the Beast II,Shadow of the Beast II,shadowofthebeast2,USA,1994,Digital Developments,Psygnosis,#players:1 #genre:action #addon:megacd #port:amiga #lang:en
+Sherlock Holmes: Consulting Detective Vol.I,SEGA Classics Arcade Collection / Sherlock Holmes: Consulting Detective,sherlockholmesconsultingdetective,USA,1992-11,ICOM Simulations,SEGA,#players:1 #genre:adventure #addon:megacd #save:backup $sherlock #lang:en #multigame:compilation #lang:en
+Sherlock Holmes: Consulting Detective Vol.II,Sherlock Holmes: Consulting Detective,sherlockholmesconsultingdetective2,USA,1993-06,ICOM Simulations,SEGA,#players:1 #genre:adventure #addon:megacd #save:backup #disc:1>2 $sherlock #lang:en
+Sherlock Holmes: Consulting Detective Vol.II,Sherlock Holmes: Consulting Detective,sherlockholmesconsultingdetective2,USA,1993-06,ICOM Simulations,SEGA,#players:1 #genre:adventure #addon:megacd #save:backup #disc:2>2 $sherlock #lang:en
+Shining Force CD,Shining Force CD,shiningforcecd,USA,1995-03,Seraphic/Rit's/Winds,SEGA,#players:1 #genre:rpg>s #addon:megacd:backupramcart #save:backup #remake:gamegear #multigame:compilation #lang:en
+Shining Force CD,Shining Force CD,shiningforcecd,USA,1995-03,Seraphic/Rit's/Winds,SEGA,#players:1 #genre:rpg>s #addon:megacd:backupramcart #save:backup #remake:gamegear #multigame:compilation #lang:en #alt
+Silpheed,Silpheed,silpheed,USA,1993-10,Game Arts/Mecano,SEGA,#players:1 #genre:shmup>v #addon:megacd #remake:pc88 #lang:en
+Slam City with Scottie Pippen: Fingers,Slam City with Scottie Pippen,slamcitywithscottiepippen,USA,1994-11,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd #save:backup #disc:1>4 #endorsed:celeb #lang:en
+Slam City with Scottie Pippen: Juice,Slam City with Scottie Pippen,slamcitywithscottiepippen,USA,1994-11,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd #save:backup #disc:2>4 #endorsed:celeb #lang:en
+Slam City with Scottie Pippen: Mad Dog,Slam City with Scottie Pippen,slamcitywithscottiepippen,USA,1994-11,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd #save:backup #disc:3>4 #endorsed:celeb #lang:en
+Slam City with Scottie Pippen: Smash,Slam City with Scottie Pippen,slamcitywithscottiepippen,USA,1994-11,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd #save:backup #disc:4>4 #endorsed:celeb #lang:en
+Slam City with Scottie Pippen: Fingers,Slam City with Scottie Pippen,slamcitywithscottiepippen,USA,1994-11,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd:super32x #save:backup #disc:1>4 #endorsed:celeb #lang:en
+Slam City with Scottie Pippen: Juice,Slam City with Scottie Pippen,slamcitywithscottiepippen,USA,1994-11,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd:super32x #save:backup #disc:2>4 #endorsed:celeb #lang:en
+Slam City with Scottie Pippen: Mad Dog,Slam City with Scottie Pippen,slamcitywithscottiepippen,USA,1994-11,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd:super32x #save:backup #disc:3>4 #endorsed:celeb #lang:en
+Slam City with Scottie Pippen: Smash,Slam City with Scottie Pippen,slamcitywithscottiepippen,USA,1994-11,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd:super32x #save:backup #disc:4>4 #endorsed:celeb #lang:en
+Snatcher@Cyberpunk Adventure: Snatcher,Snatcher,snatcher,USA,1994-12,Konami,Konami,#players:1 #genre:adventure:shooting #addon:megacd:backupramcart:justifier:rss #save:backup #port:pc88 #lang:en
+Sol-Feace,Sol-Feace,solfeace,USA,1992-11,Wolf Team,SEGA,#players:1 #genre:shmup>h #addon:megacd #port:x68000 #lang:en
+Sol-Feace,Sol-Feace,solfeace,USA,,Wolf Team,SEGA,#players:1 #genre:shmup>h #addon:megacd #port:x68000 #lang:en #rev:1
+Sonic The Hedgehog CD,Sonic CD,sonicthehedgehogcd,USA,1993-11-23,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en
+Sonic The Hedgehog CD,Sonic CD,sonicthehedgehogcd,USA,1993-11-23,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en #alt:1
+Sonic The Hedgehog CD,Sonic CD,sonicthehedgehogcd,USA,1993-11-23,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en #alt:2
+SoulStar,SoulStar,soulstar,USA,1994-09,Core Design,Core Design,#players:2:coop #genre:railshooter:shmup #addon:megacd:6button #lang:en
+Space Ace,Space Ace,spaceace,USA,1994-12,ReadySoft,ReadySoft,#players:1 #genre:action #addon:megacd #port:arcade #lang:en
+Spider-Man vs. Kingpin,The Amazing Spider-Man vs. The Kingpin,theamazingspidermanvsthekingpin,USA,1993-09,SEGA/Foley Hi-Tech,SEGA,#players:1 #genre:action:platformer #addon:megacd #save:password #port:megadrive #based $marvel $spiderman #lang:en
+Spider-Man vs. Kingpin,The Amazing Spider-Man vs. The Kingpin,theamazingspidermanvsthekingpin,USA,,SEGA/Foley Hi-Tech,SEGA,#players:1 #genre:action:platformer #addon:megacd #save:password #port:megadrive #based $marvel $spiderman #lang:en #rev:1
+Star Wars: Rebel Assault,Star Wars: Rebel Assault,rebelassault,USA,1994-03,LucasArts,JVC,#players:1 #genre:railshooter:shooting #addon:megacd #save:password #port:pc #based $starwars #lang:en
+Star Wars: Rebel Assault,Star Wars: Rebel Assault,rebelassault,USA,2020-02-28,LucasArts,Limited Run,#players:1 #genre:railshooter:shooting #addon:megacd #save:password #port:pc #based $starwars #lang:en #reboxed:limitedrun
+StarBlade,StarBlade,starblade,USA,1994-09,Technosoft,NAMCO,#players:1 #genre:shooting #addon:megacd:backupramcart:xe1ap:mouse>md #save:backup #port:arcade #lang:en
+Stellar-Fire,Stellar-Fire,stellarfire,USA,1993-12,Infinite Laser Dog,Dynamix,#players:1 #genre:shooter #addon:megacd #lang:en
+Supreme Warrior@Supreme Warrior 英雄,Supreme Warrior: Ying Heung (Fire & Earth)@Supreme Warrior 英雄 Ying Heung (Fire & Earth),supremewarrior,USA,1994-11,Digital Pictures,Digital Pictures,#players:1 #genre:action:fighting #addon:megacd:6button #disc:1>2 #save:backup #lang:en:ch
+Supreme Warrior@Supreme Warrior 英雄,Supreme Warrior: Ying Heung (Fire & Earth)@Supreme Warrior 英雄 Ying Heung (Fire & Earth),supremewarrior,USA,1994-11,Digital Pictures,Digital Pictures,#players:1 #genre:action:fighting #addon:megacd:6button #disc:1>2 #save:backup #lang:en:ch #alt
+Supreme Warrior@Supreme Warrior 英雄,Supreme Warrior: Ying Heung (Wind & Fang Tu)@Supreme Warrior 英雄 Ying Heung (Wind & Fang Tu),supremewarrior,USA,1994-11,Digital Pictures,Digital Pictures,#players:1 #genre:action:fighting #addon:megacd:6button #disc:2>2 #save:backup #lang:en:ch
+Supreme Warrior@Supreme Warrior 英雄,Supreme Warrior: Ying Heung (Fire & Earth)@Supreme Warrior 英雄 Ying Heung (Fire & Earth),supremewarrior,USA,1994,Digital Pictures,Digital Pictures,#players:1 #genre:action:fighting #addon:megacd:super32x:6button #disc:1>2 #save:backup #lang:en:ch
+Supreme Warrior@Supreme Warrior 英雄,Supreme Warrior: Ying Heung (Wind & Fang Tu)@Supreme Warrior 英雄 Ying Heung (Wind & Fang Tu),supremewarrior,USA,1994,Digital Pictures,Digital Pictures,#players:1 #genre:action:fighting #addon:megacd:super32x:6button #disc:2>2 #save:backup #lang:en:ch
+Surgical Strike,Surgical Strike,surgicalstrike,USA,1995-06,The Code Monkeys/Stargate Films,SEGA,#players:1 #genre:shooting #addon:megacd #save:backup #lang:en
+Surgical Strike,Surgical Strike,surgicalstrike,USA,1995-06,The Code Monkeys/Stargate Films,SEGA,#players:1 #genre:shooting #addon:megacd #save:backup #lang:en #alt
+The Adventures of Batman & Robin,The Adventures of Batman & Robin,theadventuresofbatmanandrobincd,USA,1995-07,Clockwork Tortoise,SEGA,#players:1 #genre:racing:action #addon:megacd #based $batman #lang:en
+The Adventures of Willy Beamish,The Adventures of Willy Beamish,theadventuresofwillybeamish,USA,1993-03,Infinite Laser Dog,SEGA,#players:1 #genre:adventure #addon:megacd #save:backup #port:pc #lang:en
+The Adventures of Willy Beamish,The Adventures of Willy Beamish,theadventuresofwillybeamish,USA,1993-03,Infinite Laser Dog,SEGA,#players:1 #genre:adventure #addon:megacd #save:backup #port:pc #lang:en #alt
+The Animals!@The San Diego Zoo Presents... The Animals!,The Animals!@The San Diego Zoo Presents... The Animals!,theanimals,USA,1994-07,Arnowitz,The Software Toolworks,#players:1 #genre:educational #addon:megacd #endorsed:company #lang:en
+The Colors of Modern Rock,The Colors of Modern Rock,thecolorsofmodernrock,USA,1993,Digital Pictures,SEGA,#players:1 #genre:application:media #addon:megacd #promo #lang:en
+The Lawnmower Man,The Lawnmower Man,thelawnmowermancd,USA,1994,SCi/Online Entertainment,SCi/Time Warner,#players:1 #genre:action:puzzle #addon:megacd #based:movie #lang:en
+The Masked Rider: Kamen Rider ZO,The Masked Rider: Kamen Rider ZO,kamenriderzo,USA,1994-12,Wolf Team,SEGA,#players:1 #genre:action:adventure #addon:megacd #based:movie #lang:en
+The Secret of Monkey Island,The Secret of Monkey Island,thesecretofmonkeyisland,USA,1993-11,LucasArts,JVC,#players:1 #genre:adventure #addon:megacd:mouse>md #port:pc #lang:en
+The Secret of Monkey Island,The Secret of Monkey Island,thesecretofmonkeyisland,USA,2020-02-28,LucasArts,Limited Run,#players:1 #genre:adventure #addon:megacd:mouse>md #port:pc #reboxed:limitedrun #lang:en
+The Software Toolworks' Star Wars Chess,The Software Toolworks' Star Wars Chess,thesoftwaretoolworksstarwarschess,USA,1994-05,The Software Toolworks/LucasArts,The Software Toolworks,#players:2:vs #genre:board>chess #addon:megacd #save:backup #based:movie $starwars #lang:en
+The Software Toolworks' Star Wars Chess,The Software Toolworks' Star Wars Chess,thesoftwaretoolworksstarwarschess,USA,1994-05,The Software Toolworks/LucasArts,The Software Toolworks,#players:2:vs #genre:board>chess #addon:megacd #save:backup #based:movie $starwars #lang:en #alt
+The Space Adventure Cobra: The Legendary Bandit,The Space Adventure,spaceadventurecobra2dno,USA,1995,Crosstalk/T's Music,Hudson,#players:1 #genre:adventure #addon:megacd #save:backup #port:cdrom2 #based:manganime #lang:en
+The Terminator,The Terminator,theterminatorcd,USA,1993-06,Virgin,Virgin,#players:1 #genre:action:platformer #addon:megacd #based:movie #lang:en
+The Third World War,Third World War,thethirdworldwar,USA,1994-03,Micronet,Extreme,#players:1 #genre:strategy #addon:megacd:backupramcart #save:backup #lang:en
+Time Gal,Time Gal,timegal,USA,1993-05,Wolf Team,Renovation,#players:1 #genre:action #addon:megacd #save:password #port:arcade #lang:en
+Tomcat Alley,Tomcat Alley,tomcatalley,USA,1994-03,The Code Monkeys,SEGA,#players:1 #genre:shooting #addon:megacd #lang:en
+Tomcat Alley,Tomcat Alley,tomcatalley,USA,1994-03,The Code Monkeys,SEGA,#players:1 #genre:shooting #addon:megacd #lang:en #alt
+Trivial Pursuit,Trivial Pursuit,trivialpursuit,USA,1994-12,Western Technologies,Parker Brothers,#players:6:vs #genre:board:quiz #addon:megacd #based #lang:en
+Vay,Vay,vay,USA,1994-07,Hertz,Working Designs,#players:1 #genre:rpg>j #addon:megacd:backupramcart #save:backup #lang:en
+Wheel of Fortune,Wheel of Fortune,wheeloffortunecd,USA,1994,Absolute,Sony Imagesoft,#players:3:vs #genre:board #addon:megacd:segatap #based #lang:en
+Who Shot Johnny Rock?,Who Shot Johnny Rock?,whoshotjohnnyrock,USA,1994-09,American Laser Games,American Laser Games,#players:2:coop #genre:shooting #addon:megacd:menacer:justifier:gamegun:mouse>md $lightgun #port:arcade #lang:en
+Wild Woody,Wild Woody,wildwoody,USA,1995,SEGA Multimedia,SEGA,#players:1 #genre:platformer #addon:megacd #save:backup #lang:en
+Wing Commander,Wing Commander,wingcommander,USA,1994-03,Game Arts/Bits Laboratory/CRI,Electronic Arts,#players:1 #genre:adventure:flightsim:shooting #addon:megacd:backupramcart:6button #save:backup #port:pc #lang:en
+WireHead,WireHead,wirehead,USA,1995-09,The Code Monkeys,SEGA,#players:1 #genre:action #addon:megacd #lang:en
+Wolfchild,Wolfchild,wolfchild,USA,1992-12,Core Design,JVC,#players:1 #genre:action:platformer #addon:megacd #port:amiga #lang:en
+Wonder Dog,Wonder Dog,wonderdog,USA,1992-12,Core Design,JVC,#players:1 #genre:platformer #addon:megacd #save:password #lang:en
+Wonder Dog,Wonder Dog,wonderdog,USA,,Core Design,JVC,#players:1 #genre:platformer #addon:megacd #save:password #reboxed #lang:en
+World Cup USA '94,World Cup USA '94,worldcupusa94,USA,1994-07,Tiertex,U.S. Gold,#players:4:coop:vs #genre:sports:soccer #addon:megacd:segatap #port:megadrive #official:sports #lang:en:fr:de:it:es:pt:sv:nl
+WWF: Rage in the Cage,WWF: Rage in the Cage,wwfrageinthecagecd,USA,1993-11,Sculptured/The Black Team,Arena,#players:2:vs #genre:fighting:sports>wrestling #addon:megacd:6button #official:sports #lang:en
+After Burner III,After Burner III,afterburner3,Europe,1993-09,CRI,SEGA,#players:1 #genre:railshooter #addon:megacd:6button:xe1ap #port:fmtowns #lang:en
+Batman Returns,Batman Returns,batmanreturns,Europe,1993-09,Malibu,SEGA,#players:1 #genre:action:platformer:racing #addon:megacd #port:megadrive #based:movie $batman #lang:en
+Batman Returns,Batman Returns,batmanreturns,Europe,,Malibu,SEGA,#players:1 #genre:action:platformer:racing #addon:megacd #port:megadrive #based:movie $batman #lang:en #alt
+Battlecorps,Battlecorps,battlecorps,Europe,1994-08,Core Design,Core Design,#players:1 #genre:shooter #addon:megacd #lang:en:fr:de:es
+BC Racers,BC Racers,bcracers,Europe,1994-12,Core Design,Core Design/SEGA,#players:2:vs #genre:racing>combat #addon:megacd:6button #lang:en:fr:de
+Bill Walsh College Football,Bill Walsh College Football,billwalshcollegefootball,Europe,1994-03,High Score,Electronic Arts,#players:4:coop:vs #genre:sports>football #addon:megacd:4wayplay #port:megadrive #endorsed:celeb #lang:en
+Black Hole Assault,Blackhole Assault,blackholeassault,Europe,1993-09,Micronet,SEGA,#players:2:vs #genre:fighting #addon:megacd:backupramcart #save:backup #lang:en
+Bloodshot / Battle Frenzy,Bloodshot,battlefrenzy,Europe,1995-06,The Kremlin,Domark,#players:2:vs #genre:shooter #addon:megacd #lang:en:fr:de:es
+Bloodshot / Battle Frenzy,Battle Frenzy,battlefrenzy,Germany,1995-06,The Kremlin,Domark,#players:2:vs #genre:shooter #addon:megacd #reboxed #lang:en:fr:de:es
+Brutal: Paws of Fury,Brutal: Paws of Fury,brutalpawsoffury,Europe,1994-09,GameTek,GameTek,#players:2:vs #genre:fighting #addon:megacd:6button #lang:en:fr:de
+Brutal: Paws of Fury,Paws of Fury,brutalpawsoffury,Germany,1994-09,GameTek,GameTek,#players:2:vs #genre:fighting #addon:megacd:6button #reboxed #lang:en:fr:de
+Chuck Rock,Chuck Rock,chuckrock,Europe,1993-08,Core Design,Sony Imagesoft,#players:1 #genre:action:platformer #addon:megacd #save:password #port:amiga #lang:en
+Chuck II: Son of Chuck,Chuck Rock II: Son of Chuck,chuckrock2soc,Europe,1994-01,Core Design,Core Design,#players:1 #genre:platformer:action #addon:megacd #port:amiga:megadrive #lang:en
+Cobra Command,Sol-Feace / Cobra Command,thunderstorm,Europe,1993,Wolf Team,SEGA,#players:1 #genre:shooting #addon:megacd #port:arcade #lang:en
+Corpse Killer,Corpse Killer,corpsekiller,Europe,1995-03,Digital Pictures,Digital Pictures,#players:1 #genre:shooting #addon:megacd:menacer $lightgun #lang:en
+Corpse Killer,Corpse Killer,corpsekiller,Europe,1995-07,Digital Pictures,Digital Pictures,#players:1 #genre:shooting #addon:megacd:super32x:menacer $lightgun #lang:en
+Double Switch,Double Switch,doubleswitch,Europe,1994-07-15,Digital Pictures,SEGA,#players:1 #genre:adventure #addon:megacd #lang:en
+Dracula Unleashed,Dracula Unleashed,draculaunleashed,Europe,1994-05,ICOM Simulations/Viacom New Media,SEGA,#players:1 #genre:adventure #addon:megacd #save:backup #disc:1>2 $dracula #lang:en
+Dracula Unleashed,Dracula Unleashed,draculaunleashed,Europe,1994-05,ICOM Simulations/Viacom New Media,SEGA,#players:1 #genre:adventure #addon:megacd #save:backup #disc:1>2 $dracula #lang:en #alt
+Dracula Unleashed,Dracula Unleashed,draculaunleashed,Europe,1994-05,ICOM Simulations/Viacom New Media,SEGA,#players:1 #genre:adventure #addon:megacd #save:backup #disc:2>2 $dracula #lang:en
+Dracula Unleashed,Dracula Unleashed,draculaunleashed,Europe,1994-05,ICOM Simulations/Viacom New Media,SEGA,#players:1 #genre:adventure #addon:megacd #save:backup #disc:2>2 $dracula #lang:en #alt
+Dragon's Lair,Dragon's Lair,dragonslair,Europe,1994-03,ReadySoft,SEGA,#players:1 #genre:action #addon:megacd #port:arcade #lang:en:fr:de:it
+Dune,Dune,dune,Europe,1994-01,CRYO,Virgin,#players:1 #genre:adventure:strategy #addon:megacd #based:movie #port:amiga #save:backup #lang:en:fr:de:it:es:fremen
+Dungeon Explorer,Dungeon Explorer,dungeonexplorercd,Europe,1995,Westone/Hudson,Hudson,#players:4:coop #genre:action:maze:rpg #save:backup #addon:megacd:segatap #lang:en
+Dungeon Master II,Dungeon Master II: Skullkeep,dungeonmaster2skullkeep,Europe,1994-12,FTL,JVC,#players:1 #genre:dungeoncrawler:rpg #addon:megacd:backupramcart:mouse>md #save:backup #port:pc #lang:en
+Earthworm Jim: Special Edition,Earthworm Jim: Special Edition,earthwormjim,Europe,1995-06,Shiny/Tommy Tallarico Studios,Interplay,#players:1 #genre:action:platformer #addon:megacd #save:password #port:megadrive #lang:en
+Ecco,Ecco the Dolphin,eccothedolphin,Europe,1993-11-05,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #port:megadrive #save:password #lang:en
+Ecco,Ecco the Dolphin,eccothedolphin,Europe,,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #port:megadrive #reboxed #save:password #lang:en
+Ecco: The Tides of Time,Ecco: The Tides of Time,eccothetidesoftime,Europe,1995-06,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #save:password #lang:en:fr:de:es
+ESPN Baseball Tonight,ESPN Baseball Tonight,espnbaseballtonight,Europe,1994,Sony Imagesoft,Sony Imagesoft,#players:2:vs #genre:sports>baseball #addon:megacd #port:megadrive #based #official:sports #lang:en
+Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道 悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,Europe,1995-05,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:megacd:6button #save:backup #port:megadrive #lang:en
+Eye of the Beholder,Eye of the Beholder,eyeofthebeholder,Europe,1994-12,Opera House,FCI,#players:1 #genre:dungeoncrawler:rpg #addon:megacd:backupramcart:mouse>md #save:backup #port:pc #based $dnd #lang:en
+Fahrenheit,Fahrenheit,fahrenheit,Europe,1995-05,SEGA/TLA,SEGA,#players:1 #genre:adventure #addon:megacd #lang:en
+Fahrenheit,Fahrenheit,fahrenheit,France,1995-05,SEGA/TLA,SEGA,#players:1 #genre:adventure #addon:megacd #lang:fr
+Fatal Fury Special,Fatal Fury Special,garoudensetsuspecial,Europe,1995-07,Funcom,JVC,#players:2:vs #genre:fighting #addon:megacd:6button #port:arcade #lang:en
+FIFA International Soccer,FIFA International Soccer: Championship Edition,fifa94,Europe,1994-06,Extended Play,Electronic Arts,#players:4:coop:vs #genre:sports>soccer #addon:megacd:segatap #port:megadrive #endorsed:company #official:sports #lang:en:fr:de:es
+Final Fight CD,Final Fight CD,finalfight,Europe,1993-09,A-Wave/T's Music,SEGA,#players:2:coop #genre:brawler #addon:megacd #port:arcade #lang:en
+The Misadventures of Flink,Flink,flink,Europe,1994,Psygnosis,Sony Electronic,#players:1 #genre:platformer #addon:megacd #port:megadrive #lang:en:fr:de:es:nl
+Formula One World Championship: Beyond the Limit,Formula One World Championship: Beyond the Limit,heavenlysymphony,Europe,1994-09,SEGA CS3/Fuji TV,SEGA,#players:1 #genre:racing:sports>formula1 #addon:megacd:backupramcart #save:backup #based #official:sports $sonic #lang:en
+Ground Zero Texas,Ground Zero Texas,groundzerotexas,Europe,1994-02-18,Digital Pictures,Sony Imagesoft,#players:1 #genre:shooting #addon:megacd #disc:1>2 #lang:en
+Ground Zero Texas,Ground Zero Texas,groundzerotexas,Europe,1994-02-18,Digital Pictures,Sony Imagesoft,#players:1 #genre:shooting #addon:megacd #disc:2>2 #lang:en
+Hook,Hook,hook,Europe,1993-11-19,Core Design,Sony Imagesoft,#players:1 #genre:platformer #addon:megacd #based:movie #port:superfamicom #lang:en
+Jaguar XJ220,Jaguar XJ220,jaguarxj220,Europe,1993-09,Core Design,SEGA,#players:2:vs #genre:racing #addon:megacd:backupramcart #save:backup #port:amiga #endorsed:company #lang:en:ja
 Jurassic Park,Jurassic Park,jurassicparkcd,Europe,1994-02,SEGA Multimedia,SEGA,#players:1 #genre:adventure:pointandclick:educational #addon:megacd:backupramcart #save:backup #based:movie $jurassicpark #endorsed:celeb #lang:en
 Jurassic Park,Jurassic Park,jurassicparkcd,Europe,,SEGA Multimedia,SEGA,#players:1 #genre:adventure:pointandclick:educational #addon:megacd:backupramcart #save:backup #based:movie $jurassicpark #endorsed:celeb #reboxed #lang:en
 Jurassic Park,Jurassic Park,jurassicparkcd,France,1994-02,SEGA Multimedia,SEGA,#players:1 #genre:adventure:pointandclick:educational #addon:megacd:backupramcart #save:backup #based:movie $jurassicpark #endorsed:celeb #lang:fr
 Jurassic Park,Jurassic Park,jurassicparkcd,Germany,1994-02,SEGA Multimedia,SEGA,#players:1 #genre:adventure:pointandclick:educational #addon:megacd:backupramcart #save:backup #based:movie $jurassicpark #endorsed:celeb #lang:de
 Jurassic Park,Jurassic Park,jurassicparkcd,Spain,1994-02,SEGA Multimedia,SEGA,#players:1 #genre:adventure:pointandclick:educational #addon:megacd:backupramcart #save:backup #based:movie $jurassicpark #endorsed:celeb #lang:es
-Jurassic Park,Jurassic Park@Jurassic Park ジュラシック・パーク,jurassicparkcd,Japan,1994-09-30,SEGA Multimedia,SEGA,#players:1 #genre:adventure:pointandclick:educational #addon:megacd:backupramcart #save:backup #based:movie $jurassicpark #endorsed:celeb #lang:ja
-Jurassic Park,Jurassic Park,jurassicparkcd,USA,1993-12,SEGA Multimedia,SEGA,#players:1 #genre:adventure:pointandclick:educational #addon:megacd:backupramcart #save:backup #based:movie $jurassicpark #endorsed:celeb #lang:en
-Kamen Rider ZO@仮面ライダーZO,Kamen Rider ZO@仮面ライダーZO,kamenriderzo,Japan,1994-05-13,Wolf Team,Toei,#players:1 #genre:action:adventure #addon:megacd #based:movie #lang:ja
 Keio Flying Squadron@慶応遊撃隊 Keio Flying Squadron,Keio Flying Squadron@Keio Flying Squadron 慶応遊撃隊,keiouyuugekitai,Europe,1994-10,Victor,JVC,#players:1 #genre:shmup>h #addon:megacd #lang:en
-Keio Flying Squadron@慶応遊撃隊 Keio Flying Squadron,Keio Flying Squadron@Keio Flying Squadron 慶応遊撃隊,keiouyuugekitai,Europe,,Victor,JVC,#players:1 #genre:shmup>h #addon:megacd #lang:en #unfinished:demo
-Keio Flying Squadron@慶応遊撃隊 Keio Flying Squadron,Keio Flying Squadron@Keio Flying Squadron 慶応遊撃隊,keiouyuugekitai,USA,1995-02,Victor,JVC,#players:1 #genre:shmup>h #addon:megacd #lang:en
-Keiō Yūgekitai@慶応遊撃隊,Keiō Yūgekitai@慶応遊撃隊,keiouyuugekitai,Japan,1993-08-06,Victor,Victor,#players:1 #genre:shmup>h #addon:megacd #lang:ja
-Keiō Yūgekitai@慶応遊撃隊,Keiō Yūgekitai (Kira Kira Lucky Takarabako)@慶応遊撃隊 (キラキラ★ラッキー宝箱),keiouyuugekitai,Japan,1993-08-06,Victor,Victor,#players:1 #genre:shmup>h #addon:megacd #reboxed #promo #lang:ja
 Kids on Site,Kids on Site,kidsonsite,Europe,1994,Digital Pictures,Digital Pictures,#players:1 #genre:adventure #addon:megacd #lang:en
-Kids on Site,Kids on Site,kidsonsite,USA,1994-11,Digital Pictures,Digital Pictures,#players:1 #genre:adventure #addon:megacd #lang:en
 Lethal Enforcers,Lethal Enforcers,lethalenforcers,Europe,1993-11-19,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #lang:en
-Lethal Enforcers,Lethal Enforcers@Lethal Enforcers リーサルエンフォーサーズ,lethalenforcers,Japan,1993-10-29,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #lang:en
-Lethal Enforcers,Lethal Enforcers (Famitsu-ban)@Lethal Enforcers リーサルエンフォーサーズ (ファミ通版),lethalenforcers,Japan,,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #promo #lang:en
-Lethal Enforcers,Lethal Enforcers,lethalenforcers,USA,1993-11,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #lang:en
-Lethal Enforcers,Lethal Enforcers,lethalenforcers,USA,1993-11,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #lang:en #alt
 Lethal Enforcers II: Gun Fighters,Lethal Enforcers II: Gun Fighters,lethalenforcers2thewestern,Europe,1994-12-23,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #lang:en
-Lethal Enforcers II: Gun Fighters,Lethal Enforcers II: Gun Fighters,lethalenforcers2thewestern,Europe,,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #lang:en #unfinished:demo
-Lethal Enforcers II: Gun Fighters,Lethal Enforcers II: Gun Fighters,lethalenforcers2thewestern,Europe,,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #lang:en #unfinished:beta
-Lethal Enforcers II: Gun Fighters,Lethal Enforcers II: Gun Fighters,lethalenforcers2thewestern,USA,1994-11-24,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #lang:en
-Lethal Enforcers II: The Western,Lethal Enforcers II: The Western@Lethal Enforcers II: The Western リーサルエンフォーサーズII　ザ・ウエスタン,lethalenforcers2thewestern,Japan,1994-11-25,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #lang:en
-Lethal Enforcers II: The Western,Lethal Enforcers II: The Western (Including The Justifier)@Lethal Enforcers II: The Western リーサルエンフォーサーズII　ザ・ウエスタン (Including The Justifier),lethalenforcers2thewestern,Japan,1994-11-25,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #reboxed #lang:en
-Pier Solar and the Great Architects: Enhanced Soundtrack Disc,Pier Solar and the Great Architects: The Definitive Original Soundtrack@Pier Solar and the Great Architects ピエアーソーラーと偉大なる建築家 The Definitive Original Soundtrack,piersolarandthegreatarchitects,World,2012,WaterMelon,WaterMelon,#players:1 #genre:sound:rpg>j #addon:megacd #lang:en #unlicensed:aftermarket
-Revengers of Vengeance,Revengers of Vengeance,battlefantasy,USA,1994-07,Micronet,Extreme,#players:2:vs #genre:fighting #addon:megacd #lang:en
+Lords of Thunder,Lords of Thunder,windsofthunder,Europe,1995-07,Eleven/T's Music,Hudson,#players:1 #genre:shmup>h #addon:megacd #port:cdrom2 #lang:en
+Make My Video: C+C Music Factory,Power Factory Featuring C+C Music Factory,powerfactory,Europe,1993-10,Digital Pictures,Sony Imagesoft,#players:1 #genre:application:marketing #addon:megacd #endorsed:celeb #lang:en
+Make My Video: INXS,Make My Video: INXS,makemyvideoinxs,Europe,1993-09,Digital Pictures,SEGA,#players:1 #genre:application:marketing #addon:megacd #endorsed:celeb #lang:en
+Make My Video: Kris Kross,Kris Kross,makemyvideokriskross,Europe,1993-11,Digital Pictures,Sony Imagesoft,#players:1 #genre:application:marketing #addon:megacd #endorsed:celeb #lang:en
+Marko's Magic Football,Marko's Magic Football,markosmagicfootball,Europe,1994,Interactive Studios,Domark,#players:1 #genre:platformer #addon:megacd #save:password #port:megadrive #lang:en:fr:de:es
+Mickey Mania: The Timeless Adventures of Mickey Mouse,Mickey Mania,mickeymaniattaomm,Europe,1994-12,Traveller's Tales/Psygnosis,Sony Imagesoft/Disney,#players:1 #genre:platformer #addon:megacd #port:megadrive #based $disney $mickey #lang:en
+Microcosm,Microcosm,microcosm,Europe,1994-01,Psygnosis,Psygnosis,#players:1 #genre:shooting #addon:megacd #save:password #port:pc #lang:en
+Microcosm,Microcosm,microcosm,Europe,,Psygnosis,Psygnosis,#players:1 #genre:shooting #addon:megacd #save:password #port:pc #reboxed #lang:en
+Microcosm,Microcosm,microcosm,Europe,1994-01,Psygnosis,Psygnosis,#players:1 #genre:shooting #addon:megacd #save:password #port:pc #lang:en
+Microcosm,Ultraverse Prime / Microcosm,microcosm,Europe,1994-01,Psygnosis,Sony Imagesoft,#players:1 #genre:shooting #addon:megacd #save:password #port:pc #multigame:compilation #reboxed #lang:en
+Midnight Raiders,Midnight Raiders,midnightraiders,Europe,1995-03,Stargate,SEGA,#players:1 #genre:shooting #addon:megacd #lang:en
+Mighty Morphin Power Rangers@Saban's Mighty Morphin Power Rangers,Mighty Morphin Power Rangers@Saban's Mighty Morphin Power Rangers,mightymorphinpowerrangerscd,Europe,1995-03,Orion,SEGA,#players:1 #genre:action #addon:megacd #based #lang:en
+Mortal Kombat,Mortal Kombat,mortalkombat,Europe,1994-07,Probe/Grey Team,Arena,#players:2:vs #genre:fighting #addon:megacd:6button #port:arcade #lang:en
+NBA Jam,NBA Jam,nbajam,Europe,1994-12,Iguana,Acclaim,#players:4:coop:vs #genre:sports>basketball #addon:megacd:segatap #save:backup #port:arcade:megadrive #official:sports #lang:en
+NHL Hockey '94,NHL Hockey '94,nhlhockey94,Europe,1994-03,High Score,Electronic Arts,#players:4:coop:vs #genre:sports>hockey #addon:megacd:4wayplay #official:sports #lang:en
+Night Trap,Night Trap,nighttrap,Europe,1993-06,Digital Pictures/Hasbro,SEGA,#players:1 #genre:adventure #addon:megacd #disc:1>2 #lang:en
+Night Trap,Night Trap,nighttrap,Europe,1993-06,Digital Pictures/Hasbro,SEGA,#players:1 #genre:adventure #addon:megacd #disc:2>2 #lang:en
+Night Trap,Night Trap,nighttrap,France,1993-06,Digital Pictures/Hasbro,SEGA,#players:1 #genre:adventure #addon:megacd #disc:1>2 #lang:fr
+Night Trap,Night Trap,nighttrap,France,1993-06,Digital Pictures/Hasbro,SEGA,#players:1 #genre:adventure #addon:megacd #disc:2>2 #lang:fr
+Night Trap,Night Trap,nighttrap,Europe,1995-07,Digital Pictures/Hasbro,Digital Pictures,#players:1 #genre:adventure #addon:megacd:super32x #disc:1>2 #lang:en
+Night Trap,Night Trap,nighttrap,Europe,1995-07,Digital Pictures/Hasbro,Digital Pictures,#players:1 #genre:adventure #addon:megacd:super32x #disc:2>2 #lang:en
+Novastorm,Novastorm,novastorm,Europe,1995-11,Psygnosis,Sony Electronic,#players:1 #genre:railshooter #addon:megacd #save:backup #lang:en
+Pitfall: The Mayan Adventure,Pitfall: The Mayan Adventure,pitfallthemayanadventure,Europe,1995,Activision/Freestyle/Krisalis,Activision,#players:1 #genre:action:platformer #addon:megacd:6button #lang:en
+PowerMonger,PowerMonger,powermonger,Europe,1994-04,Sprytes,Electronic Arts,#players:1 #genre:strategy #addon:megacd #port:amiga:megadrive #save:backup #lang:en
+Prince of Persia,Prince of Persia,princeofpersia,Europe,1993-09,Bits Laboratory,SEGA,#players:1 #genre:action #addon:megacd #save:backup #port:apple2 #lang:en
+Prize Fighter,Prize Fighter,prizefighter,Europe,1994-03,Digital Pictures,SEGA,#players:1 #genre:fighting:sports>boxing #addon:megacd:6button #save:backup #disc:1>2 #lang:en
+Prize Fighter,Prize Fighter,prizefighter,Europe,1994-03,Digital Pictures,SEGA,#players:1 #genre:fighting:sports>boxing #addon:megacd:6button #save:backup #disc:2>2 #lang:en
+Puggsy,Puggsy,puggsy,Europe,1993-11,Traveller's Tales,Psygnosis,#players:1 #genre:platformer:puzzle #addon:megacd #port:megadrive #lang:en
+Road Avenger,Road Avenger,roadblaster,Europe,1993-09,Wolf Team,SEGA,#players:1 #genre:action:racing #addon:megacd #port:arcade #lang:en
 Robo Aleste,Robo Aleste,denninalestenobunagaandhisninjaforce,Europe,1993-09,Compile,SEGA,#players:1 #genre:shmup>v #addon:megacd #lang:en
-Robo Aleste,Robo Aleste,denninalestenobunagaandhisninjaforce,USA,1993-08,Compile,Tengen,#players:1 #genre:shmup>v #addon:megacd #lang:en
+Samurai Shodown,Samurai Shodown,samuraispirits,Europe,1995-06,Funcom,JVC,#players:2:vs #genre:fighting #addon:megacd:6button #port:arcade #lang:en
+SEGA Classics Arcade Collection,SEGA Classics Arcade Collection: Limited Edition,segaclassicsarcadecollection,Europe,1993-04-02,SEGA,SEGA,#players:2:coop:vs #genre:brawler:racing:sports>formula1:action:puzzle>drop #addon:megacd #port:megadrive #multigame:compilation #lang:en
+SEGA Classics Arcade Collection,SEGA Classics Arcade Collection: Limited Edition,segaclassicsarcadecollection,Europe,1993-04-02,SEGA,SEGA,#players:2:coop:vs #genre:brawler:racing:sports>formula1:action:puzzle>drop #addon:megacd #port:megadrive #multigame:compilation #lang:en #alt
 Sensible Soccer,Sensible Soccer,sensiblesoccer,Europe,1994-07,Psygnosis,Renegade/Sony Imagesoft,#players:2:vs #genre:sports>soccer #addon:megacd #port:amiga #lang:en:fr:de:it
-Sensible Soccer,Sensible Soccer,sensiblesoccer,Europe,,Psygnosis,Renegade/Sony Imagesoft,#players:2:vs #genre:sports>soccer #addon:megacd #port:amiga #lang:en #unfinished:demo
+Sewer Shark,Sewer Shark,sewershark,Europe,1993-06,Digital Pictures,Sony Imagesoft,#players:1 #genre:shooting #addon:megacd #lang:en
 Shadow of the Beast II,Beast II,shadowofthebeast2,Europe,1994-05,Digital Developments,Psygnosis,#players:1 #genre:action #addon:megacd #port:amiga #lang:en
-Shadow of the Beast II,Beast II,shadowofthebeast2,Europe,,Digital Developments,Psygnosis,#players:1 #genre:action #addon:megacd #port:amiga #lang:en #unfinished:demo
-Shadow of the Beast II,Shadow of the Beast II,shadowofthebeast2,USA,1994,Digital Developments,Psygnosis,#players:1 #genre:action #addon:megacd #port:amiga #lang:en
-Shadow of the Beast II,Shadow of the Beast II: Jūshin no Jubaku@Shadow of the Beast II シャドー・オブ・ザ・ビーストII　獣神の呪縛,shadowofthebeast2,Japan,1994-07-29,Digital Developments,Victor,#players:1 #genre:action #addon:megacd #port:amiga #lang:ja
+Sherlock Holmes: Consulting Detective Vol.I,Sherlock Holmes: Consulting Detective,sherlockholmesconsultingdetective,Europe,1993-09,ICOM Simulations,SEGA,#players:1 #genre:adventure #addon:megacd #save:backup $sherlock #lang:en
+Sherlock Holmes: Consulting Detective Vol.II,Sherlock Holmes: Consulting Detective,sherlockholmesconsultingdetective2,Europe,1993-10,ICOM Simulations,SEGA,#players:1 #genre:adventure #addon:megacd #save:backup #disc:1>2 $sherlock #lang:en
+Sherlock Holmes: Consulting Detective Vol.II,Sherlock Holmes: Consulting Detective,sherlockholmesconsultingdetective2,Europe,1993-10,ICOM Simulations,SEGA,#players:1 #genre:adventure #addon:megacd #save:backup #disc:2>2 $sherlock #lang:en
+Shining Force CD,Shining Force CD,shiningforcecd,Europe,1995-04,Seraphic/Rit's/Winds,SEGA,#players:1 #genre:rpg>s #addon:megacd:backupramcart #save:backup #remake:gamegear #multigame:compilation #lang:en
+Silpheed,Silpheed,silpheed,Europe,1993-10,Game Arts/Mecano,SEGA,#players:1 #genre:shmup>v #addon:megacd #remake:pc88 #lang:en
+Slam City with Scottie Pippen: Fingers,Slam City with Scottie Pippen,slamcitywithscottiepippen,Europe,1995-02,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd #save:backup #disc:1>4 #endorsed:celeb #lang:en
+Slam City with Scottie Pippen: Juice,Slam City with Scottie Pippen,slamcitywithscottiepippen,Europe,1995-02,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd #save:backup #disc:2>4 #endorsed:celeb #lang:en
+Slam City with Scottie Pippen: Mad Dog,Slam City with Scottie Pippen,slamcitywithscottiepippen,Europe,1995-02,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd #save:backup #disc:3>4 #endorsed:celeb #lang:en
+Slam City with Scottie Pippen: Smash,Slam City with Scottie Pippen,slamcitywithscottiepippen,Europe,1995-02,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd #save:backup #disc:4>4 #endorsed:celeb #lang:en
+Slam City with Scottie Pippen: Fingers,Slam City with Scottie Pippen,slamcitywithscottiepippen,Europe,1995-07,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd:super32x #save:backup #disc:1>4 #endorsed:celeb #lang:en
+Slam City with Scottie Pippen: Juice,Slam City with Scottie Pippen,slamcitywithscottiepippen,Europe,1995-07,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd:super32x #save:backup #disc:2>4 #endorsed:celeb #lang:en
+Slam City with Scottie Pippen: Mad Dog,Slam City with Scottie Pippen,slamcitywithscottiepippen,Europe,1995-07,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd:super32x #save:backup #disc:3>4 #endorsed:celeb #lang:en
+Slam City with Scottie Pippen: Smash,Slam City with Scottie Pippen,slamcitywithscottiepippen,Europe,1995-07,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd:super32x #save:backup #disc:4>4 #endorsed:celeb #lang:en
+Snatcher@Cyberpunk Adventure: Snatcher,Snatcher,snatcher,Europe,1995-01,Konami,Konami,#players:1 #genre:adventure:shooting #addon:megacd:backupramcart:justifier:rss #save:backup #port:pc88 #lang:en
+Sol-Feace,Sol-Feace / Cobra Command,solfeace,Europe,1992-11,Wolf Team,SEGA,#players:1 #genre:shmup>h #addon:megacd #port:x68000 #multigame:compilation #lang:en
+Sol-Feace,Sol-Feace / Cobra Command,solfeace,Europe,1992-11,Wolf Team,SEGA,#players:1 #genre:shmup>h #addon:megacd #port:x68000 #multigame:compilation #lang:en #alt
 Sonic The Hedgehog CD,Sonic CD,sonicthehedgehogcd,Europe,1993-10,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en
-Sonic The Hedgehog CD,Sonic CD,sonicthehedgehogcd,Europe,1993-08-06,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en #unfinished:beta>1
-Sonic The Hedgehog CD,Sonic CD,sonicthehedgehogcd,Europe,1993-08-19,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en #unfinished:beta>2
-Sonic The Hedgehog CD,Sonic CD,sonicthehedgehogcd,USA,1993-11-23,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en
-Sonic The Hedgehog CD,Sonic CD,sonicthehedgehogcd,USA,1993-11-23,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en #alt:1
-Sonic The Hedgehog CD,Sonic CD,sonicthehedgehogcd,USA,1993-11-23,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en #alt:2
-Sonic The Hedgehog CD,Sonic CD,sonicthehedgehogcd,USA,1993-09-20,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en #unfinished:beta>1
-Sonic The Hedgehog CD,Sonic CD,sonicthehedgehogcd,USA,1993-10-13,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en #unfinished:beta>2
-Sonic The Hedgehog CD,Sonic The Hedgehog CD,sonicthehedgehogcd,Japan,1993-09-23,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en
-Sonic The Hedgehog CD,Sonic The Hedgehog CD,sonicthehedgehogcd,Japan,1993-08-06,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en #unfinished:demo
-Sonic The Hedgehog CD,Sonic The Hedgehog CD,sonicthehedgehogcd,Japan,1993-07-12,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en #unfinished:beta>4
-Sonic The Hedgehog CD,Sonic The Hedgehog CD,sonicthehedgehogcd,Japan,1993-08-01,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en #unfinished:beta>5
-The Exterminators,Bug Blasters: The Exterminators,bugblasterstheexterminators,USA,2001,Digital Pictures,Good Deal,#players:1 #genre:shooting #addon:megacd #lang:en #unlicensed
-The Masked Rider: Kamen Rider ZO,The Masked Rider: Kamen Rider ZO,kamenriderzo,USA,1994-12,Wolf Team,SEGA,#players:1 #genre:action:adventure #addon:megacd #based:movie #lang:en
-Thunder Storm FX,Thunder Storm FX,thunderstorm,Japan,1992-08-28,Wolf Team,Wolf Team,#players:1 #genre:shooting #addon:megacd #port:arcade #lang:ja
+SoulStar,SoulStar,soulstar,Europe,1994-10,Core Design,Core Design,#players:2:coop #genre:railshooter:shmup #addon:megacd:6button #lang:en:fr:de
+Spider-Man vs. Kingpin,The Amazing Spider-Man vs. The Kingpin,theamazingspidermanvsthekingpin,Europe,1993-11,SEGA/Foley Hi-Tech,SEGA,#players:1 #genre:action:platformer #addon:megacd #save:password #port:megadrive #based $marvel $spiderman #lang:en
+Star Wars: Rebel Assault,Star Wars: Rebel Assault,rebelassault,Europe,1994-03,LucasArts,JVC,#players:1 #genre:railshooter:shooting #addon:megacd #save:password #port:pc #based $starwars #lang:en
+StarBlade,StarBlade,starblade,Europe,1994-12,Technosoft,NAMCO,#players:1 #genre:shooting #addon:megacd:backupramcart:xe1ap:mouse>md #save:backup #port:arcade #lang:en
+Supreme Warrior@Supreme Warrior 英雄,Supreme Warrior: Ying Heung (Fire & Earth)@Supreme Warrior 英雄 Ying Heung: Der Meisterkrieger ・ Suprême Guerrier ・ Guerrero Supremo (Fire & Earth),supremewarrior,Europe,1994,Digital Pictures,Digital Pictures,#players:1 #genre:action:fighting #addon:megacd:6button #disc:1>2 #save:backup #lang:en:ch
+Supreme Warrior@Supreme Warrior 英雄,Supreme Warrior: Ying Heung (Wind & Fang Tu)@Supreme Warrior 英雄 Ying Heung: Der Meisterkrieger ・ Suprême Guerrier ・ Guerrero Supremo (Wind & Fang Tu),supremewarrior,Europe,1994,Digital Pictures,Digital Pictures,#players:1 #genre:action:fighting #addon:megacd:6button #disc:2>2 #save:backup #lang:en:ch
+Supreme Warrior@Supreme Warrior 英雄,Supreme Warrior: Ying Heung (Fire & Earth)@Supreme Warrior 英雄 Ying Heung (Fire & Earth),supremewarrior,Europe,1995-07,Digital Pictures,Digital Pictures,#players:1 #genre:action:fighting #addon:megacd:super32x:6button #disc:1>2 #save:backup #lang:en:ch
+Supreme Warrior@Supreme Warrior 英雄,Supreme Warrior: Ying Heung (Wind & Fang Tu)@Supreme Warrior 英雄 Ying Heung (Wind & Fang Tu),supremewarrior,Europe,1995-07,Digital Pictures,Digital Pictures,#players:1 #genre:action:fighting #addon:megacd:super32x:6button #disc:2>2 #save:backup #lang:en:ch
+Surgical Strike,Surgical Strike,surgicalstrike,Europe,1995-09-22,The Code Monkeys/Stargate Films,SEGA,#players:1 #genre:shooting #addon:megacd #save:backup #lang:en
+Syndicate,Syndicate,syndicate,Europe,1995-06,Bullfrog,Domark,#players:1 #genre:strategy #addon:megacd #port:pc:megadrive #lang:en:fr:de
+The Adventures of Batman & Robin,The Adventures of Batman & Robin,theadventuresofbatmanandrobincd,Europe,1995-12,Clockwork Tortoise,SEGA,#players:1 #genre:racing:action #addon:megacd #based $batman #lang:en
+The Animals!@The San Diego Zoo Presents... The Animals!,The Animals!@The San Diego Zoo Presents... The Animals!,theanimals,Europe,1994-09,Arnowitz,Mindscape,#players:1 #genre:educational #addon:megacd #endorsed:company #lang:en
+The Lawnmower Man,The Lawnmower Man,thelawnmowermancd,Europe,1994-11,SCi/Online Entertainment,SCi/Time Warner,#players:1 #genre:action:puzzle #addon:megacd #based:movie #lang:en
+The Smurfs@Les Schtroumpfs / The Smurfs / Die Schlümpfe / Los Pitufos / I Puffi,The Smurfs@The Smurfs / Les Schtroumpfs / Die Schlümpfe / De Smurfen,thesmurfs,Europe,1995-06,Malibu,Infogrames,#players:1 #genre:platformer #addon:megacd #save:password #port:megadrive #based $smurfs #lang:en:fr:de:es:it
+The Software Toolworks' Star Wars Chess,The Software Toolworks' Star Wars Chess,thesoftwaretoolworksstarwarschess,Europe,1994-08-19,The Software Toolworks/LucasArts,Mindscape,#players:2:vs #genre:board>chess #addon:megacd #save:backup #based:movie $starwars #lang:en
+The Space Adventure Cobra: The Legendary Bandit,The Space Adventure,spaceadventurecobra2dno,Europe,1995-07,Crosstalk/T's Music,Hudson,#players:1 #genre:adventure #addon:megacd #save:backup #port:cdrom2 #based:manganime #lang:en
+The Terminator,The Terminator,theterminatorcd,Europe,1994-02,Virgin,Virgin,#players:1 #genre:action:platformer #addon:megacd #based:movie #lang:en
+Theme Park,Theme Park,themepark,Europe,1995,Bullfrog,Electronic Arts,#players:1 #genre:sim:building #addon:megacd #port:pc #lang:en:fr:de:es
 Thunderhawk,Thunderhawk,thunderhawk,Europe,1993-10,Core Design,Core Design,#players:1 #genre:flightsim:shooting #addon:megacd:backupramcart #save:backup #lang:en:fr:de:es
+Time Gal,Time Gal,timegal,Europe,1993-09,Wolf Team,SEGA,#players:1 #genre:action #addon:megacd #save:password #port:arcade #lang:en
+Tomcat Alley,Tomcat Alley,tomcatalley,Europe,1994-05,The Code Monkeys,SEGA,#players:1 #genre:shooting #addon:megacd #lang:en
+Tomcat Alley,Tomcat Alley,tomcatalley,France,1994,The Code Monkeys,SEGA,#players:1 #genre:shooting #addon:megacd #lang:fr
+Tomcat Alley,Tomcat Alley,tomcatalley,Germany,1994,The Code Monkeys,SEGA,#players:1 #genre:shooting #addon:megacd #lang:de
+Tomcat Alley,Tomcat Alley,tomcatalley,Spain,1994,The Code Monkeys,SEGA,#players:1 #genre:shooting #addon:megacd #lang:es
+Wolfchild,Wolfchild,wolfchild,Europe,1993-09,Core Design,SEGA,#players:1 #genre:action:platformer #addon:megacd #port:amiga #lang:en
+Wonder Dog,Wonder Dog,wonderdog,Europe,1993,Core Design,SEGA,#players:1 #genre:platformer #addon:megacd #save:password #lang:en
+World Cup USA '94,World Cup USA '94,worldcupusa94,Europe,1994-06-03,Tiertex,U.S. Gold,#players:4:coop:vs #genre:sports:soccer #addon:megacd:segatap #port:megadrive #official:sports #lang:en:fr:de:it:es:pt:sv:nl
+WWF: Rage in the Cage,WWF: Rage in the Cage,wwfrageinthecagecd,Europe,1994-01,Sculptured/The Black Team,Arena,#players:2:vs #genre:fighting:sports>wrestling #addon:megacd:6button #official:sports #lang:en
+Yumemi Mystery Mansion,Yumemi Mystery Mansion,yumemiyakatanomonogatari,Europe,1994-03,System Sacom/SEGA CS/DMP,SEGA,#players:1 #genre:adventure #addon:megacd:backupramcart:mouse>md #save:backup #lang:en
+Yumemi Mystery Mansion,Yumemi Mystery Mansion,yumemiyakatanomonogatari,Europe,1994-03,System Sacom/SEGA CS/DMP,SEGA,#players:1 #genre:adventure #addon:megacd:backupramcart:mouse>md #save:backup #lang:en #lang:en #alt
+Slam City with Scottie Pippen: Fingers,Slam City with Scottie Pippen,slamcitywithscottiepippen,Brazil,1996-06,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd #save:backup #disc:1>4 #endorsed:celeb #lang:en
+Slam City with Scottie Pippen: Juice,Slam City with Scottie Pippen,slamcitywithscottiepippen,Brazil,1996-06,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd #save:backup #disc:2>4 #endorsed:celeb #lang:en
+Slam City with Scottie Pippen: Mad Dog,Slam City with Scottie Pippen,slamcitywithscottiepippen,Brazil,1996-06,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd #save:backup #disc:3>4 #endorsed:celeb #lang:en
+Slam City with Scottie Pippen: Smash,Slam City with Scottie Pippen,slamcitywithscottiepippen,Brazil,1996-06,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd #save:backup #disc:4>4 #endorsed:celeb #lang:en
+Surgical Strike,Surgical Strike,surgicalstrike,Brazil,1996-01,The Code Monkeys/Stargate Films,Tec Toy,#players:1 #genre:shooting #addon:megacd:super32x #save:backup #lang:en
+Ecco,Ecco the Dolphin,eccothedolphin,Australia,,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #port:megadrive #save:password #lang:en
+Tomcat Alley,Tomcat Alley,tomcatalley,Australia,,The Code Monkeys,SEGA,#players:1 #genre:shooting #addon:megacd #lang:en
+Yumemi Mystery Mansion,Yumemi Mystery Mansion,yumemiyakatanomonogatari,Australia,,System Sacom/SEGA CS/DMP,SEGA,#players:1 #genre:adventure #addon:megacd:backupramcart:mouse>md #save:backup #lang:en
+Battle Frenzy,Battle Frenzy,battlefrenzy,USA,2003,The Kremlin,Good Deal,#players:2:vs #genre:shooter #addon:megacd #port:megadrive #lang:en #unlicensed
+BattleTech: Gray Death Legion,BattleTech: Gray Death Legion,battletechgraydeathlegion,USA,,Imagineering,Good Deal,#players:1 #genre:shooter #addon:megacd #based #lang:en #unlicensed
+Citizen X,Citizen X,citizenx,USA,2002,Digital Pictures,Good Deal,#players:1 #genre:action:adventure #addon:megacd #lang:en #unlicensed
+Color Mechanica,Color Mechanica,colormechanica,USA,2013-12-27,Batlab,Note!,#players:2:coop #genre:media #addon:megacd #lang:en #unlicensed
+Color Mechanica,Color Mechanica,colormechanica,USA,2013-12-27,Batlab,Note!,#players:2:coop #genre:media #addon:megacd #lang:en #unlicensed #alt
+Force Striker,Burning Fists: Force Striker,burningfistsforcestriker,USA,2006,KAZe/SEGA CS3,Good Deal,#players:2:vs #genre:fighting #addon:megacd:6button #lang:en #unlicensed
+Johnny Mnemonic,Johnny Mnemonic,johnnymnemonic,USA,2012,Sony Imagesoft,Good Deal,#players:1 #genre:adventure #addon:megacd #disc:1>2 #based:movie #port:pc #lang:en #unlicensed
+Johnny Mnemonic,Johnny Mnemonic,johnnymnemonic,USA,2012,Sony Imagesoft,Good Deal,#players:1 #genre:adventure #addon:megacd #disc:2>2 #based:movie #port:pc #lang:en #unlicensed
+Marko,Marko,markosmagicfootball,USA,2003,Interactive Studios,Good Deal,#players:1 #genre:platformer #addon:megacd #save:password #port:megadrive #lang:en #unlicensed
+Mighty Mighty Missile!,Mighty Mighty Missile!,chuchurocket,USA,2005,FVRING,Good Deal,#players:4:vs #genre:puzzle #addon:megacd:segatap:4wayplay #save:backup #port:dreamcast:gba #clone #lang:en #unlicensed
+Pier Solar and the Great Architects: Enhanced Soundtrack Disc,Pier Solar and the Great Architects: The Definitive Original Soundtrack@Pier Solar and the Great Architects ピエアーソーラーと偉大なる建築家 The Definitive Original Soundtrack,piersolarandthegreatarchitects,World,2012,WaterMelon,WaterMelon,#players:1 #genre:sound:rpg>j #addon:megacd #lang:en #unlicensed:aftermarket
+Sonic Mega Mix,Sonic Megamix,sonicmegamix,USA,2009-04-25,Team Megamix,Team Megamix,#players:1 #genre:platformer #addon:megacd #save:backup $sonic #port:megadrive #lang:en #unlicensed
+Star Strike,Star Strike,starstrike,USA,2001,Stargames,Good Deal,#players:1 #genre:shooting #addon:megacd #lang:en #unlicensed
+The Exterminators,Bug Blasters: The Exterminators,bugblasterstheexterminators,USA,2001,Digital Pictures,Good Deal,#players:1 #genre:shooting #addon:megacd #lang:en #unlicensed
+Flashback,,flashback,Europe,1994,Delphine,U.S. Gold,#players:1 #genre:action:platformer #addon:megacd #port:megadrive #save:password #lang:en #unfinished:proto
+Super Strike Trilogy,Super Strike Trilogy,superstriketrilogy,USA,1995,The Edge/Foley Hi-Tech,Electronic Arts,#players:1 #genre:shmup #addon:megacd #multigame:compilation #port:megadrive #lang:en #unfinished:proto
+TimeCop,,timecop,USA,1995,CRYO,JVC,#players:1 #genre:action #addon:megacd #port:superfamicom #based:movie #lang:en #unfinished:proto
+WireHead,WireHead,wirehead,Europe,1995,The Code Monkeys,SEGA,#players:1 #genre:action #addon:megacd #lang:en #unfinished:proto
+[AÝA] Psychic Detective Series Vol 3,[AÝA] Psychic Detective Series Vol.3,ayapsychicdetectiveseriesvol3,Japan,,Data West,Data West,#players:1 #genre:adventure #addon:megacd:backupramcart #save:backup #port:fmtowns #lang:ja #unfinished:demo>auto
+Battlecorps,Battlecorps,battlecorps,Europe,,Core Design,Core Design,#players:1 #genre:shooter #addon:megacd #lang:en #unfinished:demo
+BC Racers,BC Racers,bcracers,Europe,,Core Design,Core Design/SEGA,#players:2:vs #genre:racing>combat #addon:megacd:6button #lang:en #unfinished:demo>1
+BC Racers,BC Racers,bcracers,Europe,,Core Design,Core Design/SEGA,#players:2:vs #genre:racing>combat #addon:megacd:6button #lang:en #unfinished:demo>2
+Dragon's Lair,Dragon's Lair,dragonslair,USA,,ReadySoft,SEGA,#players:1 #genre:action #addon:megacd #port:arcade #lang:en #unfinished:demo
+Fatal Fury Special,Fatal Fury Special,garoudensetsuspecial,Europe,,Funcom,JVC,#players:2:vs #genre:fighting #addon:megacd:6button #port:arcade #lang:en #unfinished:demo
+FIFA International Soccer,FIFA International Soccer: Championship Edition,fifa94,Europe,,Extended Play,Electronic Arts,#players:4:coop:vs #genre:sports>soccer #addon:megacd:segatap #port:megadrive #endorsed:company #official:sports #lang:en #unfinished:demo
+FIFA International Soccer,FIFA International Soccer: Championship Edition,fifa94,Europe,,Extended Play,Electronic Arts,#players:4:coop:vs #genre:sports>soccer #addon:megacd:segatap #port:megadrive #endorsed:company #official:sports #lang:en #unfinished:demo>alt
+Keio Flying Squadron@慶応遊撃隊 Keio Flying Squadron,Keio Flying Squadron@Keio Flying Squadron 慶応遊撃隊,keiouyuugekitai,Europe,,Victor,JVC,#players:1 #genre:shmup>h #addon:megacd #lang:en #unfinished:demo
+Lethal Enforcers II: Gun Fighters,Lethal Enforcers II: Gun Fighters,lethalenforcers2thewestern,Europe,,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #lang:en #unfinished:demo
+Mickey Mania: The Timeless Adventures of Mickey Mouse,Mickey Mania,mickeymaniattaomm,Europe,,Traveller's Tales/Psygnosis,Sony Imagesoft/Disney,#players:1 #genre:platformer #addon:megacd #port:megadrive #based $disney $mickey #lang:en #unfinished:demo>1
+Mickey Mania: The Timeless Adventures of Mickey Mouse,Mickey Mania,mickeymaniattaomm,Europe,,Traveller's Tales/Psygnosis,Sony Imagesoft/Disney,#players:1 #genre:platformer #addon:megacd #port:megadrive #based $disney $mickey #lang:en #unfinished:demo>2
+Microcosm,Microcosm@Microcosm マイクロコズム,microcosm,Japan,,Psygnosis,Victor,#players:1 #genre:shooting #addon:megacd #save:password #port:pc #lang:ja #unfinished:demo
+Novastorm,Novastorm,novastorm,Europe,,Psygnosis,Sony Electronic,#players:1 #genre:railshooter #addon:megacd #save:backup #lang:en #unfinished:demo
+Pitfall: The Mayan Adventure,Pitfall: The Mayan Adventure,pitfallthemayanadventure,Europe,,Activision/Freestyle/Krisalis,Activision,#players:1 #genre:action:platformer #addon:megacd:6button #lang:en #unfinished:demo
+Samurai Shodown,Samurai Shodown,samuraispirits,Europe,,Funcom,JVC,#players:2:vs #genre:fighting #addon:megacd:6button #port:arcade #lang:en #unfinished:demo
+SEGA CD Demo,,segacddemo,USA,1992-05-29,SEGA Multimedia,SEGA,#players:1 #genre:media:slideshow #addon:megacd $sonic #lang:en #unfinished:demo:proto
+Sensible Soccer,Sensible Soccer,sensiblesoccer,Europe,,Psygnosis,Renegade/Sony Imagesoft,#players:2:vs #genre:sports>soccer #addon:megacd #port:amiga #lang:en #unfinished:demo
+Shadow of the Beast II,Beast II,shadowofthebeast2,Europe,,Digital Developments,Psygnosis,#players:1 #genre:action #addon:megacd #port:amiga #lang:en #unfinished:demo
+Slam City with Scottie Pippen: Fingers,Slam City with Scottie Pippen,slamcitywithscottiepippen,Europe,,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd #save:backup #disc:1>4 #endorsed:celeb #lang:en #unfinished:demo
+Sonic The Hedgehog CD,Sonic The Hedgehog CD,sonicthehedgehogcd,Japan,1993-08-06,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en #unfinished:demo
+SoulStar,SoulStar,soulstar,Europe,,Core Design,Core Design,#players:2:coop #genre:railshooter:shmup #addon:megacd:6button #lang:en #unfinished:demo
+SoulStar / Battlecorps,SoulStar / Battlecorps,soulstar/battlecorps,Europe,1994,Core Design,Core Design,#players:2:coop #genre:railshooter:shmup:shooter #addon:megacd:6button #multigame:compilation #lang:en #unfinished:demo
+Space Ace,Space Ace,spaceace,USA,,ReadySoft,ReadySoft,#players:1 #genre:action #addon:megacd #port:arcade #lang:en #unfinished:demo
+Star Wars: Rebel Assault,Star Wars: Rebel Assault,rebelassault,Europe,,LucasArts,JVC,#players:1 #genre:railshooter:shooting #addon:megacd #save:password #port:pc #based $starwars #lang:en #unfinished:demo>1
+Star Wars: Rebel Assault,Star Wars: Rebel Assault,rebelassault,Europe,,LucasArts,JVC,#players:1 #genre:railshooter:shooting #addon:megacd #save:password #port:pc #based $starwars #lang:en #unfinished:demo>2
+The Lawnmower Man,The Lawnmower Man,thelawnmowermancd,Europe,,SCi/Online Entertainment,SCi/Time Warner,#players:1 #genre:action:puzzle #addon:megacd #based:movie #lang:en #unfinished:demo
+The MegaPower Demo,Mega Power Demo 2,megapower,Europe,1994-01,Psygnosis/Traveller's Tales,Psygnosis,#players:1 #genre:platformer:shooting:media #addon:megacd #port:megadrive #multigame:compilation #lang:en #unfinished:demo
+The MegaPower Demo,Mega Power Demo 2,megapower,Europe,1994-01,Psygnosis/Traveller's Tales,Psygnosis,#players:1 #genre:platformer:shooting:media #addon:megacd #port:megadrive #multigame:compilation #lang:en #unfinished:demo #alt
 Thunderhawk,Thunderhawk,thunderhawk,Europe,,Core Design,Core Design,#players:1 #genre:flightsim:shooting #addon:megacd:backupramcart #save:backup #lang:en:fr:de:es #unfinished:demo>1
 Thunderhawk,Thunderhawk,thunderhawk,Europe,,Core Design,Core Design,#players:1 #genre:flightsim:shooting #addon:megacd:backupramcart #save:backup #lang:en:fr:de:es #unfinished:demo>2
-Thunderhawk,Thunderhawk@Thunderhawk サンダーホーク,thunderhawk,Japan,1993-09-17,Core Design,Victor,#players:1 #genre:flightsim:shooting #addon:megacd:backupramcart #save:backup #lang:ja
-Thunderhawk,Thunderhawk Taikeiban@Thunderhawk サンダーホーク 体験版,thunderhawk,Japan,1993,Core Design,Victor,#players:1 #genre:flightsim:shooting #addon:megacd:backupramcart #save:backup #lang:ja #unfinished:demo
+Thunderhawk,Thunderhawk (Taikeiban)@Thunderhawk サンダーホーク (体験版),thunderhawk,Japan,1993,Core Design,Victor,#players:1 #genre:flightsim:shooting #addon:megacd:backupramcart #save:backup #lang:ja #unfinished:demo
+TimeCop,,timecop,Europe,1995,CRYO,JVC,#players:1 #genre:action #addon:megacd #port:superfamicom #based:movie #lang:en #unfinished:demo
+Formula One World Championship 1993: Heavenly Symphony,Heavenly Symphony: Formula One World Championship 1993@Heavenly Symphony ヘブンリーシンフォニー Formula One World Championship 1993,heavenlysymphony,Japan,,SEGA CS3/Fuji TV,SEGA,#players:1 #genre:racing:sports>formula1 #addon:megacd:backupramcart #save:backup #based #official:sports $sonic #lang:ja #unfinished:sample
+Lunar: Eternal Blue,Lunar: Eternal Blue,lunareternalblue,Japan,,Game Arts/Studio Alex/Cube,Game Arts,#players:1 #genre:rpg>j #addon:megacd:backupramcart #save:backup #lang:ja #unfinished:sample
+Night Trap,Night Trap@Night Trap ナイトトラップ,nighttrap,Japan,,Digital Pictures/Hasbro,SEGA,#players:1 #genre:adventure #addon:megacd #lang:ja #unfinished:sample
+PopfulMail@ぽっぷるメイル,PopfulMail: Magical Fantasy Adventure@ぽっぷるメイル PopfulMail: Magical Fantasy Adventure,popfulmail,Japan,,SEGA FALCOM,SEGA,#players:1 #genre:rpg>a:action #addon:megacd:backupramcart #save:backup #port:pc88 #lang:ja #unfinished:sample
+Silpheed,Silpheed,silpheed,Japan,,Game Arts/Mecano,Game Arts,#players:1 #genre:shmup>v #addon:megacd #remake:pc88 #lang:ja #unfinished:sample
+Urusei Yatsura: Dear My Friends@うる星やつら　ディア マイ フレンズ,Urusei Yatsura: Dear My Friends@うる星やつら　ディア マイ フレンズ,uruseiyatsuradearmyfriends,Japan,1994-04-15,Game Arts/Bits Laboratory,Game Arts,#players:1 #genre:adventure #addon:megacd:backupramcart:6button:mouse>md #save:backup #based:manganime #lang:ja #unfinished:sample
+Yumemi Yakata no Monogatari@夢見館の物語,Yumemi Yakata no Monogatari@夢見館の物語,yumemiyakatanomonogatari,Japan,,System Sacom/SEGA CS/DMP,SEGA,#players:1 #genre:adventure #addon:megacd:backupramcart:mouse>md #save:backup #lang:ja #unfinished:sample
+CD Sonic the Hedgehog,Sonic The Hedgehog CD,sonicthehedgehogcd,Japan,1992-12-04,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd $sonic #lang:en #unfinished:beta>1
+CD Sonic the Hedgehog,Sonic The Hedgehog CD,sonicthehedgehogcd,Japan,1993-05-12,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd $sonic #lang:en #unfinished:beta>2
+CD Sonic the Hedgehog,Sonic The Hedgehog CD,sonicthehedgehogcd,Japan,1993-06-21,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd $sonic #lang:en #unfinished:beta>3
+Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道 悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,Europe,,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:megacd:6button #save:backup #port:megadrive #lang:en #unfinished:beta
+Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道 悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,USA,,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:megacd:6button #save:backup #port:megadrive #lang:en #unfinished:beta
+Fatal Fury Special,Fatal Fury Special,garoudensetsuspecial,Europe,,Funcom,JVC,#players:2:vs #genre:fighting #addon:megacd:6button #port:arcade #lang:en #unfinished:beta
+Lethal Enforcers II: Gun Fighters,Lethal Enforcers II: Gun Fighters,lethalenforcers2thewestern,Europe,,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #lang:en #unfinished:beta
+Make My Video: INXS,Make My Video: INXS,makemyvideoinxs,USA,,Digital Pictures,SEGA,#players:1 #genre:application:marketing #addon:megacd #endorsed:celeb #lang:en #unfinished:beta
+Make My Video: Marky Mark and the Funky Bunch,Make My Video: Marky Mark and the Funky Bunch,makemyvideomarkymarkandthefunkybunch,USA,,Digital Pictures,SEGA,#players:1 #genre:application:marketing #addon:megacd #endorsed:celeb #lang:en #unfinished:beta
+Snatcher@Cyberpunk Adventure: Snatcher,Snatcher,snatcher,Europe,,Konami,Konami,#players:1 #genre:adventure:shooting #addon:megacd:backupramcart:justifier:rss #save:backup #port:pc88 #lang:en #unfinished:beta
+Sonic The Hedgehog CD,Sonic CD,sonicthehedgehogcd,Europe,1993-08-06,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en #unfinished:beta>1
+Sonic The Hedgehog CD,Sonic CD,sonicthehedgehogcd,Europe,1993-08-19,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en #unfinished:beta>2
+Sonic The Hedgehog CD,Sonic CD,sonicthehedgehogcd,USA,1993-09-20,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en #unfinished:beta>1
+Sonic The Hedgehog CD,Sonic CD,sonicthehedgehogcd,USA,1993-10-13,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en #unfinished:beta>2
+Sonic The Hedgehog CD,Sonic The Hedgehog CD,sonicthehedgehogcd,Japan,1993-07-12,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en #unfinished:beta>4
+Sonic The Hedgehog CD,Sonic The Hedgehog CD,sonicthehedgehogcd,Japan,1993-08-01,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en #unfinished:beta>5
