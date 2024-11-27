@@ -297,6 +297,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:superfamicom** (Nintendo Super Famicom / SNES)
 **:gameboy** (Nintendo GameBoy)
 **:playstation** (Sony PlayStation)
+**:laseractive** (Pioneer LaserActive)
 **:fmtowns** (Fujitsu FM Towns)
 
 **#rerelease** (Re-release)
@@ -344,6 +345,8 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:pcemultitap** (Hudson Multitap / NEC TurboTap)
 **:tennokoe** (Hudson Ten no Koe 1&2 / NEC Backup Booster I&II / NEC TurboBooster-Plus)
 **:memorybase128** (NEC Memory Base 128)
+**:megald** (Pioneer LaserActive PAC-S Mega-LD)
+**:ldrom2** (Pioneer LaserActive PAC-N LD-ROM²)
 **:mouse>md** (SEGA Mouse)
 **:mouse>pce** (NEC PC Engine Mouse)
 **:mouse>pcfx** (NEC PC-FX Mouse)
@@ -390,7 +393,9 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:hardwarebike** (Varie Hardware Bike / ハードウーアバイク)
 **:uforce** (Brøderbund UForce Controller)
 **:supergameboy** (Nintendo Super GameBoy 1&2)
-**:sfcmultitap** (Nintendo Super Famicom Multitap)
+**:superturbofile** (ASCII Super Turbo File)
+**:supermultitap** (Hudson Super Multitap)
+**:samegame** (Hudson SameGame Cassette / 鮫亀カセット)
 **:gamelinkcable** (Nintendo Tsūshin Cable / Game Link Cable)
 **:fourplayeradapter** (Nintendo Four Player Adapter)
 **:pocketcamera** (Nintendo Pocket Camera / GameBoy Camera)
@@ -439,6 +444,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 
 **#sfc** (Super Famicom)
 **:np** (Nintendo Power SF-Memory Cassette)
+**:soundlink** (SoundLink support)
 
 **#pce** (PC Engine)
 **:pcsg** (PC SuperGrafx)
