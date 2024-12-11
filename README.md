@@ -527,6 +527,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:toaplan** (All Toaplan boards)
 **:jaleco** (All Jaleco boards)
 **:snk** (All SNK boards)
+**:taito** (All Taito boards
 
 **#arcadeboard:capcom**
 **\>cps** (CAPCOM CP System)
@@ -575,6 +576,14 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 
 **#arcadeboard:snk**
 **\>mvs** (MVS / Multi Video System)
+
+**#arcadeboard:taito**
+**\>xsystem** (X System)
+**\>bsystem** (B System)
+**\>hsystem** (H System)
+**\>lsystem** (L System)
+**\>zsystem** (Z System)
+**\>f2** (F2 System)
 
 **#arcadeboard:toaplan**
 **>1** (Toaplan Version 1)
