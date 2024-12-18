@@ -583,6 +583,8 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **\>hsystem** (H System)
 **\>lsystem** (L System)
 **\>zsystem** (Z System)
+**\>osystem** (O System)
+**\>f1** (F1 System / F2 System Extended)
 **\>f2** (F2 System)
 
 **#arcadeboard:toaplan**
