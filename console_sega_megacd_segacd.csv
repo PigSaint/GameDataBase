@@ -145,8 +145,8 @@ Bram Stoker's Dracula,Mary Shelley's Frankenstein / Bram Stoker's Dracula,bramst
 Brutal: Paws of Fury,Brutal: Paws of Fury,brutalpawsoffury,USA,1994-11,GameTek,GameTek,#players:2:vs #genre:fighting #addon:megacd:6button #lang:en
 Cadillacs and Dinosaurs: The Second Cataclysm,Cadillacs and Dinosaurs: The Second Cataclysm,cadillacsanddinosaursthesecondcataclysm,USA,1994-12,Rocket Science,Rocket Science,#players:2:coop #genre:railshooter:shooting #addon:megacd #based #save:backup #lang:en
 Championship Soccer '94,Championship Soccer '94,sensiblesoccer,USA,1994-09,Psygnosis,Renegade/Sony Imagesoft,#players:2:vs #genre:sports>soccer #addon:megacd #port:amiga #lang:en:fr:de:it
-Chuck Rock,Chuck Rock,chuckrock,USA,1992-12,Core Design,Sony Imagesoft,#players:1 #genre:action:platformer #addon:megacd #save:password #port:amiga #lang:en
-Chuck II: Son of Chuck,Chuck Rock II: Son of Chuck,chuckrock2soc,USA,1993,Core Design,Virgin,#players:1 #genre:platformer:action #addon:megacd #port:amiga:megadrive #lang:en
+Chuck Rock,Chuck Rock,chuckrock,USA,1992-12,Core Design,Sony Imagesoft,#players:1 #genre:platformer:action #addon:megacd #save:password #port:amiga #lang:en
+Chuck II: Son of Chuck,Chuck Rock II: Son of Chuck,chuckrock2soc,USA,1993,Core Design,Virgin,#players:1 #genre:platformer #addon:megacd #port:amiga:megadrive #lang:en
 Cliffhanger,Cliffhanger,cliffhanger,USA,1993-11,Malibu,Sony Imagesoft,#players:1 #genre:brawler:sports>snowboarding #addon:megacd #port:megadrive #based:movie #lang:en
 Cobra Command,Cobra Command,thunderstorm,USA,1992-11,Wolf Team,SEGA,#players:1 #genre:shooting #addon:megacd #port:arcade #lang:en
 Compton's Interactive Encyclopedia,Compton's Interactive Encyclopedia: Edition 1995,comptonsinterativeencyclopedia,USA,1994,Compton's NewMedia,Compton's NewMedia,#players:1 #genre:application:educational #addon:megacd #port:pc #lang:en
@@ -343,12 +343,12 @@ Battlecorps,Battlecorps,battlecorps,Europe,1994-08,Core Design,Core Design,#play
 BC Racers,BC Racers,bcracers,Europe,1994-12,Core Design,Core Design/SEGA,#players:2:vs #genre:racing>combat #addon:megacd:6button #lang:en:fr:de
 Bill Walsh College Football,Bill Walsh College Football,billwalshcollegefootball,Europe,1994-03,High Score,Electronic Arts,#players:4:coop:vs #genre:sports>football #addon:megacd:4wayplay #port:megadrive #endorsed:celeb #lang:en
 Black Hole Assault,Blackhole Assault,blackholeassault,Europe,1993-09,Micronet,SEGA,#players:2:vs #genre:fighting #addon:megacd:backupramcart #save:backup #lang:en
-Bloodshot / Battle Frenzy,Bloodshot,battlefrenzy,Europe,1995-06,The Kremlin,Domark,#players:2:vs #genre:shooter #addon:megacd #lang:en:fr:de:es
-Bloodshot / Battle Frenzy,Battle Frenzy,battlefrenzy,Germany,1995-06,The Kremlin,Domark,#players:2:vs #genre:shooter #addon:megacd #reboxed #lang:en:fr:de:es
+Bloodshot / Battle Frenzy,Bloodshot,bloodshot,Europe,1995-06,The Kremlin,Domark,#players:2:vs #genre:shooter #addon:megacd #lang:en:fr:de:es
+Bloodshot / Battle Frenzy,Battle Frenzy,bloodshot,Germany,1995-06,The Kremlin,Domark,#players:2:vs #genre:shooter #addon:megacd #reboxed #lang:en:fr:de:es
 Brutal: Paws of Fury,Brutal: Paws of Fury,brutalpawsoffury,Europe,1994-09,GameTek,GameTek,#players:2:vs #genre:fighting #addon:megacd:6button #lang:en:fr:de
 Brutal: Paws of Fury,Paws of Fury,brutalpawsoffury,Germany,1994-09,GameTek,GameTek,#players:2:vs #genre:fighting #addon:megacd:6button #reboxed #lang:en:fr:de
-Chuck Rock,Chuck Rock,chuckrock,Europe,1993-08,Core Design,Sony Imagesoft,#players:1 #genre:action:platformer #addon:megacd #save:password #port:amiga #lang:en
-Chuck II: Son of Chuck,Chuck Rock II: Son of Chuck,chuckrock2soc,Europe,1994-01,Core Design,Core Design,#players:1 #genre:platformer:action #addon:megacd #port:amiga:megadrive #lang:en
+Chuck Rock,Chuck Rock,chuckrock,Europe,1993-08,Core Design,Sony Imagesoft,#players:1 #genre:platformer:action #addon:megacd #save:password #port:amiga #lang:en
+Chuck II: Son of Chuck,Chuck Rock II: Son of Chuck,chuckrock2soc,Europe,1994-01,Core Design,Core Design,#players:1 #genre:platformer #addon:megacd #port:amiga:megadrive #lang:en
 Cobra Command,Sol-Feace / Cobra Command,thunderstorm,Europe,1993,Wolf Team,SEGA,#players:1 #genre:shooting #addon:megacd #port:arcade #lang:en
 Corpse Killer,Corpse Killer,corpsekiller,Europe,1995-03,Digital Pictures,Digital Pictures,#players:1 #genre:shooting #addon:megacd:menacer $lightgun #lang:en
 Corpse Killer,Corpse Killer,corpsekiller,Europe,1995-07,Digital Pictures,Digital Pictures,#players:1 #genre:shooting #addon:megacd:super32x:menacer $lightgun #lang:en
@@ -479,7 +479,7 @@ Surgical Strike,Surgical Strike,surgicalstrike,Brazil,1996-01,The Code Monkeys/S
 Ecco,Ecco the Dolphin,eccothedolphin,Australia,,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #port:megadrive #save:password #lang:en
 Tomcat Alley,Tomcat Alley,tomcatalley,Australia,,The Code Monkeys,SEGA,#players:1 #genre:shooting #addon:megacd #lang:en
 Yumemi Mystery Mansion,Yumemi Mystery Mansion,yumemiyakatanomonogatari,Australia,,System Sacom/SEGA CS/DMP,SEGA,#players:1 #genre:adventure #addon:megacd:backupramcart:mouse>md #save:backup #lang:en
-Battle Frenzy,Battle Frenzy,battlefrenzy,USA,2003,The Kremlin,Good Deal,#players:2:vs #genre:shooter #addon:megacd #port:megadrive #lang:en #unlicensed
+Battle Frenzy,Battle Frenzy,bloodshot,USA,2003,The Kremlin,Good Deal,#players:2:vs #genre:shooter #addon:megacd #port:megadrive #lang:en #unlicensed
 BattleTech: Gray Death Legion,BattleTech: Gray Death Legion,battletechgraydeathlegion,USA,,Imagineering,Good Deal,#players:1 #genre:shooter #addon:megacd #based #lang:en #unlicensed
 Citizen X,Citizen X,citizenx,USA,2002,Digital Pictures,Good Deal,#players:1 #genre:action:adventure #addon:megacd #lang:en #unlicensed
 Color Mechanica,Color Mechanica,colormechanica,USA,2013-12-27,Batlab,Note!,#players:2:coop #genre:media #addon:megacd #lang:en #unlicensed
