@@ -170,12 +170,12 @@ Ecco,Ecco the Dolphin,eccothedolphin,USA,1993-07,Novotrade,SEGA,#players:1 #genr
 Ecco,SEGA Classics Arcade Collection / Ecco the Dolphin,eccothedolphin,USA,1993,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #save:password #multigame:compilation #reboxed #lang:en
 Ecco: The Tides of Time,Ecco: The Tides of Time,eccothetidesoftime,USA,1994-11,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #save:password #lang:en
 Ecco: The Tides of Time,Ecco: The Tides of Time,eccothetidesoftime,USA,1994-11,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #save:password #lang:en #alt
-ESPN Baseball Tonight,ESPN Baseball Tonight,espnbaseballtonight,USA,1994-10,Sony Imagesoft,Sony Imagesoft,#players:2:vs #genre:sports>baseball #addon:megacd #port:megadrive #based #official:sports #lang:en
+ESPN Baseball Tonight,ESPN Baseball Tonight,espnbaseballtonight,USA,1994-10,Sony Imagesoft,Sony Imagesoft,#players:2:vs #genre:sports>baseball #addon:megacd #port:megadrive #based #endorsed:celeb #official:sports #lang:en
 ESPN National Hockey Night,ESPN National Hockey Night,espnnationalhockeynight,USA,1994-11,Sony Imagesoft,Sony Imagesoft,#players:4:coop:vs #genre:sports>hockey #addon:megacd:segatap #save:backup #port:megadrive #based #official:sports #lang:en
 ESPN NBA Hangtime '95 / ESPN 2on2 Basketball World Tour,ESPN NBA Hangtime '95,espnnbahangtime95,USA,1994,Sony Imagesoft,Sony Imagesoft,#players:4:coop:vs #genre:sports>basketball #addon:megacd:segatap #official:sports #lang:en
 ESPN Sunday Night NFL,ESPN Sunday Night NFL,espnsundaynightnfl,USA,1994-11,Sony Imagesoft/Ringler/Absolute,Sony Imagesoft,#players:2:vs #genre:sports>football #addon:megacd #port:megadrive #based #official:sports #lang:en
-Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道 悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,USA,1995-06-06,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:megacd:6button #save:backup #port:megadrive #lang:en
-Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道 悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,USA,,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:megacd:6button #save:backup #port:megadrive #lang:en #rev:1
+Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道 悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,USA,1995-06-06,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:megacd:6button:activator #save:backup #port:megadrive #lang:en
+Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道 悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,USA,,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:megacd:6button:activator #save:backup #port:megadrive #lang:en #rev:1
 Eye of the Beholder,Eye of the Beholder,eyeofthebeholder,USA,1994-08,Opera House,FCI,#players:1 #genre:dungeoncrawler:rpg #addon:megacd:backupramcart:mouse>md #save:backup #port:pc #based $dnd #lang:en
 Fahrenheit,Fahrenheit,fahrenheit,USA,1995-04,SEGA/TLA,SEGA,#players:1 #genre:adventure #addon:megacd #disc:1>2 #lang:en
 Fahrenheit,Fahrenheit,fahrenheit,USA,1995-04,SEGA/TLA,SEGA,#players:1 #genre:adventure #addon:megacd:super32x #disc:2>2 #lang:en
@@ -230,7 +230,7 @@ My Paint,My Paint: The Animated Paint Program,mypaint,USA,1994,WayForward,Saddle
 NBA Jam,NBA Jam,nbajam,USA,1994-12,Iguana,Acclaim,#players:4:coop:vs #genre:sports>basketball #addon:megacd:segatap #save:backup #port:arcade:megadrive #official:sports #lang:en
 NFL Football Trivia Challenge,NFL Football Trivia Challenge,nflfootballtriviachallenge,USA,1994-11,CapDisc/Philips,CapDisc,#players:2:vs #genre:quiz:board:sports>football #addon:megacd #official:sports #lang:en
 NFL's Greatest: San Francisco vs. Dallas,NFL's Greatest: San Francisco vs. Dallas 1978-1993,nflsgreatestsanfranciscovsdallas,USA,1993-10,Park Place,SEGA,#players:2:vs #genre:sim:sports>football #addon:megacd #official:sports #lang:en
-NHL Hockey '94,NHL '94,nhlhockey94,USA,1993,High Score,Electronic Arts,#players:4:coop:vs #genre:sports>hockey #addon:megacd:4wayplay #official:sports #lang:en
+NHL Hockey '94,NHL '94,nhl94,USA,1993,High Score,Electronic Arts,#players:4:coop:vs #genre:sports>hockey #addon:megacd:4wayplay #port:megadrive #official:sports #lang:en
 Night Trap,Night Trap,nighttrap,USA,1992-11,Digital Pictures/Hasbro,SEGA,#players:1 #genre:adventure #addon:megacd #disc:1>2 #lang:en
 Night Trap,Night Trap,nighttrap,USA,1992-11,Digital Pictures/Hasbro,SEGA,#players:1 #genre:adventure #addon:megacd #disc:1>2 #lang:en #alt
 Night Trap,Night Trap,nighttrap,USA,1992-11,Digital Pictures/Hasbro,SEGA,#players:1 #genre:adventure #addon:megacd #disc:2>2 #lang:en
@@ -366,7 +366,7 @@ Ecco,Ecco the Dolphin,eccothedolphin,Europe,1993-11-05,Novotrade,SEGA,#players:1
 Ecco,Ecco the Dolphin,eccothedolphin,Europe,,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #port:megadrive #reboxed #save:password #lang:en
 Ecco: The Tides of Time,Ecco: The Tides of Time,eccothetidesoftime,Europe,1995-06,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:megacd #save:password #lang:en:fr:de:es
 ESPN Baseball Tonight,ESPN Baseball Tonight,espnbaseballtonight,Europe,1994,Sony Imagesoft,Sony Imagesoft,#players:2:vs #genre:sports>baseball #addon:megacd #port:megadrive #based #official:sports #lang:en
-Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道 悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,Europe,1995-05,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:megacd:6button #save:backup #port:megadrive #lang:en
+Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道 悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,Europe,1995-05,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:megacd:6button:activator #save:backup #port:megadrive #lang:en
 Eye of the Beholder,Eye of the Beholder,eyeofthebeholder,Europe,1994-12,Opera House,FCI,#players:1 #genre:dungeoncrawler:rpg #addon:megacd:backupramcart:mouse>md #save:backup #port:pc #based $dnd #lang:en
 Fahrenheit,Fahrenheit,fahrenheit,Europe,1995-05,SEGA/TLA,SEGA,#players:1 #genre:adventure #addon:megacd #lang:en
 Fahrenheit,Fahrenheit,fahrenheit,France,1995-05,SEGA/TLA,SEGA,#players:1 #genre:adventure #addon:megacd #lang:fr
@@ -402,7 +402,7 @@ Midnight Raiders,Midnight Raiders,midnightraiders,Europe,1995-03,Stargate,SEGA,#
 Mighty Morphin Power Rangers@Saban's Mighty Morphin Power Rangers,Mighty Morphin Power Rangers@Saban's Mighty Morphin Power Rangers,mightymorphinpowerrangerscd,Europe,1995-03,Orion,SEGA,#players:1 #genre:action #addon:megacd #based #lang:en
 Mortal Kombat,Mortal Kombat,mortalkombat,Europe,1994-07,Probe/Grey Team,Arena,#players:2:vs #genre:fighting #addon:megacd:6button #port:arcade #lang:en
 NBA Jam,NBA Jam,nbajam,Europe,1994-12,Iguana,Acclaim,#players:4:coop:vs #genre:sports>basketball #addon:megacd:segatap #save:backup #port:arcade:megadrive #official:sports #lang:en
-NHL Hockey '94,NHL Hockey '94,nhlhockey94,Europe,1994-03,High Score,Electronic Arts,#players:4:coop:vs #genre:sports>hockey #addon:megacd:4wayplay #official:sports #lang:en
+NHL Hockey '94,NHL Hockey '94,nhl94,Europe,1994-03,High Score,Electronic Arts,#players:4:coop:vs #genre:sports>hockey #addon:megacd:4wayplay #port:megadrive #official:sports #lang:en
 Night Trap,Night Trap,nighttrap,Europe,1993-06,Digital Pictures/Hasbro,SEGA,#players:1 #genre:adventure #addon:megacd #disc:1>2 #lang:en
 Night Trap,Night Trap,nighttrap,Europe,1993-06,Digital Pictures/Hasbro,SEGA,#players:1 #genre:adventure #addon:megacd #disc:2>2 #lang:en
 Night Trap,Night Trap,nighttrap,France,1993-06,Digital Pictures/Hasbro,SEGA,#players:1 #genre:adventure #addon:megacd #disc:1>2 #lang:fr
@@ -540,8 +540,8 @@ Yumemi Yakata no Monogatari@夢見館の物語,Yumemi Yakata no Monogatari@夢�
 CD Sonic the Hedgehog,Sonic The Hedgehog CD,sonicthehedgehogcd,Japan,1992-12-04,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd $sonic #lang:en #unfinished:beta>1
 CD Sonic the Hedgehog,Sonic The Hedgehog CD,sonicthehedgehogcd,Japan,1993-05-12,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd $sonic #lang:en #unfinished:beta>2
 CD Sonic the Hedgehog,Sonic The Hedgehog CD,sonicthehedgehogcd,Japan,1993-06-21,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd $sonic #lang:en #unfinished:beta>3
-Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道 悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,Europe,,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:megacd:6button #save:backup #port:megadrive #lang:en #unfinished:beta
-Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道 悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,USA,,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:megacd:6button #save:backup #port:megadrive #lang:en #unfinished:beta
+Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道 悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,Europe,,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:megacd:6button:activator #save:backup #port:megadrive #lang:en #unfinished:beta
+Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道 悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,USA,,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:megacd:6button:activator #save:backup #port:megadrive #lang:en #unfinished:beta
 Fatal Fury Special,Fatal Fury Special,garoudensetsuspecial,Europe,,Funcom,JVC,#players:2:vs #genre:fighting #addon:megacd:6button #port:arcade #lang:en #unfinished:beta
 Lethal Enforcers II: Gun Fighters,Lethal Enforcers II: Gun Fighters,lethalenforcers2thewestern,Europe,,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #lang:en #unfinished:beta
 Make My Video: INXS,Make My Video: INXS,makemyvideoinxs,USA,,Digital Pictures,SEGA,#players:1 #genre:application:marketing #addon:megacd #endorsed:celeb #lang:en #unfinished:beta
