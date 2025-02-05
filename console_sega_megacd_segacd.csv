@@ -220,7 +220,7 @@ Make My Video: Marky Mark and the Funky Bunch,Make My Video: Marky Mark and the 
 Mansion of Hidden Souls,Mansion of Hidden Souls,yumemiyakatanomonogatari,USA,1994-02,System Sacom/SEGA CS/DMP,VIC Tokai,#players:1 #genre:adventure #addon:megacd:backupramcart:mouse>md #save:backup #lang:en
 Mary Shelley's Frankenstein,Mary Shelley's Frankenstein / Bram Stoker's Dracula,maryshelleysfrankensteincd,USA,,Psygnosis,Sony Imagesoft,#players:1 #genre:adventure:fighting #addon:megacd #save:backup #based:movie #multigame:compilation #lang:en
 MegaRace,MegaRace,megarace,USA,1994-12,CRYO,The Software Toolworks,#players:1 #genre:racing>combat #addon:megacd #port:pc #lang:en
-Mickey Mania: The Timeless Adventures of Mickey Mouse,Mickey Mania: The Timeless Adventures of Mickey Mouse,mickeymaniattaomm,USA,1994-11,Traveller's Tales/Psygnosis,Sony Imagesoft/Disney,#players:1 #genre:platformer #addon:megacd #port:megadrive #based $disney $mickey #lang:en
+Mickey Mania: The Timeless Adventures of Mickey Mouse,Mickey Mania: The Timeless Adventures of Mickey Mouse,mickeymaniattaomm,USA,1994-11,Traveller's Tales/Psygnosis/Disney,Sony Imagesoft,#players:1 #genre:platformer #addon:megacd #port:megadrive #based $disney $mickey #lang:en
 Midnight Raiders,Midnight Raiders,midnightraiders,USA,1994-10,Stargate,SEGA,#players:1 #genre:shooting #addon:megacd #lang:en
 Mighty Morphin Power Rangers@Saban's Mighty Morphin Power Rangers,Mighty Morphin Power Rangers@Saban's Mighty Morphin Power Rangers,mightymorphinpowerrangerscd,USA,1994-11,Orion,SEGA,#players:1 #genre:action #addon:megacd #based #lang:en
 Mortal Kombat,Mortal Kombat,mortalkombat,USA,1994-04,Probe/Grey Team,Arena,#players:2:vs #genre:fighting #addon:megacd:6button #port:arcade #lang:en
@@ -392,7 +392,7 @@ Make My Video: C+C Music Factory,Power Factory Featuring C+C Music Factory,power
 Make My Video: INXS,Make My Video: INXS,makemyvideoinxs,Europe,1993-09,Digital Pictures,SEGA,#players:1 #genre:application:marketing #addon:megacd #endorsed:celeb #lang:en
 Make My Video: Kris Kross,Kris Kross,makemyvideokriskross,Europe,1993-11,Digital Pictures,Sony Imagesoft,#players:1 #genre:application:marketing #addon:megacd #endorsed:celeb #lang:en
 Marko's Magic Football,Marko's Magic Football,markosmagicfootball,Europe,1994,Interactive Studios,Domark,#players:1 #genre:platformer #addon:megacd #save:password #port:megadrive #lang:en:fr:de:es
-Mickey Mania: The Timeless Adventures of Mickey Mouse,Mickey Mania,mickeymaniattaomm,Europe,1994-12,Traveller's Tales/Psygnosis,Sony Imagesoft/Disney,#players:1 #genre:platformer #addon:megacd #port:megadrive #based $disney $mickey #lang:en
+Mickey Mania: The Timeless Adventures of Mickey Mouse,Mickey Mania,mickeymaniattaomm,Europe,1994-12,Traveller's Tales/Psygnosis/Disney,Sony Imagesoft,#players:1 #genre:platformer #addon:megacd #port:megadrive #based $disney $mickey #lang:en
 Microcosm,Microcosm,microcosm,Europe,1994-01,Psygnosis,Psygnosis,#players:1 #genre:shooting #addon:megacd #save:password #port:pc #lang:en
 Microcosm,Microcosm,microcosm,Europe,,Psygnosis,Psygnosis,#players:1 #genre:shooting #addon:megacd #save:password #port:pc #reboxed #lang:en
 Microcosm,Microcosm,microcosm,Europe,1994-01,Psygnosis,Psygnosis,#players:1 #genre:shooting #addon:megacd #save:password #port:pc #lang:en
@@ -507,8 +507,8 @@ FIFA International Soccer,FIFA International Soccer: Championship Edition,fifa94
 FIFA International Soccer,FIFA International Soccer: Championship Edition,fifa94,Europe,,Extended Play,Electronic Arts,#players:4:coop:vs #genre:sports>soccer #addon:megacd:segatap #port:megadrive #endorsed:company #official:sports #lang:en #unfinished:demo>alt
 Keio Flying Squadron@慶応遊撃隊 Keio Flying Squadron,Keio Flying Squadron@Keio Flying Squadron 慶応遊撃隊,keiouyuugekitai,Europe,,Victor,JVC,#players:1 #genre:shmup>h #addon:megacd #lang:en #unfinished:demo
 Lethal Enforcers II: Gun Fighters,Lethal Enforcers II: Gun Fighters,lethalenforcers2thewestern,Europe,,Konami,Konami,#players:2:coop #genre:shooting #addon:megacd:justifier $lightgun #port:arcade #lang:en #unfinished:demo
-Mickey Mania: The Timeless Adventures of Mickey Mouse,Mickey Mania,mickeymaniattaomm,Europe,,Traveller's Tales/Psygnosis,Sony Imagesoft/Disney,#players:1 #genre:platformer #addon:megacd #port:megadrive #based $disney $mickey #lang:en #unfinished:demo>1
-Mickey Mania: The Timeless Adventures of Mickey Mouse,Mickey Mania,mickeymaniattaomm,Europe,,Traveller's Tales/Psygnosis,Sony Imagesoft/Disney,#players:1 #genre:platformer #addon:megacd #port:megadrive #based $disney $mickey #lang:en #unfinished:demo>2
+Mickey Mania: The Timeless Adventures of Mickey Mouse,Mickey Mania,mickeymaniattaomm,Europe,,Traveller's Tales/Psygnosis/Disney,Sony Imagesoft,#players:1 #genre:platformer #addon:megacd #port:megadrive #based $disney $mickey #lang:en #unfinished:demo>1
+Mickey Mania: The Timeless Adventures of Mickey Mouse,Mickey Mania,mickeymaniattaomm,Europe,,Traveller's Tales/Psygnosis/Disney,Sony Imagesoft,#players:1 #genre:platformer #addon:megacd #port:megadrive #based $disney $mickey #lang:en #unfinished:demo>2
 Microcosm,Microcosm@Microcosm マイクロコズム,microcosm,Japan,,Psygnosis,Victor,#players:1 #genre:shooting #addon:megacd #save:password #port:pc #lang:ja #unfinished:demo
 Novastorm,Novastorm,novastorm,Europe,,Psygnosis,Sony Electronic,#players:1 #genre:railshooter #addon:megacd #save:backup #lang:en #unfinished:demo
 Pitfall: The Mayan Adventure,Pitfall: The Mayan Adventure,pitfallthemayanadventure,Europe,,Activision/Freestyle/Krisalis,Activision,#players:1 #genre:action:platformer #addon:megacd:6button #lang:en #unfinished:demo
