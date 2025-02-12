@@ -682,7 +682,7 @@ These tags even allow us to search for famous characters like Dracula. If we wer
 **$pacman** (Pac-Man)
 **$sherlock** (Sherlock Holmes)
 **$simpsons** (The Simpsons)
-**$smurfs** (The Smurfs/Les Schtroumpfs/Los Pitufos)
+**$smurfs** (The Smurfs/Les Schtroumpfs/Los Pitufos/Die Schlümpfe)
 **$sonic** (Sonic The Hedgehog)
 **$spiderman** (Spider-Man)
 **$starwars** (Star Wars)
