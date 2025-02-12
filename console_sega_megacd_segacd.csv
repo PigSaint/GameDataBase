@@ -144,7 +144,7 @@ Bram Stoker's Dracula,Bram Stoker's Dracula,bramstokersdraculacd,USA,1993-11,Psy
 Bram Stoker's Dracula,Mary Shelley's Frankenstein / Bram Stoker's Dracula,bramstokersdraculacd,USA,1994,Psygnosis,Sony Imagesoft,#players:1 #genre:action #addon:megacd #based:movie $dracula #lang:en #multigame:compilation #reboxed #lang:en
 Brutal: Paws of Fury,Brutal: Paws of Fury,brutalpawsoffury,USA,1994-11,GameTek,GameTek,#players:2:vs #genre:fighting #addon:megacd:6button #lang:en
 Cadillacs and Dinosaurs: The Second Cataclysm,Cadillacs and Dinosaurs: The Second Cataclysm,cadillacsanddinosaursthesecondcataclysm,USA,1994-12,Rocket Science,Rocket Science,#players:2:coop #genre:railshooter:shooting #addon:megacd #based #save:backup #lang:en
-Championship Soccer '94,Championship Soccer '94,sensiblesoccer,USA,1994-09,Psygnosis,Sony Imagesoft/Renegade,#players:2:vs #genre:sports>soccer #addon:megacd #port:amiga #lang:en:fr:de:it
+Championship Soccer '94,Championship Soccer '94,sensiblesoccerec,USA,1994-09,Psygnosis,Sony Imagesoft/Renegade,#players:2:vs #genre:sports>soccer #addon:megacd #port:amiga #lang:en:fr:de:it
 Chuck Rock,Chuck Rock,chuckrock,USA,1992-12,Core Design,Sony Imagesoft,#players:1 #genre:platformer:action #addon:megacd #save:password #port:amiga #lang:en
 Chuck II: Son of Chuck,Chuck Rock II: Son of Chuck,chuckrock2soc,USA,1993,Core Design,Virgin,#players:1 #genre:platformer #addon:megacd #port:amiga:megadrive #lang:en
 Cliffhanger,Cliffhanger,cliffhanger,USA,1993-11,Malibu,Sony Imagesoft,#players:1 #genre:brawler:sports>snowboarding #addon:megacd #port:megadrive #based:movie #lang:en
@@ -341,6 +341,7 @@ Batman Returns,Batman Returns,batmanreturns,Europe,1993-09,Malibu,SEGA,#players:
 Batman Returns,Batman Returns,batmanreturns,Europe,,Malibu,SEGA,#players:1 #genre:action:platformer:racing #addon:megacd #port:megadrive #based:movie $batman #lang:en #alt
 Battlecorps,Battlecorps,battlecorps,Europe,1994-08,Core Design,Core Design,#players:1 #genre:shooter #addon:megacd #lang:en:fr:de:es
 BC Racers,BC Racers,bcracers,Europe,1994-12,Core Design,Core Design/SEGA,#players:2:vs #genre:racing>combat #addon:megacd:6button #lang:en:fr:de
+Beast II,Shadow of the Beast II,shadowofthebeast2,Europe,1994-05,Digital Developments,Psygnosis,#players:1 #genre:action #addon:megacd #port:amiga #lang:en
 Bill Walsh College Football,Bill Walsh College Football,billwalshcollegefootball,Europe,1994-03,High Score,Electronic Arts,#players:4:coop:vs #genre:sports>football #addon:megacd:4wayplay #port:megadrive #endorsed:celeb #lang:en
 Black Hole Assault,Blackhole Assault,blackholeassault,Europe,1993-09,Micronet,SEGA,#players:2:vs #genre:fighting #addon:megacd:backupramcart #save:backup #lang:en
 Bloodshot / Battle Frenzy,Bloodshot,bloodshot,Europe,1995-06,The Kremlin,Domark,#players:2:vs #genre:shooter #addon:megacd #lang:en:fr:de:es
@@ -420,9 +421,8 @@ Robo Aleste,Robo Aleste,denninalestenobunagaandhisninjaforce,Europe,1993-09,Comp
 Samurai Shodown,Samurai Shodown,samuraispirits,Europe,1995-06,Funcom,JVC,#players:2:vs #genre:fighting #addon:megacd:6button #port:arcade #lang:en
 SEGA Classics Arcade Collection,SEGA Classics Arcade Collection: Limited Edition,segaclassicsarcadecollection,Europe,1993-04-02,SEGA,SEGA,#players:2:coop:vs #genre:brawler:racing:sports>formula1:action:puzzle>drop #addon:megacd #port:megadrive #multigame:compilation #lang:en
 SEGA Classics Arcade Collection,SEGA Classics Arcade Collection: Limited Edition,segaclassicsarcadecollection,Europe,1993-04-02,SEGA,SEGA,#players:2:coop:vs #genre:brawler:racing:sports>formula1:action:puzzle>drop #addon:megacd #port:megadrive #multigame:compilation #lang:en #alt
-Sensible Soccer,Sensible Soccer,sensiblesoccer,Europe,1994-07,Psygnosis,Sony Imagesoft/Renegade,#players:2:vs #genre:sports>soccer #addon:megacd #port:amiga #lang:en:fr:de:it
+Sensible Soccer,Sensible Soccer,sensiblesoccerec,Europe,1994-07,Psygnosis,Sony Imagesoft/Renegade,#players:2:vs #genre:sports>soccer #addon:megacd #port:amiga #lang:en:fr:de:it
 Sewer Shark,Sewer Shark,sewershark,Europe,1993-06,Digital Pictures,Sony Imagesoft,#players:1 #genre:shooting #addon:megacd #lang:en
-Shadow of the Beast II,Beast II,shadowofthebeast2,Europe,1994-05,Digital Developments,Psygnosis,#players:1 #genre:action #addon:megacd #port:amiga #lang:en
 Sherlock Holmes: Consulting Detective Vol.I,Sherlock Holmes: Consulting Detective,sherlockholmesconsultingdetective,Europe,1993-09,ICOM Simulations,SEGA,#players:1 #genre:adventure #addon:megacd #save:backup $sherlock #lang:en
 Sherlock Holmes: Consulting Detective Vol.II,Sherlock Holmes: Consulting Detective,sherlockholmesconsultingdetective2,Europe,1993-10,ICOM Simulations,SEGA,#players:1 #genre:adventure #addon:megacd #save:backup #disc:1>2 $sherlock #lang:en
 Sherlock Holmes: Consulting Detective Vol.II,Sherlock Holmes: Consulting Detective,sherlockholmesconsultingdetective2,Europe,1993-10,ICOM Simulations,SEGA,#players:1 #genre:adventure #addon:megacd #save:backup #disc:2>2 $sherlock #lang:en
@@ -501,6 +501,7 @@ WireHead,WireHead,wirehead,Europe,1995,The Code Monkeys,SEGA,#players:1 #genre:a
 Battlecorps,Battlecorps,battlecorps,Europe,,Core Design,Core Design,#players:1 #genre:shooter #addon:megacd #lang:en #unfinished:demo
 BC Racers,BC Racers,bcracers,Europe,,Core Design,Core Design/SEGA,#players:2:vs #genre:racing>combat #addon:megacd:6button #lang:en #unfinished:demo>1
 BC Racers,BC Racers,bcracers,Europe,,Core Design,Core Design/SEGA,#players:2:vs #genre:racing>combat #addon:megacd:6button #lang:en #unfinished:demo>2
+Beast II,Shadow of the Beast II,shadowofthebeast2,Europe,,Digital Developments,Psygnosis,#players:1 #genre:action #addon:megacd #port:amiga #lang:en #unfinished:demo
 Dragon's Lair,Dragon's Lair,dragonslair,USA,,ReadySoft,SEGA,#players:1 #genre:action #addon:megacd #port:arcade #lang:en #unfinished:demo
 Fatal Fury Special,Fatal Fury Special,garoudensetsuspecial,Europe,,Funcom,JVC,#players:2:vs #genre:fighting #addon:megacd:6button #port:arcade #lang:en #unfinished:demo
 FIFA International Soccer,FIFA International Soccer: Championship Edition,fifa94,Europe,,Extended Play,Electronic Arts,#players:4:coop:vs #genre:sports>soccer #addon:megacd:segatap #port:megadrive #endorsed:company #official:sports #lang:en #unfinished:demo
@@ -514,8 +515,7 @@ Novastorm,Novastorm,novastorm,Europe,,Psygnosis,Sony Electronic,#players:1 #genr
 Pitfall: The Mayan Adventure,Pitfall: The Mayan Adventure,pitfallthemayanadventure,Europe,,Activision/Freestyle/Krisalis,Activision,#players:1 #genre:action:platformer #addon:megacd:6button #lang:en #unfinished:demo
 Samurai Shodown,Samurai Shodown,samuraispirits,Europe,,Funcom,JVC,#players:2:vs #genre:fighting #addon:megacd:6button #port:arcade #lang:en #unfinished:demo
 SEGA CD Demo,,segacddemo,USA,1992-05-29,SEGA Multimedia,SEGA,#players:1 #genre:media:slideshow #addon:megacd $sonic #lang:en #unfinished:demo:proto
-Sensible Soccer,Sensible Soccer,sensiblesoccer,Europe,,Psygnosis,Sony Imagesoft/Renegade,#players:2:vs #genre:sports>soccer #addon:megacd #port:amiga #lang:en #unfinished:demo
-Shadow of the Beast II,Beast II,shadowofthebeast2,Europe,,Digital Developments,Psygnosis,#players:1 #genre:action #addon:megacd #port:amiga #lang:en #unfinished:demo
+Sensible Soccer,Sensible Soccer,sensiblesoccerec,Europe,,Psygnosis,Sony Imagesoft/Renegade,#players:2:vs #genre:sports>soccer #addon:megacd #port:amiga #lang:en #unfinished:demo
 Slam City with Scottie Pippen: Fingers,Slam City with Scottie Pippen,slamcitywithscottiepippen,Europe,,Digital Pictures,Digital Pictures,#players:1 #genre:action:sports>basketball #addon:megacd #save:backup #disc:1>4 #endorsed:celeb #lang:en #unfinished:demo
 Sonic The Hedgehog CD,Sonic The Hedgehog CD,sonicthehedgehogcd,Japan,1993-08-06,SEGA CS3/SEGA CS1/Sonic Team/HIC,SEGA,#players:1 #genre:platformer #addon:megacd:backupramcart #save:backup $sonic #lang:en #unfinished:demo
 SoulStar,SoulStar,soulstar,Europe,,Core Design,Core Design,#players:2:coop #genre:railshooter:shmup #addon:megacd:6button #lang:en #unfinished:demo
