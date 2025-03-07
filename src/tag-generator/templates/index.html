@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GameDataBase Tag Generator</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
-    <base href="{{ url_for('static', filename='') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css', _external=True) }}">
 </head>
 <body>
     <div class="container">
@@ -113,6 +112,6 @@
         // Obtener los datos de tags del backend
         const tagsData = {{ tags|tojson|safe }};
     </script>
-    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js', _external=True) }}"></script>
 </body>
 </html>

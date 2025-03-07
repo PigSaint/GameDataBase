@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, flash, jsonify
+from flask import Flask, render_template, request, flash, jsonify, url_for
 import yaml
 from jinja2 import StrictUndefined
 import os
@@ -13,6 +13,13 @@ app.config['PREFERRED_URL_SCHEME'] = 'https'
 # Configurar las rutas de los directorios
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 CONFIG_FILE = os.path.join(BASE_DIR, 'tags.yml')
+
+# Función helper para generar URLs correctas
+def static_url(filename):
+    return f'/GameDataBase/static/{filename}'
+
+# Hacer la función disponible en las plantillas
+app.jinja_env.globals.update(static_url=static_url)
 
 def is_valid_dict(obj):
     try:
