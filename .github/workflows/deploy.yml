@@ -9,7 +9,7 @@ on:
     types: [ opened, reopened, synchronize, edited ]
 
 jobs:
-  deploy:
+  gh-pages:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -24,7 +24,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r src/tag-generator/requirements.txt
-          pip install frozen-flask
+          pip install frozen-flask==0.18 Werkzeug==2.0.3
 
       - name: Build static files
         working-directory: src/tag-generator
