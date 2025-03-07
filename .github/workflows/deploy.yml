@@ -4,26 +4,26 @@ on:
   push:
     branches: [ main ]
   workflow_dispatch:
-  pull_request:
-    types: [ opened, reopened, synchronize, edited ]
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: true
 
 jobs:
-  gh-pages-build:
+  gh-pages:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      
+      - name: Checkout
+        uses: actions/checkout@v3
+
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
@@ -37,32 +37,21 @@ jobs:
           python -m pip install --upgrade pip
           pip install Flask==2.0.1 Werkzeug==2.0.3 Frozen-Flask==0.18 PyYAML==5.4.1 Jinja2>=3.0.1
 
-      - name: Build static site
+      - name: Build Pages static
         run: |
           cd src/tag-generator
-          # Crear y poblar directorio static
-          mkdir -p static/css static/js
+          mkdir -p static/{css,js}
           echo "/* Base styles */" > static/css/styles.css
           echo "// Base scripts" > static/js/main.js
-          # Ejecutar freeze
           python freeze.py
-          # Asegurar estructura en build
-          mkdir -p build/static
           cp -r static/* build/static/ 2>/dev/null || true
           touch build/.nojekyll
 
-      - name: Upload artifact
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: src/tag-generator/build
 
-  gh-pages-deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    needs: gh-pages-build
-    runs-on: ubuntu-latest
-    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
