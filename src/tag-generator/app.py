@@ -1,10 +1,10 @@
-from flask import Flask, render_template, request, flash, jsonify, url_for
+from flask import Flask, render_template, request, flash, jsonify, url_for, send_from_directory
 import yaml
 from jinja2 import StrictUndefined
 import os
 
 app = Flask(__name__, 
-           static_url_path='/static',  # Cambiado
+           static_url_path='',  # Cambiado
            static_folder='static')     # Explícitamente definido
 app.secret_key = 'gamedatabase_secret_key'  # Required for flash messages
 
@@ -18,7 +18,7 @@ CONFIG_FILE = os.path.join(BASE_DIR, 'tags.yml')
 
 # Modificar la función helper
 def static_url(filename):
-    return url_for('static', filename=filename)
+    return f'/GameDataBase/static/{filename}'
 
 # Hacer la función disponible en las plantillas
 app.jinja_env.globals.update(static_url=static_url)

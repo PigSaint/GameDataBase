@@ -1,25 +1,27 @@
 from flask_frozen import Freezer
+from flask import send_from_directory
 from app import app
 import os
 
-app.config['FREEZER_RELATIVE_URLS'] = False
+app.config['FREEZER_RELATIVE_URLS'] = True
 app.config['FREEZER_DESTINATION'] = 'build'
 app.config['FREEZER_BASE_URL'] = 'https://kenta2097.github.io/GameDataBase/'
 
-# Añadir configuración para archivos estáticos
-app.config['FREEZER_STATIC_IGNORE'] = ['.gitignore']
-
 freezer = Freezer(app)
 
-# Modificar el generador de URLs estáticas
 @freezer.register_generator
-def static_files():
+def serve_static():
     static_dir = os.path.join(os.path.dirname(__file__), 'static')
-    for root, dirs, files in os.walk(static_dir):
+    for root, _, files in os.walk(static_dir):
         for file in files:
-            if not file.startswith('.'):
-                relative_path = os.path.relpath(os.path.join(root, file), static_dir)
-                yield {'filename': relative_path}
+            if file.endswith('.css') or file.endswith('.js'):
+                rel_dir = os.path.relpath(root, static_dir)
+                rel_file = os.path.join(rel_dir, file).replace('\\', '/')
+                yield {'filename': rel_file}
+
+@app.route('/static/<path:filename>')
+def static_files(filename):
+    return send_from_directory('static', filename)
 
 if __name__ == '__main__':
     freezer.freeze()

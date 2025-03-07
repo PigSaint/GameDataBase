@@ -40,12 +40,12 @@ jobs:
       - name: Build static site
         run: |
           cd src/tag-generator
-          # Verificar que los directorios estáticos existan
+          # Crear estructura de directorios y archivos estáticos
           mkdir -p static/css static/js
-          # Asegurarse de que los archivos estáticos estén presentes
-          [ ! -f static/css/styles.css ] && echo "/* Default styles */" > static/css/styles.css
-          [ ! -f static/js/main.js ] && echo "// Default script" > static/js/main.js
+          cp -r static/* build/static/ || true
           python freeze.py
+          # Asegurar que los archivos estáticos estén en el build
+          mkdir -p build/static/{css,js}
           touch build/.nojekyll
 
       - name: Upload artifact
