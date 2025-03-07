@@ -3,7 +3,9 @@ import yaml
 from jinja2 import StrictUndefined
 import os
 
-app = Flask(__name__, static_url_path='')
+app = Flask(__name__, 
+           static_url_path='/static',  # Cambiado
+           static_folder='static')     # Explícitamente definido
 app.secret_key = 'gamedatabase_secret_key'  # Required for flash messages
 
 # Configuración para GitHub Pages
@@ -14,9 +16,9 @@ app.config['PREFERRED_URL_SCHEME'] = 'https'
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 CONFIG_FILE = os.path.join(BASE_DIR, 'tags.yml')
 
-# Función helper para generar URLs correctas
+# Modificar la función helper
 def static_url(filename):
-    return f'/GameDataBase/static/{filename}'
+    return url_for('static', filename=filename)
 
 # Hacer la función disponible en las plantillas
 app.jinja_env.globals.update(static_url=static_url)
