@@ -2,38 +2,57 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   workflow_dispatch:
-  pull_request:
-    types: [ opened, reopened, synchronize, edited ]
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
-  gh-pages:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Set up Python
+      - uses: actions/checkout@v3
+      
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.8'
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r src/tag-generator/requirements.txt
-          pip install frozen-flask==0.18 Werkzeug==2.0.3
+          pip install Flask==2.0.1 Werkzeug==2.0.3 Frozen-Flask==0.18 PyYAML==5.4.1 Jinja2>=3.0.1
 
-      - name: Build static files
-        working-directory: src/tag-generator
+      - name: Build static site
         run: |
+          cd src/tag-generator
           python freeze.py
+          touch build/.nojekyll
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./src/tag-generator/build
-          force_orphan: true
+          path: src/tag-generator/build
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
