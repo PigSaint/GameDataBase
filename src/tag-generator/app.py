@@ -3,8 +3,12 @@ import yaml
 from jinja2 import StrictUndefined
 import os
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='')
 app.secret_key = 'gamedatabase_secret_key'  # Required for flash messages
+
+# Configuración para GitHub Pages
+app.config['APPLICATION_ROOT'] = '/GameDataBase'
+app.config['PREFERRED_URL_SCHEME'] = 'https'
 
 # Configurar las rutas de los directorios
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
