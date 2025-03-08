@@ -1,0 +1,397 @@
+standalone:
+  type: simple
+  values:
+    mameparent: MAME parent file
+    bios: BIOS game
+    promo: Promotion product
+    qsound: QSound
+
+input:
+  type: nested
+  subcategories:
+    joystick:
+      description: Joystick input
+      values:
+        2h: 2-way horizontal
+        2v: 2-way vertical
+        3: 3-way
+        4: 4-way
+        8: 8-way
+    doublejoystick:
+      description: Dual joystick setup
+      values:
+        2h: 2-way horizontal
+        2v: 2-way vertical
+        3: 3-way
+        4: 4-way
+        8: 8-way
+    buttons:
+      description: Action buttons
+      values:
+        1: 1 button
+        2: 2 buttons
+        3: 3 buttons
+        4: 4 buttons
+        5: 5 buttons
+        6: 6 buttons
+        pneumatic: Pneumatic buttons
+    keys:
+      description: Keyboard keys
+      values:
+        1: 1 key
+        2: 2 keys
+        3: 3 keys
+        4: 4 keys
+        5: 5 keys
+        6: 6 keys
+    pedals:
+      description: Foot pedals
+      values:
+        1: 1 pedal
+        2: 2 pedals
+        3: 3 pedals
+        4: 4 pedals
+        5: 5 pedals
+        6: 6 pedals
+
+genre:
+  type: nested
+  subcategories:
+    action:
+      description: Action game
+      values: {}
+    adventure:
+      description: Adventure game
+      values:
+        pointandclick: Point and click
+        shooting: Shooting gallery
+        shooter: Shooter
+        runandgun: Run and gun
+        hackandslash: Hack and slash
+        survivalhorror: Survival Horror
+        dungeoncrawler: Dungeon crawler
+    platformer:
+      description: Platformer game
+      values: {}
+    fighting:
+      description: Fighting game
+      values: {}
+    brawler:
+      description: Beat'em up game
+      values: {}
+    rpg:
+      description: Role-playing game
+      values:
+        a: Action RPG
+        j: JRPG
+        s: Strategy RPG
+    sports:
+      description: Sports game
+      values:
+        soccer: Soccer
+        basketball: Basketball
+        baseball: Baseball
+        volleyball: Volleyball
+        rugby: Rugby
+        football: American football
+        dodgeball: Dodgeball
+        hockey: Ice Hockey
+        skiing: Skiing
+        skateboarding: Skateboarding
+        snowboarding: Snowboarding
+        tennis: Tennis
+        pingpong: Ping Pong
+        paddle: Paddle
+        squash: Squash
+        badminton: Badminton
+        cycling: Cycling
+        formula1: Formula 1
+        rally: Rally
+        nascar: NASCAR
+        motogp: Moto GP
+        motocross: Motocross
+        golf: Golf
+        cricket: Cricket
+        boxing: Boxing
+        kickboxing: Kick Boxing
+        wrestling: Wrestling
+        sumo: Sumo
+        karate: Karate
+        judo: Judo
+        kendo: Kendo
+        decathlon: Decathlon
+        archery: Archery
+        swimming: Swimming
+        rowing: Rowing
+        kayak: Kayak
+    shmup:
+      description: Shoot'em up game
+      values:
+        h: Horizontal
+        v: Vertical
+        i: Isometric
+        danmaku: Bullet hell
+    puzzle:
+      description: Puzzle game
+      values:
+        drop: Drop pieces puzzle
+    racing:
+      description: Racing game
+      values:
+        combat: Combat racing
+    rhythm:
+      description: Rhythm game
+      values: {}
+    shooter:
+      description: Shooter game
+      values:
+        3p: Third person
+    board:
+      description: Board game
+      values:
+        chess: Chess
+        shougi: Shōgi
+        go: Go
+        mahjong: Mahjong
+        reversi: Reversi
+        othello: Othello
+    sim:
+      description: Simulation game
+      values:
+        flightsim: Flight simulator
+        trainsim: Train simulator
+        datesim: Date simulator
+        lifesim: Life simulator
+        farmsim: Farm simulator
+        petsim: Pet simulator
+    arcade:
+      description: Arcade game
+      values:
+        pinball: Pinball
+        jackpot: Jackpot
+        pachinko: Pachinko
+        darts: Darts
+        bowling: Bowling
+        kiddieride: Kiddie ride
+    other:
+      description: Other game
+      values:
+        quiz: Quiz game
+        fishing: Fishing
+        cooking: Cooking
+        cardgame: Card game
+        cards: Classic cards
+        hanafuda: Hanafuda
+        billiard: Billiard
+        minigames: Mini games
+        jankenpon: Rock paper scissors
+        mogurataiji: Whac-A-Mole
+        visualnovel: Visual novel
+        god: God game
+        building: Building
+        derby: Derby
+
+display:
+  type: nested
+  subcategories:
+    3d:
+      values:
+        stereoscopic: Stereoscopic 3D
+        anaglyph: Anaglyph 3D
+
+format:
+  type: nested
+  subcategories:
+    cartridge:
+      description: Cartridge Types
+      values:
+        mycard: SEGA My Card
+        thesegacard: The SEGA Card
+        themegacartridge: The Mega Cartridge (Japan)
+        silvercartridge: Silver Cartridge
+        goldcartridge:
+          name: Gold Cartridge
+          capacities: [1m, 2m, 4m]
+
+status:
+  type: nested
+  subcategories:
+    rev:
+      description: Revision
+      values:
+        1: Revision 1
+        2: Revision 2
+        a: Revision A
+        b: Revision B
+        c: Revision C
+        g: Revision G
+    set:
+      description: Set number
+      values:
+        1: Set 1
+        2: Set 2
+    unfinished:
+      description: Unfinished game
+      values:
+        beta: Beta version
+        proto: Prototype
+        demo: Demo version
+        sample: Sample
+        debug: Debug
+        competition: Competition
+
+clone:
+  type: simple
+  values:
+    mario: Mario clone
+    sonic: Sonic clone
+    sf2: Street Fighter II clone
+    tetris: Tetris clone
+
+commercial:
+  type: simple
+  values:
+    lightgun: Light gun games
+    spinner: Spinner controller games
+    franchise: Popular franchise games
+
+multigame:
+  type: nested
+  subcategories:
+    compilation:
+      description: Game collections
+      values:
+        official: Official compilation
+
+unlicensed:
+  type: nested
+  subcategories:
+    bootleg:
+      description: Bootleg/pirated game
+      values: {}
+    hack:
+      description: Hacked game
+      values: {}
+    translation:
+      description: Fan translation
+      values: {}
+    aftermarket:
+      description: Made after original market cycle
+      values: {}
+
+system_variants:
+  type: nested
+  subcategories:
+    sg1000:
+      values:
+        sc3000: SEGA SC-3000
+        othello: Othello Multivision
+    gb:
+      values:
+        mono: Monochrome
+        color: Color
+        sgb: Super GameBoy
+        np: Nintendo Power Cart
+    pce:
+      values:
+        pcsg: PC SuperGrafx
+    ngp:
+      values:
+        mono: Monochrome
+        color: Color
+
+embedded:
+  type: nested
+  subcategories:
+    memory:
+      description: Memory & Storage
+      values:
+        battery: Battery backup
+        flashram: Flash RAM
+        feram: Ferroelectric RAM
+        eeprom: EEPROM
+        ram: Extra RAM
+    chips:
+      description: Enhancement Chips
+      values:
+        svp:
+          name: Virtua Processor
+          manufacturer: SEGA
+        lockon:
+          name: Lock-On Technology
+          manufacturer: SEGA
+        mmc5:
+          name: MMC5 chip
+          manufacturer: Nintendo
+        vrc6:
+          name: VRC VI chip
+          manufacturer: Konami
+        vrc7:
+          name: VRC VII chip
+          manufacturer: Konami
+        n163:
+          name: 163 chip
+          manufacturer: NAMCO
+        5b:
+          name: 5B chip
+          manufacturer: Sunsoft
+    hardware:
+      description: Special Hardware
+      values:
+        led: LED lights
+        rtc: Real-Time Clock chip
+        rj11: RJ-11 port
+        gbkiss: GB Kiss
+        pocketsonar: Pocket Sonar
+        smartmedia: SmartMedia Double Slot
+        jcart: J-Cart
+        kogame: Kogame Cassette Slot
+
+franchise:
+  type: simple
+  description: Commercial franchise tags
+  values:
+    alien: Alien franchise
+    asterix: Astérix & Obélix
+    batman: Batman
+    castlevania: Castlevania/悪魔城ドラキュラ
+    compatihero: Compati Hero
+    disney: Walt Disney
+    donald: Donald Duck
+    dracula: Dracula
+    dragonslayer: Dragon Slayer
+    dnd: Dungeons & Dragons
+    gundam: Gundam
+    jurassicpark: Jurassic Park
+    kuniokun: Kunio-kun/くにおくん
+    looneytunes: Looney Tunes
+    mario: Mario
+    marvel: Marvel Comics
+    mickey: Mickey Mouse
+    pacman: Pac-Man
+    sherlock: Sherlock Holmes
+    simpsons: The Simpsons
+    smurfs: The Smurfs/Les Schtroumpfs
+    sonic: Sonic The Hedgehog
+    spiderman: Spider-Man
+    starwars: Star Wars
+    superman: Superman
+    wonderboy: Wonder Boy
+    xmen: X-Men
+
+search:
+  type: simple
+  description: Keyword search tags
+  values:
+    lightgun: Light gun games
+    spinner: Spinner controller games
+
+  # Symbol definitions:
+  # # - Main category
+  # : - Subcategory
+  # > - Specific value of subcategory
+  tag_structure:
+    symbols:
+    main: '#'      # Main category
+    sub: ':'       # Subcategory
+    value: '>'     # Specific value

@@ -1,0 +1,5 @@
+Flask==2.0.1
+Werkzeug==2.0.3
+Frozen-Flask==0.18
+PyYAML==5.4.1
+Jinja2>=3.0.1

@@ -1,0 +1,59 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+  pull_request:
+    types: [ opened, reopened, synchronize, edited ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  gh-pages:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install Flask==2.0.1 Werkzeug==2.0.3 Frozen-Flask==0.18 PyYAML==5.4.1 Jinja2>=3.0.1
+
+      - name: Build Pages static
+        run: |
+          cd src/tag-generator
+          mkdir -p static/{css,js}
+          echo "/* Base styles */" > static/css/styles.css
+          echo "// Base scripts" > static/js/main.js
+          python freeze.py
+          cp -r static/* build/static/ 2>/dev/null || true
+          touch build/.nojekyll
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: src/tag-generator/build
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

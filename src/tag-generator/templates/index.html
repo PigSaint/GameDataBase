@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameDataBase Tag Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css', _external=True) }}">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            GameDataBase
+            <span>Tag Generator</span>
+        </h1>
+        
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="error-message">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <div id="categoryContainer">
+            {% if tags and tags.items() %}
+                {% for category, data in tags.items() if category != 'tag_structure' %}
+                    <div class="main-category">
+                        <div class="select-group">
+                            <label for="{{ category }}">{{ category|title }}:</label>
+                            {% set type = safe_get_value(data, 'type') %}
+                            {% if type == 'simple' %}
+                                <select id="{{ category }}" name="{{ category }}" onchange="safeUpdateTags(this)">
+                                    <option value="">Select {{ category }}</option>
+                                    {% set values = safe_get_value(data, 'values', {}) %}
+                                    {% if values %}
+                                        {% for key, value in values.items() %}
+                                            <option value="{{ key }}">{{ value }}</option>
+                                        {% endfor %}
+                                    {% endif %}
+                                </select>
+                            {% elif type == 'nested' %}
+                                <select id="{{ category }}" name="{{ category }}" onchange="safeUpdateSubcategory(this)">
+                                    <option value="">Select {{ category }}</option>
+                                    {% set subcats = safe_get_value(data, 'subcategories', {}) %}
+                                    {% if subcats %}
+                                        {% for subcat, subdata in subcats.items() %}
+                                            <option value="{{ subcat }}">
+                                                {{ safe_get_value(subdata, 'description', subcat) }}
+                                            </option>
+                                        {% endfor %}
+                                    {% endif %}
+                                </select>
+                                <div id="{{ category }}_sub" class="subcategory" style="display:none;margin-left:20px;margin-top:10px;">
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+            {% else %}
+                <div class="no-data-message">
+                    <p>No tag data available.</p>
+                    <p>Please check the configuration file.</p>
+                </div>
+            {% endif %}
+        </div>
+        
+        <div class="tag-preview">
+            <div class="tag-output-container">
+                <h3>Generated Tags:</h3>
+                <textarea id="tagOutput" readonly></textarea>
+                <button class="copy-btn" onclick="copyTags()">Copy Tags</button>
+            </div>
+            <div class="tag-legend collapsed">
+                <button class="toggle-legend" onclick="toggleLegend(this)"></button>
+                <div class="tag-legend-content">
+                    <div class="legend-grid">
+                        <div class="syntax-section">
+                            <h4>Syntax</h4>
+                            <ul class="minimal-list">
+                                {% if tags.tag_structure and tags.tag_structure.symbols %}
+                                    {% for symbol, description in tags.tag_structure.symbols.items() %}
+                                        <li><span class="tag-symbol">{{ symbol }}</span> {{ description }}</li>
+                                    {% endfor %}
+                                {% endif %}
+                            </ul>
+                        </div>
+                        <div class="examples-section">
+                            <h4>Examples</h4>
+                            <ul class="examples-list">
+                                {% set examples = [
+                                    ('genre:action', 'Action Games'),
+                                    ('input:buttons>6', '6-Button Games'),
+                                    ('format:cartridge>goldcartridge', 'Gold Cartridge Games'),
+                                    ('franchise>mario', 'Mario Games'),
+                                    ('embedded:chips>vrc6', 'VRC6 Enhanced')
+                                ] %}
+                                {% for tag, desc in examples %}
+                                    <li>
+                                        <code>#{{ tag }}</code>
+                                        <span class="example-desc">{{ desc }}</span>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Obtener los datos de tags del backend
+        const tagsData = {{ tags|tojson|safe }};
+    </script>
+    <script src="{{ url_for('static', filename='js/main.js', _external=True) }}"></script>
+</body>
+</html>
