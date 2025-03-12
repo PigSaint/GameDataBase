@@ -4,8 +4,11 @@ import yaml
 import pandas as pd
 import time
 
-# Load tags.yml
-with open('/home/amuriel/GameDataBase/tags.yml', 'r') as file:
+# Get root directory (parent of scripts/)
+root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# Load tags.yml using relative path
+with open(os.path.join(root_dir, 'tags.yml'), 'r') as file:
     tags_definitions = yaml.safe_load(file)
 print("Loaded tags.yml")
 
@@ -70,9 +73,12 @@ def validate_tags(tags, tags_definitions):
 
     return errors, warnings
 
-# Get all CSV files in the directory
+# Get all CSV files in the directory using relative paths
 csv_files = []
-for root, dirs, files in os.walk('/home/amuriel/GameDataBase'):
+for root, dirs, files in os.walk(root_dir):
+    # Skip scripts directory
+    if 'scripts' in root.split(os.sep):
+        continue
     for file in files:
         if file.endswith('.csv'):
             csv_files.append(os.path.join(root, file))
@@ -162,7 +168,7 @@ def collect_unregistered_tags(all_errors):
             for tag, count in sorted(tag_counts.items(), key=lambda x: x[1], reverse=True)]
 
 # Generate a single validation report in Markdown format
-report_path = '/home/amuriel/GameDataBase/tag_validation_report.md'
+report_path = os.path.join(root_dir, 'tag_guardian_report.md')
 with open(report_path, 'w') as report_file:
     report_file.write("# 📊 Tag Validation Report\n\n")
     report_file.write("\n## Overview\n")
