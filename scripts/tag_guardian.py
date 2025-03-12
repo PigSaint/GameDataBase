@@ -42,6 +42,66 @@ with open(os.path.join(root_dir, 'tags.yml'), 'r') as file:
 print("Loaded tags.yml")
 
 # Function to validate tags
+def validate_tag_structure(tag: str, tags_definitions: dict) -> list:
+    """Validate the structure of a single tag"""
+    errors = []
+    
+    # Handle $ tags as franchise tags
+    if tag.startswith('$'):
+        franchise_name = tag[1:]  # Remove $
+        if 'franchise' not in tags_definitions:
+            errors.append((f"Unknown category: 'franchise'", None))
+            return errors
+            
+        if franchise_name not in tags_definitions['franchise'].get('subcategories', {}):
+            errors.append((f"Unknown franchise: '{franchise_name}'", None))
+        return errors
+        
+    if not tag.startswith('#'):
+        return []
+    
+    # Remove # and split by :
+    parts = tag[1:].split(':')
+    main_category = parts[0]
+    
+    # 1. Validate main category exists
+    if main_category not in tags_definitions:
+        errors.append((f"Unknown category: '{main_category}'", None))
+        return errors
+        
+    # 2. Process all subcategory groups after main category
+    if len(parts) > 1:
+        subcategory_groups = parts[1:]  # ['shmup>h>v', 'sports>soccer>volleyball']
+        
+        for subcat_group in subcategory_groups:
+            # Split subcategory group into individual parts
+            subcat_parts = subcat_group.split('>')  # ['shmup', 'h', 'v'] or ['sports', 'soccer', 'volleyball']
+            
+            if not subcat_parts:
+                continue
+                
+            # First part is always the subcategory name
+            subcat_name = subcat_parts[0]
+            
+            # Validate subcategory exists
+            category_subcats = tags_definitions[main_category].get('subcategories', {})
+            if subcat_name not in category_subcats:
+                errors.append((f"Unknown subcategory: '{subcat_name}' in '{main_category}'", None))
+                continue
+            
+            # Validate each value in the subcategory group
+            if len(subcat_parts) > 1:
+                values = subcat_parts[1:]  # ['h', 'v'] or ['soccer', 'volleyball']
+                
+                # Only validate values if the subcategory has defined values
+                if 'values' in category_subcats[subcat_name]:
+                    valid_values = category_subcats[subcat_name]['values']
+                    for value in values:
+                        if value not in valid_values:
+                            errors.append((f"Invalid value: '{value}' for '{main_category}:{subcat_name}'", None))
+
+    return errors
+
 def validate_tags(tags_str, tags_definitions):
     """Validate tags for a single game"""
     errors = []
@@ -98,10 +158,16 @@ def validate_tags(tags_str, tags_definitions):
         if not any(status in tag for tag in tag_set for status in ['beta', 'proto', 'demo']):
             warnings.append("Game marked as unfinished but specific status not provided")
     
-    # 7. Franchise validations
+    # 7. Franchise validations - Modified to handle $ tags correctly
     franchise_refs = [t for t in tag_set if t.startswith('$')]
-    if franchise_refs and not any(t.startswith('#franchise:') for t in tag_set):
-        warnings.append("Game has franchise reference ($) but missing #franchise tag")
+    franchise_tags = [t for t in tag_set if t.startswith('#franchise:')]
+    
+    # Get franchise names from $ tags and validate they exist in tags.yml
+    for franchise_ref in franchise_refs:
+        franchise_name = franchise_ref[1:]  # Remove $
+        # Solo validar que la franquicia exista en tags.yml
+        if franchise_name not in tags_definitions['franchise'].get('subcategories', {}):
+            warnings.append(f"Referenced franchise ${franchise_name} is not defined in tags.yml")
 
     # 8. Special devices validations
     special_devices = {
@@ -124,59 +190,7 @@ def validate_tags(tags_str, tags_definitions):
             continue
             
         total_tags += 1
-        current_tag_errors = []
-        
-        # Split by '>' first to handle third level
-        parts = tag[1:].split('>')  # Remove # and split
-        if len(parts) > 2:
-            current_tag_errors.append((f"Too many '>' separators in tag: '{tag}'", None))
-            continue
-
-        base_parts = parts[0].split(':')
-        value = parts[1] if len(parts) == 2 else None
-
-        # Handle different levels
-        if len(base_parts) == 1:
-            category = base_parts[0]
-            # Check if it's a standalone tag
-            if category in tags_definitions.get('standalone', {}).get('values', {}):
-                if value:  # Standalone tags shouldn't have a value
-                    current_tag_errors.append((f"Standalone tag '{category}' cannot have a value", None))
-                
-            # Check if it's a valid main category
-            elif category not in tags_definitions:
-                current_tag_errors.append((f"Unknown category: '{category}'", None))
-
-        elif len(base_parts) == 2:
-            category, subcategory = base_parts
-            
-            # Validate category exists
-            if category not in tags_definitions:
-                current_tag_errors.append((f"Unknown category: '{category}'", None))
-                continue
-
-            # Check if category is of type nested
-            category_type = tags_definitions[category].get('type')
-            if category_type == 'nested':
-                # For nested types, subcategory should be in subcategories
-                if subcategory not in tags_definitions[category].get('subcategories', {}):
-                    current_tag_errors.append((f"Invalid subcategory: '{subcategory}' for nested category '{category}'", None))
-                # Nested types don't have values
-                if value:
-                    current_tag_errors.append((f"Nested category '{category}:{subcategory}' cannot have a value", None))
-            else:
-                # For non-nested types, validate subcategory and value normally
-                if subcategory not in tags_definitions[category].get('subcategories', {}):
-                    current_tag_errors.append((f"Unknown subcategory: '{subcategory}' in '{category}'", None))
-                    continue
-
-                # Validate value if present
-                if value:
-                    valid_values = tags_definitions[category]['subcategories'][subcategory].get('values', {})
-                    if value not in valid_values:
-                        current_tag_errors.append((f"Invalid value: '{value}' for '{category}:{subcategory}'", None))
-        else:
-            current_tag_errors.append((f"Invalid tag format: '{tag}'", None))
+        current_tag_errors = validate_tag_structure(tag, tags_definitions)
         
         if current_tag_errors:
             tag_errors.append((tag, current_tag_errors))
@@ -724,23 +738,79 @@ def write_warning_section(report_file, warnings, file_results):
             else:
                 report_file.write(f"\n### 📄 {file_result['file']}\n\n")
                 
-            report_file.write("| 🔢 Row | 🎮 Game | 🏷️ Tags | ⚠️ Warning |\n")
-            report_file.write("|--------|---------|---------|------------|\n")
+            report_file.write("| 🔢 Row | 🎮 Game | 🏷️ Related Tags | ⚠️ Warning Message |\n")
+            report_file.write("|--------|---------|----------------|------------------|\n")
+            
+            # Group warnings by row and game
+            grouped_warnings = {}
+            
             for warning in file_warnings:
-                # Split long tags into two lines if needed
-                tags = warning['tag'].split()
-                if len(tags) > 3:
-                    tags_line1 = ' '.join(tags[:3])
-                    tags_line2 = ' '.join(tags[3:])
-                    tags_display = f"`{tags_line1}`<br>`{tags_line2}`"
-                else:
-                    tags_display = f"`{warning['tag']}`"
+                key = (warning['row'], warning['game'])
+                if key not in grouped_warnings:
+                    grouped_warnings[key] = {'tags': [], 'messages': []}
                 
-                report_file.write(f"| {warning['row']} | {warning['game']} | {tags_display} | {warning['warning']} |\n")
+                # Extract relevant tag based on warning message
+                for msg in warning['warning']:
+                    tag_display = extract_relevant_tag(warning['tag'], msg)
+                    if tag_display:  # Only add if we found a relevant tag
+                        grouped_warnings[key]['tags'].append(f'`{tag_display}`')
+                        grouped_warnings[key]['messages'].append(msg)
+            
+            # Write grouped warnings
+            for (row, game), warning_group in grouped_warnings.items():
+                if warning_group['tags']:  # Only write if there are relevant tags
+                    tags = '<br>'.join(warning_group['tags'])
+                    messages = '<br>'.join(warning_group['messages'])
+                    report_file.write(f"| {row} | {game} | {tags} | {messages} |\n")
             
             if use_collapsible:
-                # Close details tag only if using collapsible
                 report_file.write("\n</details>\n")
+
+def extract_relevant_tag(tags_str, warnings):
+    """Extract the relevant tag based on the warning message"""
+    tags = tags_str.split()
+    
+    if not tags:
+        return ''
+    
+    warning = warnings[0] if isinstance(warnings, list) else warnings
+    
+    # Handle franchise tag warnings - Show only the $ tag
+    if 'Has $' in warning and 'but missing equivalent #franchise:' in warning:
+        franchise_name = warning.split('$')[1].split()[0]  # Extract franchise name
+        return f"${franchise_name}"
+    
+    # 3. Detección de tags específicas basada en el warning
+    tag_patterns = {
+        'Missing essential tags': lambda t: [tag for tag in t if any(p in tag for p in ['#genre', '#players'])],
+        'missing #lang:ja': lambda t: next((tag for tag in t if tag.startswith('#lang:ja')), '#lang:ja'),
+        'requires 64dd': lambda t: next((tag for tag in t if '64dd' in tag), '#addon:64dd'),
+        'but player count': lambda t: next((tag for tag in t if tag.startswith('#players:')), '#players:'),
+        'versus but player': lambda t: next((tag for tag in t if ':vs' in tag), '#players:vs'),
+        'cooperative but player': lambda t: next((tag for tag in t if ':coop' in tag), '#players:coop'),
+        'Too many genre': lambda t: [tag for tag in t if tag.startswith('#genre:')],
+        'but specific status': lambda t: next((tag for tag in t if tag.startswith('#unfinished:')), '#unfinished:'),
+        'but genre:shooting': lambda t: next((tag for tag in t if 'shooting' in tag), '#genre:shooting'),
+        'Game appears to be Japanese': lambda t: '#lang:ja'
+    }
+    
+    # Buscar patrón que coincida con el warning
+    for pattern, extractor in tag_patterns.items():
+        if pattern in warning:
+            result = extractor(tags)
+            if isinstance(result, list):
+                return ' '.join(result)
+            return result if result else pattern.split()[0]
+    
+    # 4. Si no hay coincidencia específica, buscar tag relevante basada en el texto del warning
+    warning_words = set(w.lower() for w in warning.split())
+    for tag in tags:
+        tag_words = set(w.lower() for w in tag.split(':'))
+        if any(w in warning_words for w in tag_words):
+            return tag
+    
+    # 5. Si todo falla, retornar primera tag
+    return tags[0]
 
 def main():
     args = parser.parse_args()
