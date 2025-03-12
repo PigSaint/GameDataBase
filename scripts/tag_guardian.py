@@ -4,10 +4,16 @@ import pandas as pd
 import time
 import argparse
 import sys
-from colorama import init, Fore, Style
+import platform
+from colorama import init, Fore, Style, AnsiToWin32
 
-# Initialize colorama
-init()
+# Initialize colorama for Windows support
+if platform.system() == 'Windows':
+    init(wrap=False)
+    import sys
+    sys.stdout = AnsiToWin32(sys.stdout)
+else:
+    init()
 
 # Simplified argument processing
 parser = argparse.ArgumentParser(description='Tag Guardian - Validate game tags in CSV files')
@@ -186,8 +192,8 @@ def get_csv_files(root_dir: str, specified_files: list = None) -> list:
     # If no files specified, search recursively in all directories
     if not specified_files:
         for root, _, files in os.walk(root_dir):
-            # Skip scripts directory
-            if 'scripts' in root.split(os.sep):
+            # Skip scripts directory using platform-independent path split
+            if 'scripts' in root.split(os.path.sep):
                 continue
             csv_files.extend(os.path.join(root, f) for f in files if f.endswith('.csv'))
     else:
@@ -199,6 +205,7 @@ def get_csv_files(root_dir: str, specified_files: list = None) -> list:
         
     print(f"\nFound {Fore.CYAN}{len(csv_files)}{Style.RESET_ALL} CSV files to process:")
     for f in csv_files:
+        # Use os.path.relpath for cross-platform path display
         print(f"  - {Fore.BLUE}{os.path.relpath(f, root_dir)}{Style.RESET_ALL}")
     print()
     
@@ -296,7 +303,7 @@ def update_file_stats(file_result: dict, game_stats: dict):
 
 def generate_markdown_report(stats: dict, file_results: list, file_path: str, args):
     """Generate markdown report with given statistics based on command line arguments"""
-    # Clean up previous reports
+    # Clean up previous reports using platform-independent paths
     reports_dir = os.path.join(os.path.dirname(file_path), 'reports')
     
     # Remove old report file if exists
@@ -308,7 +315,11 @@ def generate_markdown_report(stats: dict, file_results: list, file_path: str, ar
     if os.path.exists(reports_dir):
         print(f"{Fore.YELLOW}Removing old reports directory:{Style.RESET_ALL} {reports_dir}")
         import shutil
-        shutil.rmtree(reports_dir)
+        try:
+            shutil.rmtree(reports_dir)
+        except PermissionError:
+            print(f"{Fore.RED}Error removing reports directory. Please close any open files.{Style.RESET_ALL}")
+            sys.exit(1)
     
     # Create fresh reports directory
     print(f"{Fore.GREEN}Creating reports directory:{Style.RESET_ALL} {reports_dir}")
