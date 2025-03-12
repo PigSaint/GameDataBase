@@ -35,8 +35,13 @@ jobs:
         run: |
           python scripts/tag_guardian.py
           
-      - name: Upload Report
-        uses: actions/upload-artifact@v4
+      - name: Add Report to Job Summary
+        uses: actions/github-script@v7
         with:
-          name: tag-guardian-report
-          path: tag_validation_report.md
+          script: |
+            const fs = require('fs');
+            const report = fs.readFileSync('tag_validation_report.md', 'utf8');
+            core.summary
+              .addHeading('Tag Guardian Validation Report')
+              .addRaw(report)
+              .write();
