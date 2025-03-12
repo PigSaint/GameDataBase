@@ -214,7 +214,7 @@ def get_csv_files(root_dir: str, specified_files: list = None) -> list:
 def process_csv_file(file_path: str, tags_definitions: dict) -> tuple:
     """Process single CSV file and return results"""    
     print(f"Processing file: {os.path.basename(file_path)}")
-    df = pd.read_csv(file_path)
+    df = pd.read_csv(file_path, encoding='utf-8')
     
     if 'Tags' not in df.columns:
         print(f"Skipping file (no 'Tags' column): {os.path.basename(file_path)}")
@@ -326,7 +326,7 @@ def generate_markdown_report(stats: dict, file_results: list, file_path: str, ar
     os.makedirs(reports_dir, exist_ok=True)
     
     # Generate new reports
-    with open(file_path, 'w') as report_file:
+    with open(file_path, 'w', encoding='utf-8') as report_file:
         # Write header and basic sections
         write_main_report(report_file, stats, file_results, args)
         
