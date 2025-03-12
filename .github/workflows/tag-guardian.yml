@@ -30,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas pyyaml
+          pip install pandas pyyaml colorama
           
       - name: Run Tag Guardian
         run: |
