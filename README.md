@@ -2,11 +2,11 @@
 
 [Join GameDataBase on Patreon and consider supporting the project](https://www.patreon.com/GameDataBase)
 
-GameDataBase project aims to provide the most detailed information about every videogame (console, computer and arcade) for sorting purposes. Goal is to unify in one place all available useful information for emulation projects like MiSTer, to make possible more efficient and specific searchs. GameDataBase will be published in different files (by platform).
+GameDataBase project aims to provide the most detailed information about every videogame (console, computer and arcade) for sorting purposes. Goal is to unify in one place all available useful information for emulation projects like MiSTer, to make possible more efficient and specific searches. GameDataBase will be published in different files (by platform).
 
 These lists are basically table files made of metadata fields separated by commas (CSV) as following:
 
-- Screen title @ Exact (title in original character set, if applicable. This is particulary useful for Japanese titles usually transcribed in roman characters. Purist, curious and of course Japanese people will enjoy this)
+- Screen title @ Exact (title in original character set, if applicable. This is particularly useful for Japanese titles usually transcribed in roman characters. Purist, curious and of course Japanese people will enjoy this)
 - Cover Title @ Exact (if applicable)
 - ID (to identify multiple versions of the same game)
 - Date in format YYYY adding MM and DD if known (YYYY-MM-DD)
@@ -31,7 +31,7 @@ This kind of tags defines useful uncommon attributes we can find in multiple gam
 **#qsound** (QSound)
 
 **Group tags (#)+(:)+(>)**
-This kind of tags uses subcategories to organize more complex things. There are three levels. The first (#) is for the main attribute, the second (:) is its value, and the third (>) is a subvalue. This subvalue is only specific information about their most inmediate (:) value.
+This kind of tags uses subcategories to organize more complex things. There are three levels. The first (#) is for the main attribute, the second (:) is its value, and the third (>) is a subvalue. This subvalue is only specific information about their most immediate (:) value.
 
 Several values and subvalues can be added for every main attribute. So, if we have **#genre:sports>wrestling:fighting**, we have two genre (_sports_ and _fighting_) and one subgenre only for the _sports_ tag (_wrestling_). There are:
 
@@ -93,9 +93,9 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:compilation** (Compilation)
 
 **#unlicensed** (Unlicensed)
-**:bootleg** (Bootleg)
+**:bootleg** (Bootleg/Pirate)
 **:hack** (Hack)
-**:translation** (Translation)
+**:translation** (Fan translation)
 **:aftermarket** (Aftermarket)
 
 **#genre** (Genre)
@@ -253,6 +253,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:fi** (Finnish)
 **:cs** (Czech)
 **:sl** (Slovenian)
+**:ru** (Russian)
 **:kh** (Simplified Chinese)
 **:ch** (Chinese)
 **:ko** (Korean)
@@ -361,6 +362,7 @@ Several values and subvalues can be added for every main attribute. So, if we ha
 **:super32x** (SEGA Super 32X / MegaDrive 32X / Genesis 32X)
 **:taisencable** (SEGA Game Gear Taisen Cable / Gear-to-Gear Cable)
 **:xe1ap** (Dempa Micomsoft XE-1 AP)
+**:smash** (Realtec Smash Controller)
 **:comcable** (NEC COM Cable / TurboExpress)
 **:illustbooster** (NEC Illust Booster)
 **:printbooster** (NEC Print Booster)
@@ -667,7 +669,7 @@ The goal of this kind of tags is just for searching purposes. They are designed 
 **Commercial tags for searching purposes**
 This kind of tags provides us information about famous franchises and characters. For example, if we search for games based on Alien movie franchise and just write "alien", we probably get a huge list of games that have nothing to do with the franchise like _Alien Soldier_, _Alien Storm_ or _Alien Syndrome_. However, this tag unlocks the "did you mean" feature. This can be used as an additional useful search tool.
 
-These tags even allow us to search for famous characters like Dracula. If we were to write "dracula" in a regular game search engine, we would only get games which contans the word _Dracula_, but there would be no _Castlevania_ or _Master of Darkness_. This tag can solve that. More tags will be added as soon new interesting franchises appeared in the process. At the end they will be a lot. For now, take a look to these ones:
+These tags even allow us to search for famous characters like Dracula. If we were to write "dracula" in a regular game search engine, we would only get games which contains the word _Dracula_, but there would be no _Castlevania_ or _Master of Darkness_. This tag can solve that. More tags will be added as soon new interesting franchises appeared in the process. At the end they will be a lot. For now, take a look to these ones:
 
 **$alien** (Alien)
 **$asterix** (Astérix & Obélix)
