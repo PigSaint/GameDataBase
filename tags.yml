@@ -1,320 +1,497 @@
-standalone:
-  type: simple
-  values:
-    mameparent: MAME parent file
-    bios: BIOS game
-    promo: Promotion product
-    qsound: QSound
+# Schema definition:
+# category:
+#   description: str      - Description of the main category
+#   subcategories:       - List of valid subcategories
+#     subcat_name:       - Name of subcategory
+#       description: str - Description of the subcategory
+#       values: {}       - Optional: dict of valid values with descriptions
+
+# Standalone tags
+mameparent:
+  description: "MAME parent file"
+bios:
+  description: "BIOS game"
+promo:
+  description: "Promotion product"
+qsound:
+  description: "QSound support"
 
 input:
-  type: nested
+  description: "Input system"
   subcategories:
     joystick:
-      description: Joystick input
+      description: "Joystick"
       values:
-        2h: 2-way horizontal
-        2v: 2-way vertical
-        3: 3-way
-        4: 4-way
-        8: 8-way
+        "2h": "2-way horizontal"
+        "2v": "2-way vertical"
+        "3": "3-way"
+        "4": "4-way"
+        "8": "8-way"
     doublejoystick:
-      description: Dual joystick setup
+      description: "Double joystick"
       values:
-        2h: 2-way horizontal
-        2v: 2-way vertical
-        3: 3-way
-        4: 4-way
-        8: 8-way
+        "2h": "2-way horizontal"
+        "2v": "2-way vertical"
+        "3": "3-way"
+        "4": "4-way"
+        "8": "8-way"
+    rotary:
+      description: "Rotary joystick"
+    stick:
+      description: "Stick"
+    twinstick:
+      description: "Twin Stick"
+    trackball:
+      description: "Trackball"
+    paddle:
+      description: "Paddle"
+    spinner:
+      description: "Spinner"
+    wheel:
+      description: "Wheel"
+    dial:
+      description: "Dial"
+    lightgun:
+      description: "Lightgun"
+    optical:
+      description: "Optical device"
+    puncher:
+      description: "Puncher"
+    motion:
+      description: "Motion detection"
     buttons:
-      description: Action buttons
+      description: "In-game buttons"
       values:
-        1: 1 button
-        2: 2 buttons
-        3: 3 buttons
-        4: 4 buttons
-        5: 5 buttons
-        6: 6 buttons
-        pneumatic: Pneumatic buttons
+        "1": "1"
+        "2": "2"
+        "3": "3"
+        "4": "4"
+        "6": "6"
+        "11": "11"
+        "12": "12"
+        "19": "19"
+        "23": "23"
+        pneumatic: "Pneumatic buttons"
     keys:
-      description: Keyboard keys
+      description: "Keyboard keys"
       values:
-        1: 1 key
-        2: 2 keys
-        3: 3 keys
-        4: 4 keys
-        5: 5 keys
-        6: 6 keys
+        "1": "1"
+        "2": "2"
+        "3": "3"
+        "4": "4"
+        "6": "6"
+        "11": "11"
+        "12": "12"
+        "19": "19"
+        "23": "23"
+        pneumatic: "Pneumatic buttons"
     pedals:
-      description: Foot pedals
+      description: "Pedals"
       values:
-        1: 1 pedal
-        2: 2 pedals
-        3: 3 pedals
-        4: 4 pedals
-        5: 5 pedals
-        6: 6 pedals
+        "1": "1"
+        "2": "2"
+        "3": "3"
+        "4": "4"
+        "6": "6"
+        "11": "11"
+        "12": "12"
+        "19": "19"
+        "23": "23"
+        pneumatic: "Pneumatic buttons"
+
+lang:
+  description: "Language"
+  subcategories:
+    ja:
+      description: "Japanese"
+    en:
+      description: "English"
+    es:
+      description: "Spanish"
+    fr:
+      description: "French"
+    pt:
+      description: "Portuguese"
+    de:
+      description: "German"
+    it:
+      description: "Italian"
+    sv:
+      description: "Swedish"
+    nl:
+      description: "Dutch"
+    no:
+      description: "Norwegian"
+    fi:
+      description: "Finnish"
+    cs:
+      description: "Czech"
+    sl:
+      description: "Slovenian"
+    ru:
+      description: "Russian"
+    kh:
+      description: "Simplified Chinese"
+    ch:
+      description: "Chinese"
+    ko:
+      description: "Korean"
+    fremen:
+      description: "Fremen"
+    zh:
+      description: "Traditional Chinese"
 
 players:
-  type: simple
-  values:
-    1: Single player
-    2: 2 players
-    3: 3 players
-    4: 4 players
-    6: 6 players
-    8: 8 players
-    10: 10 players
-    coop: Cooperative
-    vs: Versus
-    alt: Alternating
+  description: "Maximum number of players supported by the game"
+  subcategories:
+    "1":
+      description: "Single player"
+    "2":
+      description: "2 players"
+    "3":
+      description: "3 players"
+    "4":
+      description: "4 players"
+    "6":
+      description: "6 players"
+    "8":
+      description: "8 players"
+    "10":
+      description: "10 players"
+    vs:
+      description: "Versus mode"
+    coop:
+      description: "Cooperative"
+    alt:
+      description: "Alternating"
+
+based:
+  description: "Coming from another media"
+  subcategories:
+    movie:
+      description: "Movie"
+    manganime:
+      description: "Manga and/or anime"
 
 genre:
-  type: nested
+  description: "Genre"
   subcategories:
     action:
-      description: Action
-      values: {}
+      description: "Action"
     platformer:
-      description: Platformer
-      values: {}
+      description: "Platformer"
     fighting:
-      description: Fighting
-      values: {}
+      description: "Fighting"
     brawler:
-      description: Beat'em up
-      values: {}
+      description: "Beat'em up"
     rpg:
-      description: RPG
+      description: "RPG"
       values:
-        a: Action RPG
-        j: JRPG
-        s: Strategy RPG
+        a: "Action RPG"
+        j: "JRPG"
+        s: "Strategy RPG"
     sports:
-      description: Sports
+      description: "Sports"
       values:
-        soccer: Soccer
-        basketball: Basketball
-        baseball: Baseball
-        volleyball: Volleyball
-        rugby: Rugby
-        football: American football
-        dodgeball: Dodgeball
-        hockey: Ice Hockey
-        skiing: Skiing
-        skateboarding: Skateboarding
-        snowboarding: Snowboarding
-        tennis: Tennis
-        pingpong: Ping Pong
-        paddle: Paddle
-        squash: Squash
-        badminton: Badminton
-        cycling: Cycling
-        formula1: Formula 1
-        rally: Rally
-        nascar: NASCAR
-        motogp: Moto GP
-        motocross: Motocross
-        golf: Golf
-        cricket: Cricket
-        boxing: Boxing
-        kickboxing: Kick Boxing
-        wrestling: Wrestling
-        sumo: Sumo
-        karate: Karate
-        judo: Judo
-        kendo: Kendo
-        decathlon: Decathlon
-        archery: Archery
-        swimming: Swimming
-        rowing: Rowing
-        kayak: Kayak
+        soccer: "Soccer"
+        basketball: "Basketball"
+        baseball: "Baseball"
+        volleyball: "Volleyball"
+        rugby: "Rugby"
+        football: "American football"
+        dodgeball: "Dodgeball"
+        hockey: "Ice Hockey"
+        skiing: "Skiing"
+        skateboarding: "Skateboarding"
+        snowboarding: "Snowboarding"
+        tennis: "Tennis"
+        pingpong: "Ping Pong"
+        paddle: "Paddle"
+        squash: "Squash"
+        badminton: "Badminton"
+        cycling: "Cycling"
+        formula1: "Formula 1"
+        rally: "Rally"
+        nascar: "NASCAR"
+        motogp: "Moto GP"
+        motocross: "Motocross"
+        golf: "Golf"
+        cricket: "Cricket"
+        boxing: "Boxing"
+        kickboxing: "Kick Boxing"
+        wrestling: "Wrestling"
+        sumo: "Sumo"
+        karate: "Karate"
+        judo: "Judo"
+        kendo: "Kendo"
+        decathlon: "Decathlon"
+        archery: "Archery"
+        swimming: "Swimming"
+        rowing: "Rowing"
+        kayak: "Kayak"
     shmup:
-      description: Shoot'em up
+      description: "Shoot'em up"
       values:
-        h: Horizontal shoot'em up
-        v: Vertical shoot'em up
-        i: Isometric shoot'em up
-        danmaku: Bullet hell
+        h: "Horizontal shoot'em up"
+        v: "Vertical shoot'em up"
+        i: "Isometric shoot'em up"
+        danmaku: "Bullet hell"
     puzzle:
-      description: Puzzle
+      description: "Puzzle"
       values:
-        drop: Drop pieces puzzle
+        drop: "Drop pieces puzzle"
     racing:
-      description: Racing
+      description: "Racing"
       values:
-        combat: Combat racing
+        combat: "Combat racing"
     rhythm:
-      description: Rhythm
-      values: {}
+      description: "Rhythm"
     railshooter:
-      description: Rail shooter
-      values: {}
+      description: "Rail shooter"
     blockbreaker:
-      description: Block breaker
-      values: {}
+      description: "Block breaker"
     maze:
-      description: Maze
-      values: {}
+      description: "Maze"
     adventure:
-      description: Adventure
-      values: {}
+      description: "Adventure"
     pointandclick:
-      description: Point and click
-      values: {}
+      description: "Point and click"
     shooting:
-      description: Shooting gallery
-      values: {}
+      description: "Shooting gallery"
     shooter:
-      description: Shooter
+      description: "Shooter"
       values:
-        3p: Third person shooter
+        3p: "Third person shooter"
     runandgun:
-      description: Run and gun
-      values: {}
+      description: "Run and gun"
     hackandslash:
-      description: Hack and slash
-      values: {}
+      description: "Hack and slash"
     survivalhorror:
-      description: Survival Horror
-      values: {}
+      description: "Survival Horror"
     dungeoncrawler:
-      description: Dungeon crawler
-      values: {}
+      description: "Dungeon crawler"
     pinball:
-      description: Pinball
-      values: {}
+      description: "Pinball"
     strategy:
-      description: Strategy
-      values: {}
+      description: "Strategy"
     roguelite:
-      description: Roguelite
-      values: {}
+      description: "Roguelite"
     sim:
-      description: Simulation
-      values:
-        flightsim: Flight simulator
-        trainsim: Train simulator
-        datesim: Date simulator
-        lifesim: Life simulator
-        farmsim: Farm simulator
-        petsim: Pet simulator
+      description: "Simulation"
+    flightsim:
+      description: "Flight simulator"
+    trainsim:
+      description: "Train simulator"
+    datesim:
+      description: "Date simulator"
+    lifesim:
+      description: "Life simulator"
+    farmsim:
+      description: "Farm simulator"
+    petsim:
+      description: "Pet simulator"
     board:
-      description: Board game
+      description: "Board game"
       values:
-        chess: Chess
-        shougi: Shōgi
-        go: Go
-        mahjong: Mahjong
-        reversi: Reversi
-        othello: Othello
+        chess: "Chess"
+        shougi: "Shōgi"
+        go: "Go"
+        mahjong: "Mahjong"
+        reversi: "Reversi"
+        othello: "Othello"
     quiz:
-      description: Quiz game
-      values: {}
+      description: "Quiz game"
     fishing:
-      description: Fishing
-      values: {}
+      description: "Fishing"
     cooking:
-      description: Cooking
-      values: {}
+      description: "Cooking"
     cardgame:
-      description: Card game
-      values:
-        cards: Classic cards
-        hanafuda: Hanafuda
+      description: "Card game"
+    cards:
+      description: "Classic cards"
+    hanafuda:
+      description: "Hanafuda"
     billiard:
-      description: Billiard
-      values: {}
+      description: "Billiard"
     jackpot:
-      description: Jackpot
-      values: {}
+      description: "Jackpot"
     pachinko:
-      description: Pachinko
-      values: {}
+      description: "Pachinko"
     minigames:
-      description: Mini games
-      values: {}
+      description: "Mini games"
     jankenpon:
-      description: Rock paper scissors
-      values: {}
+      description: "Rock paper scissors"
     kiddieride:
-      description: Kiddie ride
-      values: {}
+      description: "Kiddie ride"
     bowling:
-      description: Bowling
-      values: {}
+      description: "Bowling"
     darts:
-      description: Darts
-      values: {}
+      description: "Darts"
     mogurataiji:
-      description: Whac-A-Mole
-      values: {}
+      description: "Whac-A-Mole"
     visualnovel:
-      description: Visual novel
-      values: {}
+      description: "Visual novel"
     god:
-      description: God game
-      values: {}
+      description: "God game"
     building:
-      description: Building
-      values: {}
+      description: "Building"
     derby:
-      description: Derby horse ride
-      values: {}
+      description: "Derby horse ride"
     strip:
-      description: Strip
-      values: {}
+      description: "Strip"
     vending:
-      description: Vending machine
+      description: "Vending machine"
       values:
-        popcorn: Popcorn
-        purikura: Photo stickers
+        popcorn: "Popcorn"
+        purikura: "Photo stickers"
     redemption:
-      description: Redemption
-      values: {}
+      description: "Redemption"
     mechanical:
-      description: Mechanical
-      values: {}
+      description: "Mechanical"
     educational:
-      description: Educational
-      values: {}
+      description: "Educational"
     marketing:
-      description: Marketing
-      values: {}
+      description: "Marketing"
     media:
-      description: Non-game media
-      values: {}
+      description: "Non-game media"
     drawing:
-      description: Drawing
-      values: {}
+      description: "Drawing"
     karaoke:
-      description: Karaoke
-      values: {}
+      description: "Karaoke"
     application:
-      description: Application
-      values: {}
+      description: "Application"
     test:
-      description: Test
-      values: {}
+      description: "Test"
     sdk:
-      description: Software Development Kit
-      values: {}
+      description: "Software Development Kit"
     slideshow:
-      description: Picture slideshow
-      values: {}
+      description: "Picture slideshow"
     sound:
-      description: Only sound
-      values: {}
+      description: "Only sound"
 
-display:
-  type: nested
+disc:
+  description: "Disc"
   subcategories:
-    3d:
+    "1":
+      description: "1"
       values:
-        stereoscopic: Stereoscopic 3D
-        anaglyph: Anaglyph 3D
+        "2": "2"
+        "3": "3" 
+        "4": "4"
+    "2":
+      description: "2"
+      values:
+        "2": "2"
+        "3": "3" 
+        "4": "4"
+    "3":
+      description: "3"
+      values:
+        "2": "2"
+        "3": "3" 
+        "4": "4"
+    "4": 
+      description: "4"
+      values:
+        "2": "2"
+        "3": "3" 
+        "4": "4"
+
+tate:
+  description: "Vertical screen"
+  subcategories:
+    cw:
+      description: "Clockwise"
+    ccw:
+      description: "Counter clockwise"
+
+3d:
+  description: "Game uses some kind of 3D effect"
+  subcategories:
+    stereoscopic:
+      description: "Stereoscopic 3D"
+    anaglyph:
+      description: "Anaglyph 3D"
+
+arcadeboard:
+  description: "Arcade board"
+  subcategories:
+    capcom:
+      description: "All CAPCOM boards"
+      values:
+        cps: "CAPCOM CP System"
+        cpsdash: "CAPCOM CP System Dash"
+        cpschanger: "CAPCOM CP System Changer"
+        cps2: "CAPCOM CP System II"
+        cps3: "CAPCOM CP System III"
+    sega:
+      description: "All SEGA boards"
+      values:
+        vco: "SEGA VCO Object"
+        "1": "SEGA System 1"
+        "2": "SEGA System 2"
+        "16": "SEGA System 16"
+        "16a": "SEGA System 16A"
+        "16b": "SEGA System 16B"
+        "16c": "SEGA System 16C"
+        "18": "SEGA System 18"
+        "24": "SEGA System 24"
+        "32": "SEGA System 32"
+        m32: "SEGA System Multi 32"
+        c: "SEGA System C"
+        c2: "SEGA System C-2"
+        e: "SEGA System E"
+        x: "SEGA X Board"
+        y: "SEGA Y Board"
+        stv: "SEGA Titan Video"
+    irem:
+      description: "All Irem boards"
+      values:
+        m10: "Irem M10"
+        m15: "Irem M15"
+        m27: "Irem M27"
+        m52: "Irem M52"
+        m57: "Irem M57"
+        m58: "Irem M58"
+        m62: "Irem M62"
+        m63: "Irem M63"
+        m72: "Irem M72"
+        m75: "Irem M75"
+        m81: "Irem M81"
+        m82: "Irem M82"
+        m84: "Irem M84"
+        m90: "Irem M90"
+        m92: "Irem M92"
+        m97: "Irem M97"
+        m107: "Irem M107"
+    toaplan:
+      description: "All Toaplan boards"
+      values:
+        "1": "Toaplan Version 1"
+        "2": "Toaplan Version 2"
+    jaleco:
+      description: "All Jaleco boards"
+      values:
+        ms1: "Jaleco Mega System 1"
+    snk:
+      description: "All SNK boards"
+      values:
+        mvs: "MVS / Multi Video System"
+    taito:
+      description: "All Taito boards"
+      values:
+        xsystem: "X System"
+        bsystem: "B System"
+        hsystem: "H System"
+        lsystem: "L System"
+        zsystem: "Z System"
+        osystem: "O System"
+        f1: "F1 System / F2 System Extended"
+        f2: "F2 System"
+        lg: "LG System"
 
 format:
-  type: nested
+  description: "Game formats"
   subcategories:
     cartridge:
       description: Cartridge Types
@@ -327,188 +504,287 @@ format:
           name: Gold Cartridge
           capacities: [1m, 2m, 4m]
 
-status:
-  type: nested
+rev:
+  description: "Revision"
   subcategories:
-    rev:
-      description: Revision
-      values:
-        1: Revision 1
-        2: Revision 2
-        a: Revision A
-        b: Revision B
-        c: Revision C
-        g: Revision G
-    set:
-      description: Set number
-      values:
-        1: Set 1
-        2: Set 2
-    unfinished:
-      description: Unfinished game
-      values:
-        beta: Beta version
-        proto: Prototype
-        demo: Demo version
-        sample: Sample
-        debug: Debug
-        competition: Competition
+    "1":
+      description: "Revision 1"
+    "2":
+      description: "Revision 2"
+    "3":
+      description: "Revision 3"
+    a:
+      description: "Revision A"
+    b:
+      description: "Revision B"
+    c:
+      description: "Revision C"
+    g:
+      description: "Revision G"
+
+set:
+  description: "Set"
+  subcategories:
+    "1":
+      description: "Set 1"
+    "2":
+      description: "Set 2"
+
+unfinished:
+  description: "Unfinished"
+  subcategories:
+    beta:
+      description: "Beta"
+    proto:
+      description: "Prototype"
+    demo:
+      description: "Demo"
+    sample:
+      description: "Sample"
+    debug:
+      description: "Debug"
+    competition:
+      description: "Competition"
 
 clone:
-  type: simple
-  values:
-    mario: Mario clone
-    sonic: Sonic clone
-    sf2: Street Fighter II clone
-    tetris: Tetris clone
-
-commercial:
-  type: simple
-  values:
-    lightgun: Light gun games
-    spinner: Spinner controller games
-    franchise: Popular franchise games
+  description: "Game clones"
+  subcategories:
+    mario:
+      description: Mario clone
+    sonic:
+      description: Sonic clone
+    sf2:
+      description: Street Fighter II clone
+    tetris:
+      description: Tetris clone
 
 multigame:
-  type: nested
+  description: "Multi-game"
   subcategories:
     compilation:
       description: Game collections
-      values:
-        official: Official compilation
+
+save:
+  description: "The way you can save your progress"
+  subcategories:
+    password:
+      description: "Password"
+    backup:
+      description: "Backup"
 
 unlicensed:
-  type: nested
+  description: "Unlicensed games"
   subcategories:
     bootleg:
       description: Bootleg/pirated game
-      values: {}
     hack:
       description: Hacked game
-      values: {}
     translation:
       description: Fan translation
-      values: {}
     aftermarket:
       description: Made after original market cycle
-      values: {}
 
-system_variants:
-  type: nested
+rerelease:
+  description: "Re-release"
   subcategories:
+    virtualconsole:
+      description: "Nintendo Virtual Console"
+      values:
+        wii: "Nintendo Wii Virtual Console"
+        wiiu: "Nintendo Wii-U Virtual Console"
+        3ds: "Nintendo 3DS Virtual Console"
+    switchonline:
+      description: "Nintendo Switch Online"
+    ereader:
+      description: "Nintendo e-Reader"
+    animalcrossing:
+      description: "Nintendo Dōbutsu no Mori+ / どうぶつの森+ / Animal Crossing"
+    capcomtown:
+      description: "CAPCOM Town"
+    namcoanthology:
+      description: "NAMCO Anthology"
+      values:
+        "1": "NAMCO Anthology 1"
+        "2": "NAMCO Anthology 2"
+    namcot:
+      description: "NAMCOT Collection / ナムコットコレクション"
+      values:
+        "1": "NAMCO Museum Archives Volume 1"
+        "2": "NAMCO Museum Archives Volume 2"
+    castlevaniaanniversary:
+      description: "Akumajō Dracula Anniversary Collection / 悪魔城ドラキュラ Anniversary Collection / Castlevania Anniversary Collection"
+    contraanniversary:
+      description: "Contra Anniversary Collection / 魂斗羅 Anniversary Collection"
+    cowabunga:
+      description: "Teenage Mutant Ninja Turtles: The Cowabunga Collection"
+    dariuscozmic:
+      description: "Darius Cozmic Collection"
+    disneyclassic:
+      description: "Disney Classic Games Collection"
+    limitedrun:
+      description: "Limited Run Games"
+    iam8bit:
+      description: "iam8bit"
+    sonicclassic:
+      description: "Sonic Classic Collection"
+    sonicmegacollection:
+      description: "Sonic Mega Collection / Sonic Mega Collection+"
+    mdclassics:
+      description: "SEGA MegaDrive Classics / SEGA Genesis Classics"
+    smashpack:
+      description: "SEGA Smash Pack"
+    3dfukkoku:
+      description: "SEGA 3D Fukkoku Archives / セガ3D復刻アーカイブス / SEGA 3D Classics Collection"
+    mdmini:
+      description: "SEGA MegaDrive Mini / SEGA Genesis Mini"
+    gamenokanzume:
+      description: "Game no Kanzume / ゲームのかんづめ"
+      values:
+        "1": "Game no Kanzume Vol.1 / ゲームのかんづめ Vol.1"
+        "2": "Game no Kanzume Vol.2 / ゲームのかんづめ Vol.2"
+
+port:
+  description: "Ported from another system"
+  subcategories:
+    arcade:
+      description: "Arcade"
+    c64:
+      description: "Commodore 64"
+    amiga:
+      description: "Commodore Amiga"
+    apple2:
+      description: "Apple II"
+    mac:
+      description: "Apple Macintosh"
+    bbcmicro:
+      description: "Acorn BBC Micro"
+    dragon32:
+      description: "Dragon 32"
+    elektronika60:
+      description: "Elektronika 60 / Электроника 60"
+    atari400:
+      description: "Atari 400"
+    atarist:
+      description: "Atari ST"
+    lynx:
+      description: "Atari Lynx"
+    pc88:
+      description: "NEC PC-8801"
+    pc98:
+      description: "NEC PC-9801"
+    pcengine:
+      description: "NEC PC Engine"
+    cdrom2:
+      description: "NEC CD-ROM²"
+    msx:
+      description: "MSX"
+    x1:
+      description: "Sharp X1"
+    pc:
+      description: "PC"
     sg1000:
-      values:
-        sc3000: SEGA SC-3000
-        othello: Othello Multivision
-    gb:
-      values:
-        mono: Monochrome
-        color: Color
-        sgb: Super GameBoy
-        np: Nintendo Power Cart
-    pce:
-      values:
-        pcsg: PC SuperGrafx
-    ngp:
-      values:
-        mono: Monochrome
-        color: Color
+      description: "SEGA SG-1000"
+    gamegear:
+      description: "SEGA Game Gear"
+    mark3:
+      description: "SEGA Mark III / Master System"
+    megadrive:
+      description: "SEGA MegaDrive / Genesis" 
+    saturn:
+      description: "SEGA Saturn"
+    famicom:
+      description: "Nintendo Famicom / NES"
+    superfamicom:
+      description: "Nintendo Super Famicom / SNES"
+    gameboy:
+      description: "Nintendo GameBoy"
+    playstation:
+      description: "Sony PlayStation"
+    laseractive:
+      description: "Pioneer LaserActive"
+    fmtowns:
+      description: "Fujitsu FM Towns"
+    spectrum:
+      description: "Sinclair ZX Spectrum"
+    dreamcast:
+      description: "SEGA Dreamcast"
 
-embedded:
-  type: nested
+remake:
+  description: "Remake from another system"
   subcategories:
-    memory:
-      description: Memory & Storage
-      values:
-        battery: Battery backup
-        flashram: Flash RAM
-        feram: Ferroelectric RAM
-        eeprom: EEPROM
-        ram: Extra RAM
-    chips:
-      description: Enhancement Chips
-      values:
-        svp:
-          name: Virtua Processor
-          manufacturer: SEGA
-        lockon:
-          name: Lock-On Technology
-          manufacturer: SEGA
-        mmc5:
-          name: MMC5 chip
-          manufacturer: Nintendo
-        vrc6:
-          name: VRC VI chip
-          manufacturer: Konami
-        vrc7:
-          name: VRC VII chip
-          manufacturer: Konami
-        n163:
-          name: 163 chip
-          manufacturer: NAMCO
-        5b:
-          name: 5B chip
-          manufacturer: Sunsoft
-    hardware:
-      description: Special Hardware
-      values:
-        led: LED lights
-        rtc: Real-Time Clock chip
-        rj11: RJ-11 port
-        gbkiss: GB Kiss
-        pocketsonar: Pocket Sonar
-        smartmedia: SmartMedia Double Slot
-        jcart: J-Cart
-        kogame: Kogame Cassette Slot
+    arcade:
+      description: "Arcade"
+    c64:
+      description: "Commodore 64"
+    amiga:
+      description: "Commodore Amiga"
+    apple2:
+      description: "Apple II"
+    mac:
+      description: "Apple Macintosh"
+    bbcmicro:
+      description: "Acorn BBC Micro"
+    dragon32:
+      description: "Dragon 32"
+    elektronika60:
+      description: "Elektronika 60 / Электроника 60"
+    atari400:
+      description: "Atari 400"
+    atarist:
+      description: "Atari ST"
+    lynx:
+      description: "Atari Lynx"
+    pc88:
+      description: "NEC PC-8801"
+    pc98:
+      description: "NEC PC-9801"
+    pcengine:
+      description: "NEC PC Engine"
+    cdrom2:
+      description: "NEC CD-ROM²"
+    msx:
+      description: "MSX"
+    x1:
+      description: "Sharp X1"
+    pc:
+      description: "PC"
+    sg1000:
+      description: "SEGA SG-1000"
+    gamegear:
+      description: "SEGA Game Gear"
+    mark3:
+      description: "SEGA Mark III / Master System"
+    megadrive:
+      description: "SEGA MegaDrive / Genesis"
+    saturn:
+      description: "SEGA Saturn"
+    famicom:
+      description: "Nintendo Famicom / NES"
+    superfamicom:
+      description: "Nintendo Super Famicom / SNES"
+    gameboy:
+      description: "Nintendo GameBoy"
+    playstation:
+      description: "Sony PlayStation"
+    laseractive:
+      description: "Pioneer LaserActive"
+    fmtowns:
+      description: "Fujitsu FM Towns"
 
-franchise:
-  type: simple
-  description: Commercial franchise tags
-  values:
-    alien: Alien franchise
-    asterix: Astérix & Obélix
-    batman: Batman
-    castlevania: Castlevania/悪魔城ドラキュラ
-    compatihero: Compati Hero
-    disney: Walt Disney
-    donald: Donald Duck
-    dracula: Dracula
-    dragonslayer: Dragon Slayer
-    dnd: Dungeons & Dragons
-    gundam: Gundam
-    jurassicpark: Jurassic Park
-    kuniokun: Kunio-kun/くにおくん
-    looneytunes: Looney Tunes
-    mario: Mario
-    marvel: Marvel Comics
-    mickey: Mickey Mouse
-    pacman: Pac-Man
-    sherlock: Sherlock Holmes
-    simpsons: The Simpsons
-    smurfs: The Smurfs/Les Schtroumpfs
-    sonic: Sonic The Hedgehog
-    spiderman: Spider-Man
-    starwars: Star Wars
-    superman: Superman
-    wonderboy: Wonder Boy
-    xmen: X-Men
 
-search:
-  type: simple
-  description: Keyword search tags
-  values:
-    lightgun: Light gun games
-    spinner: Spinner controller games
+official:
+  description: "Official sealed"
+  subcategories:
+    sports:
+      description: "Sports license"
 
 addon:
   description: "Specific external hardware recommended or required"
   subcategories:
     bikehandle:
       description: "SEGA Bike Handle"
-      values: {}
     graphicboard:
       description: "SEGA Graphic Board"
-      values: {}
     3dglasses:
       description: "SEGA 3-D Glasses"
       values:
@@ -519,346 +795,458 @@ addon:
         hidden: "Hidden FM Sound Unit"
     lightphaser:
       description: "SEGA Light Phaser"
-      values: {}
     paddlecontrol:
       description: "SEGA Paddle Control"
-      values: {}
     sportspad:
       description: "SEGA Sports Pad"
-      values: {}
     6button:
       description: "SEGA Six Button Control Pad"
-      values: {}
-    menacer:
+    menacer:  
       description: "SEGA Menacer"
-      values: {}
     segavr:
       description: "SEGA VR Headset"
-      values: {}
     megamodem:
       description: "SEGA Mega Modem"
-      values: {}
     megaanser:
       description: "SEGA Mega Anser"
-      values: {}
     toshokan:
       description: "SEGA Game Toshokan / ゲーム図書館"
-      values: {}
     segachannel:
       description: "SEGA Channel"
-      values: {}
     xband:
       description: "Catapult XB∀ND"
-      values: {}
     meganet:
       description: "Tec Toy MegaNet"
-      values: {}
     teleplay:
       description: "Baton Teleplay System"
-      values: {}
     linkup:
       description: "Technopop Link-up Cable"
-      values: {}
     justifier:
       description: "Konami The Justifier / サ・ジャスティファイアー"
-      values: {}
     gamegun:
       description: "American Laser GameGun"
-      values: {}
     teevgolf:
       description: "Sports Sciences TeeVGolf"
-      values: {}
     catalyst:
       description: "HeartBeat Catalyst"
-      values: {}
     segatap:
       description: "SEGA Tap / Multiplayer / Team Player / セガタップ"
-      values: {}
     4wayplay:
       description: "Electronic Arts 4 Way Play"
-      values: {}
     backupramcart:
       description: "Mega-CD Back Up RAM Cartridge / バックアップRAMカートリッジ"
-      values: {}
     megacd:
       description: "SEGA Mega-CD / SEGA-CD"
-      values: {}
     super32x:
       description: "SEGA Super 32X / MegaDrive 32X / Genesis 32X"
-      values: {}
     taisencable:
       description: "SEGA Game Gear Taisen Cable / Gear-to-Gear Cable"
-      values: {}
     xe1ap:
       description: "Dempa Micomsoft XE-1 AP"
-      values: {}
+    smash:
+      description: "Realtec Smash Controller"
     comcable:
       description: "NEC COM Cable / TurboExpress"
-      values: {}
     illustbooster:
       description: "NEC Illust Booster"
-      values: {}
     printbooster:
       description: "NEC Print Booster"
-      values: {}
     photoreader:
       description: "NEC Photo Reader"
-      values: {}
     avenuepad3:
       description: "NEC Avenue Pad 3"
-      values: {}
     avenuepad6:
       description: "NEC Avenue Pad 6"
-      values: {}
     pcemultitap:
       description: "Hudson Multitap / NEC TurboTap"
-      values: {}
     tennokoe:
       description: "Hudson Ten no Koe 1&2 / NEC Backup Booster I&II / NEC TurboBooster-Plus"
-      values: {}
     memorybase128:
       description: "NEC Memory Base 128"
-      values: {}
     megald:
       description: "Pioneer LaserActive PAC-S Mega-LD"
-      values: {}
     ldrom2:
       description: "Pioneer LaserActive PAC-N LD-ROM²"
-      values: {}
     mouse:
       description: "Mouse"
-      subcategories:
-        md:
-          description: "SEGA Mouse"
-          values: {}
-        pce:
-          description: "NEC PC Engine Mouse"
-          values: {}
-        pcfx:
-          description: "NEC PC-FX Mouse"
-          values: {}
-        n64:
-          description: "Nintendo 64 Mouse"
-          values: {}
+      values:
+        md: "SEGA Mouse"
+        pce: "NEC PC Engine Mouse"
+        pcfx: "NEC PC-FX Mouse"
+        n64: "Nintendo 64 Mouse"
     10key:
       description: "NEC 10 Key Controller Pad"
-      values: {}
     pachinkocontroller:
       description: "Coconuts Pachinko Controller / パチンココントローラー"
-      values: {}
     cdromrom:
       description: "NEC CD-ROM² / Super CD-ROM² / Arcade CD-ROM² / PC Engine Duo / TurboGrafx-CD / TurboDuo"
-      values: {}
     supersystemcard:
       description: "NEC PC Engine Super System Card CD-ROM²"
-      values: {}
     arcadecard:
       description: "NEC PC Engine Arcade Card Pro CD-ROM² / NEC PC Engine Arcade Card Duo CD-ROM²"
-      values: {}
     gamesexpresscard:
       description: "Games Express CD Card"
-      values: {}
     rss:
       description: "Roland Sound Space"
-      values: {}
     develobox:
       description: "Tokuma Shoten Develo Box"
-      values: {}
     teststation:
       description: "Nintendo NES Test Station"
-      values: {}
     disksystem:
       description: "Nintendo Famicom Disk System"
-      values: {}
     zapper:
       description: "Nintendo Zapper"
-      values: {}
     rob:
       description: "Nintendo R.O.B."
-      subcategories:
-        gyro:
-          description: "Nintendo Family Computer Robot Gyro Set / R.O.B. / Robotic Operating Buddy"
-          values: {}
-        block:
-          description: "Nintendo Family Computer Robot Block Set"
-          values: {}
+      values:
+        gyro: "Nintendo Family Computer Robot Gyro Set / R.O.B. / Robotic Operating Buddy"
+        block: "Nintendo Family Computer Robot Block Set"
     turbofile:
       description: "ASCII Turbo File / Turbo File II / Turbo File GB / Turbo File Adapter / Turbo File Twin"
-      values: {}
     datarecorder:
       description: "Panasonic Famicom Data Recorder"
-      values: {}
     arkanoid:
       description: "Taito Arkanoid controller"
-      values: {}
     battlebox:
       description: "IGS Battle Box"
-      values: {}
     taptapmat:
       description: "IGS Tap-Tap Mat + Tonkachi / タップタップマット + トンカチ"
-      values: {}
     datach:
       description: "Bandai Datach Joint ROM System"
-      values: {}
     familytrainer:
       description: "Bandai Family Trainer / Power Pad / Family Fun Fitness"
-      values: {}
     karaokestudio:
       description: "Bandai Karaoke Studio"
-      values: {}
     oekakids:
       description: "Bandai Oekakids / おえかキッズ"
-      values: {}
     bandaihypershot:
       description: "Bandai Hyper Shot / ハイパーショット"
-      values: {}
     deckenhancer:
       description: "Camerica Aladdin Deck Enhancer"
-      values: {}
     oyagame:
       description: "Sunsoft Oyagame / 親ガメ"
-      values: {}
     powerglove:
       description: "Mattel Power Glove"
-      values: {}
     3dsystem:
       description: "Nintendo Famicom 3D System"
-      values: {}
     networksystem:
       description: "Nintendo Family Computer Network System"
-      values: {}
     4playersadaptor:
       description: "Hori 4 Player Adaptor / Nintendo Four Score"
-      values: {}
     horitrack:
       description: "Hori Track / ホリトラック"
-      values: {}
     miracle:
       description: "The Miracle MIDI Keyboard"
-      values: {}
     pianokeyboard:
       description: "Konami MIDI Keyboard"
-      values: {}
     hypershot:
       description: "Konami HyperShot"
-      values: {}
     qtai:
       description: "Konami QTai / Q太"
-      values: {}
     taikanfamicom:
       description: "Konami Taikan Famicom / 大汗ファミコン"
-      values: {}
     laserscope:
       description: "Konami LaserScope"
-      values: {}
     mahjongcontroller:
       description: "CAPCOM Mahjong Controller / Mahjong Controller II"
-      values: {}
     climberstick:
       description: "Nichibutsu Climber Stick"
-      values: {}
     partytap:
       description: "PR21 Party Tap"
-      values: {}
     hardwarebike:
       description: "Varie Hardware Bike / ハードウーアバイク"
-      values: {}
     uforce:
       description: "Brøderbund UForce Controller"
-      values: {}
     supergameboy:
       description: "Nintendo Super GameBoy 1&2"
-      values: {}
     superturbofile:
       description: "ASCII Super Turbo File"
-      values: {}
     supermultitap:
       description: "Hudson Super Multitap"
-      values: {}
     samegame:
       description: "Hudson SameGame Cassette / 鮫亀カセット"
-      values: {}
     gamelinkcable:
       description: "Nintendo Tsūshin Cable / Game Link Cable"
-      values: {}
     fourplayeradapter:
       description: "Nintendo Four Player Adapter"
-      values: {}
     pocketcamera:
       description: "Nintendo Pocket Camera / GameBoy Camera"
-      values: {}
     pocketprinter:
       description: "Nintendo Pocket Printer / GameBoy Printer"
-      values: {}
     controllerpak:
       description: "Nintendo Controller Pak"
-      values: {}
     transferpak:
       description: "Nintendo 64GB Pak / Transfer Pak"
-      values: {}
     rumblepak:
       description: "Nintendo Shindō Pak / Rumble Pak"
-      values: {}
     expansionpak:
       description: "Nintendo Memory Kakuchō Pak / Expansion Pak"
-      values: {}
     64dd:
       description: "Nintendo 64DD"
-      values: {}
     randnetmodem:
       description: "Randnet Modem"
-      values: {}
     capturecassette:
       description: "Nintendo 64 Capture Cassette"
-      values: {}
     n64mic:
       description: "Nintendo 64 Mic"
-      values: {}
     keyboard:
       description: "Keyboard"
-      subcategories:
-        fc:
-          description: "Famicom Keyboard"
-          values: {}
-        n64:
-          description: "Nintendo 64 Keyboard"
-          values: {}
+      values:
+        fc: "Famicom Keyboard"
+        n64: "Nintendo 64 Keyboard"
     biosensor:
       description: "SETA Bio Sensor"
-      values: {}
     smartmediacard:
       description: "Hagiwara Syscom SmartMedia Card"
-      values: {}
     vrs:
       description: "VRS / Onseininshiki System / Voice Recognition Unit"
-      values: {}
     ddr:
       description: "Konami Dance Dance Revolution controller"
-      values: {}
     tsurikon64:
       description: "ASCII Tsurikon 64"
-      values: {}
     barcodeboy:
       description: "NAMCOT Barcode Boy"
-      values: {}
     reeladapter:
       description: "Bandai Reel Adapter"
-      values: {}
     workboy:
       description: "Fabtek WorkBoy"
-      values: {}
     ngplink:
       description: "SNK NeoGeo Pocket Link Cable"
-      values: {}
     radiounitwireless:
       description: "SNK Musen Unit / Radio Unit Wireless Adaptor"
-      values: {}
     setsuzoku:
       description: "SNK NeoGeo Pocket-Dreamcast Setsuzoku Cable"
-      values: {}
     barcodebattler2:
       description: "Epoch Barcode Battler II + Sen'yō Setsuzoku Cord"
-      values: {}
+    activator:
+      description: "SEGA Activator"
+
+sg1000:
+  description: "SEGA SG-1000"
+  subcategories:
+    sc3000: SEGA SC-3000
+    othello: Othello Multivision
+
+
+gb:
+  description: "GameBoy"
+  subcategories:
+    mono:
+      description: "Monochrome GameBoy"
+    color:
+      description: "Game Boy Color"
+    sgb:
+      description: "Nintendo Super GameBoy / Super GameBoy 2"
+    np:
+      description: "Nintendo Power GB-Memory Cartridge"
+
+fds:
+  description: "Famicom Disk System"
+  subcategories:
+    dw:
+      description: "Disk Writer"
+
+sfc:
+  description: "Super Famicom"
+  subcategories:
+    np:
+      description: "Nintendo Power SF-Memory Cassette"
+    soundlink:
+      description: "SoundLink support"
+
+
+pce:
+  description: "PC Engine"
+  subcategories:
+    pcsg:
+      description: "PC SuperGrafx"
+
+ngp:
+  description: "Neo Geo Pocket"
+  subcategories:
+    mono:
+      description: "Monochrome"
+    color:
+      description: "Color"
+
+
+embed:
+  description: "Embed extra hardware"
+  subcategories:
+    battery:
+      description: "Battery"
+    flashram:
+      description: "Flash RAM"
+    feram:
+      description: "Ferroelectric RAM"
+    eeprom:
+      description: "EEPROM"
+    ram:
+      description: "Extra RAM"
+    led:
+      description: "LED"
+    rtc:
+      description: "Real-Time Clock chip"
+    svp:
+      description: "SEGA Virtua Processor / SVP"
+    lockon:
+      description: "SEGA Sonic & Knuckles Lock-On Technology"
+    mmc5:
+      description: "Nintendo MMC5 chip"
+    vrc6:
+      description: "Konami VRC VI chip"
+    vrc7:
+      description: "Konami VRC VII chip"
+    n163:
+      description: "NAMCO 163 chip"
+    5b:
+      description: "Sunsoft 5B chip"
+    m50805:
+      description: "Mitsubishi M50805 chip"
+    "7755":
+      description: "NEC µPD7755C chip"
+    "7756":
+      description: "NEC µPD7756C chip"
+    kogame:
+      description: "Sunsoft Kogame Cassette Slot / 子ガメカセット"
+    rj11:
+      description: "RJ-11 port"
+    gbkiss:
+      description: "Hudson GB Kiss"
+    pocketsonar:
+      description: "Bandai Pocket Sonar"
+    smartmedia:
+      description: "Tokyo Electron SmartMedia Double Slot"
+    jcart:
+      description: "Codemasters J-Cart"
+
+endorsed:
+  description: "Endorsed"
+  subcategories:
+    celeb:
+      description: "Famous people"
+    company:
+      description: "Company or brand"
+
+franchise:
+  description: "Commercial franchise tags"
+  subcategories:
+    alien:
+      description: Alien franchise
+    asterix:
+      description: Astérix & Obélix
+    batman:
+      description: Batman
+    castlevania:
+      description: Castlevania/悪魔城ドラキュラ
+    compatihero:
+      description: Compati Hero
+    disney:
+      description: Walt Disney
+    donald:
+      description: Donald Duck
+    dracula:
+      description: Dracula
+    dragonslayer:
+      description: Dragon Slayer
+    dnd:
+      description: Dungeons & Dragons
+    gundam:
+      description: Gundam
+    jurassicpark:
+      description: Jurassic Park
+    kuniokun:
+      description: Kunio-kun/くにおくん
+    looneytunes:
+      description: Looney Tunes
+    mario:
+      description: Mario
+    marvel:
+      description: Marvel Comics
+    mickey:
+      description: Mickey Mouse
+    pacman:
+      description: Pac-Man
+    sherlock:
+      description: Sherlock Holmes
+    simpsons:
+      description: The Simpsons
+    smurfs:
+      description: The Smurfs/Les Schtroumpfs
+    sonic:
+      description: Sonic The Hedgehog
+    spiderman:
+      description: Spider-Man
+    starwars:
+      description: Star Wars
+    superman:
+      description: Superman
+    wonderboy:
+      description: Wonder Boy
+    xmen:
+      description: X-Men
+
+reboxed:
+  description: "Reboxed"
+  subcategories:
+    bluebox:
+      description: "Blue Box"
+    purplebox:
+      description: "Purple Box"
+    classicedition:
+      description: "Classic Edition"
+    segaclassic:
+      description: "SEGA Classic"
+    kixxedition:
+      description: "Kixx Edition"
+    segaages:
+      description: "SEGA Ages"
+    megadrive4:
+      description: "Tec Toy MegaDrive 4"
+    reactor:
+      description: "AtGames Reactor"
+    gopher:
+      description: "AtGames Gopher"
+    meisaku:
+      description: "Meisaku Collection"
+    majesco:
+      description: "Majesco"
+    megahit:
+      description: "Mega Hit Series"
+    konamiclassics:
+      description: "Konami Classics"
+    eaclassics:
+      description: "Console Classics"
+    videogameclassics:
+      description: "Accolade Video Game Classics"
+    gamenokanzume:
+      description: "Game no Kanzume / ゲームのかんづめ"
+      values:
+        o: "Game no Kanzume Otokuyō / ゲームのかんづめ お徳用"
+    soundware:
+      description: "Koei SoundWare audio CD"
+    playerschoice:
+      description: "Players Choice / Million Seller"
+    classicserie:
+      description: "NES / Game Boy Classic Serie"
+    kousenjuu:
+      description: "Kōsenjū Series / 光線銃シリーズ"
+    disneysclassic:
+      description: "Disney's Classic Video Games"
+    snkbestcollection:
+      description: "Best Collection"
+    xeye:
+      description: "JVC X'Eye"
+    famicombox:
+      description: "Famicom Box"
+
+search:
+  description: "Keyword search tags"
+  subcategories:
+    lightgun:
+      description: Light gun games
+    spinner:
+      description: Spinner controller games
 
   # Symbol definitions:
   # # - Main category
