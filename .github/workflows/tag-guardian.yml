@@ -36,13 +36,34 @@ jobs:
         run: |
           python scripts/tag_guardian.py
           
-      - name: Add Report to Job Summary
+      - name: Add Main Report to Summary
         uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
             const report = fs.readFileSync('tag_guardian_report.md', 'utf8');
-            core.summary
+            await core.summary
               .addHeading('Tag Guardian Validation Report')
               .addRaw(report)
               .write();
+            
+            // Add each file report to separate sections
+            const reportsDir = 'reports';
+            if (fs.existsSync(reportsDir)) {
+              const files = fs.readdirSync(reportsDir);
+              for (const file of files) {
+                const content = fs.readFileSync(`${reportsDir}/${file}`, 'utf8');
+                await core.summary
+                  .addSeparator()
+                  .addRaw(content)
+                  .write();
+              }
+            }
+
+      - name: Upload All Reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: tag-guardian-reports
+          path: |
+            tag_guardian_report.md
+            reports/*.md
