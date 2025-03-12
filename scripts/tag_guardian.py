@@ -4,6 +4,10 @@ import pandas as pd
 import time
 import argparse
 import sys
+from colorama import init, Fore, Style
+
+# Initialize colorama
+init()
 
 # Simplified argument processing
 parser = argparse.ArgumentParser(description='Tag Guardian - Validate game tags in CSV files')
@@ -46,22 +50,22 @@ def validate_tags(tags_str, tags_definitions):
     individual_tags = [t.strip() for t in tags_str.split() if t.strip()]
     tag_set = set(individual_tags)
     
-    # 1. Validaciones esenciales
+    # 1. Essential validations
     essential_tags = ['#genre', '#players']
     missing_essential = [tag for tag in essential_tags if not any(t.startswith(tag) for t in tag_set)]
     if missing_essential:
         warnings.append(f"Missing essential tags: {', '.join(missing_essential)}")
     
-    # 2. Validaciones de idioma y región
+    # 2. Language and region validations
     if any('@' in tag and ('デ' in tag or 'ド' in tag or 'ー' in tag) for tag in tag_set):
         if not any(t.startswith('#lang:ja') for t in tag_set):
             warnings.append("Game appears to be Japanese but missing #lang:ja tag")
     
-    # 3. Validaciones de hardware específico
+    # 3. Specific hardware validations
     hardware_pairs = {
-        'randnetmodem': '64dd',  # Si tiene randnetmodem debería tener 64dd
-        'capturecassette': '64dd',  # Si tiene capture cassette debería tener 64dd
-        'n64mic': '64dd',  # Si tiene N64 mic debería tener 64dd
+        'randnetmodem': '64dd',  # If has randnetmodem should have 64dd
+        'capturecassette': '64dd',  # If has capture cassette should have 64dd
+        'n64mic': '64dd',  # If has N64 mic should have 64dd
     }
     
     addon_tags = [t for t in tag_set if t.startswith('#addon:')]
@@ -70,7 +74,7 @@ def validate_tags(tags_str, tags_definitions):
             if req_hw in addon and not any(dep_hw in t for t in addon_tags):
                 warnings.append(f"Game uses {req_hw} but {dep_hw} may be required")
     
-    # 4. Validaciones de jugadores
+    # 4. Player validations
     player_tags = [t for t in tag_set if t.startswith('#players:')]
     for ptag in player_tags:
         if ':vs' in ptag and not any(f'players:{n}' in t for t in tag_set for n in ['2','3','4']):
@@ -78,27 +82,27 @@ def validate_tags(tags_str, tags_definitions):
         if ':coop' in ptag and not any(f'players:{n}' in t for t in tag_set for n in ['2','3','4']):
             warnings.append("Game marked as cooperative but player count not specified")
     
-    # 5. Validaciones de género
+    # 5. Genre validations
     genre_tags = [t for t in tag_set if t.startswith('#genre:')]
     if len(genre_tags) > 3:
         warnings.append("Too many genre tags (more than 3)")
     
-    # 6. Validaciones de estado y versión
+    # 6. Status and version validations
     if any('unfinished:' in tag for tag in tag_set):
         if not any(status in tag for tag in tag_set for status in ['beta', 'proto', 'demo']):
             warnings.append("Game marked as unfinished but specific status not provided")
     
-    # 7. Validaciones de franquicia
+    # 7. Franchise validations
     franchise_refs = [t for t in tag_set if t.startswith('$')]
     if franchise_refs and not any(t.startswith('#franchise:') for t in tag_set):
         warnings.append("Game has franchise reference ($) but missing #franchise tag")
 
-    # 8. Validaciones de dispositivos especiales
+    # 8. Special devices validations
     special_devices = {
-        'lightphaser': 'shooting',  # Light phaser debería tener género shooting
-        'menacer': 'shooting',      # Menacer debería tener género shooting
-        'justifier': 'shooting',    # Justifier debería tener género shooting
-        'zapper': 'shooting'        # Zapper debería tener género shooting
+        'lightphaser': 'shooting',  # Light phaser should have shooting genre
+        'menacer': 'shooting',      # Menacer should have shooting genre
+        'justifier': 'shooting',    # Justifier should have shooting genre
+        'zapper': 'shooting'        # Zapper should have shooting genre
     }
     
     for device in special_devices.keys():
@@ -193,9 +197,9 @@ def get_csv_files(root_dir: str, specified_files: list = None) -> list:
         print("No CSV files found in", root_dir)
         sys.exit(1)
         
-    print(f"Found {len(csv_files)} CSV files to process:")
+    print(f"\nFound {Fore.CYAN}{len(csv_files)}{Style.RESET_ALL} CSV files to process:")
     for f in csv_files:
-        print(f"  - {os.path.relpath(f, root_dir)}")
+        print(f"  - {Fore.BLUE}{os.path.relpath(f, root_dir)}{Style.RESET_ALL}")
     print()
     
     return sorted(csv_files)
@@ -287,34 +291,114 @@ def update_file_stats(file_result: dict, game_stats: dict):
         file_result['valid'] += stats['valid_tags']
         file_result['total'] += stats['total_tags']
         file_result['invalid'] = file_result['total'] - file_result['valid']
-        # Acumular warnings en lugar de sobreescribir
+        # Accumulate warnings instead of overwriting
         file_result['warnings'] += stats['warnings_count']
 
 def generate_markdown_report(stats: dict, file_results: list, file_path: str, args):
     """Generate markdown report with given statistics based on command line arguments"""
-    with open(file_path, 'w') as report_file:
-        report_file.write("# 📊 Tag Guardian Report\n\n")
+    # Clean up previous reports
+    reports_dir = os.path.join(os.path.dirname(file_path), 'reports')
+    
+    # Remove old report file if exists
+    if os.path.exists(file_path):
+        print(f"{Fore.YELLOW}Removing old report:{Style.RESET_ALL} {file_path}")
+        os.remove(file_path)
         
-        if not args.no_stats and not args.compact:
-            write_header_stats(report_file, stats)
+    # Remove old reports directory and its contents
+    if os.path.exists(reports_dir):
+        print(f"{Fore.YELLOW}Removing old reports directory:{Style.RESET_ALL} {reports_dir}")
+        import shutil
+        shutil.rmtree(reports_dir)
+    
+    # Create fresh reports directory
+    print(f"{Fore.GREEN}Creating reports directory:{Style.RESET_ALL} {reports_dir}")
+    os.makedirs(reports_dir, exist_ok=True)
+    
+    # Generate new reports
+    with open(file_path, 'w') as report_file:
+        # Write header and basic sections
+        write_main_report(report_file, stats, file_results, args)
+        
+        # List of detailed reports
+        if not args.no_errors or not args.no_warnings:
+            write_detailed_reports_index(report_file, stats, file_results)
             
-        if not args.no_overview and not args.compact:
-            write_overview_section(report_file, stats)
-            
-        if not args.no_validation:
-            write_validation_results(report_file, file_results)
-            
-        if not args.no_unregistered and not args.compact and stats['unregistered_tags']:
-            write_unregistered_tags(report_file, stats['unregistered_tags'])
-            
-        if not args.no_errors and stats['errors']:
-            write_error_section(report_file, stats['errors'], file_results)
-            
-        if not args.no_warnings and stats['warnings']:
-            write_warning_section(report_file, stats['warnings'], file_results)
-            
-        if not args.no_actions and not args.compact:
-            write_suggested_actions(report_file)
+        # Generate individual reports by file
+        for file_result in file_results:
+            generate_file_reports(stats, file_result, reports_dir)
+
+def write_detailed_reports_index(report_file, stats, file_results):
+    """Write index of detailed reports with links"""
+    report_file.write("\n## 📑 Detailed Reports by File\n\n")
+    
+    # List of error reports
+    report_file.write("### ❌ Invalid Tags Reports\n")
+    for file_result in file_results:
+        file_errors = [e for e in stats['errors'] if e['file'] == file_result['file']]
+        if file_errors:
+            csv_name = os.path.splitext(file_result['file'])[0]
+            report_file.write(f"- [📋 {file_result['file']} ({len(file_errors)} errors)](reports/{csv_name}_errors.md)\n")
+    report_file.write("\n")
+    
+    # List of warning reports
+    report_file.write("### ⚠️ Warning Reports\n")
+    for file_result in file_results:
+        file_warnings = [w for w in stats['warnings'] if w['file'] == file_result['file']]
+        if file_warnings:
+            csv_name = os.path.splitext(file_result['file'])[0]
+            report_file.write(f"- [📋 {file_result['file']} ({len(file_warnings)} warnings)](reports/{csv_name}_warnings.md)\n")
+    report_file.write("\n")
+
+def write_main_report(report_file, stats, file_results, args):
+    """Write main sections of the report"""
+    report_file.write("# 📊 Tag Guardian Report\n\n")
+    
+    if not args.no_stats and not args.compact:
+        write_header_stats(report_file, stats)
+        
+    if not args.no_overview and not args.compact:
+        write_overview_section(report_file, stats)
+        
+    if not args.no_validation:
+        write_validation_results(report_file, file_results)
+        
+    if not args.no_unregistered and not args.compact and stats['unregistered_tags']:
+        write_unregistered_tags(report_file, stats['unregistered_tags'])
+    
+    if not args.no_actions and not args.compact:
+        write_suggested_actions(report_file)
+
+def generate_file_reports(stats: dict, file_result: dict, reports_dir: str):
+    """Generate separate error and warning reports for each CSV file"""
+    csv_name = os.path.splitext(file_result['file'])[0]
+    
+    # Generate errors reports
+    file_errors = [e for e in stats['errors'] if e['file'] == file_result['file']]
+    if file_errors:
+        error_path = os.path.join(reports_dir, f"{csv_name}_errors.md")
+        with open(error_path, 'w') as error_file:
+            error_file.write(f"# ❌ Invalid Tags Report - {file_result['file']}\n\n")
+            write_error_section(error_file, file_errors, [file_result])
+    
+    # Generate warnings reports
+    file_warnings = [w for w in stats['warnings'] if w['file'] == file_result['file']]
+    if file_warnings:
+        warning_path = os.path.join(reports_dir, f"{csv_name}_warnings.md")
+        with open(warning_path, 'w') as warning_file:
+            warning_file.write(f"# ⚠️ Warnings Report - {file_result['file']}\n\n")
+            write_warning_section(warning_file, file_warnings, [file_result])
+
+def generate_errors_report(errors: list, file_results: list):
+    """Generate separate report for invalid tags"""
+    with open('tag_guardian_errors.md', 'w') as report_file:
+        report_file.write("# ❌ Invalid Tags Report\n\n")
+        write_error_section(report_file, errors, file_results)
+
+def generate_warnings_report(warnings: list, file_results: list):
+    """Generate separate report for warnings"""
+    with open('tag_guardian_warnings.md', 'w') as report_file:
+        report_file.write("# ⚠️ Warnings Report\n\n")
+        write_warning_section(report_file, warnings, file_results)
 
 def load_tag_definitions(root_dir: str) -> dict:
     """Load tag definitions from tags.yml"""
@@ -327,7 +411,7 @@ def calculate_statistics(results: list) -> dict:
         'total_tags': 0,
         'valid_tags': 0,
         'invalid_tags': 0,
-        'warnings_count': 0,  # Renombrado para evitar conflicto
+        'warnings_count': 0,
         'total_games': 0,
         'valid_games': 0,
         'games_with_errors': 0,
@@ -349,7 +433,7 @@ def calculate_statistics(results: list) -> dict:
         stats['total_tags'] += file_result['total']
         stats['valid_tags'] += file_result['valid']
         stats['invalid_tags'] += file_result['invalid']
-        stats['warnings_count'] += sum(len(w['warning']) for w in file_warnings)  # Corregir conteo de warnings
+        stats['warnings_count'] += sum(len(w['warning']) for w in file_warnings)
         stats['errors'].extend(file_errors)
         stats['warnings'].extend(file_warnings)
         processed_games.update(games_processed)
@@ -677,8 +761,9 @@ def main():
     report_path = args.output or os.path.join(root_dir, 'tag_guardian_report.md')
     generate_markdown_report(stats, [r[0] for r in results], report_path, args)
     
-    print(f"\nProcessed {len(csv_files)} files")
-    print(f"Generated report: {os.path.basename(report_path)}")
+    print(f"{Fore.GREEN}\nProcessed {len(csv_files)} files{Style.RESET_ALL}")
+    print(f"{Fore.GREEN}Generated main report:{Style.RESET_ALL} {os.path.basename(report_path)}")
+    print(f"{Fore.GREEN}Generated detail reports in:{Style.RESET_ALL} reports/")
 
 if __name__ == '__main__':
     main()
