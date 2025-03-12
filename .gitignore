@@ -24,3 +24,4 @@ ENV/
 *.swp
 *.swo
 .codesight/
+reports/
