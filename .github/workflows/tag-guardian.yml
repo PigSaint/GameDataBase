@@ -40,7 +40,7 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const report = fs.readFileSync('tag_validation_report.md', 'utf8');
+            const report = fs.readFileSync('tag_guardian_report.md', 'utf8');
             core.summary
               .addHeading('Tag Guardian Validation Report')
               .addRaw(report)

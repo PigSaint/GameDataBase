@@ -10,7 +10,7 @@ parser = argparse.ArgumentParser(description='Tag Guardian - Validate game tags 
 parser.add_argument('files', nargs='*', 
     help='CSV files to process. If none provided, all CSV files will be processed')
 parser.add_argument('--output', type=str, 
-    help='Output path for the report (default: tag_validation_report.md)')
+    help='Output path for the report (default: tag_guardian_report.md)')
 
 # Report sections control
 report_group = parser.add_argument_group('Report sections')
@@ -674,7 +674,7 @@ def main():
     stats = calculate_statistics(results)
     stats['processing_time'] = time.time() - start_time
     
-    report_path = args.output or os.path.join(root_dir, 'tag_validation_report.md')
+    report_path = args.output or os.path.join(root_dir, 'tag_guardian_report.md')
     generate_markdown_report(stats, [r[0] for r in results], report_path, args)
     
     print(f"\nProcessed {len(csv_files)} files")
