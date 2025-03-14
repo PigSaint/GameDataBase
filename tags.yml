@@ -15,6 +15,8 @@ promo:
   description: "Promotion product"
 qsound:
   description: "QSound support"
+alt:
+  description: "Alternative version"
 
 input:
   description: "Input system"
