@@ -18,6 +18,16 @@ qsound:
 alt:
   description: "Alternative version"
 
+ver:
+  description: "Version"
+  subcategories:
+    "1":
+      description: "First version"
+    "2":
+      description: "Second version"
+    "3":
+      description: "Third version"
+
 input:
   description: "Input system"
   subcategories:
