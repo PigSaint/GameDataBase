@@ -1,0 +1,27 @@
+# Tag Guardian Reports
+tag_guardian_report.md
+tag_guardian_errors.md
+tag_guardian_warnings.md
+reports/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.codesight/
+reports/
