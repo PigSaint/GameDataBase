@@ -931,7 +931,7 @@ rev:
       description: "Revision C"
     g:
       description: "Revision G"
-    
+
 set:
   description: Set
   subtag:
@@ -941,7 +941,7 @@ set:
       description: "Set 2"
     "3":
       description: "Set 3"
-	
+
 alt:
   description: "Alternative rip"
   subtag:
@@ -951,7 +951,7 @@ alt:
       description: "Alternative 2"
     "3":
       description: "Alternative 3"
-	
+
 unlicensed:
   description: "Unlicensed game"
   subtag:
