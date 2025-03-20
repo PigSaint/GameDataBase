@@ -1,0 +1,1013 @@
+input:
+  description: "Input system"
+  subtag:
+    joystick:
+      description: "Joystick"
+      children:
+        "2h": "2-way horizontal"
+        "2v": "2-way vertical"
+        "3": "3-way"
+        "4": "4-way"
+        "8": "8-way"
+        double: "Double joystick"
+        rotary: "Rotary joystick"
+    stick:
+      description: "Stick"
+      children:
+        twin: "Twin stick"
+    trackball:
+      description: "Trackball"
+    paddle:
+      description: "Paddle"
+    spinner:
+      description: "Spinner"
+    wheel:
+      description: "Wheel"
+    dial:
+      description: "Paddle"
+    lightgun:
+      description: "Lightgun"
+    optical:
+      description: "Optical device"
+    positional:
+      description: "Positional crank"
+      children:
+        "2": "Two positions"
+        "3": "Three positions"
+    buttons:
+      description: "In-game buttons"
+      children:
+        "1": "1 button"
+        "2": "2 buttons"
+        "3": "3 buttons"
+        "4": "4 buttons"
+        "5": "5 buttons"
+        "6": "6 buttons"
+        "7": "7 buttons"
+        "8": "8 buttons"
+        "11": "11 buttons"
+        "12": "12 buttons"
+        "19": "19 keys"
+        "23": "23 keys"
+        pneumatic: "Pneumatic button"
+    pedals:
+      description: "Foot pedals"
+      children:
+        "1": "One pedal"
+        "2": "Two pedals"
+    puncher:
+      description: "Puncher"
+    motion:
+      description: "Motion detection device"
+
+players:
+  description: "Players"
+  subtag:
+    "1":
+      description: "Single player"
+    "2":
+      description: "2 players"
+    "3":
+      description: "3 players"
+    "4":
+      description: "4 players"
+    "5":
+      description: "5 players"
+    "6":
+      description: "6 players"
+    "8":
+      description: "8 players"
+    "10":
+      description: "10 players"
+    vs:
+      description: "Versus"
+    coop:
+      description: "Cooperative"
+    alt:
+      description: "Alternating"
+
+genre:
+  description: "Genre"
+  subtag:
+    action:
+      description: "Action"
+      children:
+        platformer: "Platformer"
+        maze: "Maze"
+        blockbreaker: "Block breaker"
+        runandgun: "Run and gun"
+        hackandslash: "Hack and slash"
+        metroidvania: "Metroidvania"
+        roguelite: "Roguelite"
+    adventure:
+      description: "Adventure"
+      children:
+        pointandclick: "Point and click"
+        visualnovel: "Visual novel"
+        survivalhorror: "Survival horror"
+    board:
+      description: "Classic analogic board game"
+      children:
+        cards: "Classic cards"
+        hanafuda: "Hanafuda"
+        chess: "Chess"
+        shougi: "Shōgi"
+        go: "Go"
+        mahjong: "Mahjong"
+        reversi: "Reversi"
+        othello: "Othello"
+        party: "Party"
+        jankenpon: "Rock paper scissors"
+    brawler:
+      description: "Brawler / Beat'em up"
+    fighting:
+      description: "Fighting"
+    minigames:
+      description: "Minigames"
+    parlor:
+      description: "Classic analogic arcade games"
+      children:
+        pinball: "Pinball"
+        jackpot: "Jackpot"
+        pachinko: Pachinko"
+        darts: "Darts"
+        bowling: "Bowling"
+        billiards: "Billiards"
+        mogurataiji: "Whac-A-Mole"
+        kiddieride: "Kiddie ride"
+        mechanical: "Mechanical"
+    quiz:
+      description: "Quiz"
+    racing:
+      description: "Racing"
+      children:
+        combat: "Combat racing"
+        driving: "Non-competition driving"
+    rpg:
+      description: "Role-Playing Game"
+      children:
+        a: "ARPG / Action RPG"
+        j: "JRPG"
+        s: "SRPG / Tactics RPG"
+        dungeoncrawler: "Dungeon crawler"
+    rhythm:
+      description: "Rhythm"
+      children:
+          karaoke: "Karaoke"
+          dance: "Dance"
+    shmup:
+      description: "Shoot'em up"
+      children:
+        h: "Horizontal"
+        v: "Vertical"
+        i: "Isometric"
+        danmaku: "Bullet hell"
+    shooting:
+      description: "Aim-based shooting games"
+      children:
+        gallery: "Shooting gallery"
+        rail: "Rail shooter"
+        fps: "FPS / First person Shooter"
+        tps: "TPS / Third person shooter"
+    puzzle:
+      description: "Puzzle"
+      children:
+        drop: "Drop pieces puzzle"
+        mind: "Mind game"
+    sim:
+      description: "Simulation"
+      children:
+        strategy: "Strategy"
+        cardgame: "Card game"
+        flight: "Flight simulator"
+        train: "Train simulator"
+        date: "Date simulator"
+        life: "Life simulator"
+        farm: "Farm simulator"
+        pet: "Pet simulator"
+        fishing: "Fishing"
+        god: "God simulator"
+        derby: "Derby horse ride"
+        building: "Building"
+    sports:
+      description: "Sports"
+      children:
+        soccer: "Soccer"
+        basketball: "Basketball"
+        baseball: "Baseball"
+        volleyball: "Volleyball"
+        rugby: "Rugby"
+        football: "American football"
+        dodgeball: "Dodgeball"
+        hockey: "Ice hockey"
+        skiing: "Skiing"
+        skateboarding: "Skateboarding"
+        snowboarding: "Snowboarding"
+        tennis: "Tennis"
+        pingpong: "Table tennis"
+        paddle: "Paddle"
+        squash: "Squash"
+        badminton: "Badminton"
+        cycling: "Cycling"
+        formula1: "Formula 1"
+        rally: "Rally"
+        nascar: "NASCAR"
+        motogp: "Moto GP"
+        motocross: "Motocross"
+        golf: "Golf"
+        cricket: "Cricket"
+        boxing: "Boxing"
+        kickboxing: "Kickboxing"
+        wrestling: "Wrestling"
+        sumo: "Sumo"
+        karate: "Karate"
+        judo: "Judo"
+        kendo: "Kendo"
+        decathlon: "Decathlon"
+        archery: "Archery"
+        swimming: "Swimming"
+        rowing: "Rowing"
+        kayak: "Kayak"
+    notagame:
+      description: "Not a game"
+      children:
+        educational: "Educational"
+        drawing: "Drawing"
+        popcorn: "Popcorn"
+        purikura: "Photo stickers"
+        redemption: "Redemption"
+        media: "Media"
+        application: "Application"
+        test: "Test"
+        sdk: "Software Development Kit"
+        slideshow: "Picture slideshow"
+        sound: "Only sound"
+
+addon:
+  description: "Specific external hardware recommended or required"
+  subtag:
+    peripheral:
+      description: "Peripheral"
+      children:
+        megacd: "SEGA Mega-CD / SEGA-CD"
+        super32x: "SEGA Super 32X / MegaDrive 32X / Genesis 32X"
+        disksystem: "Nintendo Famicom Disk System / ディスクシステム"
+        64dd: "Nintendo 64DD"
+        cdromrom: "NEC CD-ROM² / Super CD-ROM² / Arcade CD-ROM² / PC Engine Duo / TurboGrafx-CD / TurboDuo"
+    controller:
+      description: "Special controller"
+      children:
+        bikehandle: "SEGA Bike Handle"
+        paddlecontrol: "SEGA Paddle Control"
+        sportspad: "SEGA Sports Pad"
+        6button: "SEGA Six Button Control Pad"
+        activator: "SEGA Activator"
+        xe1ap: "Dempa Micomsoft XE-1 AP"
+        avenuepad3: "NEC Avenue Pad 3"
+        avenuepad6: "NEC Avenue Pad 6"
+        10key: "NEC 10 Key Controller Pad"
+        arkanoid: "Taito Arkanoid controller"
+        familytrainer: "Bandai Family Trainer / Power Pad / Family Fun Fitness"
+        reeladapter: "Bandai Reel Adapter"
+        powerglove: "Mattel Power Glove"
+        mahjong: "CAPCOM Mahjong Controller / Mahjong Controller II"
+        hypershot: "Konami HyperShot"
+        ddr: "Konami Dance Dance Revolution controller"
+        taikanfamicom: "Konami Taikan Famicom / 大汗ファミコン"
+        hardwarebike: "Varie Hardware Bike / ハードウーアバイク"
+        pachinko: "Coconuts Pachinko Controller / パチンココントローラー"
+        horitrack: "Hori Track / ホリトラック"
+        uforce: "Brøderbund UForce"
+        smash: "Realtec Smash Controller"
+        taptapmat: "IGS Tap-Tap Mat + Tonkachi / タップタップマット + トンカチ"
+        teevgolf: "Sports Sciences TeeVGolf"
+        tsurikon64: "ASCII Tsurikon 64 / つりコン64"
+        partytap: "PR21 Party Tap"
+        climberstick: "Nichibutsu Climber Stick"
+    lightgun:
+      description: "Lightgun"
+      children:
+        lightphaser: "SEGA Light Phaser"
+        menacer: "SEGA Menacer"
+        zapper: "Nintendo Zapper"
+        superscope: "Nintendo Super Scope"
+        justifier: "Konami The Justifier / サ・ジャスティファイアー"
+        laserscope: "Konami LaserScope"
+        bandaihypershot: "Bandai Hyper Shot / ハイパーショット"
+        gamegun: "American Laser GameGun"
+    mouse:
+      description: "Mouse"
+      children:
+        md: "SEGA Mouse"
+        sfc: "Nintendo Super Famicom Mouse / スーパーファミコンマウス / Super NES Mouse"
+        pce: "NEC PC Engine Mouse"
+        pcfx: "NEC PC-FX Mouse"
+        n64: "Nintendo 64 Mouse"
+    keyboard:
+      description: "Typing keyboard"
+      children:
+        fc: "Famicom Keyboard"
+        n64: "Nintendo 64 Keyboard"
+        workboy: "Fabtek WorkBoy"
+    multitap:
+      description: "Multitap for adding more controllers to the same system"
+      children:
+        segatap: "SEGA Tap / Multiplayer / Team Player / セガタップ"
+        4playersadaptor: "Hori 4 Player Adaptor / Nintendo Four Score"
+        supermultitap: "Hudson Super Multitap"
+        pce: "Hudson Multitap / NEC TurboTap"
+        4wayplay: "Electronic Arts 4 Way Play"
+    link:
+      description: "Hardware for interconnecting systems"
+      children:
+        taisencable: "SEGA Game Gear Taisen Cable / Gear-to-Gear Cable"
+        gamelinkcable: "Nintendo Tsūshin Cable / Game Link Cable"
+        fourplayeradapter: "Nintendo Four Player Adapter"
+        comcable: "NEC COM Cable / TurboExpress"
+        linkup: "Technopop Link-up Cable"
+        ngplink: "SNK NeoGeo Pocket Link Cable"
+        radiounitwireless: "SNK Musen Unit / Radio Unit Wireless Adaptor"
+        setsuzoku: "SNK NeoGeo Pocket-Dreamcast Setsuzoku Cable / ネオジオポケット／ドリームキャスト接続ケーブル"
+        senyoucord: "Epoch Sen'yō Setsuzoku Cord / 専用接続コード"
+    expansion:
+      description: "Additional hardware for expansing system capabilities"
+      children:
+        fmsoundunit: "SEGA FM Sound Unit / FMサウンドユニット"
+        expansionpak: "Nintendo Memory Kakuchō Pak / メモリー拡張パック / Expansion Pak"
+        megald: "Pioneer LaserActive PAC-S / SEGA Mega-LD"
+        ldromrom: "Pioneer LaserActive PAC-N / NEC LD-ROM²"
+        supersystemcard: "NEC PC Engine Super System Card CD-ROM²"
+        arcadecard: "NEC PC Engine Arcade Card Pro CD-ROM² / NEC PC Engine Arcade Card Duo CD-ROM²"
+        gamesexpresscard: "Games Express CD Card"
+    lockon:
+      description: "Lock-on cartridge"
+      children:
+        supergameboy: "Nintendo Super GameBoy / Super GameBoy 2 / スーパーゲームボーイ"
+        transferpak: "Nintendo 64GB Pak / 64GBパック / Transfer Pak"
+        datach: "Bandai Datach Joint ROM System / データック"
+        sufami: "Bandai SuFami Turbo / スーファミターボ"
+        samegame: "Hudson SameGame Cassette / 鮫亀カセット"
+        deckenhancer: "Camerica Aladdin Deck Enhancer"
+        oyagame: "Sunsoft Oyagame / 親ガメ"
+        qtai: "Konami QTai / Q太"
+        karaokestudio: "Bandai Karaoke Studio / カラオケスタジオ"
+    backup:
+      description: "Back-up based accessory for saving progress"
+      children:
+        backupramcart: "Mega-CD Back Up RAM Cartridge / バックアップRAMカートリッジ"
+        controllerpak: "Nintendo Controller Pak / コントローラパック"
+        smartmediacard: "Hagiwara Syscom SmartMedia Card"
+        datarecorder: "Panasonic Famicom Data Recorder / データレコーダ"
+        battlebox: "IGS Battle Box / バトルボックス"
+        tennokoe: "Hudson Ten no Koe 2 / Ten no Koe Bank / 天の声 / NEC Backup Booster I / Backup Booster II / バックアップブースター / NEC TurboBooster-Plus"
+        memorybase128: "NEC Memory Base 128 / メモリーベース128"
+        turbofile: "ASCII Turbo File / Turbo File II / Turbo File GB / ターボファイル / Turbo File Adapter / ターボファイルアダプター / Turbo File Twin / ターボファイルツイン"
+    online:
+      description: "Online based accessory"
+      children:
+        megamodem: "SEGA Mega Modem / メガモデム"
+        megaanser: "SEGA Mega Anser / メガアンサー"
+        toshokan: "SEGA Game Toshokan / ゲーム図書館"
+        segachannel: "SEGA Channel / セガチャンネル"
+        xband: "Catapult XB∀ND"
+        meganet: "Tec Toy MegaNet"
+        teleplay: "Baton Teleplay System"
+        networksystem: "Nintendo Family Computer Network System / ファミリーコンピュータ ネットワークシステム"
+        satellaview: "Nintendo SatellaView / サテラビュー"
+        randnetmodem: "Randnet Modem / ランドネット"
+    vibration:
+      description: "Vibration"
+      children:
+        rumblepak: "Nintendo Shindō Pak / 振動パック / Rumble Pak"
+    glasses:
+      description: "Glasses"
+      children:
+        3dglasses: "SEGA 3-D Glasses / セガ3-Dグラス"
+        segavr: "SEGA VR Headset"
+        3dsystem: "Nintendo Famicom 3D System / ファミコン3Dシステム"
+        3dgoggle: "Pioneer LaserActive 3D Goggle / 3D ゴーグル / 3-D Goggles"
+    mic:
+      description: "Microphone"
+      children:
+        n64: "Nintendo 64 Mic"
+        vrs: "VRS / Onseininshiki System / 音声認識システム / Voice Recognition Unit"
+    drawing:
+      description: "Drawing board"
+      children:
+        graphicboard: "SEGA Graphic Board"
+        illustbooster: "NEC Illust Booster"
+        oekakids: "Bandai Oekakids / おえかキッズ"
+    health:
+      description: "Health monitoring"
+      children:
+        catalyst: "HeartBeat Catalyst"
+        biosensor: "SETA Bio Sensor"
+    midi:
+      description: "MIDI Keyboard"
+      children:
+        miracle: "The Miracle MIDI Keyboard"
+        pianokeyboard: "Konami MIDI Keyboard"
+    rob:
+      description: "Nintendo Family Computer Robot /  ファミリーコンピュータ　ロボット/ R.O.B. / Robotic Operating Buddy"
+      children:
+        gyro: "Gyro Set / ジャイロ　セット"
+        block: "Block Set / ブロック セット"
+    printer:
+      description: "Printer"
+      children:
+        pocketprinter: "Nintendo Pocket Printer / GameBoy Printer"
+        printbooster: "NEC Print Booster"
+    barcodeboy:
+      description: "NAMCOT Barcode Boy"
+    rss:
+      description: "Roland Sound Space"
+    pocketcamera:
+      description: "Nintendo Pocket Camera / ポケットカメラ / GameBoy Camera"
+    capturecassette:
+      description: "Nintendo 64 Capture Cassette"
+    photoreader:
+      description: "NEC Photo Reader"
+    develobox:
+      description: "Tokuma Shoten Develo Box / でべろ Box"
+    teststation:
+      description: "Nintendo NES Test Station"
+
+embeded:
+  description: "Embeded extra hardware in cartridge"
+  subtag:
+    backup:
+      description: "Back-up embeded system for saving progress"
+      children:
+        battery: "Battery backed SRAM"
+        flashram: "Flash RAM"
+        feram: "Ferroelectric RAM"
+        eeprom: "EEPROM"
+    chip:
+      description: "Enhancement chip"
+      children:
+        ram: "Extra RAM"
+        rtc: "Real-Time Clock"
+        svp: "SEGA Virtua Processor / SVP"
+        mmc5: Nintendo MMC5"
+        dsp1: "Nintendo DSP-1"
+        dsp1a: "Nintendo DSP-1a"
+        dsp1b: "Nintendo DSP-1b"
+        dsp2: "Nintendo DSP-2"
+        dsp3: "Nintendo DSP-3"
+        dsp4: "Nintendo DSP-4"
+        sa1: "Nintendo SA-1"
+        sdd1: "Nintendo S-DD1"
+        sfx: "Nintendo Super FX GSU-1"
+        sfx2: "Nintendo Super FX GSU-2"
+        obc1: "Nintendo OBC-1"
+        vrc6: "Konami VRC VI"
+        vrc7: "Konami VRC VII"
+        n163: "NAMCO 163"
+        5b: "Sunsoft 5B"
+        m50805: "Mitsubishi M50805"
+        "7755": "NEC µPD7755C"
+        "7756": "NEC µPD7756C"
+        cx4: "CAPCOM CX4"
+        spc7110: "Epson SPC7110"
+        st010: "SETA ST010"
+        st011: "SETA ST011"
+        st018: "SETA ST018"
+    slot:
+      description: "Slot in cartridge"
+      children:
+        rj11: "RJ-11 port"
+        jcart: "Codemasters J-Cart"
+        lockon: "SEGA Sonic & Knuckles Lock-On Technology"
+        kogame: "Sunsoft Kogame Cassette / 子ガメカセット"
+        smartmedia: "Tokyo Electron SmartMedia Double Slot"
+    led:
+      description: "LED"
+    gbkiss:
+      description: "Hudson GB Kiss"
+    pocketsonar:
+      description: "Bandai Pocket Sonar"
+
+save:
+  description: "The way you can save your progress"
+  subtag:
+    backup: "Memory backup"
+    password: "Password"
+
+arcadeboard:
+  description: "Arcade board"
+  subtag:
+    capcom:
+      description: "CAPCOM board"
+      children:
+        cps: "CAPCOM CP System"
+        cpsdash: "CAPCOM CP System Dash"
+        cpschanger: "CAPCOM CP System Changer"
+        cps2: "CAPCOM CP System II"
+        cps3: "CAPCOM CP System III"
+    sega:
+      description: "SEGA board"
+      children:
+        vco: "SEGA VCO Object"
+        system1: "SEGA System 1"
+        system2: "SEGA System 2"
+        system16: "SEGA System 16"
+        system16a: "SEGA System 16A"
+        system16b: "SEGA System 16B"
+        system16c: "SEGA System 16C"
+        system18: "SEGA System 18"
+        system24: "SEGA System 24"
+        system32: "SEGA System 32"
+        multi32: "SEGA System Multi 32"
+        systemc: "SEGA System C"
+        systemc2: "SEGA System C-2"
+        systeme: "SEGA System E"
+        xboard: "SEGA X Board"
+        yboard: "SEGA Y Board"
+        stv: "SEGA Titan Video"
+    irem:
+      description: "Irem board"
+      children:
+        m10: "Irem M10"
+        m15: "Irem M15"
+        m27: "Irem M27"
+        m52: "Irem M52"
+        m57: "Irem M57"
+        m58: "Irem M58"
+        m62: "Irem M62"
+        m63: "Irem M63"
+        m72: "Irem M72"
+        m75: "Irem M75"
+        m81: "Irem M81"
+        m82: "Irem M82"
+        m84: "Irem M84"
+        m90: "Irem M90"
+        m92: "Irem M92"
+        m97: "Irem M97"
+        m107: "Irem M107"
+    snk:
+      description: "SNK board"
+      children:
+        mvs: "SNK Multi Video System / MVS"
+    taito:
+      description: "Taito board"
+      children:
+        xsystem: "Taito X System"
+        bsystem: "Taito B System"
+        hsystem: "Taito H System"
+        lsystem: "Taito L System"
+        zsystem: "Taito Z System"
+        osystem: "Taito O System"
+        f1system: "Taito F1 System / F2 System Extended"
+        f2system: "Taito F2 System"
+        lgsystem: "Taito LG System"
+    toaplan:
+      description: "Toaplan board"
+      children:
+        version1: "Toaplan Version 1"
+        version2: "Toaplan Version 2"
+    jaleco:
+      description: "Jaleco board"
+      children:
+        megasystem1: "Jaleco Mega System 1"
+
+compatibility:
+  description: System compatibility
+  subtag:
+    sg1000:
+      description: SEGA SG-1000
+      children:
+        sc3000: SEGA SC-3000
+        othello: Othello Multivision
+    mark3:
+      description: "SEGA Mark III / master System"
+      children:
+        mycard: "SEGA My Card"
+        thesegacard: "The SEGA Card"
+        themegacartridge: "The Mega Cartridge (Japan)"
+        silvercartridge: "Silver Cartridge"
+        goldcartridge1: "Gold Cartridge (1 mega)"
+        goldcartridge2: "Gold Cartridge (2 mega)"
+        goldcartridge4: "Gold Cartridge (4 mega)"
+    disksystem:
+      description: "Famicom Disk System"
+      children:
+        dw: "Disk Writer"
+    gameboy:
+      description: "Nintendo GameBoy"
+      children:
+        mono: "Monochrome"
+        color: "Color"
+        sgb: "Super GameBoy"
+        np: "Nintendo Power Cart"
+    pcengine:
+      description: "NEC PC Engine"
+      children:
+        supergrafx: "PC SuperGrafx"
+    neogeopocket:
+      description: "NeoGeo Pocket"
+      children:
+        mono: "Monochrome"
+        color: "Color"
+
+disc:
+  description: "Disc Number"
+  subtag:
+    "1": "Disc 1"
+    "2": "Disc 2"
+    "3": "Disc 3"
+    "4": "Disc 4"
+    children:
+      "2": "Two discs"
+      "3": "Three discs"
+      "4": "Four discs"
+
+based:
+  description: "Coming from another media"
+  subtag:
+    manganime:
+      description: "Manga and/or anime"
+    movie:
+      description: "Movie"
+    disney:
+      description: "Walt Disney"
+    dnd:
+      description: "Dungeons & Dragons"
+    jurassicpark:
+      description: "Jurassic Park"
+    looneytunes:
+      description: "Looney Tunes"
+    marvel:
+      description: "Marvel Comics"
+    simpsons:
+      description: "The Simpsons"
+    smurfs:
+      description: "The Smurfs / Les Schtroumpfs / Los Pitufos / Die Schlümpfe"
+    starwars:
+      description: "Star Wars"
+    tmnt:
+      description: "Teenage Mutant Ninja Turtles"
+
+search:
+  description: "Keywords for searching"
+  subtag:
+    franchise:
+      description: "Games that belong to the same game series"
+      children:
+        castlevania: "Castlevania / Akumajō Dracula / 悪魔城ドラキュラ"
+        dragonslayer: "Dragon Slayer"
+        wonderboy: "Wonder Boy"
+    feature:
+      description: "This character/s appear/s in this game"
+      children:
+        alien: "Alien xenomorph"
+        asterix: "Astérix & Obélix"
+        batman: "Batman"
+        compatihero: "Compati Hero / コンパチヒーロー"
+        dracula: "Dracula"
+        donald: "Donald Duck"
+        gundam: "Gundam / ガンダム"
+        kuniokun: "Kunio-kun / くにおくん"
+        mario: "Mario / マリオ"
+        mickey: "Mickey Mouse"
+        pacman: "Pac-Man / パックマン"
+        sherlock: "Sherlock Holmes"
+        sonic: "Sonic The Hedgehog / ソニック・ザ・ヘッジホッグ"
+        spiderman: "Spider-Man"
+        superman: "Superman"
+        xmen: "X-Men"
+    tate:
+      description: "Vertical screen orientation"
+      children:
+        cw: "Clockwise"
+        ccw: "Counter clockwise"
+    3d:
+      description: "Game uses some kind of 3D effect"
+      children:
+        stereo: "Stereoscopic 3D"
+        anaglyph: "Anaglyph 3D"
+    keyword:
+      description: "Other specific game features"
+      children:
+        strip: "Stripped girls as a stage clear reward"
+        promo: "Promotional not-for-sale limited product"
+        qsound: "QSound support"
+        official: "Official sports game"
+        endorsed: "Endorsed to known person"
+        brand: "Endorsed by company or brand"
+
+multigame:
+  description: "Various games in one title"
+  subtag:
+    compilation:
+      description: "Compilation of previously released games"
+
+reboxed:
+  description: "Reboxed"
+  subtag:
+    bios:
+      description: "BIOS included game"
+    bluebox:
+      description: "Blue Box"
+    purplebox:
+      description: "Purple Box"
+    classicedition:
+      description: "Classic Edition"
+    segaclassic:
+      description: "SEGA Classic"
+    kixxedition:
+      description: "Kixx Edition"
+    segaages:
+      description: "SEGA Ages"
+    megadrive4:
+      description: "Tec Toy MegaDrive 4"
+    reactor:
+      description: "AtGames Reactor"
+    gopher:
+      description: "AtGames Gopher"
+    meisaku:
+      description: "Meisaku Collection"
+    majesco:
+      description: "Majesco"
+    megahit:
+      description: "Mega Hit Series"
+    konamiclassics:
+      description: "Konami Classics"
+    eaclassics:
+      description: "Console Classics"
+    videogameclassics:
+      description: "Accolade Video Game Classics"
+    gamenokanzume:
+      description: "Game no Kanzume Otokuyō / ゲームのかんづめ お徳用"
+    soundware:
+      description: "Koei SoundWare audio CD"
+    playerschoice:
+      description: "Players Choice / Million Seller"
+    classicserie:
+      description: "NES / Game Boy Classic Serie"
+    kousenjuu:
+      description: "Kōsenjū Series / 光線銃シリーズ"
+    disneysclassic:
+      description: "Disney's Classic Video Games"
+    snkbestcollection:
+      description: "Best Collection"
+    xeye:
+      description: "JVC X'Eye"
+
+port:
+  description: "Port, remaster, remake or conversion from another system"
+  subtag:
+    arcade:
+      description: "Arcade"
+    commodore:
+      description: "Commodore"
+      children:
+        c64: "Commodore 64 / C64"
+        amiga: "Amiga"
+    apple:
+      description: "Apple"
+      children:
+        apple2: "Apple II"
+        mac: "Macintosh"
+    bbcmicro:
+      description: "Acorn BBC Micro"
+    dragon32:
+      description: "Dragon 32"
+    elektronika60:
+      description: "Elektronika 60 / Электроника 60"
+    atari:
+      description: "Atari"
+      children:
+        atari400: "Atari 400"
+        atarist: "Atari ST"
+        atari2600: "Atari 2600"
+        lynx: "Lynx"
+    nec:
+      description: "NEC / Nippon Electric Company"
+      children:
+        pc88: "PC-8801"
+        pc98: "PC-9801"
+        pcengine: "PC Engine / PCエンジン / TurboGrafx / TurboGrafx-16"
+        cdromrom: "CD-ROM² / シーディーロムロム / TurboGrafx-CD"
+    msx:
+      description: "MSX"
+    sharp:
+      description: "Sharp"
+      children:
+        x1: "Sharp X1"
+        x68000: "X68000"
+    pc:
+      description: "PC DOS"
+    sega:
+      description: "SEGA / セガ"
+      children:
+        sg1000: "SG-1000"
+        mark3: "Mark III / マークIII / Master System / マスターシステム"
+        gamegear: "Game Gear / ゲームギア"
+        megadrive: "MegaDrive / メガドライブ / Genesis"
+        saturn: "SEGA Saturn / セガサターン"
+        dreamcast: "Dreamcast / ドリームキャスト"
+    nintendo:
+      description: "Nintendo / 任天堂"
+      children:
+        famicom: "Famicom / Family Computer / ファミリーコンピュータ / Nintendo Entertainment System / NES"
+        superfamicom: "Super Famicom / スーパーファミコン / Super Nintendo Entertainment System / SNES"
+        gameboy: "GameBoy / ゲームボーイ"
+        gba: "GameBoy Advance / ゲームボーイアドバンス / GBA"
+    sony:
+      description: "Sony / ソニー"
+      children:
+        playstation: "PlayStation / プレイステーション"
+    laseractive:
+      description: "Pioneer LaserActive / レーザーアクティブ"
+    fmtowns:
+      description: "Fujitsu FM Towns / エフエムタウンズ"
+
+lang:
+  description: "Language"
+  subtag:
+    en:
+      description: "English"
+    es:
+      description: "Spanish / Español"
+    fr:
+      description: "French / Français"
+    pt:
+      description: "Portuguese / Português"
+    de:
+      description: "German / Deutsch"
+    it:
+      description: "Italian / Italiano"
+    sv:
+      description: "Swedish / Svenska"
+    nl:
+      description: "Dutch / Nederlands"
+    no:
+      description: "Norwegian / Norsk"
+    fi:
+      description: "Finnish / Suomi"
+    cs:
+      description: "Czech / Čeština"
+    sl:
+      description: "Slovenian / Slovenščina"
+    ru:
+      description: "Russian / Русский"
+    ja:
+      description: "Japanese / 日本語"
+    zh:
+      description: "Simplified Chinese / 汉语"
+    ch:
+      description: "Chinese / 漢語"
+    ko:
+      description: "Korean / 한국어"
+    fremen:
+      description: "Fremen"
+
+unfinished:
+  description: "Unfinished game"
+  subtag:
+    beta:
+      description: "Beta"
+      children:
+        "1": "Beta 1"
+        "2": "Beta 2"
+        "3": "Beta 3"
+        "4": "Beta 4"
+        "5": "Beta 5"
+    proto:
+      description: "Prototype"
+      children:
+        "1": "Proto 1"
+        "2": "Proto 2"
+        "3": "Proto 3"
+        "4": "Proto 4"
+    demo:
+      description: "Demo"
+      children:
+        "1": "Demo 1"
+        "2": "Demo 2"
+        auto: "Automatic"
+        kiosk: "Kiosk"
+    sample:
+      description: "Sample"
+    debug:
+      description: "Debug"
+    competition:
+      description: "Competition"
+
+rerelease:
+  description: "Re-released games in another system"
+  subtag:
+    virtualconsole:
+      description: "Nintendo Virtual Console"
+      children:
+        wii: "Nintendo Wii Virtual Console"
+        wiiu: "Nintendo Wii-U Virtual Console"
+        3ds: "Nintendo 3DS Virtual Console"
+    switchonline:
+      description: "Nintendo Switch Online"
+    ereader:
+      description: "Nintendo e-Reader"
+    animalcrossing:
+      description: "Nintendo Dōbutsu no Mori+ / どうぶつの森+ / Animal Crossing"
+    capcomtown:
+      description: "CAPCOM Town"
+    namcoanthology:
+      description: "NAMCO Anthology"
+      children:
+        "1": "NAMCO Anthology 1"
+        "2": "NAMCO Anthology 2"
+    namcot:
+      description: "NAMCOT Collection / ナムコットコレクション"
+      children:
+        "1": "NAMCO Museum Archives Volume 1"
+        "2": "NAMCO Museum Archives Volume 2"
+    castlevaniaanniversary:
+      description: "Akumajō Dracula Anniversary Collection / 悪魔城ドラキュラ Anniversary Collection / Castlevania Anniversary Collection"
+    contraanniversary:
+      description: "Contra Anniversary Collection / 魂斗羅 Anniversary Collection"
+    cowabunga:
+      description: "Teenage Mutant Ninja Turtles: The Cowabunga Collection"
+    dariuscozmic:
+      description: "Darius Cozmic Collection"
+    disneyclassic:
+      description: "Disney Classic Games Collection"
+    limitedrun:
+      description: "Limited Run Games"
+    iam8bit:
+      description: "iam8bit"
+    sonicclassic:
+      description: "Sonic Classic Collection"
+    sonicmegacollection:
+      description: "Sonic Mega Collection / Sonic Mega Collection+"
+    mdclassics:
+      description: "SEGA MegaDrive Classics / SEGA Genesis Classics"
+    smashpack:
+      description: "SEGA Smash Pack"
+    3dfukkoku:
+      description: "SEGA 3D Fukkoku Archives / セガ3D復刻アーカイブス / SEGA 3D Classics Collection"
+    mdmini:
+      description: "SEGA MegaDrive Mini / SEGA Genesis Mini"
+      children:
+        "1": "SEGA MegaDrive Mini / SEGA Genesis Mini"
+        "2": "SEGA MegaDrive Mini 2 / SEGA Genesis Mini 2"
+    gamenokanzume:
+      description: "Game no Kanzume / ゲームのかんづめ"
+      children:
+        "1": "Game no Kanzume Vol.1 / ゲームのかんづめ Vol.1"
+        "2": "Game no Kanzume Vol.2 / ゲームのかんづめ Vol.2"
+
+rev:
+  description: "Revision"
+  subtag:
+    "1":
+      description: "Revision 1"
+    "2":
+      description: "Revision 2"
+    "3":
+      description: "Revision 3"
+    a:
+      description: "Revision A"
+    b:
+      description: "Revision B"
+    c:
+      description: "Revision C"
+    g:
+      description: "Revision G"
+
+set:
+  description: Set
+  subtag:
+    "1":
+      description: "Set 1"
+    "2":
+      description: "Set 2"
+    "3":
+      description: "Set 3"
+
+alt:
+  description: "Alternative rip"
+  subtag:
+    "1":
+      description: "Alternative 1"
+    "2":
+      description: "Alternative 2"
+    "3":
+      description: "Alternative 3"
+
+unlicensed:
+  description: "Unlicensed game"
+  subtag:
+    bootleg: "Bootleg/pirated game"
+    hack: "Hacked game"
+    clone: "Cloned game"
+    translation: "Translation"
+    aftermarket: "Made after original market cycle"
+
+mameparent:
+  description: "MAME parent file"
+
+tag_structure:
+  symbols:
+    main: '#'
+    subtag: ':'
+    children: '>'
