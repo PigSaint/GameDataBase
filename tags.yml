@@ -448,7 +448,7 @@ embeded:
         ram: "Extra RAM"
         rtc: "Real-Time Clock"
         svp: "SEGA Virtua Processor / SVP"
-        mmc5: Nintendo MMC5"
+        mmc5: "Nintendo MMC5"
         dsp1: "Nintendo DSP-1"
         dsp1a: "Nintendo DSP-1a"
         dsp1b: "Nintendo DSP-1b"
@@ -599,6 +599,10 @@ compatibility:
         color: "Color"
         sgb: "Super GameBoy"
         np: "Nintendo Power Cart"
+    superfamicom:
+      description: "Nintendo Super Famicom / Super Nintendo Entertainment System / SNES"
+      children:
+        soundlink: "SoundLink / サウンドリンクゲーム / VoiceLink / 音声連動ゲーム"
     pcengine:
       description: "NEC PC Engine"
       children:
