@@ -67,4 +67,14 @@ jobs:
           git pull --rebase origin ${{ github.head_ref }}  # Pull and rebase to integrate remote changes
           git push origin HEAD:${{ github.head_ref }}  # Push the changes
 
+      - name: Add README to Summary
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = fs.readFileSync('tag_guardian_report.md', 'utf8');
+            await core.summary
+              .addHeading('Tag Guardian Validation Report')
+              .addRaw(report)
+              .write();
 
