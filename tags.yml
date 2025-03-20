@@ -88,7 +88,7 @@ players:
 
 genre:
   description: "Genre"
-  subtag:  
+  subtag:
     action:
       description: "Action"
       children:
@@ -465,8 +465,8 @@ embeded:
         n163: "NAMCO 163"
         5b: "Sunsoft 5B"
         m50805: "Mitsubishi M50805"
-        7755: "NEC µPD7755C"
-        7756: "NEC µPD7756C"
+        "7755": "NEC µPD7755C"
+        "7756": "NEC µPD7756C"
         cx4: "CAPCOM CX4"
         spc7110: "Epson SPC7110"
         st010: "SETA ST010"
@@ -625,27 +625,27 @@ based:
   description: "Coming from another media"
   subtag:
     manganime:
-    description: "Manga and/or anime"
+      description: "Manga and/or anime"
     movie:
-    description: "Movie"
+      description: "Movie"
     disney:
-    description: "Walt Disney"
+      description: "Walt Disney"
     dnd:
-    description: "Dungeons & Dragons"
+      description: "Dungeons & Dragons"
     jurassicpark:
-    description: "Jurassic Park"
+      description: "Jurassic Park"
     looneytunes:
-    description: "Looney Tunes"
+      description: "Looney Tunes"
     marvel:
-    description: "Marvel Comics"
+      description: "Marvel Comics"
     simpsons:
-    description: "The Simpsons"
+      description: "The Simpsons"
     smurfs:
-    description: "The Smurfs / Les Schtroumpfs / Los Pitufos / Die Schlümpfe"
+      description: "The Smurfs / Les Schtroumpfs / Los Pitufos / Die Schlümpfe"
     starwars:
-    description: "Star Wars"
+      description: "Star Wars"
     tmnt:
-    description: "Teenage Mutant Ninja Turtles"
+      description: "Teenage Mutant Ninja Turtles"
 
 search:
   description: "Keywords for searching"
@@ -700,34 +700,58 @@ multigame:
   subtag:
     compilation:
       description: "Compilation of previously released games"
-	
+
 reboxed:
   description: "Reboxed"
   subtag:
-    bios: "BIOS included game"
-    bluebox: "Blue Box"
-    purplebox: "Purple Box"
-    classicedition: "Classic Edition"
-    segaclassic: "SEGA Classic"
-    kixxedition: "Kixx Edition"
-    segaages: "SEGA Ages"
-    megadrive4: "Tec Toy MegaDrive 4"
-    reactor: "AtGames Reactor"
-    gopher: "AtGames Gopher"
-    meisaku: "Meisaku Collection"
-    majesco: "Majesco"
-    megahit: "Mega Hit Series"
-    konamiclassics: "Konami Classics"
-    eaclassics: "Console Classics"
-    videogameclassics: "Accolade Video Game Classics"
-    gamenokanzume>o: "Game no Kanzume Otokuyō / ゲームのかんづめ お徳用"
-    soundware: "Koei SoundWare audio CD"
-    playerschoice: "Players Choice / Million Seller"
-    classicserie: "NES / Game Boy Classic Serie"
-    kousenjuu: "Kōsenjū Series / 光線銃シリーズ"
-    disneysclassic: "Disney's Classic Video Games"
-    snkbestcollection: "Best Collection"
-    xeye: "JVC X'Eye"
+    bios:
+      description: "BIOS included game"
+    bluebox:
+      description: "Blue Box"
+    purplebox:
+      description: "Purple Box"
+    classicedition:
+      description: "Classic Edition"
+    segaclassic:
+      description: "SEGA Classic"
+    kixxedition:
+      description: "Kixx Edition"
+    segaages:
+      description: "SEGA Ages"
+    megadrive4:
+      description: "Tec Toy MegaDrive 4"
+    reactor:
+      description: "AtGames Reactor"
+    gopher:
+      description: "AtGames Gopher"
+    meisaku:
+      description: "Meisaku Collection"
+    majesco:
+      description: "Majesco"
+    megahit:
+      description: "Mega Hit Series"
+    konamiclassics:
+      description: "Konami Classics"
+    eaclassics:
+      description: "Console Classics"
+    videogameclassics:
+      description: "Accolade Video Game Classics"
+    gamenokanzumeo:
+      description: "Game no Kanzume Otokuyō / ゲームのかんづめ お徳用"
+    soundware:
+      description: "Koei SoundWare audio CD"
+    playerschoice:
+      description: "Players Choice / Million Seller"
+    classicserie:
+      description: "NES / Game Boy Classic Serie"
+    kousenjuu:
+      description: "Kōsenjū Series / 光線銃シリーズ"
+    disneysclassic:
+      description: "Disney's Classic Video Games"
+    snkbestcollection:
+      description: "Best Collection"
+    xeye:
+      description: "JVC X'Eye"
 
 port:
   description: "Port, remaster, remake or conversion from another system"
@@ -775,7 +799,7 @@ port:
       description: "PC DOS"
     sega:
       description: "SEGA / セガ"
-      children:      
+      children:
         sg1000: "SG-1000"
         mark3: "Mark III / マークIII / Master System / マスターシステム"
         gamegear: "Game Gear / ゲームギア"
@@ -801,24 +825,42 @@ port:
 lang:
   description: "Language"
   subtag:
-    en: "English"
-    es: "Spanish / Español"
-    fr: "French / Français"
-    pt: "Portuguese / Português"
-    de: "German / Deutsch"
-    it: "Italian / Italiano"
-    sv: "Swedish / Svenska"
-    nl: "Dutch / Nederlands"
-    no: "Norwegian / Norsk"
-    fi: "Finnish / Suomi"
-    cs: "Czech / Čeština"
-    sl: "Slovenian / Slovenščina"
-    ru: "Russian / Русский"
-    ja: "Japanese / 日本語"
-    kh: "Simplified Chinese / 汉语"
-    ch: "Chinese / 漢語"
-    ko: "Korean / 한국어"
-    fremen: "Fremen"
+    en:
+      description: "English"
+    es:
+      description: "Spanish / Español"
+    fr:
+      description: "French / Français"
+    pt:
+      description: "Portuguese / Português"
+    de:
+      description: "German / Deutsch"
+    it:
+      description: "Italian / Italiano"
+    sv:
+      description: "Swedish / Svenska"
+    nl:
+      description: "Dutch / Nederlands"
+    no:
+      description: "Norwegian / Norsk"
+    fi:
+      description: "Finnish / Suomi"
+    cs:
+      description: "Czech / Čeština"
+    sl:
+      description: "Slovenian / Slovenščina"
+    ru:
+      description: "Russian / Русский"
+    ja:
+      description: "Japanese / 日本語"
+    kh:
+      description: "Simplified Chinese / 汉语"
+    ch:
+      description: "Chinese / 漢語"
+    ko:
+      description: "Korean / 한국어"
+    fremen:
+      description: "Fremen"
 
 unfinished:
   description: "Unfinished game"
@@ -963,9 +1005,9 @@ unlicensed:
 
 mameparent:
   description: "MAME parent file"
-  
-  tag_structure:
-    symbols:
-    main: '#'
-    subtag: ':'
-    children: '>'
+
+tag_structure:
+  symbols:
+  main: '#'
+  subtag: ':'
+  children: '>'
