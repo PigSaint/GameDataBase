@@ -64,23 +64,17 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
           git commit -m "Auto-generate README [skip ci]" || echo "No changes to commit"
-          git push origin HEAD
+          git pull --rebase origin ${{ github.head_ref }}  # Pull and rebase to integrate remote changes
+          git push origin HEAD:${{ github.head_ref }}  # Push the changes
 
-      # Add README to Summary
       - name: Add README to Summary
         uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
-            const readme = fs.readFileSync('README.md', 'utf8');
+            const report = fs.readFileSync('README.md', 'utf8');
             await core.summary
               .addHeading('Generated README')
-              .addRaw(readme)
+              .addRaw(report)
               .write();
 
-      # Upload README as an artifact
-      - name: Upload README
-        uses: actions/upload-artifact@v4
-        with:
-          name: generated-readme
-          path: README.md
