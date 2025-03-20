@@ -129,7 +129,7 @@ genre:
       children:
         pinball: "Pinball"
         jackpot: "Jackpot"
-        pachinko: Pachinko"
+        pachinko: "Pachinko"
         darts: "Darts"
         bowling: "Bowling"
         billiards: "Billiards"
@@ -432,8 +432,8 @@ addon:
     teststation:
       description: "Nintendo NES Test Station"
 
-embeded:
-  description: "Embeded extra hardware in cartridge"
+embedded:
+  description: "Embedded extra hardware in cartridge"
   subtag:
     backup:
       description: "Back-up embeded system for saving progress"
@@ -571,13 +571,13 @@ arcadeboard:
         megasystem1: "Jaleco Mega System 1"
 
 compatibility:
-  description: System compatibility
+  description: "System compatibility"
   subtag:
     sg1000:
-      description: SEGA SG-1000
+      description: "SEGA SG-1000"
       children:
-        sc3000: SEGA SC-3000
-        othello: Othello Multivision
+        sc3000: "SEGA SC-3000"
+        othello: "Othello Multivision"
     mark3:
       description: "SEGA Mark III / master System"
       children:
@@ -975,11 +975,13 @@ rev:
       description: "Revision B"
     c:
       description: "Revision C"
+    d:
+      description: "Revision D"
     g:
       description: "Revision G"
 
 set:
-  description: Set
+  description: "Set"
   subtag:
     "1":
       description: "Set 1"
