@@ -34,6 +34,23 @@ jobs:
           cache: pip
           cache-dependency-path: requirements.txt
 
+      # Cache pip packages
+      - name: Get pip cache dir
+        id: pip-cache
+        run: echo "dir=$(pip cache dir)" >> $GITHUB_OUTPUT
+
+      - name: Cache pip packages
+        uses: actions/cache@v3
+        with:
+          path: ${{ steps.pip-cache.outputs.dir }}
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      # Install dependencies
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
       # Generate README
       - name: Generate README
         run: |
@@ -41,6 +58,7 @@ jobs:
 
       # Commit and push changes
       - name: Commit and push changes
+        if: github.event_name == 'pull_request'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -48,15 +66,4 @@ jobs:
           git commit -m "Auto-generate README [skip ci]" || echo "No changes to commit"
           git push origin HEAD
 
-      # Add README to Summary
-      - name: Add README to Summary
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const fs = require('fs');
-            const readme = fs.readFileSync('README.md', 'utf8');
-            await core.summary
-              .addHeading('Generated README')
-              .addRaw(readme)
-              .write();
 
