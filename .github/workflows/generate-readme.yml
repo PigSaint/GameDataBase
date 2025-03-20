@@ -72,9 +72,9 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const report = fs.readFileSync('tag_guardian_report.md', 'utf8');
+            const report = fs.readFileSync('README.md', 'utf8');
             await core.summary
-              .addHeading('Tag Guardian Validation Report')
+              .addHeading('Generated README')
               .addRaw(report)
               .write();
 
