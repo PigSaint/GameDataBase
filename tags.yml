@@ -853,7 +853,7 @@ lang:
       description: "Russian / Русский"
     ja:
       description: "Japanese / 日本語"
-    kh:
+    zh:
       description: "Simplified Chinese / 汉语"
     ch:
       description: "Chinese / 漢語"
@@ -1008,6 +1008,6 @@ mameparent:
 
 tag_structure:
   symbols:
-  main: '#'
-  subtag: ':'
-  children: '>'
+    main: '#'
+    subtag: ':'
+    children: '>'
