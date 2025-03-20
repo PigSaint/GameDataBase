@@ -64,6 +64,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
           git commit -m "Auto-generate README [skip ci]" || echo "No changes to commit"
-          git push origin HEAD:${{ github.head_ref }}
+          git pull --rebase origin ${{ github.head_ref }}  # Pull and rebase to integrate remote changes
+          git push origin HEAD:${{ github.head_ref }}  # Push the changes
 
 
