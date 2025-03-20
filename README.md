@@ -461,4 +461,3 @@ The `>` level only applies to its immediate `:` subtag.
 ---
 
 Thank you for joining GameDataBase! Your support inspires us to keep improving and sharing exciting updates.
-
