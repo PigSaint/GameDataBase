@@ -19,7 +19,7 @@ GameDataBase project aims to provide the most detailed information about every v
 | **Developer** | Company/team that developed the game |
 | **Publisher** | Company that published/distributed the game |
 | **Tags** | Game classification tags using the defined taxonomy |
-| **MAME filename** | ROM filename as used in MAME |
+| **MAME filename** | ROM filename as used in MAME, only for Arcade games |
 | **MD5 hash** | MD5 checksum of the game file |
 | **SHA1 hash** | SHA1 checksum of the game file |
 | **SHA256 hash** | SHA256 checksum of the game file |
