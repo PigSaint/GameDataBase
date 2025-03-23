@@ -1,7 +1,7 @@
 # GameDataBase
 
 [![Patrons](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwww.patreon.com%2Fapi%2Fcampaigns%2F11667791&query=data.attributes.patron_count&suffix=%20Patrons&color=FF5441&label=Patreon&logo=Patreon&logoColor=FF5441&style=for-the-badge)](https://patreon.com/GameDataBase)
-[![Monthly](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwww.patreon.com%2Fapi%2Fcampaigns%2F11667791&query=data.attributes.pledge_sum&prefix=$%20&suffix=%20EUR%20/%20MO&color=FF5481&label=Patreon&logo=Patreon&logoColor=FF5441&style=for-the-badge)](https://patreon.com/GameDataBase)
+[![Monthly](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dgamedatabase%26type%3Dpledges%26suffix%3D%2520USD%2520%252F%2520MO&color=FF5481&label=Patreon&logo=Patreon&logoColor=FF5441&style=for-the-badge)](https://patreon.com/gamedatabase)
 [![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)](https://patreon.com/GameDataBase)[![Creation Count](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwww.patreon.com%2Fapi%2Fcampaigns%2F11667791&query=data.attributes.creation_count&suffix=%20Entries&color=blue&label=&style=for-the-badge)](https://patreon.com/GameDataBase)
 
 [Join GameDataBase on Patreon and consider supporting the project](https://www.patreon.com/GameDataBase)
@@ -345,7 +345,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:it` | Italian / Italiano |
 | `:sv` | Swedish / Svenska |
 | `:nl` | Dutch / Nederlands |
-| `:False` | Norwegian / Norsk |
+| `:no` | Norwegian / Norsk |
 | `:fi` | Finnish / Suomi |
 | `:cs` | Czech / Čeština |
 | `:sl` | Slovenian / Slovenščina |
