@@ -62,10 +62,28 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Stage changes
           git add README.md
-          git commit -m "Auto-generate README [skip ci]" || echo "No changes to commit"
-          git pull --rebase origin ${{ github.head_ref }}  # Pull and rebase to integrate remote changes
-          git push origin HEAD:${{ github.head_ref }}  # Push the changes
+          
+          # Commit changes if any
+          git commit -m "docs: auto-generate README [skip ci]" || echo "No changes to commit"
+          
+          # Attempt to pull and rebase, resolving conflicts automatically
+          git pull --rebase -X theirs origin ${{ github.head_ref }} || (
+            echo "Rebase failed, conflicts detected" &&
+            git diff --name-only --diff-filter=U &&  # List conflicting files
+            for file in $(git diff --name-only --diff-filter=U); do
+              echo "Conflict in $file:" &&
+              echo "----------------------------------------" &&
+              cat $file &&  # Display the content of the conflicting file
+              echo "----------------------------------------";
+            done &&
+            git rebase --abort
+          )
+          
+          # Push changes to the head branch
+          git push origin HEAD:${{ github.head_ref }}
 
       - name: Add README to Summary
         uses: actions/github-script@v7
