@@ -19,7 +19,7 @@ GameDataBase project aims to provide the most detailed information about every v
 | **Developer** | Company/team that developed the game |
 | **Publisher** | Company that published/distributed the game |
 | **Tags** | Game classification tags using the defined taxonomy |
-| **MAME filename** | ROM filename as used in MAME |
+| **MAME filename** | ROM filename as used in MAME, only for Arcade games |
 | **MD5 hash** | MD5 checksum of the game file |
 | **SHA1 hash** | SHA1 checksum of the game file |
 | **SHA256 hash** | SHA256 checksum of the game file |
@@ -120,7 +120,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:brawler` | Brawler / Beat'em up |  |  |
 | `:fighting` | Fighting |  |  |
 | `:minigames` | Minigames |  |  |
-| `:parlor` | Classic analogic arcade games | `>pinball`<br>`>jackpot`<br>`>pachinko`<br>`>darts`<br>`>bowling`<br>`>billiards`<br>`>mogurataiji`<br>`>kiddieride`<br>`>mechanical` | Pinball<br>Jackpot<br>Pachinko"<br>Darts<br>Bowling<br>Billiards<br>Whac-A-Mole<br>Kiddie ride<br>Mechanical |
+| `:parlor` | Classic analogic arcade games | `>pinball`<br>`>jackpot`<br>`>pachinko`<br>`>darts`<br>`>bowling`<br>`>billiards`<br>`>mogurataiji`<br>`>kiddieride`<br>`>mechanical` | Pinball<br>Jackpot<br>Pachinko<br>Darts<br>Bowling<br>Billiards<br>Whac-A-Mole<br>Kiddie ride<br>Mechanical |
 | `:quiz` | Quiz |  |  |
 | `:racing` | Racing | `>combat`<br>`>driving` | Combat racing<br>Non-competition driving |
 | `:rpg` | Role-Playing Game | `>a`<br>`>j`<br>`>s`<br>`>dungeoncrawler` | ARPG / Action RPG<br>JRPG<br>SRPG / Tactics RPG<br>Dungeon crawler |
@@ -169,7 +169,7 @@ The `>` level only applies to its immediate `:` subtag.
 </details>
 
 <details>
-<summary><strong>#embeded</strong> - Embeded extra hardware in cartridge</summary>
+<summary><strong>#embedded</strong> - Embedded extra hardware in cartridge</summary>
 
 | Subcategory | Description | Children | Children Description |
 |-------------|-------------|----------|--------------------|
@@ -412,6 +412,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:a` | Revision A |
 | `:b` | Revision B |
 | `:c` | Revision C |
+| `:d` | Revision D |
 | `:g` | Revision G |
 
 </details>
