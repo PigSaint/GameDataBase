@@ -1,0 +1,78 @@
+name: Deploy RetroSeek to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'src/retroseek/**'
+      - 'tags.yml'
+  workflow_dispatch:
+  pull_request:
+    types: [ opened, reopened, synchronize, edited ]
+    paths:
+      - 'src/retroseek/**'
+      - 'tags.yml'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.18.3'
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: ./src/retroseek
+
+      - name: Build project
+        run: npm run build -- --out-dir ./build
+        env:
+          PUBLIC_URL: /GameDataBase
+          CI: true
+          GENERATE_SOURCEMAP: false
+        working-directory: ./src/retroseek
+
+      - name: Verify build output
+        run: |
+          if [ -d "./src/retroseek/build" ]; then
+            echo "Build directory exists and contains:"
+            ls -la ./src/retroseek/build
+          else
+            echo "Build directory does not exist."
+            exit 1
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./src/retroseek/build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: ${{ github.event_name == 'pull_request' && 'github-pages-preview' || 'github-pages' }}
+# Waiting for Preview URL feature      url: ${{ github.event_name == 'pull_request' && format('{0}pull/{1}', steps.deployment.outputs.page_url, github.event.pull_request.number) || steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages
+# Waiting for Preview URL feature          preview: ${{ github.event_name == 'pull_request' }}
