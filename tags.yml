@@ -845,7 +845,7 @@ lang:
       description: "Swedish / Svenska"
     nl:
       description: "Dutch / Nederlands"
-    no:
+    "no":
       description: "Norwegian / Norsk"
     fi:
       description: "Finnish / Suomi"
