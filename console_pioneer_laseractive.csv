@@ -1,7 +1,7 @@
 Screen title @ Exact,Cover title @ Exact,ID,Region,Release date,Developer,Publisher,Tags
 3D Museum,3D Museum,3dmuseum,Japan,1994-02-25,Multimedia Creators Network,Pioneer,#players:1 #genre:notagame>media>slideshow #addon:expansion>megald:glasses>3dgoggle:rss #search:3d>stereo #lang:en
 3D Museum,3D Museum,3dmuseum,Japan,1994-06-25,Multimedia Creators Network,Pioneer,#players:1 #genre:notagame>media>slideshow #addon:expansion>ldromrom:glasses>3dgoggle:rss #search:3d>stereo #lang:en
-3D Virtual Australia,3D Virtual Australia,3dvirtualaustralia,Japan,1995-03-11,JP Multimedia,Pioneer,#players:1 #genre:multimedia:notagame>educational #addon:expansion>megald:glasses>3dgoggle #search:3d>stereo #lang:ja
+3D Virtual Australia,3D Virtual Australia,3dvirtualaustralia,Japan,1995-03-11,JP Multimedia,Pioneer,#players:1 #genre:notagame>educational>media #addon:expansion>megald:glasses>3dgoggle #search:3d>stereo #lang:ja
 Akuma no Shinpan@悪魔の審判,Akuma no Shinpan: Konseiki Saigo no Shinri Game@悪魔の審判 今世紀最後の心理ゲーム,akumanoshinpan,Japan,1993-08-20,Planet,Planet,#players:1 #genre:quiz #addon:expansion>ldromrom #search:keyword>endorsed #lang:ja
 Angel Mate,Angel Mate,angelmate,Japan,1993-10-25,Planet,Planet,#players:1 #genre:board>cards #addon:expansion>ldromrom #search:keyword>strip #search:keyword>endorsed #lang:ja
 Back to the Edo@Back to the 江戸,Back to the Edo@Back to the 江戸,backtotheedo,Japan,1994-12-22,JP Multimedia,Pioneer,#players:1 #genre:quiz #addon:expansion>megald #lang:ja
@@ -10,11 +10,11 @@ Bi Ryojon Collection: Watanabe Minayo Shashinshū@美リュージョンコレク
 Bi Ryojon Collection Vol. 2: Sakaki Yūko Shashinshū@美リュージョンコレクション 坂木優子写真集 Yuko Sakaki,Bi Ryojon Collection: Sakaki Yūko@美リュージョンコレクション 坂木優子 Yuko Sakaki,biryojoncollectionsakakiyuuko,Japan,1995-04-25,WiZ,Planet,#players:1 #genre:notagame>slideshow #addon:expansion>megald #save:backup #search:keyword>endorsed #lang:ja
 Bi Ryojon Collection Vol. 2: Sakaki Yūko Shashinshū@美リュージョンコレクション 坂木優子写真集 Yuko Sakaki,Bi Ryojon Collection: Sakaki Yūko@美リュージョンコレクション 坂木優子 Yuko Sakaki,biryojoncollectionsakakiyuuko,Japan,1994-11-25,WiZ,Planet,#players:1 #genre:notagame>slideshow #addon:expansion>ldromrom #save:backup #search:keyword>endorsed #lang:ja
 Don Quixote,Don Quixote: A Dream in Seven Crystals,donquixoteadreaminsevencrystals,Japan,1994-12-22,PiC/Easy Computer System/Tokyo Movie Shinsha,PiC,#players:1 #genre:rpg>dungeoncrawler #addon:expansion>megald #save:backup #based #lang:ja
-DoraDora Paradise@ドラドラパラダイス DoraDora Paradise,DoraDora Paradise@ドラドラパラダイス DoraDora Paradise,doradoraparadise,Japan,1994-03-25,WiZ,Planet,players:1 #genre:board>mahjong #addon:expansion>ldromrom #save:backup #search:keyword>strip #search:keyword>endorsed #lang:ja
+DoraDora Paradise@ドラドラパラダイス DoraDora Paradise,DoraDora Paradise@ドラドラパラダイス DoraDora Paradise,doradoraparadise,Japan,1994-03-25,WiZ,Planet,#players:1 #genre:board>mahjong #addon:expansion>ldromrom #save:backup #search:keyword>strip #search:keyword>endorsed #lang:ja
 Dr. Paolo no Totteoki Video@Dr.パウロのとっておきビデオ,Dr. Paolo no Totteoki Video@Dr.パウロのとっておきビデオ,drpaolonototteokivideo,Japan,1994-10-25,Infiniti/JP Multimedia,DryIce,#players:1 #genre:adventure>pointandclick:notagame>media #addon:expansion>megald:glasses>3dgoggle #search:3d>stereo #lang:ja
 Ghost Rush!,Ghost Rush!,ghostrush,Japan,1994-12-03,Den'no Shokai,Pioneer,#players:1 #genre:shooting>gallery #addon:expansion>megald #save:backup #lang:ja:en
-Goku,Goku,goku,Japan,1995-06-15,Multimedia Creators Network,Pioneer,#players:1 #genre:notagame>educational:puzzle #addon:expansion>megald:glasses>3dgoggle #search:3d>stereo:rss #save:backup #lang:ja
-Goku,Goku,goku,Japan,1995-10-20,Multimedia Creators Network,Pioneer,#players:1 #genre:notagame>educational:puzzle #addon:expansion>ldromrom:glasses>3dgoggle #search:3d>stereo:rss #save:backup #lang:ja
+Goku,Goku,goku,Japan,1995-06-15,Multimedia Creators Network,Pioneer,#players:1 #genre:notagame>educational:puzzle #addon:expansion>megald:glasses>3dgoggle:rss #search:3d>stereo #save:backup #lang:ja
+Goku,Goku,goku,Japan,1995-10-20,Multimedia Creators Network,Pioneer,#players:1 #genre:notagame>educational:puzzle #addon:expansion>ldromrom:glasses>3dgoggle:rss #search:3d>stereo #save:backup #lang:ja
 Hi-Roller Battle,Hi-Roller Battle,hirollerbattle,Japan,1993-12-20,CRC Research institute/Q-tec/A&L/Sound M's,Pioneer,#players:1 #genre:shooting>gallery #addon:expansion>megald #lang:ja:en
 Hyperion,Hyperion@Space Shooting Game Hyperion,hyperion,Japan,1994-05-27,HighTech Lab,Taito,#players:2:coop #genre:shooting>gallery #addon:expansion>megald:rss #lang:en
 I Will: The Story of London,I Will: The Story of London,iwillthestoryoflondon,Japan,1993-08-20,CRC Research Institute,Pioneer,#players:1 #genre:notagame>educational>media:adventure>pointandclick #addon:expansion>megald #save:backup #lang:ja:en
@@ -41,7 +41,7 @@ Zapping: Satsui@ザッピング 「殺意」,Zapping: Satsui@ザッピング 「
 3D Museum,3D Museum,3dmuseum,USA,1994,Multimedia Creators Network,Pioneer,#players:1 #genre:notagame>media>slideshow #addon:expansion>megald:glasses>3dgoggle:rss #search:3d>stereo #lang:en
 Don Quixote,Don Quixote: A Dream in Seven Crystals,donquixoteadreaminsevencrystals,USA,1995,PiC/Easy Computer System/Tokyo Movie Shinsha,PiC,#players:1 #genre:rpg>dungeoncrawler #addon:expansion>megald #save:backup #based #lang:en
 Ghost Rush!,Ghost Rush!,ghostrush,USA,1994-12,Den'no Shokai,Pioneer,#players:1 #genre:shooting>gallery #addon:expansion>megald #save:backup #lang:ja:en
-Goku,Goku,goku,USA,1995,Multimedia Creators Network,Pioneer,#players:1 #genre:notagame>educational:puzzle #addon:expansion>megald:glasses>3dgoggle #search:3d>stereo:rss #save:backup #lang:en
+Goku,Goku,goku,USA,1995,Multimedia Creators Network,Pioneer,#players:1 #genre:notagame>educational:puzzle #addon:expansion>megald:glasses>3dgoggle:rss #search:3d>stereo #save:backup #lang:en
 Hi-Roller Battle,Hi-Roller Battle,hirollerbattle,USA,1994-05-26,CRC Research institute/Q-tec/A&L/Sound M's,Pioneer,#players:1 #genre:shooting>gallery #addon:expansion>megald #lang:ja:en
 Hyperion,Hyperion@Space Shooting Game Hyperion,hyperion,USA,1994-07-13,HighTech Lab,Taito,#players:2:coop #genre:shooting>gallery #addon:expansion>megald:rss #lang:en
 I Will: The Story of London,I Will: The Story of London,iwillthestoryoflondon,USA,1993-12-23,CRC Research Institute,Pioneer,#players:1 #genre:notagame>educational>media:adventure>pointandclick #addon:expansion>megald #save:backup #lang:ja:en
@@ -60,7 +60,7 @@ Back to the Edo@Back to the 江戸,Back to the Edo@Back to the 江戸,backtothee
 Don Quixote,Don Quixote: A Dream in Seven Crystals,donquixoteadreaminsevencrystals,Japan,,PiC/Easy Computer System/Tokyo Movie Shinsha,PiC,#players:1 #genre:rpg>dungeoncrawler #addon:expansion>megald #save:backup #based #lang:ja #unfinished:sample
 Dr. Paolo no Totteoki Video@Dr.パウロのとっておきビデオ,Dr. Paolo no Totteoki Video@Dr.パウロのとっておきビデオ,drpaolonototteokivideo,Japan,,Infiniti/JP Multimedia,DryIce,#players:1 #genre:adventure>pointandclick:notagame>media #addon:expansion>megald:glasses>3dgoggle #search:3d>stereo #lang:ja #unfinished:sample
 Ghost Rush!,Ghost Rush!,ghostrush,Japan,,Den'no Shokai,Pioneer,#players:1 #genre:shooting>gallery #addon:expansion>megald #save:backup #lang:ja:en #unfinished:sample
-Goku,Goku,goku,Japan,,Multimedia Creators Network,Pioneer,#players:1 #genre:notagame>educational:puzzle #addon:expansion>megald:glasses>3dgoggle #search:3d>stereo:rss #save:backup #lang:ja #unfinished:sample
+Goku,Goku,goku,Japan,,Multimedia Creators Network,Pioneer,#players:1 #genre:notagame>educational:puzzle #addon:expansion>megald:glasses>3dgoggle:rss #search:3d>stereo #save:backup #lang:ja #unfinished:sample
 Hyperion,Hyperion@Space Shooting Game Hyperion,hyperion,Japan,,HighTech Lab,Taito,#players:2:coop #genre:shooting>gallery #addon:expansion>megald:rss #lang:en #unfinished:sample
 Hyperion,Hyperion@Space Shooting Game Hyperion,hyperion,USA,,HighTech Lab,Taito,#players:2:coop #genre:shooting>gallery #addon:expansion>megald:rss #lang:en #unfinished:sample
 J. B. Harold: Blue Chicago Blues,J. B. Harold: Blue Chicago Blues,bluechicagoblues,Japan,,Riverhill,NEC,#players:1 #genre:adventure>visualnovel #addon:expansion>megald #save:backup #lang:ja:en #unfinished:sample
