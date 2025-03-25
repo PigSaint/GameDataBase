@@ -1,0 +1,77 @@
+.retroseek {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--card-background);
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+}
+
+.retroseek h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+    font-size: 3em; /* Aumenta el tamaño de la fuente */
+    font-weight: 700; /* Aumenta el grosor de la fuente */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    letter-spacing: 0.1em; /* Aumenta el espaciado entre letras */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Añade sombra al texto */
+}
+
+.retroseek p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.7em;
+    color: #888; /* Usa un gris desvanecido */
+    border-top: 1px solid #ddd; /* Añade una línea superior */
+    padding-top: 1rem; /* Añade un relleno superior */
+    position: relative;
+}
+
+.dark-mode-toggle {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.dark-mode-toggle:hover {
+    background-color: var(--primary-hover);
+}
+
+body.dark-mode {
+    --background-color: #121212;
+    --text-color: #e0e0e0;
+    --card-background: #1e1e1e;
+    --border-color: #333;
+    --accent-color: var(--primary-color);
+    --hover-color: #333;
+    --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .retroseek {
+        padding: 1rem;
+    }
+
+    .retroseek h1 {
+        font-size: 2.5em; /* Ajusta el tamaño de la fuente para pantallas pequeñas */
+    }
+
+    .retroseek p {
+        font-size: 1em;
+    }
+}

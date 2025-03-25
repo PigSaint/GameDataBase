@@ -1,0 +1,113 @@
+.search-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    background-color: var(--background-color);
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    color: var(--text-color);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group select {
+    padding: 0.75rem;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    background-color: var(--card-background);
+    color: var(--text-color);
+    font-size: 0.9rem;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: var(--accent-color);
+}
+
+.form-group select[multiple] {
+    min-height: 120px;
+}
+
+button[type="submit"] {
+    padding: 0.75rem 1.5rem;
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--primary-hover);
+}
+
+.unknown-release-date-btn {
+    padding: 0.75rem 1.5rem;
+    background-color: var(--card-background);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.unknown-release-date-btn.active {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    border-color: var(--accent-color);
+}
+
+.unknown-release-date-btn:hover {
+    background-color: var(--primary-hover);
+    color: white;
+    border-color: var(--primary-hover);
+}
+
+.unknown-release-date-group {
+    display:flex;
+    align-items:flex-start ; 
+    gap: 0.5rem;
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .search-form {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .form-group {
+        flex: 1;
+        min-width: 200px;
+    }
+    
+    .unknown-release-date-group {
+        flex: 1;
+        min-width: 200px;
+    }
+    
+    button[type="submit"] {
+        align-self: flex-end;
+    }
+}
