@@ -49,6 +49,7 @@ input:
         "12": "12 buttons"
         "19": "19 keys"
         "23": "23 keys"
+        "27": "27 keys"
         pneumatic: "Pneumatic button"
     pedals:
       description: "Foot pedals"
@@ -77,8 +78,12 @@ players:
       description: "6 players"
     "8":
       description: "8 players"
+    "9":
+      description: "9 players"
     "10":
       description: "10 players"
+    "12":
+      description: "12 players"
     vs:
       description: "Versus"
     coop:
@@ -105,6 +110,7 @@ genre:
         pointandclick: "Point and click"
         visualnovel: "Visual novel"
         survivalhorror: "Survival horror"
+        text: "Text"
     board:
       description: "Classic analogic board game"
       children:
@@ -182,6 +188,7 @@ genre:
         flight: "Flight simulator"
         train: "Train simulator"
         date: "Date simulator"
+        otome: "Otome game / 乙女ゲーム"
         life: "Life simulator"
         farm: "Farm simulator"
         pet: "Pet simulator"
@@ -214,6 +221,7 @@ genre:
         nascar: "NASCAR"
         motogp: "Moto GP"
         motocross: "Motocross"
+        karting: "Karting"
         golf: "Golf"
         cricket: "Cricket"
         boxing: "Boxing"
@@ -224,10 +232,12 @@ genre:
         judo: "Judo"
         kendo: "Kendo"
         decathlon: "Decathlon"
+        running: "Running"
         archery: "Archery"
         swimming: "Swimming"
         rowing: "Rowing"
         kayak: "Kayak"
+        surf: "Surf"
     notagame:
       description: "Not a game"
       children:
@@ -267,10 +277,11 @@ addon:
         avenuepad6: "NEC Avenue Pad 6"
         10key: "NEC 10 Key Controller Pad"
         arkanoid: "Taito Arkanoid controller"
-        familytrainer: "Bandai Family Trainer / Power Pad / Family Fun Fitness"
+        familytrainera: "Bandai Family Trainer Mat A / ファミリートレーナー マットA / Power Pad Side A / Family Fun Fitness A"
+        familytrainerb: "Bandai Family Trainer Mat B / ファミリートレーナー マットB / Power Pad Side B / Family Fun Fitness B"
         reeladapter: "Bandai Reel Adapter"
         powerglove: "Mattel Power Glove"
-        mahjong: "CAPCOM Mahjong Controller / Mahjong Controller II"
+        mahjong: "CAPCOM Mahjong Controller / Mahjong Controller II / 麻雀コントローラー"
         hypershot: "Konami HyperShot"
         ddr: "Konami Dance Dance Revolution controller"
         taikanfamicom: "Konami Taikan Famicom / 大汗ファミコン"
@@ -314,7 +325,7 @@ addon:
       children:
         segatap: "SEGA Tap / Multiplayer / Team Player / セガタップ"
         4playersadaptor: "Hori 4 Player Adaptor / Nintendo Four Score"
-        supermultitap: "Hudson Super Multitap"
+        super: "Hudson Super Multitap"
         pce: "Hudson Multitap / NEC TurboTap"
         4wayplay: "Electronic Arts 4 Way Play"
     link:
@@ -329,6 +340,8 @@ addon:
         radiounitwireless: "SNK Musen Unit / Radio Unit Wireless Adaptor"
         setsuzoku: "SNK NeoGeo Pocket-Dreamcast Setsuzoku Cable / ネオジオポケット／ドリームキャスト接続ケーブル"
         senyoucord: "Epoch Sen'yō Setsuzoku Cord / 専用接続コード"
+        bb2interface: "Epoch Barcode Battler II Interface / BBII Interface / バーコードバトラーIIインターフェース"
+        voicerkun: "Koei Voicer-kun / ボイサーくん"
     expansion:
       description: "Additional hardware for expansing system capabilities"
       children:
@@ -457,7 +470,7 @@ embedded:
         dsp4: "Nintendo DSP-4"
         sa1: "Nintendo SA-1"
         sdd1: "Nintendo S-DD1"
-        sfx: "Nintendo Super FX GSU-1"
+        sfx1: "Nintendo Super FX GSU-1"
         sfx2: "Nintendo Super FX GSU-2"
         obc1: "Nintendo OBC-1"
         vrc6: "Konami VRC VI"
@@ -537,9 +550,11 @@ arcadeboard:
         m63: "Irem M63"
         m72: "Irem M72"
         m75: "Irem M75"
+        m77: "Irem M77"
         m81: "Irem M81"
         m82: "Irem M82"
         m84: "Irem M84"
+        m85: "Irem M85"
         m90: "Irem M90"
         m92: "Irem M92"
         m97: "Irem M97"
@@ -582,6 +597,7 @@ compatibility:
       description: "SEGA Mark III / master System"
       children:
         mycard: "SEGA My Card"
+        epmycard: "SEGA EP My Card"
         thesegacard: "The SEGA Card"
         themegacartridge: "The Mega Cartridge (Japan)"
         silvercartridge: "Silver Cartridge"
@@ -602,6 +618,9 @@ compatibility:
     superfamicom:
       description: "Nintendo Super Famicom / Super Nintendo Entertainment System / SNES"
       children:
+        hirom: "HiROM"
+        lorom: "LoROM"
+        nss: "Nintendo Super System / NSS"
         soundlink: "SoundLink / サウンドリンクゲーム / VoiceLink / 音声連動ゲーム"
     pcengine:
       description: "NEC PC Engine"
@@ -720,8 +739,8 @@ reboxed:
       description: "SEGA Classic"
     kixxedition:
       description: "Kixx Edition"
-    segaages:
-      description: "SEGA Ages"
+    megadrive3:
+      description: "Tec Toy MegaDrive 3"
     megadrive4:
       description: "Tec Toy MegaDrive 4"
     reactor:
@@ -756,6 +775,10 @@ reboxed:
       description: "Best Collection"
     xeye:
       description: "JVC X'Eye"
+    limitedrun:
+      description: "Limited Run"
+    famicombox:
+      description: "Nintendo FamicomBox"
 
 port:
   description: "Port, remaster, remake or conversion from another system"
@@ -778,6 +801,8 @@ port:
       description: "Dragon 32"
     elektronika60:
       description: "Elektronika 60 / Электроника 60"
+    spectrum:
+      description: "Sinclair ZX Spectrum"
     atari:
       description: "Atari"
       children:
@@ -794,10 +819,13 @@ port:
         cdromrom: "CD-ROM² / シーディーロムロム / TurboGrafx-CD"
     msx:
       description: "MSX"
+      children:
+        "2": "MSX2"
     sharp:
       description: "Sharp"
       children:
         x1: "Sharp X1"
+        mz700: "Sharp MZ"
         x68000: "X68000"
     pc:
       description: "PC DOS"
@@ -808,6 +836,7 @@ port:
         mark3: "Mark III / マークIII / Master System / マスターシステム"
         gamegear: "Game Gear / ゲームギア"
         megadrive: "MegaDrive / メガドライブ / Genesis"
+        megacd: "SEGA Mega-CD / メガシーディー / SEGA-CD"
         saturn: "SEGA Saturn / セガサターン"
         dreamcast: "Dreamcast / ドリームキャスト"
     nintendo:
@@ -816,11 +845,14 @@ port:
         famicom: "Famicom / Family Computer / ファミリーコンピュータ / Nintendo Entertainment System / NES"
         superfamicom: "Super Famicom / スーパーファミコン / Super Nintendo Entertainment System / SNES"
         gameboy: "GameBoy / ゲームボーイ"
+        gbc: "GameBoy Color / ゲームボーイカラー"
         gba: "GameBoy Advance / ゲームボーイアドバンス / GBA"
     sony:
       description: "Sony / ソニー"
       children:
         playstation: "PlayStation / プレイステーション"
+    3do:
+      description: "Panasonic 3DO / スリーディーオー"
     laseractive:
       description: "Pioneer LaserActive / レーザーアクティブ"
     fmtowns:
@@ -845,6 +877,8 @@ lang:
       description: "Swedish / Svenska"
     nl:
       description: "Dutch / Nederlands"
+    da:
+      description: "Danish / Dansk"
     "no":
       description: "Norwegian / Norsk"
     fi:
@@ -927,6 +961,8 @@ rerelease:
         "2": "NAMCO Museum Archives Volume 2"
     castlevaniaanniversary:
       description: "Akumajō Dracula Anniversary Collection / 悪魔城ドラキュラ Anniversary Collection / Castlevania Anniversary Collection"
+    castlevaniaadvance:
+      description: "Castlevania Advance Collection"
     contraanniversary:
       description: "Contra Anniversary Collection / 魂斗羅 Anniversary Collection"
     cowabunga:
@@ -947,6 +983,10 @@ rerelease:
       description: "SEGA MegaDrive Classics / SEGA Genesis Classics"
     smashpack:
       description: "SEGA Smash Pack"
+    segaages:
+      description: "SEGA Ages"
+      children:
+        "2500": "SEGA Ages 2500"
     3dfukkoku:
       description: "SEGA 3D Fukkoku Archives / セガ3D復刻アーカイブス / SEGA 3D Classics Collection"
     mdmini:
@@ -969,6 +1009,8 @@ rev:
       description: "Revision 2"
     "3":
       description: "Revision 3"
+    "4":
+      description: "Revision 4"
     a:
       description: "Revision A"
     b:
@@ -977,6 +1019,8 @@ rev:
       description: "Revision C"
     d:
       description: "Revision D"
+    e:
+      description: "Revision E"
     g:
       description: "Revision G"
 
@@ -989,6 +1033,16 @@ set:
       description: "Set 2"
     "3":
       description: "Set 3"
+    "4":
+      description: "Set 4"
+    "5":
+      description: "Set 5"
+    "6":
+      description: "Set 6"
+    "7":
+      description: "Set 7"
+    "8":
+      description: "Set 8"
 
 alt:
   description: "Alternative rip"

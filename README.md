@@ -83,7 +83,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:lightgun` | Lightgun |  |  |
 | `:optical` | Optical device |  |  |
 | `:positional` | Positional crank | `>2`<br>`>3` | Two positions<br>Three positions |
-| `:buttons` | In-game buttons | `>1`<br>`>2`<br>`>3`<br>`>4`<br>`>5`<br>`>6`<br>`>7`<br>`>8`<br>`>11`<br>`>12`<br>`>19`<br>`>23`<br>`>pneumatic` | 1 button<br>2 buttons<br>3 buttons<br>4 buttons<br>5 buttons<br>6 buttons<br>7 buttons<br>8 buttons<br>11 buttons<br>12 buttons<br>19 keys<br>23 keys<br>Pneumatic button |
+| `:buttons` | In-game buttons | `>1`<br>`>2`<br>`>3`<br>`>4`<br>`>5`<br>`>6`<br>`>7`<br>`>8`<br>`>11`<br>`>12`<br>`>19`<br>`>23`<br>`>27`<br>`>pneumatic` | 1 button<br>2 buttons<br>3 buttons<br>4 buttons<br>5 buttons<br>6 buttons<br>7 buttons<br>8 buttons<br>11 buttons<br>12 buttons<br>19 keys<br>23 keys<br>27 keys<br>Pneumatic button |
 | `:pedals` | Foot pedals | `>1`<br>`>2` | One pedal<br>Two pedals |
 | `:puncher` | Puncher |  |  |
 | `:motion` | Motion detection device |  |  |
@@ -102,7 +102,9 @@ The `>` level only applies to its immediate `:` subtag.
 | `:5` | 5 players |
 | `:6` | 6 players |
 | `:8` | 8 players |
+| `:9` | 9 players |
 | `:10` | 10 players |
+| `:12` | 12 players |
 | `:vs` | Versus |
 | `:coop` | Cooperative |
 | `:alt` | Alternating |
@@ -115,7 +117,7 @@ The `>` level only applies to its immediate `:` subtag.
 | Subcategory | Description | Children | Children Description |
 |-------------|-------------|----------|--------------------|
 | `:action` | Action | `>platformer`<br>`>maze`<br>`>blockbreaker`<br>`>runandgun`<br>`>hackandslash`<br>`>metroidvania`<br>`>roguelite` | Platformer<br>Maze<br>Block breaker<br>Run and gun<br>Hack and slash<br>Metroidvania<br>Roguelite |
-| `:adventure` | Adventure | `>pointandclick`<br>`>visualnovel`<br>`>survivalhorror` | Point and click<br>Visual novel<br>Survival horror |
+| `:adventure` | Adventure | `>pointandclick`<br>`>visualnovel`<br>`>survivalhorror`<br>`>text` | Point and click<br>Visual novel<br>Survival horror<br>Text |
 | `:board` | Classic analogic board game | `>cards`<br>`>hanafuda`<br>`>chess`<br>`>shougi`<br>`>go`<br>`>mahjong`<br>`>reversi`<br>`>othello`<br>`>party`<br>`>jankenpon` | Classic cards<br>Hanafuda<br>Chess<br>Shōgi<br>Go<br>Mahjong<br>Reversi<br>Othello<br>Party<br>Rock paper scissors |
 | `:brawler` | Brawler / Beat'em up |  |  |
 | `:fighting` | Fighting |  |  |
@@ -128,8 +130,8 @@ The `>` level only applies to its immediate `:` subtag.
 | `:shmup` | Shoot'em up | `>h`<br>`>v`<br>`>i`<br>`>danmaku` | Horizontal<br>Vertical<br>Isometric<br>Bullet hell |
 | `:shooting` | Aim-based shooting games | `>gallery`<br>`>rail`<br>`>fps`<br>`>tps` | Shooting gallery<br>Rail shooter<br>FPS / First person Shooter<br>TPS / Third person shooter |
 | `:puzzle` | Puzzle | `>drop`<br>`>mind` | Drop pieces puzzle<br>Mind game |
-| `:sim` | Simulation | `>strategy`<br>`>cardgame`<br>`>flight`<br>`>train`<br>`>date`<br>`>life`<br>`>farm`<br>`>pet`<br>`>fishing`<br>`>god`<br>`>derby`<br>`>building` | Strategy<br>Card game<br>Flight simulator<br>Train simulator<br>Date simulator<br>Life simulator<br>Farm simulator<br>Pet simulator<br>Fishing<br>God simulator<br>Derby horse ride<br>Building |
-| `:sports` | Sports | `>soccer`<br>`>basketball`<br>`>baseball`<br>`>volleyball`<br>`>rugby`<br>`>football`<br>`>dodgeball`<br>`>hockey`<br>`>skiing`<br>`>skateboarding`<br>`>snowboarding`<br>`>tennis`<br>`>pingpong`<br>`>paddle`<br>`>squash`<br>`>badminton`<br>`>cycling`<br>`>formula1`<br>`>rally`<br>`>nascar`<br>`>motogp`<br>`>motocross`<br>`>golf`<br>`>cricket`<br>`>boxing`<br>`>kickboxing`<br>`>wrestling`<br>`>sumo`<br>`>karate`<br>`>judo`<br>`>kendo`<br>`>decathlon`<br>`>archery`<br>`>swimming`<br>`>rowing`<br>`>kayak` | Soccer<br>Basketball<br>Baseball<br>Volleyball<br>Rugby<br>American football<br>Dodgeball<br>Ice hockey<br>Skiing<br>Skateboarding<br>Snowboarding<br>Tennis<br>Table tennis<br>Paddle<br>Squash<br>Badminton<br>Cycling<br>Formula 1<br>Rally<br>NASCAR<br>Moto GP<br>Motocross<br>Golf<br>Cricket<br>Boxing<br>Kickboxing<br>Wrestling<br>Sumo<br>Karate<br>Judo<br>Kendo<br>Decathlon<br>Archery<br>Swimming<br>Rowing<br>Kayak |
+| `:sim` | Simulation | `>strategy`<br>`>cardgame`<br>`>flight`<br>`>train`<br>`>date`<br>`>otome`<br>`>life`<br>`>farm`<br>`>pet`<br>`>fishing`<br>`>god`<br>`>derby`<br>`>building` | Strategy<br>Card game<br>Flight simulator<br>Train simulator<br>Date simulator<br>Otome game / 乙女ゲーム<br>Life simulator<br>Farm simulator<br>Pet simulator<br>Fishing<br>God simulator<br>Derby horse ride<br>Building |
+| `:sports` | Sports | `>soccer`<br>`>basketball`<br>`>baseball`<br>`>volleyball`<br>`>rugby`<br>`>football`<br>`>dodgeball`<br>`>hockey`<br>`>skiing`<br>`>skateboarding`<br>`>snowboarding`<br>`>tennis`<br>`>pingpong`<br>`>paddle`<br>`>squash`<br>`>badminton`<br>`>cycling`<br>`>formula1`<br>`>rally`<br>`>nascar`<br>`>motogp`<br>`>motocross`<br>`>karting`<br>`>golf`<br>`>cricket`<br>`>boxing`<br>`>kickboxing`<br>`>wrestling`<br>`>sumo`<br>`>karate`<br>`>judo`<br>`>kendo`<br>`>decathlon`<br>`>running`<br>`>archery`<br>`>swimming`<br>`>rowing`<br>`>kayak`<br>`>surf` | Soccer<br>Basketball<br>Baseball<br>Volleyball<br>Rugby<br>American football<br>Dodgeball<br>Ice hockey<br>Skiing<br>Skateboarding<br>Snowboarding<br>Tennis<br>Table tennis<br>Paddle<br>Squash<br>Badminton<br>Cycling<br>Formula 1<br>Rally<br>NASCAR<br>Moto GP<br>Motocross<br>Karting<br>Golf<br>Cricket<br>Boxing<br>Kickboxing<br>Wrestling<br>Sumo<br>Karate<br>Judo<br>Kendo<br>Decathlon<br>Running<br>Archery<br>Swimming<br>Rowing<br>Kayak<br>Surf |
 | `:notagame` | Not a game | `>educational`<br>`>drawing`<br>`>popcorn`<br>`>purikura`<br>`>redemption`<br>`>media`<br>`>application`<br>`>test`<br>`>sdk`<br>`>slideshow`<br>`>sound` | Educational<br>Drawing<br>Popcorn<br>Photo stickers<br>Redemption<br>Media<br>Application<br>Test<br>Software Development Kit<br>Picture slideshow<br>Only sound |
 
 </details>
@@ -140,12 +142,12 @@ The `>` level only applies to its immediate `:` subtag.
 | Subcategory | Description | Children | Children Description |
 |-------------|-------------|----------|--------------------|
 | `:peripheral` | Peripheral | `>megacd`<br>`>super32x`<br>`>disksystem`<br>`>64dd`<br>`>cdromrom` | SEGA Mega-CD / SEGA-CD<br>SEGA Super 32X / MegaDrive 32X / Genesis 32X<br>Nintendo Famicom Disk System / ディスクシステム<br>Nintendo 64DD<br>NEC CD-ROM² / Super CD-ROM² / Arcade CD-ROM² / PC Engine Duo / TurboGrafx-CD / TurboDuo |
-| `:controller` | Special controller | `>bikehandle`<br>`>paddlecontrol`<br>`>sportspad`<br>`>6button`<br>`>activator`<br>`>xe1ap`<br>`>avenuepad3`<br>`>avenuepad6`<br>`>10key`<br>`>arkanoid`<br>`>familytrainer`<br>`>reeladapter`<br>`>powerglove`<br>`>mahjong`<br>`>hypershot`<br>`>ddr`<br>`>taikanfamicom`<br>`>hardwarebike`<br>`>pachinko`<br>`>horitrack`<br>`>uforce`<br>`>smash`<br>`>taptapmat`<br>`>teevgolf`<br>`>tsurikon64`<br>`>partytap`<br>`>climberstick` | SEGA Bike Handle<br>SEGA Paddle Control<br>SEGA Sports Pad<br>SEGA Six Button Control Pad<br>SEGA Activator<br>Dempa Micomsoft XE-1 AP<br>NEC Avenue Pad 3<br>NEC Avenue Pad 6<br>NEC 10 Key Controller Pad<br>Taito Arkanoid controller<br>Bandai Family Trainer / Power Pad / Family Fun Fitness<br>Bandai Reel Adapter<br>Mattel Power Glove<br>CAPCOM Mahjong Controller / Mahjong Controller II<br>Konami HyperShot<br>Konami Dance Dance Revolution controller<br>Konami Taikan Famicom / 大汗ファミコン<br>Varie Hardware Bike / ハードウーアバイク<br>Coconuts Pachinko Controller / パチンココントローラー<br>Hori Track / ホリトラック<br>Brøderbund UForce<br>Realtec Smash Controller<br>IGS Tap-Tap Mat + Tonkachi / タップタップマット + トンカチ<br>Sports Sciences TeeVGolf<br>ASCII Tsurikon 64 / つりコン64<br>PR21 Party Tap<br>Nichibutsu Climber Stick |
+| `:controller` | Special controller | `>bikehandle`<br>`>paddlecontrol`<br>`>sportspad`<br>`>6button`<br>`>activator`<br>`>xe1ap`<br>`>avenuepad3`<br>`>avenuepad6`<br>`>10key`<br>`>arkanoid`<br>`>familytrainera`<br>`>familytrainerb`<br>`>reeladapter`<br>`>powerglove`<br>`>mahjong`<br>`>hypershot`<br>`>ddr`<br>`>taikanfamicom`<br>`>hardwarebike`<br>`>pachinko`<br>`>horitrack`<br>`>uforce`<br>`>smash`<br>`>taptapmat`<br>`>teevgolf`<br>`>tsurikon64`<br>`>partytap`<br>`>climberstick` | SEGA Bike Handle<br>SEGA Paddle Control<br>SEGA Sports Pad<br>SEGA Six Button Control Pad<br>SEGA Activator<br>Dempa Micomsoft XE-1 AP<br>NEC Avenue Pad 3<br>NEC Avenue Pad 6<br>NEC 10 Key Controller Pad<br>Taito Arkanoid controller<br>Bandai Family Trainer Mat A / ファミリートレーナー マットA / Power Pad Side A / Family Fun Fitness A<br>Bandai Family Trainer Mat B / ファミリートレーナー マットB / Power Pad Side B / Family Fun Fitness B<br>Bandai Reel Adapter<br>Mattel Power Glove<br>CAPCOM Mahjong Controller / Mahjong Controller II / 麻雀コントローラー<br>Konami HyperShot<br>Konami Dance Dance Revolution controller<br>Konami Taikan Famicom / 大汗ファミコン<br>Varie Hardware Bike / ハードウーアバイク<br>Coconuts Pachinko Controller / パチンココントローラー<br>Hori Track / ホリトラック<br>Brøderbund UForce<br>Realtec Smash Controller<br>IGS Tap-Tap Mat + Tonkachi / タップタップマット + トンカチ<br>Sports Sciences TeeVGolf<br>ASCII Tsurikon 64 / つりコン64<br>PR21 Party Tap<br>Nichibutsu Climber Stick |
 | `:lightgun` | Lightgun | `>lightphaser`<br>`>menacer`<br>`>zapper`<br>`>superscope`<br>`>justifier`<br>`>laserscope`<br>`>bandaihypershot`<br>`>gamegun` | SEGA Light Phaser<br>SEGA Menacer<br>Nintendo Zapper<br>Nintendo Super Scope<br>Konami The Justifier / サ・ジャスティファイアー<br>Konami LaserScope<br>Bandai Hyper Shot / ハイパーショット<br>American Laser GameGun |
 | `:mouse` | Mouse | `>md`<br>`>sfc`<br>`>pce`<br>`>pcfx`<br>`>n64` | SEGA Mouse<br>Nintendo Super Famicom Mouse / スーパーファミコンマウス / Super NES Mouse<br>NEC PC Engine Mouse<br>NEC PC-FX Mouse<br>Nintendo 64 Mouse |
 | `:keyboard` | Typing keyboard | `>fc`<br>`>n64`<br>`>workboy` | Famicom Keyboard<br>Nintendo 64 Keyboard<br>Fabtek WorkBoy |
-| `:multitap` | Multitap for adding more controllers to the same system | `>segatap`<br>`>4playersadaptor`<br>`>supermultitap`<br>`>pce`<br>`>4wayplay` | SEGA Tap / Multiplayer / Team Player / セガタップ<br>Hori 4 Player Adaptor / Nintendo Four Score<br>Hudson Super Multitap<br>Hudson Multitap / NEC TurboTap<br>Electronic Arts 4 Way Play |
-| `:link` | Hardware for interconnecting systems | `>taisencable`<br>`>gamelinkcable`<br>`>fourplayeradapter`<br>`>comcable`<br>`>linkup`<br>`>ngplink`<br>`>radiounitwireless`<br>`>setsuzoku`<br>`>senyoucord` | SEGA Game Gear Taisen Cable / Gear-to-Gear Cable<br>Nintendo Tsūshin Cable / Game Link Cable<br>Nintendo Four Player Adapter<br>NEC COM Cable / TurboExpress<br>Technopop Link-up Cable<br>SNK NeoGeo Pocket Link Cable<br>SNK Musen Unit / Radio Unit Wireless Adaptor<br>SNK NeoGeo Pocket-Dreamcast Setsuzoku Cable / ネオジオポケット／ドリームキャスト接続ケーブル<br>Epoch Sen'yō Setsuzoku Cord / 専用接続コード |
+| `:multitap` | Multitap for adding more controllers to the same system | `>segatap`<br>`>4playersadaptor`<br>`>super`<br>`>pce`<br>`>4wayplay` | SEGA Tap / Multiplayer / Team Player / セガタップ<br>Hori 4 Player Adaptor / Nintendo Four Score<br>Hudson Super Multitap<br>Hudson Multitap / NEC TurboTap<br>Electronic Arts 4 Way Play |
+| `:link` | Hardware for interconnecting systems | `>taisencable`<br>`>gamelinkcable`<br>`>fourplayeradapter`<br>`>comcable`<br>`>linkup`<br>`>ngplink`<br>`>radiounitwireless`<br>`>setsuzoku`<br>`>senyoucord`<br>`>bb2interface`<br>`>voicerkun` | SEGA Game Gear Taisen Cable / Gear-to-Gear Cable<br>Nintendo Tsūshin Cable / Game Link Cable<br>Nintendo Four Player Adapter<br>NEC COM Cable / TurboExpress<br>Technopop Link-up Cable<br>SNK NeoGeo Pocket Link Cable<br>SNK Musen Unit / Radio Unit Wireless Adaptor<br>SNK NeoGeo Pocket-Dreamcast Setsuzoku Cable / ネオジオポケット／ドリームキャスト接続ケーブル<br>Epoch Sen'yō Setsuzoku Cord / 専用接続コード<br>Epoch Barcode Battler II Interface / BBII Interface / バーコードバトラーIIインターフェース<br>Koei Voicer-kun / ボイサーくん |
 | `:expansion` | Additional hardware for expansing system capabilities | `>fmsoundunit`<br>`>expansionpak`<br>`>megald`<br>`>ldromrom`<br>`>supersystemcard`<br>`>arcadecard`<br>`>gamesexpresscard` | SEGA FM Sound Unit / FMサウンドユニット<br>Nintendo Memory Kakuchō Pak / メモリー拡張パック / Expansion Pak<br>Pioneer LaserActive PAC-S / SEGA Mega-LD<br>Pioneer LaserActive PAC-N / NEC LD-ROM²<br>NEC PC Engine Super System Card CD-ROM²<br>NEC PC Engine Arcade Card Pro CD-ROM² / NEC PC Engine Arcade Card Duo CD-ROM²<br>Games Express CD Card |
 | `:lockon` | Lock-on cartridge | `>supergameboy`<br>`>transferpak`<br>`>datach`<br>`>sufami`<br>`>samegame`<br>`>deckenhancer`<br>`>oyagame`<br>`>qtai`<br>`>karaokestudio` | Nintendo Super GameBoy / Super GameBoy 2 / スーパーゲームボーイ<br>Nintendo 64GB Pak / 64GBパック / Transfer Pak<br>Bandai Datach Joint ROM System / データック<br>Bandai SuFami Turbo / スーファミターボ<br>Hudson SameGame Cassette / 鮫亀カセット<br>Camerica Aladdin Deck Enhancer<br>Sunsoft Oyagame / 親ガメ<br>Konami QTai / Q太<br>Bandai Karaoke Studio / カラオケスタジオ |
 | `:backup` | Back-up based accessory for saving progress | `>backupramcart`<br>`>controllerpak`<br>`>smartmediacard`<br>`>datarecorder`<br>`>battlebox`<br>`>tennokoe`<br>`>memorybase128`<br>`>turbofile` | Mega-CD Back Up RAM Cartridge / バックアップRAMカートリッジ<br>Nintendo Controller Pak / コントローラパック<br>Hagiwara Syscom SmartMedia Card<br>Panasonic Famicom Data Recorder / データレコーダ<br>IGS Battle Box / バトルボックス<br>Hudson Ten no Koe 2 / Ten no Koe Bank / 天の声 / NEC Backup Booster I / Backup Booster II / バックアップブースター / NEC TurboBooster-Plus<br>NEC Memory Base 128 / メモリーベース128<br>ASCII Turbo File / Turbo File II / Turbo File GB / ターボファイル / Turbo File Adapter / ターボファイルアダプター / Turbo File Twin / ターボファイルツイン |
@@ -174,7 +176,7 @@ The `>` level only applies to its immediate `:` subtag.
 | Subcategory | Description | Children | Children Description |
 |-------------|-------------|----------|--------------------|
 | `:backup` | Back-up embeded system for saving progress | `>battery`<br>`>flashram`<br>`>feram`<br>`>eeprom` | Battery backed SRAM<br>Flash RAM<br>Ferroelectric RAM<br>EEPROM |
-| `:chip` | Enhancement chip | `>ram`<br>`>rtc`<br>`>svp`<br>`>mmc5`<br>`>dsp1`<br>`>dsp1a`<br>`>dsp1b`<br>`>dsp2`<br>`>dsp3`<br>`>dsp4`<br>`>sa1`<br>`>sdd1`<br>`>sfx`<br>`>sfx2`<br>`>obc1`<br>`>vrc6`<br>`>vrc7`<br>`>n163`<br>`>5b`<br>`>m50805`<br>`>7755`<br>`>7756`<br>`>cx4`<br>`>spc7110`<br>`>st010`<br>`>st011`<br>`>st018` | Extra RAM<br>Real-Time Clock<br>SEGA Virtua Processor / SVP<br>Nintendo MMC5<br>Nintendo DSP-1<br>Nintendo DSP-1a<br>Nintendo DSP-1b<br>Nintendo DSP-2<br>Nintendo DSP-3<br>Nintendo DSP-4<br>Nintendo SA-1<br>Nintendo S-DD1<br>Nintendo Super FX GSU-1<br>Nintendo Super FX GSU-2<br>Nintendo OBC-1<br>Konami VRC VI<br>Konami VRC VII<br>NAMCO 163<br>Sunsoft 5B<br>Mitsubishi M50805<br>NEC µPD7755C<br>NEC µPD7756C<br>CAPCOM CX4<br>Epson SPC7110<br>SETA ST010<br>SETA ST011<br>SETA ST018 |
+| `:chip` | Enhancement chip | `>ram`<br>`>rtc`<br>`>svp`<br>`>mmc5`<br>`>dsp1`<br>`>dsp1a`<br>`>dsp1b`<br>`>dsp2`<br>`>dsp3`<br>`>dsp4`<br>`>sa1`<br>`>sdd1`<br>`>sfx1`<br>`>sfx2`<br>`>obc1`<br>`>vrc6`<br>`>vrc7`<br>`>n163`<br>`>5b`<br>`>m50805`<br>`>7755`<br>`>7756`<br>`>cx4`<br>`>spc7110`<br>`>st010`<br>`>st011`<br>`>st018` | Extra RAM<br>Real-Time Clock<br>SEGA Virtua Processor / SVP<br>Nintendo MMC5<br>Nintendo DSP-1<br>Nintendo DSP-1a<br>Nintendo DSP-1b<br>Nintendo DSP-2<br>Nintendo DSP-3<br>Nintendo DSP-4<br>Nintendo SA-1<br>Nintendo S-DD1<br>Nintendo Super FX GSU-1<br>Nintendo Super FX GSU-2<br>Nintendo OBC-1<br>Konami VRC VI<br>Konami VRC VII<br>NAMCO 163<br>Sunsoft 5B<br>Mitsubishi M50805<br>NEC µPD7755C<br>NEC µPD7756C<br>CAPCOM CX4<br>Epson SPC7110<br>SETA ST010<br>SETA ST011<br>SETA ST018 |
 | `:slot` | Slot in cartridge | `>rj11`<br>`>jcart`<br>`>lockon`<br>`>kogame`<br>`>smartmedia` | RJ-11 port<br>Codemasters J-Cart<br>SEGA Sonic & Knuckles Lock-On Technology<br>Sunsoft Kogame Cassette / 子ガメカセット<br>Tokyo Electron SmartMedia Double Slot |
 | `:led` | LED |  |  |
 | `:gbkiss` | Hudson GB Kiss |  |  |
@@ -199,7 +201,7 @@ The `>` level only applies to its immediate `:` subtag.
 |-------------|-------------|----------|--------------------|
 | `:capcom` | CAPCOM board | `>cps`<br>`>cpsdash`<br>`>cpschanger`<br>`>cps2`<br>`>cps3` | CAPCOM CP System<br>CAPCOM CP System Dash<br>CAPCOM CP System Changer<br>CAPCOM CP System II<br>CAPCOM CP System III |
 | `:sega` | SEGA board | `>vco`<br>`>system1`<br>`>system2`<br>`>system16`<br>`>system16a`<br>`>system16b`<br>`>system16c`<br>`>system18`<br>`>system24`<br>`>system32`<br>`>multi32`<br>`>systemc`<br>`>systemc2`<br>`>systeme`<br>`>xboard`<br>`>yboard`<br>`>stv` | SEGA VCO Object<br>SEGA System 1<br>SEGA System 2<br>SEGA System 16<br>SEGA System 16A<br>SEGA System 16B<br>SEGA System 16C<br>SEGA System 18<br>SEGA System 24<br>SEGA System 32<br>SEGA System Multi 32<br>SEGA System C<br>SEGA System C-2<br>SEGA System E<br>SEGA X Board<br>SEGA Y Board<br>SEGA Titan Video |
-| `:irem` | Irem board | `>m10`<br>`>m15`<br>`>m27`<br>`>m52`<br>`>m57`<br>`>m58`<br>`>m62`<br>`>m63`<br>`>m72`<br>`>m75`<br>`>m81`<br>`>m82`<br>`>m84`<br>`>m90`<br>`>m92`<br>`>m97`<br>`>m107` | Irem M10<br>Irem M15<br>Irem M27<br>Irem M52<br>Irem M57<br>Irem M58<br>Irem M62<br>Irem M63<br>Irem M72<br>Irem M75<br>Irem M81<br>Irem M82<br>Irem M84<br>Irem M90<br>Irem M92<br>Irem M97<br>Irem M107 |
+| `:irem` | Irem board | `>m10`<br>`>m15`<br>`>m27`<br>`>m52`<br>`>m57`<br>`>m58`<br>`>m62`<br>`>m63`<br>`>m72`<br>`>m75`<br>`>m77`<br>`>m81`<br>`>m82`<br>`>m84`<br>`>m85`<br>`>m90`<br>`>m92`<br>`>m97`<br>`>m107` | Irem M10<br>Irem M15<br>Irem M27<br>Irem M52<br>Irem M57<br>Irem M58<br>Irem M62<br>Irem M63<br>Irem M72<br>Irem M75<br>Irem M77<br>Irem M81<br>Irem M82<br>Irem M84<br>Irem M85<br>Irem M90<br>Irem M92<br>Irem M97<br>Irem M107 |
 | `:snk` | SNK board | `>mvs` | SNK Multi Video System / MVS |
 | `:taito` | Taito board | `>xsystem`<br>`>bsystem`<br>`>hsystem`<br>`>lsystem`<br>`>zsystem`<br>`>osystem`<br>`>f1system`<br>`>f2system`<br>`>lgsystem` | Taito X System<br>Taito B System<br>Taito H System<br>Taito L System<br>Taito Z System<br>Taito O System<br>Taito F1 System / F2 System Extended<br>Taito F2 System<br>Taito LG System |
 | `:toaplan` | Toaplan board | `>version1`<br>`>version2` | Toaplan Version 1<br>Toaplan Version 2 |
@@ -213,10 +215,10 @@ The `>` level only applies to its immediate `:` subtag.
 | Subcategory | Description | Children | Children Description |
 |-------------|-------------|----------|--------------------|
 | `:sg1000` | SEGA SG-1000 | `>sc3000`<br>`>othello` | SEGA SC-3000<br>Othello Multivision |
-| `:mark3` | SEGA Mark III / master System | `>mycard`<br>`>thesegacard`<br>`>themegacartridge`<br>`>silvercartridge`<br>`>goldcartridge1`<br>`>goldcartridge2`<br>`>goldcartridge4` | SEGA My Card<br>The SEGA Card<br>The Mega Cartridge (Japan)<br>Silver Cartridge<br>Gold Cartridge (1 mega)<br>Gold Cartridge (2 mega)<br>Gold Cartridge (4 mega) |
+| `:mark3` | SEGA Mark III / master System | `>mycard`<br>`>epmycard`<br>`>thesegacard`<br>`>themegacartridge`<br>`>silvercartridge`<br>`>goldcartridge1`<br>`>goldcartridge2`<br>`>goldcartridge4` | SEGA My Card<br>SEGA EP My Card<br>The SEGA Card<br>The Mega Cartridge (Japan)<br>Silver Cartridge<br>Gold Cartridge (1 mega)<br>Gold Cartridge (2 mega)<br>Gold Cartridge (4 mega) |
 | `:disksystem` | Famicom Disk System | `>dw` | Disk Writer |
 | `:gameboy` | Nintendo GameBoy | `>mono`<br>`>color`<br>`>sgb`<br>`>np` | Monochrome<br>Color<br>Super GameBoy<br>Nintendo Power Cart |
-| `:superfamicom` | Nintendo Super Famicom / Super Nintendo Entertainment System / SNES | `>soundlink` | SoundLink / サウンドリンクゲーム / VoiceLink / 音声連動ゲーム |
+| `:superfamicom` | Nintendo Super Famicom / Super Nintendo Entertainment System / SNES | `>hirom`<br>`>lorom`<br>`>nss`<br>`>soundlink` | HiROM<br>LoROM<br>Nintendo Super System / NSS<br>SoundLink / サウンドリンクゲーム / VoiceLink / 音声連動ゲーム |
 | `:pcengine` | NEC PC Engine | `>supergrafx` | PC SuperGrafx |
 | `:neogeopocket` | NeoGeo Pocket | `>mono`<br>`>color` | Monochrome<br>Color |
 
@@ -287,7 +289,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:classicedition` | Classic Edition |
 | `:segaclassic` | SEGA Classic |
 | `:kixxedition` | Kixx Edition |
-| `:segaages` | SEGA Ages |
+| `:megadrive3` | Tec Toy MegaDrive 3 |
 | `:megadrive4` | Tec Toy MegaDrive 4 |
 | `:reactor` | AtGames Reactor |
 | `:gopher` | AtGames Gopher |
@@ -305,6 +307,8 @@ The `>` level only applies to its immediate `:` subtag.
 | `:disneysclassic` | Disney's Classic Video Games |
 | `:snkbestcollection` | Best Collection |
 | `:xeye` | JVC X'Eye |
+| `:limitedrun` | Limited Run |
+| `:famicombox` | Nintendo FamicomBox |
 
 </details>
 
@@ -319,14 +323,16 @@ The `>` level only applies to its immediate `:` subtag.
 | `:bbcmicro` | Acorn BBC Micro |  |  |
 | `:dragon32` | Dragon 32 |  |  |
 | `:elektronika60` | Elektronika 60 / Электроника 60 |  |  |
+| `:spectrum` | Sinclair ZX Spectrum |  |  |
 | `:atari` | Atari | `>atari400`<br>`>atarist`<br>`>atari2600`<br>`>lynx` | Atari 400<br>Atari ST<br>Atari 2600<br>Lynx |
 | `:nec` | NEC / Nippon Electric Company | `>pc88`<br>`>pc98`<br>`>pcengine`<br>`>cdromrom` | PC-8801<br>PC-9801<br>PC Engine / PCエンジン / TurboGrafx / TurboGrafx-16<br>CD-ROM² / シーディーロムロム / TurboGrafx-CD |
-| `:msx` | MSX |  |  |
-| `:sharp` | Sharp | `>x1`<br>`>x68000` | Sharp X1<br>X68000 |
+| `:msx` | MSX | `>2` | MSX2 |
+| `:sharp` | Sharp | `>x1`<br>`>mz700`<br>`>x68000` | Sharp X1<br>Sharp MZ<br>X68000 |
 | `:pc` | PC DOS |  |  |
-| `:sega` | SEGA / セガ | `>sg1000`<br>`>mark3`<br>`>gamegear`<br>`>megadrive`<br>`>saturn`<br>`>dreamcast` | SG-1000<br>Mark III / マークIII / Master System / マスターシステム<br>Game Gear / ゲームギア<br>MegaDrive / メガドライブ / Genesis<br>SEGA Saturn / セガサターン<br>Dreamcast / ドリームキャスト |
-| `:nintendo` | Nintendo / 任天堂 | `>famicom`<br>`>superfamicom`<br>`>gameboy`<br>`>gba` | Famicom / Family Computer / ファミリーコンピュータ / Nintendo Entertainment System / NES<br>Super Famicom / スーパーファミコン / Super Nintendo Entertainment System / SNES<br>GameBoy / ゲームボーイ<br>GameBoy Advance / ゲームボーイアドバンス / GBA |
+| `:sega` | SEGA / セガ | `>sg1000`<br>`>mark3`<br>`>gamegear`<br>`>megadrive`<br>`>megacd`<br>`>saturn`<br>`>dreamcast` | SG-1000<br>Mark III / マークIII / Master System / マスターシステム<br>Game Gear / ゲームギア<br>MegaDrive / メガドライブ / Genesis<br>SEGA Mega-CD / メガシーディー / SEGA-CD<br>SEGA Saturn / セガサターン<br>Dreamcast / ドリームキャスト |
+| `:nintendo` | Nintendo / 任天堂 | `>famicom`<br>`>superfamicom`<br>`>gameboy`<br>`>gbc`<br>`>gba` | Famicom / Family Computer / ファミリーコンピュータ / Nintendo Entertainment System / NES<br>Super Famicom / スーパーファミコン / Super Nintendo Entertainment System / SNES<br>GameBoy / ゲームボーイ<br>GameBoy Color / ゲームボーイカラー<br>GameBoy Advance / ゲームボーイアドバンス / GBA |
 | `:sony` | Sony / ソニー | `>playstation` | PlayStation / プレイステーション |
+| `:3do` | Panasonic 3DO / スリーディーオー |  |  |
 | `:laseractive` | Pioneer LaserActive / レーザーアクティブ |  |  |
 | `:fmtowns` | Fujitsu FM Towns / エフエムタウンズ |  |  |
 
@@ -345,6 +351,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:it` | Italian / Italiano |
 | `:sv` | Swedish / Svenska |
 | `:nl` | Dutch / Nederlands |
+| `:da` | Danish / Dansk |
 | `:no` | Norwegian / Norsk |
 | `:fi` | Finnish / Suomi |
 | `:cs` | Czech / Čeština |
@@ -385,6 +392,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:namcoanthology` | NAMCO Anthology | `>1`<br>`>2` | NAMCO Anthology 1<br>NAMCO Anthology 2 |
 | `:namcot` | NAMCOT Collection / ナムコットコレクション | `>1`<br>`>2` | NAMCO Museum Archives Volume 1<br>NAMCO Museum Archives Volume 2 |
 | `:castlevaniaanniversary` | Akumajō Dracula Anniversary Collection / 悪魔城ドラキュラ Anniversary Collection / Castlevania Anniversary Collection |  |  |
+| `:castlevaniaadvance` | Castlevania Advance Collection |  |  |
 | `:contraanniversary` | Contra Anniversary Collection / 魂斗羅 Anniversary Collection |  |  |
 | `:cowabunga` | Teenage Mutant Ninja Turtles: The Cowabunga Collection |  |  |
 | `:dariuscozmic` | Darius Cozmic Collection |  |  |
@@ -395,6 +403,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:sonicmegacollection` | Sonic Mega Collection / Sonic Mega Collection+ |  |  |
 | `:mdclassics` | SEGA MegaDrive Classics / SEGA Genesis Classics |  |  |
 | `:smashpack` | SEGA Smash Pack |  |  |
+| `:segaages` | SEGA Ages | `>2500` | SEGA Ages 2500 |
 | `:3dfukkoku` | SEGA 3D Fukkoku Archives / セガ3D復刻アーカイブス / SEGA 3D Classics Collection |  |  |
 | `:mdmini` | SEGA MegaDrive Mini / SEGA Genesis Mini | `>1`<br>`>2` | SEGA MegaDrive Mini / SEGA Genesis Mini<br>SEGA MegaDrive Mini 2 / SEGA Genesis Mini 2 |
 | `:gamenokanzume` | Game no Kanzume / ゲームのかんづめ | `>1`<br>`>2` | Game no Kanzume Vol.1 / ゲームのかんづめ Vol.1<br>Game no Kanzume Vol.2 / ゲームのかんづめ Vol.2 |
@@ -409,10 +418,12 @@ The `>` level only applies to its immediate `:` subtag.
 | `:1` | Revision 1 |
 | `:2` | Revision 2 |
 | `:3` | Revision 3 |
+| `:4` | Revision 4 |
 | `:a` | Revision A |
 | `:b` | Revision B |
 | `:c` | Revision C |
 | `:d` | Revision D |
+| `:e` | Revision E |
 | `:g` | Revision G |
 
 </details>
@@ -425,6 +436,11 @@ The `>` level only applies to its immediate `:` subtag.
 | `:1` | Set 1 |
 | `:2` | Set 2 |
 | `:3` | Set 3 |
+| `:4` | Set 4 |
+| `:5` | Set 5 |
+| `:6` | Set 6 |
+| `:7` | Set 7 |
+| `:8` | Set 8 |
 
 </details>
 
