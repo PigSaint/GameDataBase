@@ -574,6 +574,7 @@ arcadeboard:
         osystem: "Taito O System"
         f1system: "Taito F1 System / F2 System Extended"
         f2system: "Taito F2 System"
+        f3system: "Taito F3 System"
         lgsystem: "Taito LG System"
     toaplan:
       description: "Toaplan board"
