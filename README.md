@@ -217,8 +217,8 @@ The `>` level only applies to its immediate `:` subtag.
 | `:sg1000` | SEGA SG-1000 | `>sc3000`<br>`>othello` | SEGA SC-3000<br>Othello Multivision |
 | `:mark3` | SEGA Mark III / master System | `>mycard`<br>`>epmycard`<br>`>thesegacard`<br>`>themegacartridge`<br>`>silvercartridge`<br>`>goldcartridge1`<br>`>goldcartridge2`<br>`>goldcartridge4` | SEGA My Card<br>SEGA EP My Card<br>The SEGA Card<br>The Mega Cartridge (Japan)<br>Silver Cartridge<br>Gold Cartridge (1 mega)<br>Gold Cartridge (2 mega)<br>Gold Cartridge (4 mega) |
 | `:disksystem` | Famicom Disk System | `>dw` | Disk Writer |
-| `:gameboy` | Nintendo GameBoy | `>mono`<br>`>color`<br>`>sgb`<br>`>np` | Monochrome<br>Color<br>Super GameBoy<br>Nintendo Power Cart |
-| `:superfamicom` | Nintendo Super Famicom / Super Nintendo Entertainment System / SNES | `>hirom`<br>`>lorom`<br>`>nss`<br>`>soundlink` | HiROM<br>LoROM<br>Nintendo Super System / NSS<br>SoundLink / サウンドリンクゲーム / VoiceLink / 音声連動ゲーム |
+| `:gameboy` | Nintendo GameBoy | `>mono`<br>`>color`<br>`>sgb`<br>`>np` | Monochrome<br>Color<br>Super GameBoy<br>Nintendo Power / ニンテンドウパワー / GB Memory Cartridge / GBメモリカートリッジ |
+| `:superfamicom` | Nintendo Super Famicom / Super Nintendo Entertainment System / SNES | `>hirom`<br>`>lorom`<br>`>nss`<br>`>soundlink`<br>`>np` | HiROM<br>LoROM<br>Nintendo Super System / NSS<br>SoundLink / サウンドリンクゲーム / VoiceLink / 音声連動ゲーム<br>Nintendo Power / ニンテンドウパワー / SF Memory Cassette / SFメモリカセット |
 | `:pcengine` | NEC PC Engine | `>supergrafx` | PC SuperGrafx |
 | `:neogeopocket` | NeoGeo Pocket | `>mono`<br>`>color` | Monochrome<br>Color |
 
@@ -397,6 +397,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:cowabunga` | Teenage Mutant Ninja Turtles: The Cowabunga Collection |  |  |
 | `:dariuscozmic` | Darius Cozmic Collection |  |  |
 | `:disneyclassic` | Disney Classic Games Collection |  |  |
+| `:qubyte` | QUByte Classics |  |  |
 | `:limitedrun` | Limited Run Games |  |  |
 | `:iam8bit` | iam8bit |  |  |
 | `:sonicclassic` | Sonic Classic Collection |  |  |
