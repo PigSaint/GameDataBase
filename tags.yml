@@ -615,7 +615,7 @@ compatibility:
         mono: "Monochrome"
         color: "Color"
         sgb: "Super GameBoy"
-        np: "Nintendo Power Cart"
+        np: "Nintendo Power / ニンテンドウパワー / GB Memory Cartridge / GBメモリカートリッジ"
     superfamicom:
       description: "Nintendo Super Famicom / Super Nintendo Entertainment System / SNES"
       children:
@@ -623,6 +623,7 @@ compatibility:
         lorom: "LoROM"
         nss: "Nintendo Super System / NSS"
         soundlink: "SoundLink / サウンドリンクゲーム / VoiceLink / 音声連動ゲーム"
+        np: "Nintendo Power / ニンテンドウパワー / SF Memory Cassette / SFメモリカセット"
     pcengine:
       description: "NEC PC Engine"
       children:
@@ -972,6 +973,8 @@ rerelease:
       description: "Darius Cozmic Collection"
     disneyclassic:
       description: "Disney Classic Games Collection"
+    qubyte:
+      description: "QUByte Classics"
     limitedrun:
       description: "Limited Run Games"
     iam8bit:
