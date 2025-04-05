@@ -15,7 +15,7 @@ Bari-Arm,Bari-Arm,bariarm,Japan,1993-07-30,Human,Human,#players:1 #genre:shmup>h
 Battle Fantasy,Battle Fantasy@Battle Fantasy バトル ファンタジー,battlefantasy,Japan,1994-04-15,Micronet,Micronet,#players:2:vs #genre:fighting #addon:peripheral>megacd #lang:ja
 Battlecorps,Battlecorps@Battlecorps バトルコープス,battlecorps,Japan,1994-09-30,Core Design,Victor,#players:1 #genre:shooting>fps #addon:peripheral>megacd #lang:ja
 Black Hole Assault,Black Hole Assault@Black Hole Assault ブラックホールアサルト,blackholeassault,Japan,1992-10-23,Micronet,Micronet,#players:2:vs #genre:fighting #addon:peripheral>megacd:backup>backupramcart #save:backup #lang:ja
-Burai: Yatsudama no Yūshi Densetsu@Burai 八玉の勇士伝説,Burai: Yatsudama no Yūshi Densetsu@Burai ブライ　八玉の勇士伝説,buraihachigyokunoyuushidensetsu,Japan,1992-09-11,Pandora Box,SEGA,#players:1 #genre:rpg>j #addon:peripheral>megacd:backup>backupramcart #save:backup #port:nec>cdromrom #lang:ja
+Burai: Hachigyoku no Yūshi Densetsu@Burai 八玉の勇士伝説,Burai: Hachigyoku no Yūshi Densetsu@Burai ブライ 八玉の勇士伝説,buraihachigyokunoyuushidensetsu,Japan,1992-09-11,Pandora Box,SEGA,#players:1 #genre:rpg>j #addon:peripheral>megacd:backup>backupramcart #save:backup #port:nec>cdromrom #lang:ja
 Captain Tsubasa@キャプテン翼,Captain Tsubasa@キャプテン翼,captaintsubasacd,Japan,1994-09-30,Tecmo/T's Music,Tecmo,#players:2:vs #genre:sim:sports>soccer #addon:peripheral>megacd #based:manganime #lang:ja
 Cosmic Fantasy Stories@コズミック・ファンタジー Stories,Cosmic Fantasy Stories@コズミック・ファンタジー Stories,cosmicfantasystories,Japan,1992-03-27,Telenet,Riot,#players:1 #genre:rpg>j #addon:peripheral>megacd #save:backup #port:nec>cdromrom #lang:ja
 Cyborg 009@サイボーグ009,Cyborg 009@サイボーグ009,cyborg009cd,Japan,1993-07-30,Telenet,Riot,#players:1 #genre:action #addon:peripheral>megacd:backup>backupramcart #save:backup #based:manganime #lang:ja
@@ -145,7 +145,7 @@ Bram Stoker's Dracula,Mary Shelley's Frankenstein / Bram Stoker's Dracula,bramst
 Brutal: Paws of Fury,Brutal: Paws of Fury,brutalpawsoffury,USA,1994-11,GameTek,GameTek,#players:2:vs #genre:fighting #addon:peripheral>megacd:controller>6button #save:password #lang:en
 Cadillacs and Dinosaurs: The Second Cataclysm,Cadillacs and Dinosaurs: The Second Cataclysm,cadillacsanddinosaursthesecondcataclysm,USA,1994-12,Rocket Science,Rocket Science,#players:2:coop #genre:shooting>rail>gallery #addon:peripheral>megacd #based #save:backup #lang:en
 Championship Soccer '94,Championship Soccer '94,sensiblesoccerec,USA,1994-09,Psygnosis,Sony Imagesoft/Renegade,#players:2:vs #genre:sports>soccer #addon:peripheral>megacd #port:commodore>amiga #lang:en:fr:de:it
-Chuck Rock,Chuck Rock,chuckrock,USA,1992-12,Core Design,Sony Imagesoft,#players:1 #genre:action>platformer:action #addon:peripheral>megacd #save:password #port:commodore>amiga #lang:en
+Chuck Rock,Chuck Rock,chuckrock,USA,1992-12,Core Design,Sony Imagesoft,#players:1 #genre:action>platformer #addon:peripheral>megacd #save:password #port:commodore>amiga #lang:en
 Chuck II: Son of Chuck,Chuck Rock II: Son of Chuck,chuckrock2soc,USA,1993,Core Design,Virgin,#players:1 #genre:action>platformer #addon:peripheral>megacd #port:commodore>amiga:sega>megadrive #lang:en
 Cliffhanger,Cliffhanger,cliffhanger,USA,1993-11,Malibu,Sony Imagesoft,#players:1 #genre:brawler:sports>snowboarding #addon:peripheral>megacd #port:sega>megadrive #based:movie #lang:en
 Cobra Command,Cobra Command,thunderstorm,USA,1992-11,Wolf Team,SEGA,#players:1 #genre:shooting>gallery #addon:peripheral>megacd #port:arcade #lang:en
@@ -348,7 +348,7 @@ Bloodshot / Battle Frenzy,Bloodshot,bloodshot,Europe,1995-06,The Kremlin,Domark,
 Bloodshot / Battle Frenzy,Battle Frenzy,bloodshot,Germany,1995-06,The Kremlin,Domark,#players:2:vs #genre:shooting>fps #addon:peripheral>megacd #reboxed #lang:en:fr:de:es
 Brutal: Paws of Fury,Brutal: Paws of Fury,brutalpawsoffury,Europe,1994-09,GameTek,GameTek,#players:2:vs #genre:fighting #addon:peripheral>megacd:controller>6button #save:password #lang:en:fr:de
 Brutal: Paws of Fury,Paws of Fury,brutalpawsoffury,Germany,1994-09,GameTek,GameTek,#players:2:vs #genre:fighting #addon:peripheral>megacd:controller>6button #reboxed #save:password #lang:en:fr:de
-Chuck Rock,Chuck Rock,chuckrock,Europe,1993-08,Core Design,Sony Imagesoft,#players:1 #genre:action>platformer:action #addon:peripheral>megacd #save:password #port:commodore>amiga #lang:en
+Chuck Rock,Chuck Rock,chuckrock,Europe,1993-08,Core Design,Sony Imagesoft,#players:1 #genre:action>platformer #addon:peripheral>megacd #save:password #port:commodore>amiga #lang:en
 Chuck II: Son of Chuck,Chuck Rock II: Son of Chuck,chuckrock2soc,Europe,1994-01,Core Design,Core Design,#players:1 #genre:action>platformer #addon:peripheral>megacd #port:commodore>amiga:sega>megadrive #lang:en
 Cobra Command,Sol-Feace / Cobra Command,thunderstorm,Europe,1993,Wolf Team,SEGA,#players:1 #genre:shooting>gallery #addon:peripheral>megacd #port:arcade #lang:en
 Corpse Killer,Corpse Killer,corpsekiller,Europe,1995-03,Digital Pictures,Digital Pictures,#players:1 #genre:shooting>gallery #addon:peripheral>megacd:lightgun>menacer #lang:en
