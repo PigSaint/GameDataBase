@@ -24,7 +24,7 @@ input:
     wheel:
       description: "Wheel"
     dial:
-      description: "Paddle"
+      description: "Dial"
     lightgun:
       description: "Lightgun"
     optical:
@@ -222,6 +222,7 @@ genre:
         motogp: "Moto GP"
         motocross: "Motocross"
         karting: "Karting"
+        jetski: "Jet ski / PWC"
         golf: "Golf"
         cricket: "Cricket"
         boxing: "Boxing"
@@ -290,6 +291,7 @@ addon:
         horitrack: "Hori Track / ホリトラック"
         uforce: "Brøderbund UForce"
         smash: "Realtec Smash Controller"
+        lifefitness: "Life Fitness Extertainment System"
         taptapmat: "IGS Tap-Tap Mat + Tonkachi / タップタップマット + トンカチ"
         teevgolf: "Sports Sciences TeeVGolf"
         tsurikon64: "ASCII Tsurikon 64 / つりコン64"
@@ -973,6 +975,8 @@ rerelease:
       description: "Darius Cozmic Collection"
     disneyclassic:
       description: "Disney Classic Games Collection"
+    bubsytwofur:
+      description: "Bubsy Two-Fur"
     qubyte:
       description: "QUByte Classics"
     limitedrun:
