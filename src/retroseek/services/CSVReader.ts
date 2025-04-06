@@ -17,6 +17,7 @@ export class CSVReader {
         'Nintendo Game Boy': 'console_nintendo_gameboy.csv',
         'Nintendo 64': 'console_nintendo_nintendo64.csv',
         'Nintendo Satellaview': 'console_nintendo_satellaview.csv',
+        'Nintendo Super Famicom/SNES': 'console_nintendo_superfamicom_snes.csv',
         'Nintendo Virtual Boy': 'console_nintendo_virtualboy.csv',
         'Pioneer LaserActive': 'console_pioneer_laseractive.csv',
         'SEGA Game Gear': 'console_sega_gamegear.csv',
