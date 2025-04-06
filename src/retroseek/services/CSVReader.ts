@@ -1,7 +1,7 @@
 import { Game } from '../models/Game';
 
 export class CSVReader {
-    private static baseUrl = 'https://raw.githubusercontent.com/kenta2097/GameDataBase/main';
+    private static baseUrl = 'https://raw.githubusercontent.com/PigSaint/GameDataBase/main';
     private static platformFiles = {
         'Arcade CAPCOM': 'arcade_capcom.csv',
         'Arcade IREM': 'arcade_irem.csv',
