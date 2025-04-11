@@ -291,7 +291,7 @@ addon:
         horitrack: "Hori Track / ホリトラック"
         uforce: "Brøderbund UForce"
         smash: "Realtec Smash Controller"
-        lifefitness: "Life Fitness Extertainment System"
+        lifefitness: "Life Fitness Exertainment System"
         taptapmat: "IGS Tap-Tap Mat + Tonkachi / タップタップマット + トンカチ"
         teevgolf: "Sports Sciences TeeVGolf"
         tsurikon64: "ASCII Tsurikon 64 / つりコン64"
@@ -623,6 +623,8 @@ compatibility:
       children:
         hirom: "HiROM"
         lorom: "LoROM"
+        exhirom: "Extended HiROM"
+        exlorom: "Extended LoRom"
         nss: "Nintendo Super System / NSS"
         soundlink: "SoundLink / サウンドリンクゲーム / VoiceLink / 音声連動ゲーム"
         np: "Nintendo Power / ニンテンドウパワー / SF Memory Cassette / SFメモリカセット"
@@ -1002,6 +1004,8 @@ rerelease:
       children:
         "1": "SEGA MegaDrive Mini / SEGA Genesis Mini"
         "2": "SEGA MegaDrive Mini 2 / SEGA Genesis Mini 2"
+    sfcmini:
+      description: "Nintendo Super Famicom Classic Mini / スーパーファミコン クラシックミニ / Super Nintendo Entertainment System Classic Mini"
     gamenokanzume:
       description: "Game no Kanzume / ゲームのかんづめ"
       children:

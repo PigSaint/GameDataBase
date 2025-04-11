@@ -163,7 +163,7 @@ Dracula Unleashed,Dracula Unleashed,draculaunleashed,USA,1993,ICOM Simulations/V
 Dracula Unleashed,Dracula Unleashed,draculaunleashed,USA,1993,ICOM Simulations/Viacom New Media,SEGA,#players:1 #genre:adventure #addon:peripheral>megacd #save:backup #disc:2>2 #search:feature>dracula #lang:en
 Dragon's Lair,Dragon's Lair,dragonslair,USA,1993-12,ReadySoft,SEGA,#players:1 #genre:action #addon:peripheral>megacd #port:arcade #lang:en
 Dune,Dune,dune,USA,1993-12,CRYO,Virgin,#players:1 #genre:adventure:sim>strategy #addon:peripheral>megacd #based:movie #port:commodore>amiga #save:backup #lang:en:fr:de:it:es:fremen
-Dungeon Explorer,Dungeon Explorer,dungeonexplorercd,USA,1995-04,Westone/Hudson,SEGA,#players:4:coop #genre:action>maze:rpg #save:backup #addon:peripheral>megacd:multitap>segatap #lang:en
+Dungeon Explorer,Dungeon Explorer,dungeonexplorercd,USA,1995-04,Westone/Hudson,SEGA,#players:4:coop #genre:rpg>a:action>runandgun #save:backup #addon:peripheral>megacd:multitap>segatap #lang:en
 Dungeon Master II,Dungeon Master II: Skullkeep,dungeonmaster2skullkeep,USA,1994-09,FTL,JVC,#players:1 #genre:rpg>dungeoncrawler #addon:peripheral>megacd:backup>backupramcart:mouse>md #save:backup #port:pc #lang:en
 Earthworm Jim: Special Edition,Earthworm Jim: Special Edition,earthwormjim,USA,1995-04,Shiny/Tommy Tallarico Studios,Interplay,#players:1 #genre:action>platformer #addon:peripheral>megacd #save:password #port:sega>megadrive #lang:en
 Ecco,Ecco the Dolphin,eccothedolphin,USA,1993-07,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:peripheral>megacd #port:sega>megadrive #save:password #lang:en
@@ -360,7 +360,7 @@ Dracula Unleashed,Dracula Unleashed,draculaunleashed,Europe,1994-05,ICOM Simulat
 Dracula Unleashed,Dracula Unleashed,draculaunleashed,Europe,1994-05,ICOM Simulations/Viacom New Media,SEGA,#players:1 #genre:adventure #addon:peripheral>megacd #save:backup #disc:2>2 #search:feature>dracula #lang:en #alt
 Dragon's Lair,Dragon's Lair,dragonslair,Europe,1994-03,ReadySoft,SEGA,#players:1 #genre:action #addon:peripheral>megacd #port:arcade #lang:en:fr:de:it
 Dune,Dune,dune,Europe,1994-01,CRYO,Virgin,#players:1 #genre:adventure:sim>strategy #addon:peripheral>megacd #based:movie #port:commodore>amiga #save:backup #lang:en:fr:de:it:es:fremen
-Dungeon Explorer,Dungeon Explorer,dungeonexplorercd,Europe,1995,Westone/Hudson,Hudson,#players:4:coop #genre:action>maze:rpg #save:backup #addon:peripheral>megacd:multitap>segatap #lang:en
+Dungeon Explorer,Dungeon Explorer,dungeonexplorercd,Europe,1995,Westone/Hudson,Hudson,#players:4:coop #genre:rpg>a:action>runandgun #save:backup #addon:peripheral>megacd:multitap>segatap #lang:en
 Dungeon Master II,Dungeon Master II: Skullkeep,dungeonmaster2skullkeep,Europe,1994-12,FTL,JVC,#players:1 #genre:rpg>dungeoncrawler #addon:peripheral>megacd:backup>backupramcart:mouse>md #save:backup #port:pc #lang:en
 Earthworm Jim: Special Edition,Earthworm Jim: Special Edition,earthwormjim,Europe,1995-06,Shiny/Tommy Tallarico Studios,Interplay,#players:1 #genre:action>platformer #addon:peripheral>megacd #save:password #port:sega>megadrive #lang:en
 Ecco,Ecco the Dolphin,eccothedolphin,Europe,1993-11-05,Novotrade,SEGA,#players:1 #genre:action:adventure #addon:peripheral>megacd #port:sega>megadrive #save:password #lang:en
