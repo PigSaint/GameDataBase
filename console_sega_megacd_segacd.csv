@@ -173,7 +173,7 @@ Ecco: The Tides of Time,Ecco: The Tides of Time,eccothetidesoftime,USA,1994-11,N
 ESPN Baseball Tonight,ESPN Baseball Tonight,espnbaseballtonight,USA,1994-10,Sony Imagesoft,Sony Imagesoft,#players:2:vs #genre:sports>baseball #addon:peripheral>megacd #port:sega>megadrive #based #search:keyword>endorsed>official #lang:en
 ESPN National Hockey Night,ESPN National Hockey Night,espnnationalhockeynight,USA,1994-11,Sony Imagesoft,Sony Imagesoft,#players:4:coop:vs #genre:sports>hockey #addon:peripheral>megacd:multitap>segatap #save:backup #port:sega>megadrive #based #search:keyword>official #lang:en
 ESPN NBA Hangtime '95 / ESPN 2on2 Basketball World Tour,ESPN NBA Hangtime '95,espnnbahangtime95,USA,1994,Sony Imagesoft,Sony Imagesoft,#players:4:coop:vs #genre:sports>basketball #addon:peripheral>megacd:multitap>segatap #search:keyword>official #lang:en
-ESPN Sunday Night NFL,ESPN Sunday Night NFL,espnsundaynightnfl,USA,1994-11,Sony Imagesoft/Ringler/Absolute,Sony Imagesoft,#players:2:vs #genre:sports>football #addon:peripheral>megacd #port:sega>megadrive #based #search:keyword>official #lang:en
+ESPN Sunday Night NFL,ESPN Sunday Night NFL,espnsundaynightnfl,USA,1994-11,Ringler/Absolute,Sony Imagesoft,#players:2:vs #genre:sports>football #addon:peripheral>megacd #port:sega>megadrive #based #search:keyword>official #lang:en
 Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道 悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,USA,1995-06-06,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:peripheral>megacd:controller>6button>activator #save:backup #port:sega>megadrive #lang:en
 Eternal Champions: Challenge from the Dark Side@Eternal Champions 武士道 悪 Challenge from the Dark Side,Eternal Champions: Challenge from the Dark Side,eternalchampions,USA,,SEGA Interactive,SEGA,#players:2:vs #genre:fighting #addon:peripheral>megacd:controller>6button>activator #save:backup #port:sega>megadrive #lang:en #rev:1
 Eye of the Beholder,Eye of the Beholder,eyeofthebeholder,USA,1994-08,Opera House,FCI,#players:1 #genre:rpg>dungeoncrawler #addon:peripheral>megacd:backup>backupramcart:mouse>md #save:backup #port:pc #based:dnd #lang:en
@@ -184,7 +184,7 @@ FIFA International Soccer,FIFA International Soccer,fifa94,USA,1994,Extended Pla
 Final Fight CD,Final Fight CD,finalfight,USA,1993-06,A-Wave/T's Music,SEGA,#players:2:coop #genre:brawler #addon:peripheral>megacd #port:arcade #lang:en
 Final Fight CD,Final Fight CD,finalfight,USA,1993-06,A-Wave/T's Music,SEGA,#players:2:coop #genre:brawler #addon:peripheral>megacd #port:arcade #lang:en #alt:1
 Final Fight CD,Final Fight CD,finalfight,USA,1993-06,A-Wave/T's Music,SEGA,#players:2:coop #genre:brawler #addon:peripheral>megacd #port:arcade #lang:en #alt:2
-Flashback,Flashback: The Quest for Identity,flashback,USA,1994-11,Delphine,U.S. Gold,#players:1 #genre:action>platformer #addon:peripheral>megacd #port:sega>megadrive #save:password #lang:en
+Flashback,Flashback: The Quest for Identity,flashback,USA,1994-11,Delphine,U.S.Gold,#players:1 #genre:action>platformer #addon:peripheral>megacd #port:sega>megadrive #save:password #lang:en
 Formula One World Championship: Beyond the Limit,Formula One World Championship: Beyond the Limit,heavenlysymphony,USA,1994-08,SEGA CS3/Fuji TV,SEGA,#players:1 #genre:racing:sports>formula1 #addon:peripheral>megacd:backup>backupramcart #save:backup #based #search:keyword>official #search:feature>sonic #lang:en
 Ground Zero Texas,Ground Zero Texas,groundzerotexas,USA,1993-11,Digital Pictures,Sony Imagesoft,#players:1 #genre:shooting>gallery #addon:peripheral>megacd #disc:1>2 #lang:en
 Ground Zero Texas,Ground Zero Texas,groundzerotexas,USA,1993-11,Digital Pictures,Sony Imagesoft,#players:1 #genre:shooting>gallery #addon:peripheral>megacd #disc:2>2 #lang:en
@@ -334,7 +334,7 @@ WireHead,WireHead,wirehead,USA,1995-09,The Code Monkeys,SEGA,#players:1 #genre:a
 Wolfchild,Wolfchild,wolfchild,USA,1992-12,Core Design,JVC,#players:1 #genre:action>platformer #addon:peripheral>megacd #port:commodore>amiga #lang:en
 Wonder Dog,Wonder Dog,wonderdog,USA,1992-12,Core Design,JVC,#players:1 #genre:action>platformer #addon:peripheral>megacd #save:password #lang:en
 Wonder Dog,Wonder Dog,wonderdog,USA,,Core Design,JVC,#players:1 #genre:action>platformer #addon:peripheral>megacd #save:password #reboxed #lang:en
-World Cup USA 94,World Cup USA 94,worldcupusa94,USA,1994-07,Tiertex,U.S. Gold,#players:4:coop:vs #genre:sports>soccer #addon:peripheral>megacd:multitap>segatap #port:sega>megadrive #search:keyword>official #lang:en:fr:de:it:es:pt:sv:nl
+World Cup USA 94,World Cup USA 94,worldcupusa94,USA,1994-07,Tiertex,U.S.Gold,#players:4:coop:vs #genre:sports>soccer #addon:peripheral>megacd:multitap>segatap #port:sega>megadrive #search:keyword>official #lang:en:fr:de:it:es:pt:sv:nl
 WWF: Rage in the Cage,WWF: Rage in the Cage,wwfrageinthecagecd,USA,1993-11,Sculptured/The Black Team,Arena,#players:2:vs #genre:fighting:sports>wrestling #addon:peripheral>megacd:controller>6button #search:keyword>official #lang:en
 After Burner III,After Burner III,afterburner3,Europe,1993-09,CRI,SEGA,#players:1 #genre:shooting>rail #addon:peripheral>megacd:controller>6button>xe1ap #port:fmtowns #lang:en
 Batman Returns,Batman Returns,batmanreturns,Europe,1993-09,Malibu,SEGA,#players:1 #genre:action>platformer:racing #addon:peripheral>megacd #port:sega>megadrive #based:movie #search:feature>batman #lang:en
@@ -467,7 +467,7 @@ Tomcat Alley,Tomcat Alley,tomcatalley,Germany,1994,The Code Monkeys,SEGA,#player
 Tomcat Alley,Tomcat Alley,tomcatalley,Spain,1994,The Code Monkeys,SEGA,#players:1 #genre:shooting>gallery #addon:peripheral>megacd #lang:es
 Wolfchild,Wolfchild,wolfchild,Europe,1993-09,Core Design,SEGA,#players:1 #genre:action>platformer #addon:peripheral>megacd #port:commodore>amiga #lang:en
 Wonder Dog,Wonder Dog,wonderdog,Europe,1993,Core Design,SEGA,#players:1 #genre:action>platformer #addon:peripheral>megacd #save:password #lang:en
-World Cup USA 94,World Cup USA 94,worldcupusa94,Europe,1994-06-03,Tiertex,U.S. Gold,#players:4:coop:vs #genre:sports>soccer #addon:peripheral>megacd:multitap>segatap #port:sega>megadrive #search:keyword>official #lang:en:fr:de:it:es:pt:sv:nl
+World Cup USA 94,World Cup USA 94,worldcupusa94,Europe,1994-06-03,Tiertex,U.S.Gold,#players:4:coop:vs #genre:sports>soccer #addon:peripheral>megacd:multitap>segatap #port:sega>megadrive #search:keyword>official #lang:en:fr:de:it:es:pt:sv:nl
 WWF: Rage in the Cage,WWF: Rage in the Cage,wwfrageinthecagecd,Europe,1994-01,Sculptured/The Black Team,Arena,#players:2:vs #genre:fighting:sports>wrestling #addon:peripheral>megacd:controller>6button #search:keyword>official #lang:en
 Yumemi Mystery Mansion,Yumemi Mystery Mansion,yumemiyakatanomonogatari,Europe,1994-03,System Sacom/SEGA CS/DMP,SEGA,#players:1 #genre:adventure #addon:peripheral>megacd:backup>backupramcart:mouse>md #save:backup #lang:en
 Yumemi Mystery Mansion,Yumemi Mystery Mansion,yumemiyakatanomonogatari,Europe,1994-03,System Sacom/SEGA CS/DMP,SEGA,#players:1 #genre:adventure #addon:peripheral>megacd:backup>backupramcart:mouse>md #save:backup #lang:en #lang:en #alt
@@ -493,7 +493,7 @@ Pier Solar and the Great Architects: Enhanced Soundtrack Disc,Pier Solar and the
 Sonic Mega Mix,Sonic Megamix,sonicmegamix,USA,2009-04-25,Team Megamix,Team Megamix,#players:1 #genre:action>platformer #addon:peripheral>megacd #save:backup #search:feature>sonic #port:sega>megadrive #lang:en #unlicensed
 Star Strike,Star Strike,starstrike,USA,2001,Stargames,Good Deal,#players:1 #genre:shooting>gallery #addon:peripheral>megacd #lang:en #unlicensed
 The Exterminators,Bug Blasters: The Exterminators,bugblasterstheexterminators,USA,2001,Digital Pictures,Good Deal,#players:1 #genre:shooting>gallery #addon:peripheral>megacd #lang:en #unlicensed
-Flashback,,flashback,Europe,1994,Delphine,U.S. Gold,#players:1 #genre:action>platformer #addon:peripheral>megacd #port:sega>megadrive #save:password #lang:en #unfinished:proto
+Flashback,,flashback,Europe,1994,Delphine,U.S.Gold,#players:1 #genre:action>platformer #addon:peripheral>megacd #port:sega>megadrive #save:password #lang:en #unfinished:proto
 Super Strike Trilogy,Super Strike Trilogy,superstriketrilogy,USA,1995,The Edge/Foley Hi-Tech,Electronic Arts,#players:1 #genre:shmup #addon:peripheral>megacd #multigame:compilation #port:sega>megadrive #lang:en #unfinished:proto
 TimeCop,,timecop,USA,1995,CRYO,JVC,#players:1 #genre:action #addon:peripheral>megacd #port:nintendo>superfamicom #based:movie #lang:en #unfinished:proto
 WireHead,WireHead,wirehead,Europe,1995,The Code Monkeys,SEGA,#players:1 #genre:action #addon:peripheral>megacd #lang:en #unfinished:proto
