@@ -31,7 +31,7 @@ Rocket Coaster,Rocket Coaster,rocketcoaster,Japan,1993-12-20,HighTech Lab,Taito,
 Space Berserker,Space Berserker,spaceberserker,Japan,1994-02-25,Den'no Shokai/Virtual East/Plus One/Data Builder/Noise,Pioneer,#players:1 #genre:shooting>gallery #addon:expansion>megald:rss #lang:ja:en
 The Great Pyramid,The Great Pyramid,thegreatpyramid,Japan,1993-08-20,CRC Research Institute,Pioneer,#players:1 #genre:notagame>educational>media #addon:expansion>megald #lang:ja:en
 Time Gal,Time Gal,timegal,Japan,1995-03-25,HighTech Lab,Taito,#players:2:alt #genre:action #addon:expansion>megald #port:arcade #lang:ja
-Triad Stone,Triad Stone@Triad Stone トライアッドストーン,triadstone,Japan,1994-03-25,Seraphic,SEGA,#players:1 #genre:action #addon:expansion>megald #port:arcade #lang:ja:en
+Triad Stone,Triad Stone@Triad Stone トライアッドストーン,triadstone,Japan,1994-03-25,Seraphic,SEGA,#players:1 #genre:action #addon:expansion>megald #port:arcade #search:keyword>dolby #lang:ja:en
 Vajra@वज्र Vajra,Vajra@वज्र Vajra,vajra,Japan,1993-10-25,Data West,Pioneer,#players:1 #genre:shooting>gallery #addon:expansion>ldromrom #lang:en
 Vajra Ni@वज्र Vajra 弐,Vajra Ni@Vajra 弐,vajrani,Japan,1994-10-31,Data West,Pioneer,#players:1 #genre:shooting>gallery #addon:expansion>ldromrom:glasses>3dgoggle:rss #search:3d>stereo #lang:en
 Virtual Cameraman,Virtual Cameraman,virtualcameraman,Japan,1993-12-10,Transpegasus,Planet,#players:1 #genre:notagame>slideshow>media #addon:expansion>megald:backup>backupramcart #save:backup #search:keyword>endorsed #lang:ja
@@ -52,7 +52,7 @@ Road Prosecutor,Road Prosecutor,roadblaster,USA,1995,Wolf Team,Data East,#player
 Rocket Coaster,Rocket Coaster,rocketcoaster,USA,1994-05-26,HighTech Lab,Taito,#players:1 #genre:racing #addon:expansion>megald:rss #port:arcade #lang:en
 Space Berserker,Space Berserker,spaceberserker,USA,1993,Den'no Shokai/Virtual East/Plus One/Data Builder/Noise,Pioneer,#players:1 #genre:shooting>gallery #addon:expansion>megald:rss #lang:ja:en
 The Great Pyramid,The Great Pyramid,thegreatpyramid,USA,1993-12-23,CRC Research Institute,Pioneer,#players:1 #genre:notagame>educational>media #addon:expansion>megald #lang:ja:en
-Triad Stone,Triad Stone,triadstone,USA,1994-05-31,Seraphic,SEGA,#players:1 #genre:action #addon:expansion>megald #port:arcade #lang:ja:en
+Triad Stone,Triad Stone,triadstone,USA,1994-05-31,Seraphic,SEGA,#players:1 #genre:action #addon:expansion>megald #port:arcade #search:keyword>dolby #lang:ja:en
 Pyramid Patrol,Pyramid Patrol,pyramidpatrol,Japan,1993,HighTec Lab/C-lab,Taito,#players:1 #genre:shooting>gallery #addon:expansion>megald:rss #port:arcade #lang:en #unfinished:demo
 Rocket Coaster,Rocket Coaster,rocketcoaster,Japan,,HighTech Lab,Taito,#players:1 #genre:racing #addon:expansion>megald:rss #port:arcade #lang:en #unfinished:demo
 3D Museum,3D Museum,3dmuseum,Japan,,Multimedia Creators Network,Pioneer,#players:1 #genre:notagame>media>slideshow #addon:expansion>megald:glasses>3dgoggle:rss #search:3d>stereo #lang:en
