@@ -289,6 +289,7 @@ addon:
         hardwarebike: "Varie Hardware Bike / ハードウーアバイク"
         pachinko: "Coconuts Pachinko Controller / パチンココントローラー"
         hissatsupachinko: "Sunsoft Hissatsu Pachinko Controller / 必殺パチンココントローラー"
+        pashislot: "Sammy Jissen! PachiSlo Controller / 実戦! パチスロ コントローラー"
         horitrack: "Hori Track / ホリトラック"
         uforce: "Brøderbund UForce"
         smash: "Realtec Smash Controller"
@@ -390,6 +391,7 @@ addon:
         meganet: "Tec Toy MegaNet"
         teleplay: "Baton Teleplay System"
         networksystem: "Nintendo Family Computer Network System / ファミリーコンピュータ ネットワークシステム"
+        ndm24: "NTT Data Tsūshin Modem NDM24 / 通信モデムNDM24"
         satellaview: "Nintendo SatellaView / サテラビュー"
         randnetmodem: "Randnet Modem / ランドネット"
     vibration:
@@ -723,6 +725,7 @@ search:
         promo: "Promotional not-for-sale limited product"
         qsound: "QSound support"
         dolby: "Dolby Surround"
+        rs: "Response Sound System / レスポンス　サウンド　システム / RS"
         official: "Official sports game"
         endorsed: "Endorsed to known person"
         brand: "Endorsed by company or brand"
