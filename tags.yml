@@ -299,7 +299,8 @@ addon:
         lasabirdie: "Ricoh Lasabirdie / レーザーバーディー"
         tsurikon64: "ASCII Tsurikon 64 / つりコン64"
         partytap: "PR21 Party Tap"
-        climberstick: "Nichibutsu Climber Stick"
+        climberstick: "Nichibutsu Climber Stick / クライマー・スティック"
+        juujikeycover: "NAMCO Jūji Key Cover / 十字キーカバー"
     lightgun:
       description: "Lightgun"
       children:
@@ -311,6 +312,7 @@ addon:
         laserscope: "Konami LaserScope"
         bandaihypershot: "Bandai Hyper Shot / ハイパーショット"
         gamegun: "American Laser GameGun"
+        ap74: "Jäger AP74"
     mouse:
       description: "Mouse"
       children:
@@ -981,6 +983,13 @@ rerelease:
       description: "Teenage Mutant Ninja Turtles: The Cowabunga Collection"
     dariuscozmic:
       description: "Darius Cozmic Collection"
+    rockmanclassic:
+      description: "Rockman Classic Collection / ロックマン クラシックス コレクション / Megaman Legacy Collection"
+      children:
+        "1": "Rockman Classic Collection / ロックマン クラシックス コレクション / Megaman Legacy Collection"
+        "2": "Rockman Classic Collection 2 / ロックマン クラシックス コレクション 2 / Megaman Legacy Collection 2"
+        "x": "Rockman X Anniversary Collection / ロックマンX アニバーサリー コレクション / Megaman X Legacy Collection"
+        "x2": "Rockman X Anniversary Collection 2 / ロックマンX アニバーサリー コレクション 2 / Megaman X Legacy Collection 2"
     disneyclassic:
       description: "Disney Classic Games Collection"
     bubsytwofur:
