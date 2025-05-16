@@ -196,6 +196,7 @@ genre:
         god: "God simulator"
         derby: "Derby horse ride"
         building: "Building"
+        cooking: "Cooking"
     sports:
       description: "Sports"
       children:
@@ -353,6 +354,7 @@ addon:
       description: "Additional hardware for expansing system capabilities"
       children:
         fmsoundunit: "SEGA FM Sound Unit / FMサウンドユニット"
+        memorypak: "Nintendo Satellaview 8M Memory Pak / サテラビュー 8Mメモルーパック"
         expansionpak: "Nintendo Memory Kakuchō Pak / メモリー拡張パック / Expansion Pak"
         megald: "Pioneer LaserActive PAC-S / SEGA Mega-LD"
         ldromrom: "Pioneer LaserActive PAC-N / NEC LD-ROM²"
@@ -484,6 +486,8 @@ embedded:
         vrc6: "Konami VRC VI"
         vrc7: "Konami VRC VII"
         n163: "NAMCO 163"
+        fme7: "Sunsoft FME-7"
+        5a: "Sunsoft 5A"
         5b: "Sunsoft 5B"
         m50805: "Mitsubishi M50805"
         "7755": "NEC µPD7755C"
@@ -634,6 +638,7 @@ compatibility:
         nss: "Nintendo Super System / NSS"
         soundlink: "SoundLink / サウンドリンクゲーム / VoiceLink / 音声連動ゲーム"
         np: "Nintendo Power / ニンテンドウパワー / SF Memory Cassette / SFメモリカセット"
+        gs: "Nintendo Gateway System"
     pcengine:
       description: "NEC PC Engine"
       children:
@@ -729,7 +734,7 @@ search:
         dolby: "Dolby Surround"
         rs: "Response Sound System / レスポンス　サウンド　システム / RS"
         official: "Official sports game"
-        endorsed: "Endorsed to known person"
+        endorsed: "Endorsed by public figure"
         brand: "Endorsed by company or brand"
 
 multigame:
