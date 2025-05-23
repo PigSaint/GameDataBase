@@ -373,6 +373,7 @@ addon:
         oyagame: "Sunsoft Oyagame / 親ガメ"
         qtai: "Konami QTai / Q太"
         karaokestudio: "Bandai Karaoke Studio / カラオケスタジオ"
+        sxt2: "Super X-Terminator 2 Sasuke / サスケ"
     backup:
       description: "Back-up based accessory for saving progress"
       children:
