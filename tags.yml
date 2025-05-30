@@ -216,6 +216,7 @@ genre:
         paddle: "Paddle"
         squash: "Squash"
         badminton: "Badminton"
+        flyingdisc: "Flying disc / Frisbee"
         cycling: "Cycling"
         formula1: "Formula 1"
         rally: "Rally"
@@ -355,6 +356,7 @@ addon:
       children:
         fmsoundunit: "SEGA FM Sound Unit / FMサウンドユニット"
         memorypak: "Nintendo Satellaview 8M Memory Pak / サテラビュー 8Mメモルーパック"
+        samegame: "Hudson SameGame Cassette / 鮫亀カセット"
         expansionpak: "Nintendo Memory Kakuchō Pak / メモリー拡張パック / Expansion Pak"
         megald: "Pioneer LaserActive PAC-S / SEGA Mega-LD"
         ldromrom: "Pioneer LaserActive PAC-N / NEC LD-ROM²"
@@ -368,7 +370,6 @@ addon:
         transferpak: "Nintendo 64GB Pak / 64GBパック / Transfer Pak"
         datach: "Bandai Datach Joint ROM System / データック"
         sufami: "Bandai SuFami Turbo / スーファミターボ"
-        samegame: "Hudson SameGame Cassette / 鮫亀カセット"
         deckenhancer: "Camerica Aladdin Deck Enhancer"
         oyagame: "Sunsoft Oyagame / 親ガメ"
         qtai: "Konami QTai / Q太"
@@ -996,10 +997,13 @@ rerelease:
         "2": "Rockman Classic Collection 2 / ロックマン クラシックス コレクション 2 / Megaman Legacy Collection 2"
         "x": "Rockman X Anniversary Collection / ロックマンX アニバーサリー コレクション / Megaman X Legacy Collection"
         "x2": "Rockman X Anniversary Collection 2 / ロックマンX アニバーサリー コレクション 2 / Megaman X Legacy Collection 2"
+    seikendensetsu: "Seiken Densetsu Collection / 聖剣伝説 Collection / Collection of Mana"
     disneyclassic:
       description: "Disney Classic Games Collection"
     bubsytwofur:
       description: "Bubsy Two-Fur"
+    blizzardarcadecollection:
+      description: "Blizzard Arcade Collection"
     qubyte:
       description: "QUByte Classics"
     limitedrun:
