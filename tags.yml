@@ -234,6 +234,7 @@ genre:
         karate: "Karate"
         judo: "Judo"
         kendo: "Kendo"
+        mma: "Mixed Martial Arts / MMA"
         decathlon: "Decathlon"
         running: "Running"
         archery: "Archery"
@@ -265,6 +266,7 @@ addon:
         megacd: "SEGA Mega-CD / SEGA-CD"
         super32x: "SEGA Super 32X / MegaDrive 32X / Genesis 32X"
         disksystem: "Nintendo Famicom Disk System / ディスクシステム"
+        sufami: "Bandai SuFami Turbo / スーファミターボ"
         64dd: "Nintendo 64DD"
         cdromrom: "NEC CD-ROM² / Super CD-ROM² / Arcade CD-ROM² / PC Engine Duo / TurboGrafx-CD / TurboDuo"
     controller:
@@ -369,7 +371,6 @@ addon:
         supergameboy: "Nintendo Super GameBoy / Super GameBoy 2 / スーパーゲームボーイ"
         transferpak: "Nintendo 64GB Pak / 64GBパック / Transfer Pak"
         datach: "Bandai Datach Joint ROM System / データック"
-        sufami: "Bandai SuFami Turbo / スーファミターボ"
         deckenhancer: "Camerica Aladdin Deck Enhancer"
         oyagame: "Sunsoft Oyagame / 親ガメ"
         qtai: "Konami QTai / Q太"
@@ -787,7 +788,7 @@ reboxed:
     playerschoice:
       description: "Players Choice / Million Seller"
     classicserie:
-      description: "NES / Game Boy Classic Serie"
+      description: "Nintendo Classic Serie"
     kousenjuu:
       description: "Kōsenjū Series / 光線銃シリーズ"
     disneysclassic:
