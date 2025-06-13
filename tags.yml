@@ -507,6 +507,8 @@ embedded:
         jcart: "Codemasters J-Cart"
         lockon: "SEGA Sonic & Knuckles Lock-On Technology"
         kogame: "Sunsoft Kogame Cassette / 子ガメカセット"
+        gameboy: "Nintendo GameBoy cartridge"
+        gamelink: "Nintendo Tsūshin Cable port / 通信ケーブル / GameLink"
         smartmedia: "Tokyo Electron SmartMedia Double Slot"
     led:
       description: "LED"
@@ -801,6 +803,8 @@ reboxed:
       description: "Limited Run"
     famicombox:
       description: "Nintendo FamicomBox"
+    superfamicombox:
+      description: "Nintendo Super FamicomBox"
 
 port:
   description: "Port, remaster, remake or conversion from another system"
@@ -969,6 +973,8 @@ rerelease:
       description: "Nintendo e-Reader"
     animalcrossing:
       description: "Nintendo Dōbutsu no Mori+ / どうぶつの森+ / Animal Crossing"
+    supermario25:
+      description: "Nintendo Super Mario Collection (Super Mario 25 Shūnen) / スーパーマリオコレクション スペシャルパック (スーパーマリオ25周年) / Super Mario All-Stars (25th Anniversary)"
     capcomtown:
       description: "CAPCOM Town"
     namcoanthology:
@@ -1011,6 +1017,8 @@ rerelease:
       description: "Limited Run Games"
     iam8bit:
       description: "iam8bit"
+    steam:
+      description: "Steam"
     sonicclassic:
       description: "Sonic Classic Collection"
     sonicmegacollection:
