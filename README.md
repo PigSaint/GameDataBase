@@ -177,7 +177,7 @@ The `>` level only applies to its immediate `:` subtag.
 |-------------|-------------|----------|--------------------|
 | `:backup` | Back-up embeded system for saving progress | `>battery`<br>`>flashram`<br>`>feram`<br>`>eeprom` | Battery backed SRAM<br>Flash RAM<br>Ferroelectric RAM<br>EEPROM |
 | `:chip` | Enhancement chip | `>ram`<br>`>rtc`<br>`>svp`<br>`>mmc5`<br>`>dsp1`<br>`>dsp1a`<br>`>dsp1b`<br>`>dsp2`<br>`>dsp3`<br>`>dsp4`<br>`>sa1`<br>`>sdd1`<br>`>sfx1`<br>`>sfx2`<br>`>obc1`<br>`>vrc6`<br>`>vrc7`<br>`>n163`<br>`>fme7`<br>`>5a`<br>`>5b`<br>`>m50805`<br>`>7755`<br>`>7756`<br>`>cx4`<br>`>spc7110`<br>`>st010`<br>`>st011`<br>`>st018` | Extra RAM<br>Real-Time Clock<br>SEGA Virtua Processor / SVP<br>Nintendo MMC5<br>Nintendo DSP-1<br>Nintendo DSP-1a<br>Nintendo DSP-1b<br>Nintendo DSP-2<br>Nintendo DSP-3<br>Nintendo DSP-4<br>Nintendo SA-1<br>Nintendo S-DD1<br>Nintendo Super FX GSU-1<br>Nintendo Super FX GSU-2<br>Nintendo OBC-1<br>Konami VRC VI<br>Konami VRC VII<br>NAMCO 163<br>Sunsoft FME-7<br>Sunsoft 5A<br>Sunsoft 5B<br>Mitsubishi M50805<br>NEC µPD7755C<br>NEC µPD7756C<br>CAPCOM CX4<br>Epson SPC7110<br>SETA ST010<br>SETA ST011<br>SETA ST018 |
-| `:slot` | Slot in cartridge | `>rj11`<br>`>jcart`<br>`>lockon`<br>`>kogame`<br>`>smartmedia` | RJ-11 port<br>Codemasters J-Cart<br>SEGA Sonic & Knuckles Lock-On Technology<br>Sunsoft Kogame Cassette / 子ガメカセット<br>Tokyo Electron SmartMedia Double Slot |
+| `:slot` | Slot in cartridge | `>rj11`<br>`>jcart`<br>`>lockon`<br>`>kogame`<br>`>gameboy`<br>`>gamelink`<br>`>smartmedia` | RJ-11 port<br>Codemasters J-Cart<br>SEGA Sonic & Knuckles Lock-On Technology<br>Sunsoft Kogame Cassette / 子ガメカセット<br>Nintendo GameBoy cartridge<br>Nintendo Tsūshin Cable port / 通信ケーブル / GameLink<br>Tokyo Electron SmartMedia Double Slot |
 | `:led` | LED |  |  |
 | `:gbkiss` | Hudson GB Kiss |  |  |
 | `:pocketsonar` | Bandai Pocket Sonar |  |  |
@@ -309,6 +309,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:xeye` | JVC X'Eye |
 | `:limitedrun` | Limited Run |
 | `:famicombox` | Nintendo FamicomBox |
+| `:superfamicombox` | Nintendo Super FamicomBox |
 
 </details>
 
@@ -388,6 +389,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:switchonline` | Nintendo Switch Online |  |  |
 | `:ereader` | Nintendo e-Reader |  |  |
 | `:animalcrossing` | Nintendo Dōbutsu no Mori+ / どうぶつの森+ / Animal Crossing |  |  |
+| `:supermario25` | Nintendo Super Mario Collection (Super Mario 25 Shūnen) / スーパーマリオコレクション スペシャルパック (スーパーマリオ25周年) / Super Mario All-Stars (25th Anniversary) |  |  |
 | `:capcomtown` | CAPCOM Town |  |  |
 | `:namcoanthology` | NAMCO Anthology | `>1`<br>`>2` | NAMCO Anthology 1<br>NAMCO Anthology 2 |
 | `:namcot` | NAMCOT Collection / ナムコットコレクション | `>1`<br>`>2` | NAMCO Museum Archives Volume 1<br>NAMCO Museum Archives Volume 2 |
@@ -404,6 +406,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:qubyte` | QUByte Classics |  |  |
 | `:limitedrun` | Limited Run Games |  |  |
 | `:iam8bit` | iam8bit |  |  |
+| `:steam` | Steam |  |  |
 | `:sonicclassic` | Sonic Classic Collection |  |  |
 | `:sonicmegacollection` | Sonic Mega Collection / Sonic Mega Collection+ |  |  |
 | `:mdclassics` | SEGA MegaDrive Classics / SEGA Genesis Classics |  |  |
