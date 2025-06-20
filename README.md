@@ -131,7 +131,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:shooting` | Aim-based shooting games | `>gallery`<br>`>rail`<br>`>fps`<br>`>tps` | Shooting gallery<br>Rail shooter<br>FPS / First person Shooter<br>TPS / Third person shooter |
 | `:puzzle` | Puzzle | `>drop`<br>`>mind` | Drop pieces puzzle<br>Mind game |
 | `:sim` | Simulation | `>strategy`<br>`>cardgame`<br>`>flight`<br>`>train`<br>`>date`<br>`>otome`<br>`>life`<br>`>farm`<br>`>pet`<br>`>fishing`<br>`>god`<br>`>derby`<br>`>building`<br>`>cooking` | Strategy<br>Card game<br>Flight simulator<br>Train simulator<br>Date simulator<br>Otome game / 乙女ゲーム<br>Life simulator<br>Farm simulator<br>Pet simulator<br>Fishing<br>God simulator<br>Derby horse ride<br>Building<br>Cooking |
-| `:sports` | Sports | `>soccer`<br>`>basketball`<br>`>baseball`<br>`>volleyball`<br>`>rugby`<br>`>football`<br>`>dodgeball`<br>`>hockey`<br>`>skiing`<br>`>skateboarding`<br>`>snowboarding`<br>`>tennis`<br>`>pingpong`<br>`>paddle`<br>`>squash`<br>`>badminton`<br>`>flyingdisc`<br>`>cycling`<br>`>formula1`<br>`>rally`<br>`>nascar`<br>`>motogp`<br>`>motocross`<br>`>karting`<br>`>jetski`<br>`>golf`<br>`>cricket`<br>`>boxing`<br>`>kickboxing`<br>`>wrestling`<br>`>sumo`<br>`>karate`<br>`>judo`<br>`>kendo`<br>`>mma`<br>`>decathlon`<br>`>running`<br>`>archery`<br>`>swimming`<br>`>rowing`<br>`>kayak`<br>`>surf` | Soccer<br>Basketball<br>Baseball<br>Volleyball<br>Rugby<br>American football<br>Dodgeball<br>Ice hockey<br>Skiing<br>Skateboarding<br>Snowboarding<br>Tennis<br>Table tennis<br>Paddle<br>Squash<br>Badminton<br>Flying disc / Frisbee<br>Cycling<br>Formula 1<br>Rally<br>NASCAR<br>Moto GP<br>Motocross<br>Karting<br>Jet ski / PWC<br>Golf<br>Cricket<br>Boxing<br>Kickboxing<br>Wrestling<br>Sumo<br>Karate<br>Judo<br>Kendo<br>Mixed Martial Arts / MMA<br>Decathlon<br>Running<br>Archery<br>Swimming<br>Rowing<br>Kayak<br>Surf |
+| `:sports` | Sports | `>soccer`<br>`>basketball`<br>`>baseball`<br>`>volleyball`<br>`>rugby`<br>`>football`<br>`>dodgeball`<br>`>hockey`<br>`>skiing`<br>`>skateboarding`<br>`>snowboarding`<br>`>tennis`<br>`>pingpong`<br>`>paddle`<br>`>squash`<br>`>badminton`<br>`>flyingdisc`<br>`>cycling`<br>`>formula1`<br>`>rally`<br>`>nascar`<br>`>motogp`<br>`>motocross`<br>`>karting`<br>`>jetski`<br>`>golf`<br>`>cricket`<br>`>boxing`<br>`>kickboxing`<br>`>wrestling`<br>`>sumo`<br>`>karate`<br>`>judo`<br>`>kendo`<br>`>taekwondo`<br>`>mma`<br>`>decathlon`<br>`>running`<br>`>archery`<br>`>swimming`<br>`>rowing`<br>`>kayak`<br>`>surf` | Soccer<br>Basketball<br>Baseball<br>Volleyball<br>Rugby<br>American football<br>Dodgeball<br>Ice hockey<br>Skiing<br>Skateboarding<br>Snowboarding<br>Tennis<br>Table tennis<br>Paddle<br>Squash<br>Badminton<br>Flying disc / Frisbee<br>Cycling<br>Formula 1<br>Rally<br>NASCAR<br>Moto GP<br>Motocross<br>Karting<br>Jet ski / PWC<br>Golf<br>Cricket<br>Boxing<br>Kickboxing<br>Wrestling<br>Sumo<br>Karate<br>Judo<br>Kendo<br>Taekwondo<br>Mixed Martial Arts / MMA<br>Decathlon<br>Running<br>Archery<br>Swimming<br>Rowing<br>Kayak<br>Surf |
 | `:notagame` | Not a game | `>educational`<br>`>drawing`<br>`>popcorn`<br>`>purikura`<br>`>redemption`<br>`>media`<br>`>application`<br>`>test`<br>`>sdk`<br>`>slideshow`<br>`>sound` | Educational<br>Drawing<br>Popcorn<br>Photo stickers<br>Redemption<br>Media<br>Application<br>Test<br>Software Development Kit<br>Picture slideshow<br>Only sound |
 
 </details>
@@ -416,6 +416,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:mdmini` | SEGA MegaDrive Mini / SEGA Genesis Mini | `>1`<br>`>2` | SEGA MegaDrive Mini / SEGA Genesis Mini<br>SEGA MegaDrive Mini 2 / SEGA Genesis Mini 2 |
 | `:sfcmini` | Nintendo Super Famicom Classic Mini / スーパーファミコン クラシックミニ / Super Nintendo Entertainment System Classic Mini |  |  |
 | `:gamenokanzume` | Game no Kanzume / ゲームのかんづめ | `>1`<br>`>2` | Game no Kanzume Vol.1 / ゲームのかんづめ Vol.1<br>Game no Kanzume Vol.2 / ゲームのかんづめ Vol.2 |
+| `:fightnightround2` | Fight Night Round 2 (GameCube version) |  |  |
 
 </details>
 
@@ -428,6 +429,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:2` | Revision 2 |
 | `:3` | Revision 3 |
 | `:4` | Revision 4 |
+| `:5` | Revision 5 |
 | `:a` | Revision A |
 | `:b` | Revision B |
 | `:c` | Revision C |

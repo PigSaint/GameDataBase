@@ -234,6 +234,7 @@ genre:
         karate: "Karate"
         judo: "Judo"
         kendo: "Kendo"
+        taekwondo: "Taekwondo"
         mma: "Mixed Martial Arts / MMA"
         decathlon: "Decathlon"
         running: "Running"
@@ -1045,6 +1046,8 @@ rerelease:
       children:
         "1": "Game no Kanzume Vol.1 / ゲームのかんづめ Vol.1"
         "2": "Game no Kanzume Vol.2 / ゲームのかんづめ Vol.2"
+    fightnightround2:
+      description: "Fight Night Round 2 (GameCube version)"
 
 rev:
   description: "Revision"
@@ -1057,6 +1060,8 @@ rev:
       description: "Revision 3"
     "4":
       description: "Revision 4"
+    "5":
+      description: "Revision 5"
     a:
       description: "Revision A"
     b:
