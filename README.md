@@ -397,6 +397,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:castlevaniaadvance` | Castlevania Advance Collection |  |  |
 | `:contraanniversary` | Contra Anniversary Collection / 魂斗羅 Anniversary Collection |  |  |
 | `:cowabunga` | Teenage Mutant Ninja Turtles: The Cowabunga Collection |  |  |
+| `:konamicollectors` | Konami Collector's Series |  |  |
 | `:dariuscozmic` | Darius Cozmic Collection |  |  |
 | `:rockmanclassic` | Rockman Classic Collection / ロックマン クラシックス コレクション / Megaman Legacy Collection | `>1`<br>`>2`<br>`>x`<br>`>x2` | Rockman Classic Collection / ロックマン クラシックス コレクション / Megaman Legacy Collection<br>Rockman Classic Collection 2 / ロックマン クラシックス コレクション 2 / Megaman Legacy Collection 2<br>Rockman X Anniversary Collection / ロックマンX アニバーサリー コレクション / Megaman X Legacy Collection<br>Rockman X Anniversary Collection 2 / ロックマンX アニバーサリー コレクション 2 / Megaman X Legacy Collection 2 |
 | `:seikendensetsu` | Seiken Densetsu Collection / 聖剣伝説 Collection / Collection of Mana |  |  |

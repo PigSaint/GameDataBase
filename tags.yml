@@ -999,6 +999,8 @@ rerelease:
       description: "Contra Anniversary Collection / 魂斗羅 Anniversary Collection"
     cowabunga:
       description: "Teenage Mutant Ninja Turtles: The Cowabunga Collection"
+    konamicollectors:
+      description: "Konami Collector's Series"
     dariuscozmic:
       description: "Darius Cozmic Collection"
     rockmanclassic:
