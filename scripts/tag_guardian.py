@@ -162,11 +162,19 @@ def validate_tags(tags_str, tags_definitions):
 
 
 def validate_region(region_value):
-    """Validate if the region value is in REGION_LIST"""
+    """Validate if the region value (can be multiple separated by '/') is in REGION_LIST"""
+    import math
+    if region_value is None or (isinstance(region_value, str) and region_value.strip() == ""):
+        return False, "Region not defined"
+    # Detect pandas NaN
+    if (isinstance(region_value, float) and math.isnan(region_value)) or (isinstance(region_value, str) and region_value.lower() == "nan"):
+        return False, "Region not defined"
     if not isinstance(region_value, str):
-        return False, "Region value is not a string"
-    if region_value not in REGION_LIST:
-        return False, f"Region '{region_value}' is not in allowed REGION_LIST"
+        return False, f"Region value is not valid: {region_value}"
+    regions = [r.strip() for r in region_value.split('/')]
+    invalid_regions = [r for r in regions if r not in REGION_LIST]
+    if invalid_regions:
+        return False, f"Invalid region(s): {', '.join(invalid_regions)}. Allowed: {', '.join(REGION_LIST)}"
     return True, None
 
 
