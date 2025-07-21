@@ -310,13 +310,12 @@ def get_csv_files(root_dir: str, specified_files: list = None) -> list:
     """Get list of CSV files to process"""
     csv_files = []
 
-    # If no files specified, search recursively in all directories
+    # If no files specified, search csv's in the root folder
     if not specified_files:
-        for root, _, files in os.walk(root_dir):
-            # Skip scripts directory using platform-independent path split
-            if 'scripts' in root.split(os.path.sep):
-                continue
-            csv_files.extend(os.path.join(root, f) for f in files if f.endswith('.csv'))
+        for f in os.listdir(root_dir):
+            file_path = os.path.join(root_dir, f)
+            if os.path.isfile(file_path) and f.endswith('.csv'):
+                csv_files.append(file_path)
     else:
         csv_files = [os.path.abspath(f) for f in specified_files if f.endswith('.csv')]
 
