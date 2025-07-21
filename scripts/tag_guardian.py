@@ -11,6 +11,42 @@ from colorama import init, Fore, Style, AnsiToWin32
 # Initialize colorama for Windows support
 if platform.system() == 'Windows':
     init(wrap=False)
+
+# Allowed regions list (alphabetically sorted)
+REGION_LIST = [
+    "Argentina",
+    "Asia",
+    "Australia",
+    "Benelux",
+    "Belgium",
+    "Brazil",
+    "Canada",
+    "China",
+    "Denmark",
+    "Europa",
+    "Europe",
+    "France",
+    "Germany",
+    "Hispanic",
+    "Hong Kong",
+    "Italy",
+    "Japan",
+    "Mexico",
+    "Netherlands",
+    "Oceania",
+    "Portugal",
+    "Russia",
+    "Scandinavia",
+    "South Korea",
+    "Spain",
+    "Sweeden",
+    "Sweden",
+    "Taiwan",
+    "United Kingdom",
+    "Unknown",
+    "USA",
+    "World"
+]
     import sys
     sys.stdout = AnsiToWin32(sys.stdout)
 else:
@@ -118,10 +154,20 @@ def validate_tags(tags_str, tags_definitions):
     warnings += validate_genre_tags(tag_set)
     warnings += validate_status_and_version(tag_set, tags_definitions)
     warnings += validate_special_devices(tag_set)
+    warnings += validate_release_date_format(tag_set)
 
     tag_errors, valid_count, total_tags = validate_individual_tags(individual_tags, tags_definitions)
 
     return tag_errors, warnings, valid_count, total_tags
+
+
+def validate_region(region_value):
+    """Validate if the region value is in REGION_LIST"""
+    if not isinstance(region_value, str):
+        return False, "Region value is not a string"
+    if region_value not in REGION_LIST:
+        return False, f"Region '{region_value}' is not in allowed REGION_LIST"
+    return True, None
 
 
 def validate_essential_tags(tag_set):
@@ -219,6 +265,22 @@ def validate_special_devices(tag_set):
                 warnings.append(f"Game uses {device} but genre:{special_devices[device]} not specified")
     return warnings
 
+def validate_release_date_format(tag_set):
+    """Check for #release_date tag and validate its format YYYY-MM-DD and valid date values"""
+    warnings = []
+    import re
+    date_tags = [t for t in tag_set if t.startswith('#release_date:')]
+    date_pattern = re.compile(r'^#release_date:(\d{4})-(\d{2})-(\d{2})$')
+    for date_tag in date_tags:
+        match = date_pattern.match(date_tag)
+        if not match:
+            warnings.append(f"Release date tag '{date_tag}' must be in YYYY-MM-DD format.")
+            continue
+        year, month, day = map(int, match.groups())
+        if year < 1970 or not (1 <= month <= 12) or not (1 <= day <= 31):
+            warnings.append(f"Release date tag '{date_tag}' has invalid date values.")
+    return warnings
+
 
 def validate_individual_tags(individual_tags, tags_definitions):
     """Validate individual tags and count valid/total tags."""
@@ -301,6 +363,12 @@ def process_game_row(row: pd.Series, idx: int, file_path: str, tags_definitions:
 
     tags_str = row['Tags']
     tag_errors, warnings, valid_count, total_tags = validate_tags(tags_str, tags_definitions)
+
+    # Validate region from REGION_LIST list
+    region_value = row['Region'] if 'Region' in row else None
+    region_valid, region_msg = validate_region(region_value)
+    if not region_valid:
+        warnings.append(region_msg)
 
     # Ensure warnings are associated with the correct tag
     warning_details = []
