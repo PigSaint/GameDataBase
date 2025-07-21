@@ -11,6 +11,9 @@ from colorama import init, Fore, Style, AnsiToWin32
 # Initialize colorama for Windows support
 if platform.system() == 'Windows':
     init(wrap=False)
+    sys.stdout = AnsiToWin32(sys.stdout)
+else:
+    init()
 
 # Allowed regions list (alphabetically sorted)
 REGION_LIST = [
@@ -47,10 +50,7 @@ REGION_LIST = [
     "USA",
     "World"
 ]
-    import sys
-    sys.stdout = AnsiToWin32(sys.stdout)
-else:
-    init()
+
 
 # Simplified argument processing
 parser = argparse.ArgumentParser(description='Tag Guardian - Validate game tags in CSV files')
