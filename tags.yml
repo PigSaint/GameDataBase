@@ -300,6 +300,7 @@ addon:
         horitrack: "Hori Track / ホリトラック"
         uforce: "Brøderbund UForce"
         smash: "Realtec Smash Controller"
+        computrainer: "RacerMate CompuTrainer / RacerMate CompuTrainer Pro"
         lifefitness: "Life Fitness Exertainment System"
         taptapmat: "IGS Tap-Tap Mat + Tonkachi / タップタップマット + トンカチ"
         teevgolf: "Sports Sciences TeeVGolf"
@@ -1023,6 +1024,10 @@ rerelease:
       description: "Limited Run Games"
     iam8bit:
       description: "iam8bit"
+    evercade:
+      description: "Blaze Evercade"
+      children:
+        olivertwins: "The Oliver Twins Collection"
     steam:
       description: "Steam"
     sonicclassic:
