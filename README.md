@@ -216,6 +216,7 @@ The `>` level only applies to its immediate `:` subtag.
 |-------------|-------------|----------|--------------------|
 | `:sg1000` | SEGA SG-1000 | `>sc3000`<br>`>othello` | SEGA SC-3000<br>Othello Multivision |
 | `:mark3` | SEGA Mark III / master System | `>mycard`<br>`>epmycard`<br>`>thesegacard`<br>`>themegacartridge`<br>`>silvercartridge`<br>`>goldcartridge1`<br>`>goldcartridge2`<br>`>goldcartridge4` | SEGA My Card<br>SEGA EP My Card<br>The SEGA Card<br>The Mega Cartridge (Japan)<br>Silver Cartridge<br>Gold Cartridge (1 mega)<br>Gold Cartridge (2 mega)<br>Gold Cartridge (4 mega) |
+| `:famicom` | Family Computer / NES | `>pegasus` | Pegasus Computer Family Game |
 | `:disksystem` | Famicom Disk System | `>dw` | Disk Writer |
 | `:gameboy` | Nintendo GameBoy | `>mono`<br>`>color`<br>`>sgb`<br>`>np` | Monochrome<br>Color<br>Super GameBoy<br>Nintendo Power / ニンテンドウパワー / GB Memory Cartridge / GBメモリカートリッジ |
 | `:superfamicom` | Nintendo Super Famicom / Super Nintendo Entertainment System / SNES | `>hirom`<br>`>lorom`<br>`>exhirom`<br>`>exlorom`<br>`>nss`<br>`>soundlink`<br>`>np`<br>`>gs` | HiROM<br>LoROM<br>Extended HiROM<br>Extended LoRom<br>Nintendo Super System / NSS<br>SoundLink / サウンドリンクゲーム / VoiceLink / 音声連動ゲーム<br>Nintendo Power / ニンテンドウパワー / SF Memory Cassette / SFメモリカセット<br>Nintendo Gateway System |
@@ -325,6 +326,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:dragon32` | Dragon 32 |  |  |
 | `:elektronika60` | Elektronika 60 / Электроника 60 |  |  |
 | `:spectrum` | Sinclair ZX Spectrum |  |  |
+| `:amstrad` | Amstrad CPC |  |  |
 | `:atari` | Atari | `>atari400`<br>`>atarist`<br>`>atari2600`<br>`>lynx` | Atari 400<br>Atari ST<br>Atari 2600<br>Lynx |
 | `:nec` | NEC / Nippon Electric Company | `>pc88`<br>`>pc98`<br>`>pcengine`<br>`>cdromrom` | PC-8801<br>PC-9801<br>PC Engine / PCエンジン / TurboGrafx / TurboGrafx-16<br>CD-ROM² / シーディーロムロム / TurboGrafx-CD |
 | `:msx` | MSX | `>2` | MSX2 |
@@ -358,6 +360,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:cs` | Czech / Čeština |
 | `:sl` | Slovenian / Slovenščina |
 | `:ru` | Russian / Русский |
+| `:pl` | Polish / По́льский |
 | `:ja` | Japanese / 日本語 |
 | `:zh` | Simplified Chinese / 汉语 |
 | `:ch` | Chinese / 漢語 |
@@ -405,6 +408,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:bubsytwofur` | Bubsy Two-Fur |  |  |
 | `:blizzardarcadecollection` | Blizzard Arcade Collection |  |  |
 | `:qubyte` | QUByte Classics |  |  |
+| `:projectegg` | Project EGG |  |  |
 | `:limitedrun` | Limited Run Games |  |  |
 | `:iam8bit` | iam8bit |  |  |
 | `:evercade` | Blaze Evercade | `>olivertwins` | The Oliver Twins Collection |

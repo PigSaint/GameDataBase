@@ -627,6 +627,10 @@ compatibility:
         goldcartridge1: "Gold Cartridge (1 mega)"
         goldcartridge2: "Gold Cartridge (2 mega)"
         goldcartridge4: "Gold Cartridge (4 mega)"
+    famicom:
+      description: "Family Computer / NES"
+      children:
+        pegasus: "Pegasus Computer Family Game"
     disksystem:
       description: "Famicom Disk System"
       children:
@@ -834,6 +838,8 @@ port:
       description: "Elektronika 60 / Электроника 60"
     spectrum:
       description: "Sinclair ZX Spectrum"
+    amstrad:
+      description: "Amstrad CPC"
     atari:
       description: "Atari"
       children:
@@ -920,6 +926,8 @@ lang:
       description: "Slovenian / Slovenščina"
     ru:
       description: "Russian / Русский"
+    pl:
+      description: "Polish / По́льский"
     ja:
       description: "Japanese / 日本語"
     zh:
@@ -1011,7 +1019,8 @@ rerelease:
         "2": "Rockman Classic Collection 2 / ロックマン クラシックス コレクション 2 / Megaman Legacy Collection 2"
         "x": "Rockman X Anniversary Collection / ロックマンX アニバーサリー コレクション / Megaman X Legacy Collection"
         "x2": "Rockman X Anniversary Collection 2 / ロックマンX アニバーサリー コレクション 2 / Megaman X Legacy Collection 2"
-    seikendensetsu: "Seiken Densetsu Collection / 聖剣伝説 Collection / Collection of Mana"
+    seikendensetsu:
+      description: "Seiken Densetsu Collection / 聖剣伝説 Collection / Collection of Mana"
     disneyclassic:
       description: "Disney Classic Games Collection"
     bubsytwofur:
@@ -1020,6 +1029,8 @@ rerelease:
       description: "Blizzard Arcade Collection"
     qubyte:
       description: "QUByte Classics"
+    projectegg:
+      description: "Project EGG"
     limitedrun:
       description: "Limited Run Games"
     iam8bit:
