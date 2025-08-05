@@ -213,9 +213,29 @@ def validate_special_devices(tag_set):
     }
     addon_tags = [t for t in tag_set if t.startswith('#addon:')]
     genre_tags = [t for t in tag_set if t.startswith('#genre:')]
+
+    # Exception genres (can be present as any subtag in #genre)
+    exception_genres = {
+        'notagame>test',
+        'puzzle'
+    }
+
+    def genre_has_exception(genre_tag):
+        # Remove "#genre:" and split by ":"
+        subtags = genre_tag[len('#genre:'):].split(':')
+        # Check for any exception in subtags (including >)
+        for subtag in subtags:
+            for exc in exception_genres:
+                if exc in subtag:
+                    return True
+        return False
+
     for device in special_devices.keys():
         if any(device in t for t in addon_tags):
-            if not any(special_devices[device] in t for t in genre_tags):
+            # If any genre tag contains an exception, skip warning
+            if any(genre_has_exception(g) for g in genre_tags):
+                continue
+            if not any(special_devices[device] in g for g in genre_tags):
                 warnings.append(f"Game uses {device} but genre:{special_devices[device]} not specified")
     return warnings
 
