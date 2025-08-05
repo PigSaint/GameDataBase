@@ -11,10 +11,44 @@ from colorama import init, Fore, Style, AnsiToWin32
 # Initialize colorama for Windows support
 if platform.system() == 'Windows':
     init(wrap=False)
-    import sys
     sys.stdout = AnsiToWin32(sys.stdout)
 else:
     init()
+
+# Allowed regions list (alphabetically sorted)
+REGION_LIST = [
+    "Argentina",
+    "Asia",
+    "Australia",
+    "Benelux",
+    "Belgium",
+    "Brazil",
+    "Canada",
+    "China",
+    "Denmark",
+    "Europe",
+    "France",
+    "Germany",
+    "Hispanic",
+    "Hong Kong",
+    "Italy",
+    "Japan",
+    "Mexico",
+    "Netherlands",
+    "Oceania",
+    "Portugal",
+    "Russia",
+    "Scandinavia",
+    "South Korea",
+    "Spain",
+    "Sweden",
+    "Taiwan",
+    "United Kingdom",
+    "Unknown",
+    "USA",
+    "World"
+]
+
 
 # Simplified argument processing
 parser = argparse.ArgumentParser(description='Tag Guardian - Validate game tags in CSV files')
@@ -118,10 +152,28 @@ def validate_tags(tags_str, tags_definitions):
     warnings += validate_genre_tags(tag_set)
     warnings += validate_status_and_version(tag_set, tags_definitions)
     warnings += validate_special_devices(tag_set)
+    warnings += validate_release_date_format(tag_set)
 
     tag_errors, valid_count, total_tags = validate_individual_tags(individual_tags, tags_definitions)
 
     return tag_errors, warnings, valid_count, total_tags
+
+
+def validate_region(region_value):
+    """Validate if the region value (can be multiple separated by '/') is in REGION_LIST"""
+    import math
+    if region_value is None or (isinstance(region_value, str) and region_value.strip() == ""):
+        return False, "Region not defined"
+    # Detect pandas NaN
+    if (isinstance(region_value, float) and math.isnan(region_value)) or (isinstance(region_value, str) and region_value.lower() == "nan"):
+        return False, "Region not defined"
+    if not isinstance(region_value, str):
+        return False, f"Region value is not valid: {region_value}"
+    regions = [r.strip() for r in region_value.split('/')]
+    invalid_regions = [r for r in regions if r not in REGION_LIST]
+    if invalid_regions:
+        return False, f"Invalid region(s): {', '.join(invalid_regions)}. Allowed: {', '.join(REGION_LIST)}"
+    return True, None
 
 
 def validate_essential_tags(tag_set):
@@ -239,6 +291,22 @@ def validate_special_devices(tag_set):
                 warnings.append(f"Game uses {device} but genre:{special_devices[device]} not specified")
     return warnings
 
+def validate_release_date_format(tag_set):
+    """Check for #release_date tag and validate its format YYYY-MM-DD and valid date values"""
+    warnings = []
+    import re
+    date_tags = [t for t in tag_set if t.startswith('#release_date:')]
+    date_pattern = re.compile(r'^#release_date:(\d{4})-(\d{2})-(\d{2})$')
+    for date_tag in date_tags:
+        match = date_pattern.match(date_tag)
+        if not match:
+            warnings.append(f"Release date tag '{date_tag}' must be in YYYY-MM-DD format.")
+            continue
+        year, month, day = map(int, match.groups())
+        if year < 1970 or not (1 <= month <= 12) or not (1 <= day <= 31):
+            warnings.append(f"Release date tag '{date_tag}' has invalid date values.")
+    return warnings
+
 
 def validate_individual_tags(individual_tags, tags_definitions):
     """Validate individual tags and count valid/total tags."""
@@ -260,13 +328,12 @@ def get_csv_files(root_dir: str, specified_files: list = None) -> list:
     """Get list of CSV files to process"""
     csv_files = []
 
-    # If no files specified, search recursively in all directories
+    # If no files specified, search csv's in the root folder
     if not specified_files:
-        for root, _, files in os.walk(root_dir):
-            # Skip scripts directory using platform-independent path split
-            if 'scripts' in root.split(os.path.sep):
-                continue
-            csv_files.extend(os.path.join(root, f) for f in files if f.endswith('.csv'))
+        for f in os.listdir(root_dir):
+            file_path = os.path.join(root_dir, f)
+            if os.path.isfile(file_path) and f.endswith('.csv'):
+                csv_files.append(file_path)
     else:
         csv_files = [os.path.abspath(f) for f in specified_files if f.endswith('.csv')]
 
@@ -321,6 +388,12 @@ def process_game_row(row: pd.Series, idx: int, file_path: str, tags_definitions:
 
     tags_str = row['Tags']
     tag_errors, warnings, valid_count, total_tags = validate_tags(tags_str, tags_definitions)
+
+    # Validate region from REGION_LIST list
+    region_value = row['Region'] if 'Region' in row else None
+    region_valid, region_msg = validate_region(region_value)
+    if not region_valid:
+        warnings.append(region_msg)
 
     # Ensure warnings are associated with the correct tag
     warning_details = []
