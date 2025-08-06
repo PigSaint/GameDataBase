@@ -145,6 +145,46 @@ def validate_tags(tags_str, tags_definitions):
     individual_tags = [t.strip() for t in tags_str.split() if t.strip()]
     tag_set = set(individual_tags)
 
+    # Validation for repeated tags of the same category/subcategory
+    repeated_tag_errors = []
+    tag_map = {}
+    tag_children_map = {}
+    for tag in individual_tags:
+        if not tag.startswith('#'):
+            continue
+        tag_body = tag[1:]
+        if ':' in tag_body:
+            main_cat, rest = tag_body.split(':', 1)
+            subcat = rest.split('>')[0]
+            children = rest.split('>')[1:] if '>' in rest else []
+            key = (main_cat, subcat)
+            if key not in tag_map:
+                tag_map[key] = []
+                tag_children_map[key] = set()
+            tag_map[key].append(tag)
+            tag_children_map[key].update(children)
+    for key, tags in tag_map.items():
+        if len(tags) > 1:
+            # Suggest the correct tag by merging children
+            main_cat, subcat = key
+            children = list(tag_children_map[key])
+            # Keep the order of appearance of the children
+            ordered_children = []
+            for tag in tags:
+                tag_body = tag[1:]
+                rest = tag_body.split(':', 1)[1]
+                tag_children = rest.split('>')[1:] if '>' in rest else []
+                for c in tag_children:
+                    if c not in ordered_children:
+                        ordered_children.append(c)
+            suggested_tag = f"#{main_cat}:{subcat}"
+            if ordered_children:
+                suggested_tag += '>' + '>'.join(ordered_children)
+            repeated_tag_errors.append((
+                ' '.join(tags),
+                [(f"Repeated tags for category '{main_cat}' and subcategory '{subcat}'. Use a single tag with children joined by '>'.\nSuggested tag: {suggested_tag}", None)]
+            ))
+
     warnings = validate_essential_tags(tag_set)
     warnings += validate_language_and_region(tag_set)
     warnings += validate_hardware_dependencies(tag_set)
@@ -155,6 +195,8 @@ def validate_tags(tags_str, tags_definitions):
     warnings += validate_release_date_format(tag_set)
 
     tag_errors, valid_count, total_tags = validate_individual_tags(individual_tags, tags_definitions)
+    # Add repetition errors
+    tag_errors = repeated_tag_errors + tag_errors
 
     return tag_errors, warnings, valid_count, total_tags
 
@@ -875,7 +917,21 @@ def write_grouped_errors(report_file, grouped_errors):
     for (row, game), error_group in grouped_errors.items():
         if error_group['tags']:
             tags = '<br>'.join(error_group['tags'])
-            messages = '<br>'.join(error_group['messages'])
+            # Process messages for the repeated tags case
+            formatted_messages = []
+            for msg in error_group['messages']:
+                # Detect repeated tag message and extract suggestion
+                if "Repeated tags for category" in msg and "Suggested tag:" in msg:
+                    # Split error message and suggestion
+                    parts = msg.split("Suggested tag:")
+                    error_type = parts[0].strip()
+                    suggested_tag = parts[1].strip() if len(parts) > 1 else ""
+                    # Format as requested
+                    formatted = f"{error_type}<br>**Suggested tag:**<br>`{suggested_tag}`"
+                    formatted_messages.append(formatted)
+                else:
+                    formatted_messages.append(msg)
+            messages = '<br>'.join(formatted_messages)
             report_file.write(f"| {row} | {game} | {tags} | {messages} |\n")
 
 def write_warning_section(report_file, warnings, file_results):
