@@ -154,7 +154,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:online` | Online based accessory | `>megamodem`<br>`>megaanser`<br>`>toshokan`<br>`>segachannel`<br>`>xband`<br>`>meganet`<br>`>teleplay`<br>`>networksystem`<br>`>ndm24`<br>`>satellaview`<br>`>randnetmodem` | SEGA Mega Modem / メガモデム<br>SEGA Mega Anser / メガアンサー<br>SEGA Game Toshokan / ゲーム図書館<br>SEGA Channel / セガチャンネル<br>Catapult XB∀ND<br>Tec Toy MegaNet<br>Baton Teleplay System<br>Nintendo Family Computer Network System / ファミリーコンピュータ ネットワークシステム<br>NTT Data Tsūshin Modem NDM24 / 通信モデムNDM24<br>Nintendo SatellaView / サテラビュー<br>Randnet Modem / ランドネット |
 | `:vibration` | Vibration | `>rumblepak` | Nintendo Shindō Pak / 振動パック / Rumble Pak |
 | `:glasses` | Glasses | `>3dglasses`<br>`>segavr`<br>`>3dsystem`<br>`>3dgoggle` | SEGA 3-D Glasses / セガ3-Dグラス<br>SEGA VR Headset<br>Nintendo Famicom 3D System / ファミコン3Dシステム<br>Pioneer LaserActive 3D Goggle / 3D ゴーグル / 3-D Goggles |
-| `:mic` | Microphone | `>n64`<br>`>vrs` | Nintendo 64 Mic<br>VRS / Onseininshiki System / 音声認識システム / Voice Recognition Unit |
+| `:mic` | Microphone | `>fc`<br>`>n64`<br>`>vrs` | Hicom Mic<br>Nintendo 64 Mic<br>VRS / Onseininshiki System / 音声認識システム / Voice Recognition Unit |
 | `:drawing` | Drawing board | `>graphicboard`<br>`>illustbooster`<br>`>oekakids` | SEGA Graphic Board<br>NEC Illust Booster<br>Bandai Oekakids / おえかキッズ |
 | `:health` | Health monitoring | `>catalyst`<br>`>biosensor` | HeartBeat Catalyst<br>SETA Bio Sensor |
 | `:midi` | MIDI Keyboard | `>miracle`<br>`>pianokeyboard` | The Miracle MIDI Keyboard<br>Konami MIDI Keyboard |
