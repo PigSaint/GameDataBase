@@ -420,6 +420,7 @@ addon:
     mic:
       description: "Microphone"
       children:
+        fc: "Hicom Mic"
         n64: "Nintendo 64 Mic"
         vrs: "VRS / Onseininshiki System / 音声認識システム / Voice Recognition Unit"
     drawing:
