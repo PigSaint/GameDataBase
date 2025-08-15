@@ -883,7 +883,7 @@ port:
         pc98: "PC-9801"
         pcengine: "PC Engine / PCエンジン / TurboGrafx / TurboGrafx-16"
         cdromrom: "CD-ROM² / シーディーロムロム / TurboGrafx-CD"
-        pcfx: "PC-FX
+        pcfx: "PC-FX"
     msx:
       description: "MSX"
       children:
