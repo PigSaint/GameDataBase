@@ -280,10 +280,15 @@ addon:
         sportspad: "SEGA Sports Pad"
         6button: "SEGA Six Button Control Pad"
         activator: "SEGA Activator"
+        3dpad: "SEGA Multi Controller / セガマルチコントローラー / 3D Control Pad"
+        missionstick: "SEGA Analog Controller Mission Stick / アナログコントローラー ミッションスティック / Mission Stick"
+        twinstick: "SEGA Saturn Twin Stick / セガサターン ツインスティック"
+        arcaderacer: "SEGA Saturn Racing Controller / セガサターン レーシングコントローラー / Arcade Racer"
         xe1ap: "Dempa Micomsoft XE-1 AP"
         avenuepad3: "NEC Avenue Pad 3"
         avenuepad6: "NEC Avenue Pad 6"
         10key: "NEC 10 Key Controller Pad"
+        sbom: "Hudson SBom Joycard / エスボン ジョイカード"
         arkanoid: "Taito Arkanoid controller"
         familytrainera: "Bandai Family Trainer Mat A / ファミリートレーナー マットA / Power Pad Side A / Family Fun Fitness A"
         familytrainerb: "Bandai Family Trainer Mat B / ファミリートレーナー マットB / Power Pad Side B / Family Fun Fitness B"
@@ -297,9 +302,11 @@ addon:
         pachinko: "Coconuts Pachinko Controller / パチンココントローラー"
         hissatsupachinko: "Sunsoft Hissatsu Pachinko Controller / 必殺パチンココントローラー"
         pashislot: "Sammy Jissen! PachiSlo Controller / 実戦! パチスロ コントローラー"
+        sankyoff: "TEN Kenkyūjo Sankyo FF / SegaSaturn用パチンコハンドル型コントローラー"
         horitrack: "Hori Track / ホリトラック"
         uforce: "Brøderbund UForce"
         smash: "Realtec Smash Controller"
+        denshadego: "Takara Densha de Go! Controller / 電車でGO!コントローラ"
         computrainer: "RacerMate CompuTrainer / RacerMate CompuTrainer Pro"
         lifefitness: "Life Fitness Exertainment System"
         taptapmat: "IGS Tap-Tap Mat + Tonkachi / タップタップマット + トンカチ"
@@ -314,6 +321,7 @@ addon:
       children:
         lightphaser: "SEGA Light Phaser"
         menacer: "SEGA Menacer"
+        virtuagun: "SEGA Virtua Gun / バーチャガン"
         zapper: "Nintendo Zapper"
         superscope: "Nintendo Super Scope"
         justifier: "Konami The Justifier / サ・ジャスティファイアー"
@@ -325,6 +333,7 @@ addon:
       description: "Mouse"
       children:
         md: "SEGA Mouse"
+        saturn: "SEGA Saturn Shuttle Mouse / セガサターン シャトルマウス"
         sfc: "Nintendo Super Famicom Mouse / スーパーファミコンマウス / Super NES Mouse"
         pce: "NEC PC Engine Mouse"
         pcfx: "NEC PC-FX Mouse"
@@ -332,6 +341,7 @@ addon:
     keyboard:
       description: "Typing keyboard"
       children:
+        saturn: "SEGA Saturn Keyboard"
         fc: "Famicom Keyboard"
         n64: "Nintendo 64 Keyboard"
         workboy: "Fabtek WorkBoy"
@@ -339,6 +349,7 @@ addon:
       description: "Multitap for adding more controllers to the same system"
       children:
         segatap: "SEGA Tap / Multiplayer / Team Player / セガタップ"
+        6player: "SEGA Saturn 6 Player Adaptor Multi Terminal 6 / セガサターン6プレイヤーアダプタ マルチターミナル6 / 6Player / 6-Player Adaptor / Hudson SBom Multitap / エスボン　マルチタップ"
         4playersadaptor: "Hori 4 Player Adaptor / Nintendo Four Score"
         super: "Hudson Super Multitap"
         pce: "Hudson Multitap / NEC TurboTap"
@@ -347,6 +358,7 @@ addon:
       description: "Hardware for interconnecting systems"
       children:
         taisencable: "SEGA Game Gear Taisen Cable / Gear-to-Gear Cable"
+        taisensaturn: "SEGA Saturn Taisen Cable / セガサターン 対戦ケーブル"
         gamelinkcable: "Nintendo Tsūshin Cable / Game Link Cable"
         fourplayeradapter: "Nintendo Four Player Adapter"
         comcable: "NEC COM Cable / TurboExpress"
@@ -357,10 +369,15 @@ addon:
         senyoucord: "Epoch Sen'yō Setsuzoku Cord / 専用接続コード"
         bb2interface: "Epoch Barcode Battler II Interface / BBII Interface / バーコードバトラーIIインターフェース"
         voicerkun: "Koei Voicer-kun / ボイサーくん"
+        midiinterface: "Waka MIDI Interface"
     expansion:
       description: "Additional hardware for expansing system capabilities"
       children:
         fmsoundunit: "SEGA FM Sound Unit / FMサウンドユニット"
+        romcartridge: "SEGA Twin Advanced ROM System / S.T.A.R.S / Sen'yō ROM Cartridge / 専用ROMカートリッジ"
+        ramcartridge1m: "SEGA Kakuchō RAM Cartridge / 拡張ラムカートリッジ"
+        ramcartridge4m: "SEGA Kakuchō RAM Cartridge 4MB / 拡張ラムカートリッジ4MB"
+        moviecard: "SEGA Movie Card / ムービーカード / Video CD Card"
         memorypak: "Nintendo Satellaview 8M Memory Pak / サテラビュー 8Mメモルーパック"
         samegame: "Hudson SameGame Cassette / 鮫亀カセット"
         expansionpak: "Nintendo Memory Kakuchō Pak / メモリー拡張パック / Expansion Pak"
@@ -384,7 +401,9 @@ addon:
     backup:
       description: "Back-up based accessory for saving progress"
       children:
-        backupramcart: "Mega-CD Back Up RAM Cartridge / バックアップRAMカートリッジ"
+        backupramcart: "SEGA Mega-CD Back Up RAM Cartridge / バックアップRAMカートリッジ"
+        powermemory: "SEGA Saturn Gaibu Back-Up RAM Power Memory / セガサターン科外部バックアップRAM パワーメモリー / BackUp RAM Cartridge / BackUp Memory"
+        fddsaturn: "SEGA Saturn Floppy Disc Drive / SegaSaturn FDD / セガサターン　フロッピーディスクドライブ"
         controllerpak: "Nintendo Controller Pak / コントローラパック"
         smartmediacard: "Hagiwara Syscom SmartMedia Card"
         datarecorder: "Panasonic Famicom Data Recorder / データレコーダ"
@@ -399,6 +418,8 @@ addon:
         megaanser: "SEGA Mega Anser / メガアンサー"
         toshokan: "SEGA Game Toshokan / ゲーム図書館"
         segachannel: "SEGA Channel / セガチャンネル"
+        saturnmodem: "SEGA Saturn Modem / セガサターン モデム"
+        netlink: "SEGA Saturn NetLink modem"
         xband: "Catapult XB∀ND"
         meganet: "Tec Toy MegaNet"
         teleplay: "Baton Teleplay System"
@@ -773,6 +794,10 @@ reboxed:
       description: "SEGA Classic"
     kixxedition:
       description: "Kixx Edition"
+    satakore:
+      description: "SEGA Saturn Collection / Satakore / サタコレ"
+    genteiban:
+      description: "Genteiban / 限定版"
     megadrive3:
       description: "Tec Toy MegaDrive 3"
     megadrive4:
@@ -793,6 +818,8 @@ reboxed:
       description: "Console Classics"
     videogameclassics:
       description: "Accolade Video Game Classics"
+    koeibest:
+      description: "Koei Best Collection / Koei Best コレクション"
     gamenokanzume:
       description: "Game no Kanzume Otokuyō / ゲームのかんづめ お徳用"
     soundware:
@@ -848,6 +875,7 @@ port:
         atarist: "Atari ST"
         atari2600: "Atari 2600"
         lynx: "Lynx"
+        jaguar: "Jaguar"
     nec:
       description: "NEC / Nippon Electric Company"
       children:
@@ -855,6 +883,7 @@ port:
         pc98: "PC-9801"
         pcengine: "PC Engine / PCエンジン / TurboGrafx / TurboGrafx-16"
         cdromrom: "CD-ROM² / シーディーロムロム / TurboGrafx-CD"
+        pcfx: "PC-FX
     msx:
       description: "MSX"
       children:
