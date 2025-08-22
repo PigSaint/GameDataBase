@@ -312,6 +312,7 @@ addon:
         taptapmat: "IGS Tap-Tap Mat + Tonkachi / タップタップマット + トンカチ"
         teevgolf: "Sports Sciences TeeVGolf"
         lasabirdie: "Ricoh Lasabirdie / レーザーバーディー"
+        gripx: "ASCII Grip X / アスキーグリップX"
         tsurikon64: "ASCII Tsurikon 64 / つりコン64"
         partytap: "PR21 Party Tap"
         climberstick: "Nichibutsu Climber Stick / クライマー・スティック"
@@ -321,7 +322,7 @@ addon:
       children:
         lightphaser: "SEGA Light Phaser"
         menacer: "SEGA Menacer"
-        virtuagun: "SEGA Virtua Gun / バーチャガン"
+        virtuagun: "SEGA Virtua Gun / バーチャガン / Stunner"
         zapper: "Nintendo Zapper"
         superscope: "Nintendo Super Scope"
         justifier: "Konami The Justifier / サ・ジャスティファイアー"
@@ -920,6 +921,8 @@ port:
         playstation: "PlayStation / プレイステーション"
     3do:
       description: "Panasonic 3DO / スリーディーオー"
+    cdi:
+      description: "Philips CD-i"
     laseractive:
       description: "Pioneer LaserActive / レーザーアクティブ"
     fmtowns:
