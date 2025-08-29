@@ -76,6 +76,8 @@ players:
       description: "5 players"
     "6":
       description: "6 players"
+    "7":
+      description: "7 players"
     "8":
       description: "8 players"
     "9":
@@ -84,6 +86,8 @@ players:
       description: "10 players"
     "12":
       description: "12 players"
+    mmo:
+      description: "MMO / Massively Multiplayer Online"
     vs:
       description: "Versus"
     coop:
@@ -158,6 +162,7 @@ genre:
         j: "JRPG"
         s: "SRPG / Tactics RPG"
         dungeoncrawler: "Dungeon crawler"
+        mmo: "MMO / Massively Multiplayer Online"
     rhythm:
       description: "Rhythm"
       children:
@@ -254,6 +259,7 @@ genre:
         purikura: "Photo stickers"
         redemption: "Redemption"
         media: "Media"
+        magazine: "Magazine"
         application: "Application"
         test: "Test"
         sdk: "Software Development Kit"
