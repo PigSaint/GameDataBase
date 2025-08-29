@@ -101,10 +101,12 @@ The `>` level only applies to its immediate `:` subtag.
 | `:4` | 4 players |
 | `:5` | 5 players |
 | `:6` | 6 players |
+| `:7` | 7 players |
 | `:8` | 8 players |
 | `:9` | 9 players |
 | `:10` | 10 players |
 | `:12` | 12 players |
+| `:mmo` | MMO / Massively Multiplayer Online |
 | `:vs` | Versus |
 | `:coop` | Cooperative |
 | `:alt` | Alternating |
@@ -125,14 +127,14 @@ The `>` level only applies to its immediate `:` subtag.
 | `:parlor` | Classic analogic arcade games | `>pinball`<br>`>jackpot`<br>`>pachinko`<br>`>darts`<br>`>bowling`<br>`>billiards`<br>`>mogurataiji`<br>`>kiddieride`<br>`>mechanical` | Pinball<br>Jackpot<br>Pachinko<br>Darts<br>Bowling<br>Billiards<br>Whac-A-Mole<br>Kiddie ride<br>Mechanical |
 | `:quiz` | Quiz |  |  |
 | `:racing` | Racing | `>combat`<br>`>driving` | Combat racing<br>Non-competition driving |
-| `:rpg` | Role-Playing Game | `>a`<br>`>j`<br>`>s`<br>`>dungeoncrawler` | ARPG / Action RPG<br>JRPG<br>SRPG / Tactics RPG<br>Dungeon crawler |
+| `:rpg` | Role-Playing Game | `>a`<br>`>j`<br>`>s`<br>`>dungeoncrawler`<br>`>mmo` | ARPG / Action RPG<br>JRPG<br>SRPG / Tactics RPG<br>Dungeon crawler<br>MMO / Massively Multiplayer Online |
 | `:rhythm` | Rhythm | `>karaoke`<br>`>dance` | Karaoke<br>Dance |
 | `:shmup` | Shoot'em up | `>h`<br>`>v`<br>`>i`<br>`>danmaku` | Horizontal<br>Vertical<br>Isometric<br>Bullet hell |
 | `:shooting` | Aim-based shooting games | `>gallery`<br>`>rail`<br>`>fps`<br>`>tps` | Shooting gallery<br>Rail shooter<br>FPS / First person Shooter<br>TPS / Third person shooter |
 | `:puzzle` | Puzzle | `>drop`<br>`>mind` | Drop pieces puzzle<br>Mind game |
 | `:sim` | Simulation | `>strategy`<br>`>cardgame`<br>`>flight`<br>`>train`<br>`>date`<br>`>otome`<br>`>life`<br>`>farm`<br>`>pet`<br>`>fishing`<br>`>god`<br>`>derby`<br>`>building`<br>`>cooking` | Strategy<br>Card game<br>Flight simulator<br>Train simulator<br>Date simulator<br>Otome game / 乙女ゲーム<br>Life simulator<br>Farm simulator<br>Pet simulator<br>Fishing<br>God simulator<br>Derby horse ride<br>Building<br>Cooking |
 | `:sports` | Sports | `>soccer`<br>`>basketball`<br>`>baseball`<br>`>volleyball`<br>`>rugby`<br>`>football`<br>`>dodgeball`<br>`>hockey`<br>`>skiing`<br>`>skateboarding`<br>`>snowboarding`<br>`>tennis`<br>`>pingpong`<br>`>paddle`<br>`>squash`<br>`>badminton`<br>`>flyingdisc`<br>`>cycling`<br>`>formula1`<br>`>rally`<br>`>nascar`<br>`>motogp`<br>`>motocross`<br>`>karting`<br>`>jetski`<br>`>golf`<br>`>cricket`<br>`>boxing`<br>`>kickboxing`<br>`>wrestling`<br>`>sumo`<br>`>karate`<br>`>judo`<br>`>kendo`<br>`>taekwondo`<br>`>mma`<br>`>decathlon`<br>`>running`<br>`>archery`<br>`>swimming`<br>`>rowing`<br>`>kayak`<br>`>surf` | Soccer<br>Basketball<br>Baseball<br>Volleyball<br>Rugby<br>American football<br>Dodgeball<br>Ice hockey<br>Skiing<br>Skateboarding<br>Snowboarding<br>Tennis<br>Table tennis<br>Paddle<br>Squash<br>Badminton<br>Flying disc / Frisbee<br>Cycling<br>Formula 1<br>Rally<br>NASCAR<br>Moto GP<br>Motocross<br>Karting<br>Jet ski / PWC<br>Golf<br>Cricket<br>Boxing<br>Kickboxing<br>Wrestling<br>Sumo<br>Karate<br>Judo<br>Kendo<br>Taekwondo<br>Mixed Martial Arts / MMA<br>Decathlon<br>Running<br>Archery<br>Swimming<br>Rowing<br>Kayak<br>Surf |
-| `:notagame` | Not a game | `>educational`<br>`>drawing`<br>`>popcorn`<br>`>purikura`<br>`>redemption`<br>`>media`<br>`>application`<br>`>test`<br>`>sdk`<br>`>slideshow`<br>`>sound` | Educational<br>Drawing<br>Popcorn<br>Photo stickers<br>Redemption<br>Media<br>Application<br>Test<br>Software Development Kit<br>Picture slideshow<br>Only sound |
+| `:notagame` | Not a game | `>educational`<br>`>drawing`<br>`>popcorn`<br>`>purikura`<br>`>redemption`<br>`>media`<br>`>magazine`<br>`>application`<br>`>test`<br>`>sdk`<br>`>slideshow`<br>`>sound` | Educational<br>Drawing<br>Popcorn<br>Photo stickers<br>Redemption<br>Media<br>Magazine<br>Application<br>Test<br>Software Development Kit<br>Picture slideshow<br>Only sound |
 
 </details>
 
