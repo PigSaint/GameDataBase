@@ -120,7 +120,7 @@ The `>` level only applies to its immediate `:` subtag.
 |-------------|-------------|----------|--------------------|
 | `:action` | Action | `>platformer`<br>`>maze`<br>`>blockbreaker`<br>`>runandgun`<br>`>hackandslash`<br>`>metroidvania`<br>`>roguelite` | Platformer<br>Maze<br>Block breaker<br>Run and gun<br>Hack and slash<br>Metroidvania<br>Roguelite |
 | `:adventure` | Adventure | `>pointandclick`<br>`>visualnovel`<br>`>survivalhorror`<br>`>text` | Point and click<br>Visual novel<br>Survival horror<br>Text |
-| `:board` | Classic analogic board game | `>cards`<br>`>hanafuda`<br>`>chess`<br>`>shougi`<br>`>go`<br>`>mahjong`<br>`>reversi`<br>`>othello`<br>`>party`<br>`>jankenpon` | Classic cards<br>Hanafuda<br>Chess<br>Shōgi<br>Go<br>Mahjong<br>Reversi<br>Othello<br>Party<br>Rock paper scissors |
+| `:board` | Classic analogic board game | `>cards`<br>`>hanafuda`<br>`>chess`<br>`>shougi`<br>`>go`<br>`>mahjong`<br>`>reversi`<br>`>othello`<br>`>backgammon`<br>`>party`<br>`>jankenpon` | Classic cards<br>Hanafuda<br>Chess<br>Shōgi<br>Go<br>Mahjong<br>Reversi<br>Othello<br>Backgammon<br>Party<br>Rock paper scissors |
 | `:brawler` | Brawler / Beat'em up |  |  |
 | `:fighting` | Fighting | `>melee` | Melee |
 | `:minigames` | Minigames |  |  |
