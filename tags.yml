@@ -126,6 +126,7 @@ genre:
         mahjong: "Mahjong"
         reversi: "Reversi"
         othello: "Othello"
+        backgammon: "Backgammon"
         party: "Party"
         jankenpon: "Rock paper scissors"
     brawler:
