@@ -319,7 +319,7 @@ addon:
         taptapmat: "IGS Tap-Tap Mat + Tonkachi / タップタップマット + トンカチ"
         teevgolf: "Sports Sciences TeeVGolf"
         lasabirdie: "Ricoh Lasabirdie / レーザーバーディー"
-        gripx: "ASCII Grip X / アスキーグリップX"
+        grip: "ASCII Grip / アスキーグリップ / GripX / グリップX / GripV / グリップV"
         tsurikon64: "ASCII Tsurikon 64 / つりコン64"
         partytap: "PR21 Party Tap"
         climberstick: "Nichibutsu Climber Stick / クライマー・スティック"
@@ -919,6 +919,7 @@ port:
       children:
         famicom: "Famicom / Family Computer / ファミリーコンピュータ / Nintendo Entertainment System / NES"
         superfamicom: "Super Famicom / スーパーファミコン / Super Nintendo Entertainment System / SNES"
+        n64: "Nintendo 64"
         gameboy: "GameBoy / ゲームボーイ"
         gbc: "GameBoy Color / ゲームボーイカラー"
         gba: "GameBoy Advance / ゲームボーイアドバンス / GBA"
