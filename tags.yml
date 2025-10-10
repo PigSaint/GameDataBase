@@ -377,7 +377,7 @@ addon:
         senyoucord: "Epoch Sen'yō Setsuzoku Cord / 専用接続コード"
         bb2interface: "Epoch Barcode Battler II Interface / BBII Interface / バーコードバトラーIIインターフェース"
         voicerkun: "Koei Voicer-kun / ボイサーくん"
-        midiinterface: "Waka MIDI Interface"
+        midiinterface: "Yamaha MIDI Interface"
     expansion:
       description: "Additional hardware for expansing system capabilities"
       children:
@@ -700,10 +700,15 @@ disc:
     "2": "Disc 2"
     "3": "Disc 3"
     "4": "Disc 4"
+    "5": "Disc 5"
+    "6": "Disc 6"
+    "7": "Disc 7"
+    "8": "Disc 8"
     children:
       "2": "Two discs"
       "3": "Three discs"
       "4": "Four discs"
+      "8": "Eight discs"
 
 based:
   description: "Coming from another media"
@@ -1103,6 +1108,8 @@ rerelease:
         "2": "SEGA MegaDrive Mini 2 / SEGA Genesis Mini 2"
     sfcmini:
       description: "Nintendo Super Famicom Classic Mini / スーパーファミコン クラシックミニ / Super Nintendo Entertainment System Classic Mini"
+    pcemini:
+      description: "Konami PC Engine Mini / ピーシーエンジン　ミニ / Core Grafx Mini Mini / PCエンジン コアグラフィックス　ミニ / TurboGrafx 16 Mini"
     gamenokanzume:
       description: "Game no Kanzume / ゲームのかんづめ"
       children:
