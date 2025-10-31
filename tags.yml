@@ -875,6 +875,8 @@ port:
       description: "Acorn BBC Micro"
     dragon32:
       description: "Dragon 32"
+    archimedes:
+      description: "Acorn Archimedes"
     elektronika60:
       description: "Elektronika 60 / Электроника 60"
     spectrum:
@@ -917,6 +919,7 @@ port:
         gamegear: "Game Gear / ゲームギア"
         megadrive: "MegaDrive / メガドライブ / Genesis"
         megacd: "SEGA Mega-CD / メガシーディー / SEGA-CD"
+        32x: "SEGA Super 32X / スーパー32X / Genesis 32X / MegaDrive 32X"
         saturn: "SEGA Saturn / セガサターン"
         dreamcast: "Dreamcast / ドリームキャスト"
     nintendo:
