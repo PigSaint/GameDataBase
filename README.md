@@ -333,6 +333,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:apple` | Apple | `>apple2`<br>`>mac` | Apple II<br>Macintosh |
 | `:bbcmicro` | Acorn BBC Micro |  |  |
 | `:dragon32` | Dragon 32 |  |  |
+| `:archimedes` | Acorn Archimedes |  |  |
 | `:elektronika60` | Elektronika 60 / Электроника 60 |  |  |
 | `:spectrum` | Sinclair ZX Spectrum |  |  |
 | `:amstrad` | Amstrad CPC |  |  |
@@ -341,7 +342,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:msx` | MSX | `>2` | MSX2 |
 | `:sharp` | Sharp | `>x1`<br>`>mz700`<br>`>x68000` | Sharp X1<br>Sharp MZ<br>X68000 |
 | `:pc` | PC DOS |  |  |
-| `:sega` | SEGA / セガ | `>sg1000`<br>`>mark3`<br>`>gamegear`<br>`>megadrive`<br>`>megacd`<br>`>saturn`<br>`>dreamcast` | SG-1000<br>Mark III / マークIII / Master System / マスターシステム<br>Game Gear / ゲームギア<br>MegaDrive / メガドライブ / Genesis<br>SEGA Mega-CD / メガシーディー / SEGA-CD<br>SEGA Saturn / セガサターン<br>Dreamcast / ドリームキャスト |
+| `:sega` | SEGA / セガ | `>sg1000`<br>`>mark3`<br>`>gamegear`<br>`>megadrive`<br>`>megacd`<br>`>32x`<br>`>saturn`<br>`>dreamcast` | SG-1000<br>Mark III / マークIII / Master System / マスターシステム<br>Game Gear / ゲームギア<br>MegaDrive / メガドライブ / Genesis<br>SEGA Mega-CD / メガシーディー / SEGA-CD<br>SEGA Super 32X / スーパー32X / Genesis 32X / MegaDrive 32X<br>SEGA Saturn / セガサターン<br>Dreamcast / ドリームキャスト |
 | `:nintendo` | Nintendo / 任天堂 | `>famicom`<br>`>superfamicom`<br>`>n64`<br>`>gameboy`<br>`>gbc`<br>`>gba` | Famicom / Family Computer / ファミリーコンピュータ / Nintendo Entertainment System / NES<br>Super Famicom / スーパーファミコン / Super Nintendo Entertainment System / SNES<br>Nintendo 64<br>GameBoy / ゲームボーイ<br>GameBoy Color / ゲームボーイカラー<br>GameBoy Advance / ゲームボーイアドバンス / GBA |
 | `:sony` | Sony / ソニー | `>playstation` | PlayStation / プレイステーション |
 | `:3do` | Panasonic 3DO / スリーディーオー |  |  |
