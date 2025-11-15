@@ -708,6 +708,7 @@ disc:
       "2": "Two discs"
       "3": "Three discs"
       "4": "Four discs"
+      "5": "Five discs"
       "8": "Eight discs"
 
 based:
@@ -811,6 +812,8 @@ reboxed:
       description: "SEGA Saturn Collection / Satakore / サタコレ"
     genteiban:
       description: "Genteiban / 限定版"
+    seganet:
+      description: "SegaNet / セガネット"
     megadrive3:
       description: "Tec Toy MegaDrive 3"
     megadrive4:
@@ -1176,6 +1179,12 @@ alt:
       description: "Alternative 2"
     "3":
       description: "Alternative 3"
+    "4":
+      description: "Alternative 4"
+    "5":
+      description: "Alternative 5"
+    "6":
+      description: "Alternative 6"
 
 unlicensed:
   description: "Unlicensed game"
