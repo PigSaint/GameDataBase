@@ -298,6 +298,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:kixxedition` | Kixx Edition |
 | `:satakore` | SEGA Saturn Collection / Satakore / サタコレ |
 | `:genteiban` | Genteiban / 限定版 |
+| `:seganet` | SegaNet / セガネット |
 | `:megadrive3` | Tec Toy MegaDrive 3 |
 | `:megadrive4` | Tec Toy MegaDrive 4 |
 | `:reactor` | AtGames Reactor |
@@ -481,6 +482,9 @@ The `>` level only applies to its immediate `:` subtag.
 | `:1` | Alternative 1 |
 | `:2` | Alternative 2 |
 | `:3` | Alternative 3 |
+| `:4` | Alternative 4 |
+| `:5` | Alternative 5 |
+| `:6` | Alternative 6 |
 
 </details>
 
