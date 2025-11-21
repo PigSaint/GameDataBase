@@ -934,6 +934,7 @@ port:
         gameboy: "GameBoy / ゲームボーイ"
         gbc: "GameBoy Color / ゲームボーイカラー"
         gba: "GameBoy Advance / ゲームボーイアドバンス / GBA"
+        gameandwatch: "Game & Watch / ゲーム&ウオッチ"
     sony:
       description: "Sony / ソニー"
       children:
@@ -1107,6 +1108,9 @@ rerelease:
         "2500": "SEGA Ages 2500"
     3dfukkoku:
       description: "SEGA 3D Fukkoku Archives / セガ3D復刻アーカイブス / SEGA 3D Classics Collection"
+      children:
+        "1": "SEGA 3D Fukkoku Archives / セガ3D復刻アーカイブス"
+        "2": "SEGA 3D Fukkoku Archives 2 / セガ3D復刻アーカイブス2 / SEGA 3D Classics Collection"
     mdmini:
       description: "SEGA MegaDrive Mini / SEGA Genesis Mini"
       children:
