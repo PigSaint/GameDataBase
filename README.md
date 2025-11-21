@@ -344,7 +344,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:sharp` | Sharp | `>x1`<br>`>mz700`<br>`>x68000` | Sharp X1<br>Sharp MZ<br>X68000 |
 | `:pc` | PC DOS |  |  |
 | `:sega` | SEGA / セガ | `>sg1000`<br>`>mark3`<br>`>gamegear`<br>`>megadrive`<br>`>megacd`<br>`>32x`<br>`>saturn`<br>`>dreamcast` | SG-1000<br>Mark III / マークIII / Master System / マスターシステム<br>Game Gear / ゲームギア<br>MegaDrive / メガドライブ / Genesis<br>SEGA Mega-CD / メガシーディー / SEGA-CD<br>SEGA Super 32X / スーパー32X / Genesis 32X / MegaDrive 32X<br>SEGA Saturn / セガサターン<br>Dreamcast / ドリームキャスト |
-| `:nintendo` | Nintendo / 任天堂 | `>famicom`<br>`>superfamicom`<br>`>n64`<br>`>gameboy`<br>`>gbc`<br>`>gba` | Famicom / Family Computer / ファミリーコンピュータ / Nintendo Entertainment System / NES<br>Super Famicom / スーパーファミコン / Super Nintendo Entertainment System / SNES<br>Nintendo 64<br>GameBoy / ゲームボーイ<br>GameBoy Color / ゲームボーイカラー<br>GameBoy Advance / ゲームボーイアドバンス / GBA |
+| `:nintendo` | Nintendo / 任天堂 | `>famicom`<br>`>superfamicom`<br>`>n64`<br>`>gameboy`<br>`>gbc`<br>`>gba`<br>`>gameandwatch` | Famicom / Family Computer / ファミリーコンピュータ / Nintendo Entertainment System / NES<br>Super Famicom / スーパーファミコン / Super Nintendo Entertainment System / SNES<br>Nintendo 64<br>GameBoy / ゲームボーイ<br>GameBoy Color / ゲームボーイカラー<br>GameBoy Advance / ゲームボーイアドバンス / GBA<br>Game & Watch / ゲーム&ウオッチ |
 | `:sony` | Sony / ソニー | `>playstation` | PlayStation / プレイステーション |
 | `:3do` | Panasonic 3DO / スリーディーオー |  |  |
 | `:cdi` | Philips CD-i |  |  |
@@ -430,7 +430,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:mdclassics` | SEGA MegaDrive Classics / SEGA Genesis Classics |  |  |
 | `:smashpack` | SEGA Smash Pack |  |  |
 | `:segaages` | SEGA Ages | `>2500` | SEGA Ages 2500 |
-| `:3dfukkoku` | SEGA 3D Fukkoku Archives / セガ3D復刻アーカイブス / SEGA 3D Classics Collection |  |  |
+| `:3dfukkoku` | SEGA 3D Fukkoku Archives / セガ3D復刻アーカイブス / SEGA 3D Classics Collection | `>1`<br>`>2` | SEGA 3D Fukkoku Archives / セガ3D復刻アーカイブス<br>SEGA 3D Fukkoku Archives 2 / セガ3D復刻アーカイブス2 / SEGA 3D Classics Collection |
 | `:mdmini` | SEGA MegaDrive Mini / SEGA Genesis Mini | `>1`<br>`>2` | SEGA MegaDrive Mini / SEGA Genesis Mini<br>SEGA MegaDrive Mini 2 / SEGA Genesis Mini 2 |
 | `:sfcmini` | Nintendo Super Famicom Classic Mini / スーパーファミコン クラシックミニ / Super Nintendo Entertainment System Classic Mini |  |  |
 | `:pcemini` | Konami PC Engine Mini / ピーシーエンジン　ミニ / Core Grafx Mini Mini / PCエンジン コアグラフィックス　ミニ / TurboGrafx 16 Mini |  |  |
