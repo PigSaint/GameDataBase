@@ -476,10 +476,12 @@ addon:
     printer:
       description: "Printer"
       children:
-        pocketprinter: "Nintendo Pocket Printer / GameBoy Printer"
+        pocketprinter: "Nintendo Pocket Printer / ポケットプリンタ / GameBoy Printer"
         printbooster: "NEC Print Booster"
     barcodeboy:
       description: "NAMCOT Barcode Boy"
+    barcodereader:
+      description: "Tam Barcode Reader / バーコードリーダー"
     rss:
       description: "Roland Sound Space"
     pocketcamera:
@@ -545,6 +547,10 @@ embedded:
         gameboy: "Nintendo GameBoy cartridge"
         gamelink: "Nintendo Tsūshin Cable port / 通信ケーブル / GameLink"
         smartmedia: "Tokyo Electron SmartMedia Double Slot"
+    vibration:
+      description: "Vibration"
+      children:
+        rumble: "Includes Rumble Feature"
     led:
       description: "LED"
     gbkiss:
@@ -671,6 +677,8 @@ compatibility:
         mono: "Monochrome"
         color: "Color"
         sgb: "Super GameBoy"
+        gba: "GameBoy Advance"
+        infrared: "Infrared data communication / 赤外線通信"
         np: "Nintendo Power / ニンテンドウパワー / GB Memory Cartridge / GBメモリカートリッジ"
     superfamicom:
       description: "Nintendo Super Famicom / Super Nintendo Entertainment System / SNES"
@@ -846,6 +854,8 @@ reboxed:
       description: "Nintendo Classic Serie"
     kousenjuu:
       description: "Kōsenjū Series / 光線銃シリーズ"
+    comicclassics:
+      description: "Comic Classics"
     disneysclassic:
       description: "Disney's Classic Video Games"
     snkbestcollection:
@@ -975,6 +985,8 @@ lang:
       description: "Finnish / Suomi"
     cs:
       description: "Czech / Čeština"
+    ca:
+      description: "Catalan / Catalá"
     sl:
       description: "Slovenian / Slovenščina"
     ru:

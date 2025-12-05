@@ -161,8 +161,9 @@ The `>` level only applies to its immediate `:` subtag.
 | `:health` | Health monitoring | `>catalyst`<br>`>biosensor` | HeartBeat Catalyst<br>SETA Bio Sensor |
 | `:midi` | MIDI Keyboard | `>miracle`<br>`>pianokeyboard` | The Miracle MIDI Keyboard<br>Konami MIDI Keyboard |
 | `:rob` | Nintendo Family Computer Robot /  ファミリーコンピュータ　ロボット/ R.O.B. / Robotic Operating Buddy | `>gyro`<br>`>block` | Gyro Set / ジャイロ　セット<br>Block Set / ブロック セット |
-| `:printer` | Printer | `>pocketprinter`<br>`>printbooster` | Nintendo Pocket Printer / GameBoy Printer<br>NEC Print Booster |
+| `:printer` | Printer | `>pocketprinter`<br>`>printbooster` | Nintendo Pocket Printer / ポケットプリンタ / GameBoy Printer<br>NEC Print Booster |
 | `:barcodeboy` | NAMCOT Barcode Boy |  |  |
+| `:barcodereader` | Tam Barcode Reader / バーコードリーダー |  |  |
 | `:rss` | Roland Sound Space |  |  |
 | `:pocketcamera` | Nintendo Pocket Camera / ポケットカメラ / GameBoy Camera |  |  |
 | `:capturecassette` | Nintendo 64 Capture Cassette |  |  |
@@ -180,6 +181,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:backup` | Back-up embeded system for saving progress | `>battery`<br>`>flashram`<br>`>feram`<br>`>eeprom` | Battery backed SRAM<br>Flash RAM<br>Ferroelectric RAM<br>EEPROM |
 | `:chip` | Enhancement chip | `>ram`<br>`>rtc`<br>`>svp`<br>`>mmc5`<br>`>dsp1`<br>`>dsp1a`<br>`>dsp1b`<br>`>dsp2`<br>`>dsp3`<br>`>dsp4`<br>`>sa1`<br>`>sdd1`<br>`>sfx1`<br>`>sfx2`<br>`>obc1`<br>`>vrc6`<br>`>vrc7`<br>`>n163`<br>`>fme7`<br>`>5a`<br>`>5b`<br>`>m50805`<br>`>7755`<br>`>7756`<br>`>cx4`<br>`>spc7110`<br>`>st010`<br>`>st011`<br>`>st018` | Extra RAM<br>Real-Time Clock<br>SEGA Virtua Processor / SVP<br>Nintendo MMC5<br>Nintendo DSP-1<br>Nintendo DSP-1a<br>Nintendo DSP-1b<br>Nintendo DSP-2<br>Nintendo DSP-3<br>Nintendo DSP-4<br>Nintendo SA-1<br>Nintendo S-DD1<br>Nintendo Super FX GSU-1<br>Nintendo Super FX GSU-2<br>Nintendo OBC-1<br>Konami VRC VI<br>Konami VRC VII<br>NAMCO 163<br>Sunsoft FME-7<br>Sunsoft 5A<br>Sunsoft 5B<br>Mitsubishi M50805<br>NEC µPD7755C<br>NEC µPD7756C<br>CAPCOM CX4<br>Epson SPC7110<br>SETA ST010<br>SETA ST011<br>SETA ST018 |
 | `:slot` | Slot in cartridge | `>rj11`<br>`>jcart`<br>`>lockon`<br>`>kogame`<br>`>gameboy`<br>`>gamelink`<br>`>smartmedia` | RJ-11 port<br>Codemasters J-Cart<br>SEGA Sonic & Knuckles Lock-On Technology<br>Sunsoft Kogame Cassette / 子ガメカセット<br>Nintendo GameBoy cartridge<br>Nintendo Tsūshin Cable port / 通信ケーブル / GameLink<br>Tokyo Electron SmartMedia Double Slot |
+| `:vibration` | Vibration | `>rumble` | Includes Rumble Feature |
 | `:led` | LED |  |  |
 | `:gbkiss` | Hudson GB Kiss |  |  |
 | `:pocketsonar` | Bandai Pocket Sonar |  |  |
@@ -220,7 +222,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:mark3` | SEGA Mark III / master System | `>mycard`<br>`>epmycard`<br>`>thesegacard`<br>`>themegacartridge`<br>`>silvercartridge`<br>`>goldcartridge1`<br>`>goldcartridge2`<br>`>goldcartridge4` | SEGA My Card<br>SEGA EP My Card<br>The SEGA Card<br>The Mega Cartridge (Japan)<br>Silver Cartridge<br>Gold Cartridge (1 mega)<br>Gold Cartridge (2 mega)<br>Gold Cartridge (4 mega) |
 | `:famicom` | Family Computer / NES | `>pegasus` | Pegasus Computer Family Game |
 | `:disksystem` | Famicom Disk System | `>dw` | Disk Writer |
-| `:gameboy` | Nintendo GameBoy | `>mono`<br>`>color`<br>`>sgb`<br>`>np` | Monochrome<br>Color<br>Super GameBoy<br>Nintendo Power / ニンテンドウパワー / GB Memory Cartridge / GBメモリカートリッジ |
+| `:gameboy` | Nintendo GameBoy | `>mono`<br>`>color`<br>`>sgb`<br>`>gba`<br>`>infrared`<br>`>np` | Monochrome<br>Color<br>Super GameBoy<br>GameBoy Advance<br>Infrared data communication / 赤外線通信<br>Nintendo Power / ニンテンドウパワー / GB Memory Cartridge / GBメモリカートリッジ |
 | `:superfamicom` | Nintendo Super Famicom / Super Nintendo Entertainment System / SNES | `>hirom`<br>`>lorom`<br>`>exhirom`<br>`>exlorom`<br>`>nss`<br>`>soundlink`<br>`>np`<br>`>gs` | HiROM<br>LoROM<br>Extended HiROM<br>Extended LoRom<br>Nintendo Super System / NSS<br>SoundLink / サウンドリンクゲーム / VoiceLink / 音声連動ゲーム<br>Nintendo Power / ニンテンドウパワー / SF Memory Cassette / SFメモリカセット<br>Nintendo Gateway System |
 | `:pcengine` | NEC PC Engine | `>supergrafx` | PC SuperGrafx |
 | `:neogeopocket` | NeoGeo Pocket | `>mono`<br>`>color` | Monochrome<br>Color |
@@ -315,6 +317,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:playerschoice` | Players Choice / Million Seller |
 | `:classicserie` | Nintendo Classic Serie |
 | `:kousenjuu` | Kōsenjū Series / 光線銃シリーズ |
+| `:comicclassics` | Comic Classics |
 | `:disneysclassic` | Disney's Classic Video Games |
 | `:snkbestcollection` | Best Collection |
 | `:xeye` | JVC X'Eye |
@@ -370,6 +373,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:no` | Norwegian / Norsk |
 | `:fi` | Finnish / Suomi |
 | `:cs` | Czech / Čeština |
+| `:ca` | Catalan / Catalá |
 | `:sl` | Slovenian / Slovenščina |
 | `:ru` | Russian / Русский |
 | `:pl` | Polish / По́льский |
