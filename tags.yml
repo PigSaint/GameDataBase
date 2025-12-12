@@ -304,6 +304,7 @@ addon:
         mahjong: "CAPCOM Mahjong Controller / Mahjong Controller II / 麻雀コントローラー"
         hypershot: "Konami HyperShot"
         ddr: "Konami Dance Dance Revolution controller"
+        ddrgb: "Konami Sen'yō Yubi Controller / 専用指コントローラ"
         taikanfamicom: "Konami Taikan Famicom / 大汗ファミコン"
         hardwarebike: "Varie Hardware Bike / ハードウーアバイク"
         pachinko: "Coconuts Pachinko Controller / パチンココントローラー"
@@ -494,6 +495,7 @@ addon:
       description: "Tokuma Shoten Develo Box / でべろ Box"
     teststation:
       description: "Nintendo NES Test Station"
+    spectrumcommunicator: "Creatures Spectrum Communicator / スペクトラムコミュニケーター"
 
 embedded:
   description: "Embedded extra hardware in cartridge"
@@ -551,6 +553,8 @@ embedded:
       description: "Vibration"
       children:
         rumble: "Includes Rumble Feature"
+    accelerometer:
+      description: "Motion sensor"
     led:
       description: "LED"
     gbkiss:
@@ -986,7 +990,7 @@ lang:
     cs:
       description: "Czech / Čeština"
     ca:
-      description: "Catalan / Catalá"
+      description: "Catalan / Català"
     sl:
       description: "Slovenian / Slovenščina"
     ru:
