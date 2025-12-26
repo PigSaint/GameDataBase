@@ -208,7 +208,7 @@ genre:
     sports:
       description: "Sports"
       children:
-        soccer: "Soccer"
+        soccer: "Soccer / Football"
         basketball: "Basketball"
         baseball: "Baseball"
         volleyball: "Volleyball"
@@ -368,8 +368,9 @@ addon:
       children:
         taisencable: "SEGA Game Gear Taisen Cable / Gear-to-Gear Cable"
         taisensaturn: "SEGA Saturn Taisen Cable / セガサターン 対戦ケーブル"
-        gamelinkcable: "Nintendo Tsūshin Cable / Game Link Cable"
+        gamelinkcable: "Nintendo Tsūshin Cable / 通信ケーブル / Game Link Cable"
         fourplayeradapter: "Nintendo Four Player Adapter"
+        mobileadaptergb: "Nintendo Mobile Adapter GB / モバイルアダプタGB"
         comcable: "NEC COM Cable / TurboExpress"
         linkup: "Technopop Link-up Cable"
         ngplink: "SNK NeoGeo Pocket Link Cable"
@@ -795,6 +796,7 @@ search:
         qsound: "QSound support"
         dolby: "Dolby Surround"
         rs: "Response Sound System / レスポンス　サウンド　システム / RS"
+        ubikey: "Ubi Key"
         official: "Official sports game"
         endorsed: "Endorsed by public figure"
         brand: "Endorsed by company or brand"
@@ -955,6 +957,8 @@ port:
         playstation: "PlayStation / プレイステーション"
     3do:
       description: "Panasonic 3DO / スリーディーオー"
+    wonderswan:
+      description: "Bandai WonderSwan / ワンダースワン"
     cdi:
       description: "Philips CD-i"
     laseractive:
