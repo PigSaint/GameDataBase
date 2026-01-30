@@ -470,6 +470,10 @@ addon:
       children:
         miracle: "The Miracle MIDI Keyboard"
         pianokeyboard: "Konami MIDI Keyboard"
+    led:
+      description: "LED accessory"
+        powerantenna: "Smilesoft Power Antenna / パワーアンテナ"
+        bugsensor: "Smilesoft Bug Sensor / バグセンサー"
     rob:
       description: "Nintendo Family Computer Robot /  ファミリーコンピュータ　ロボット/ R.O.B. / Robotic Operating Buddy"
       children:
@@ -480,10 +484,10 @@ addon:
       children:
         pocketprinter: "Nintendo Pocket Printer / ポケットプリンタ / GameBoy Printer"
         printbooster: "NEC Print Booster"
-    barcodeboy:
-      description: "NAMCOT Barcode Boy"
-    barcodereader:
-      description: "Tam Barcode Reader / バーコードリーダー"
+    barcode:
+      description: "Barcode reader"
+      barcodeboy: "NAMCOT Barcode Boy"
+      barcodereader: "Tam Barcode Reader / バーコードリーダー"
     rss:
       description: "Roland Sound Space"
     pocketcamera:
@@ -560,6 +564,8 @@ embedded:
       description: "LED"
     gbkiss:
       description: "Hudson GB Kiss"
+    huc3:
+      description: "Hudson HuC3"
     pocketsonar:
       description: "Bandai Pocket Sonar"
 
@@ -1094,6 +1100,8 @@ rerelease:
         "x2": "Rockman X Anniversary Collection 2 / ロックマンX アニバーサリー コレクション 2 / Megaman X Legacy Collection 2"
     seikendensetsu:
       description: "Seiken Densetsu Collection / 聖剣伝説 Collection / Collection of Mana"
+    ninjajajamaru:
+      description: "Ninja JaJaMaru Retro Collection / 忍者じゃじゃ丸 Collection"
     disneyclassic:
       description: "Disney Classic Games Collection"
     bubsytwofur:
