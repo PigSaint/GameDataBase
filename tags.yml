@@ -472,6 +472,7 @@ addon:
         pianokeyboard: "Konami MIDI Keyboard"
     led:
       description: "LED accessory"
+      children:
         powerantenna: "Smilesoft Power Antenna / パワーアンテナ"
         bugsensor: "Smilesoft Bug Sensor / バグセンサー"
     rob:
