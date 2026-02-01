@@ -36,6 +36,7 @@ REGION_LIST = [
     "Mexico",
     "Netherlands",
     "Oceania",
+    "Poland",
     "Portugal",
     "Russia",
     "Scandinavia",
