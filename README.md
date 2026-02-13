@@ -163,7 +163,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:led` | LED accessory | `>powerantenna`<br>`>bugsensor` | Smilesoft Power Antenna / パワーアンテナ<br>Smilesoft Bug Sensor / バグセンサー |
 | `:rob` | Nintendo Family Computer Robot /  ファミリーコンピュータ　ロボット/ R.O.B. / Robotic Operating Buddy | `>gyro`<br>`>block` | Gyro Set / ジャイロ　セット<br>Block Set / ブロック セット |
 | `:printer` | Printer | `>pocketprinter`<br>`>printbooster` | Nintendo Pocket Printer / ポケットプリンタ / GameBoy Printer<br>NEC Print Booster |
-| `:barcode` | Barcode reader |  |  |
+| `:barcode` | Barcode reader | `>barcodeboy`<br>`>barcodereader` | NAMCOT Barcode Boy<br>Tam Barcode Reader / バーコードリーダー |
 | `:rss` | Roland Sound Space |  |  |
 | `:pocketcamera` | Nintendo Pocket Camera / ポケットカメラ / GameBoy Camera |  |  |
 | `:capturecassette` | Nintendo 64 Capture Cassette |  |  |
