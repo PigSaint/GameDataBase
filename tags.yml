@@ -565,10 +565,10 @@ embedded:
       description: "LED"
     gbkiss:
       description: "Hudson GB Kiss"
-    huc3:
-      description: "Hudson HuC3"
     pocketsonar:
       description: "Bandai Pocket Sonar"
+    pocketsakura:
+      description: "Media Factory Pocket Sakura / ポケット・サクラ"
 
 save:
   description: "The way you can save your progress"
