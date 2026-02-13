@@ -487,8 +487,9 @@ addon:
         printbooster: "NEC Print Booster"
     barcode:
       description: "Barcode reader"
-      barcodeboy: "NAMCOT Barcode Boy"
-      barcodereader: "Tam Barcode Reader / バーコードリーダー"
+      children:
+        barcodeboy: "NAMCOT Barcode Boy"
+        barcodereader: "Tam Barcode Reader / バーコードリーダー"
     rss:
       description: "Roland Sound Space"
     pocketcamera:
@@ -565,10 +566,10 @@ embedded:
       description: "LED"
     gbkiss:
       description: "Hudson GB Kiss"
-    huc3:
-      description: "Hudson HuC3"
     pocketsonar:
       description: "Bandai Pocket Sonar"
+    pocketsakura:
+      description: "Media Factory Pocket Sakura / ポケット・サクラ"
 
 save:
   description: "The way you can save your progress"

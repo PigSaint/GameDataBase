@@ -160,10 +160,10 @@ The `>` level only applies to its immediate `:` subtag.
 | `:drawing` | Drawing board | `>graphicboard`<br>`>illustbooster`<br>`>oekakids` | SEGA Graphic Board<br>NEC Illust Booster<br>Bandai Oekakids / おえかキッズ |
 | `:health` | Health monitoring | `>catalyst`<br>`>biosensor` | HeartBeat Catalyst<br>SETA Bio Sensor |
 | `:midi` | MIDI Keyboard | `>miracle`<br>`>pianokeyboard` | The Miracle MIDI Keyboard<br>Konami MIDI Keyboard |
+| `:led` | LED accessory | `>powerantenna`<br>`>bugsensor` | Smilesoft Power Antenna / パワーアンテナ<br>Smilesoft Bug Sensor / バグセンサー |
 | `:rob` | Nintendo Family Computer Robot /  ファミリーコンピュータ　ロボット/ R.O.B. / Robotic Operating Buddy | `>gyro`<br>`>block` | Gyro Set / ジャイロ　セット<br>Block Set / ブロック セット |
 | `:printer` | Printer | `>pocketprinter`<br>`>printbooster` | Nintendo Pocket Printer / ポケットプリンタ / GameBoy Printer<br>NEC Print Booster |
-| `:barcodeboy` | NAMCOT Barcode Boy |  |  |
-| `:barcodereader` | Tam Barcode Reader / バーコードリーダー |  |  |
+| `:barcode` | Barcode reader | `>barcodeboy`<br>`>barcodereader` | NAMCOT Barcode Boy<br>Tam Barcode Reader / バーコードリーダー |
 | `:rss` | Roland Sound Space |  |  |
 | `:pocketcamera` | Nintendo Pocket Camera / ポケットカメラ / GameBoy Camera |  |  |
 | `:capturecassette` | Nintendo 64 Capture Cassette |  |  |
@@ -187,6 +187,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:led` | LED |  |  |
 | `:gbkiss` | Hudson GB Kiss |  |  |
 | `:pocketsonar` | Bandai Pocket Sonar |  |  |
+| `:pocketsakura` | Media Factory Pocket Sakura / ポケット・サクラ |  |  |
 
 </details>
 
@@ -423,6 +424,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:dariuscozmic` | Darius Cozmic Collection |  |  |
 | `:rockmanclassic` | Rockman Classic Collection / ロックマン クラシックス コレクション / Megaman Legacy Collection | `>1`<br>`>2`<br>`>x`<br>`>x2` | Rockman Classic Collection / ロックマン クラシックス コレクション / Megaman Legacy Collection<br>Rockman Classic Collection 2 / ロックマン クラシックス コレクション 2 / Megaman Legacy Collection 2<br>Rockman X Anniversary Collection / ロックマンX アニバーサリー コレクション / Megaman X Legacy Collection<br>Rockman X Anniversary Collection 2 / ロックマンX アニバーサリー コレクション 2 / Megaman X Legacy Collection 2 |
 | `:seikendensetsu` | Seiken Densetsu Collection / 聖剣伝説 Collection / Collection of Mana |  |  |
+| `:ninjajajamaru` | Ninja JaJaMaru Retro Collection / 忍者じゃじゃ丸 Collection |  |  |
 | `:disneyclassic` | Disney Classic Games Collection |  |  |
 | `:bubsytwofur` | Bubsy Two-Fur |  |  |
 | `:blizzardarcadecollection` | Blizzard Arcade Collection |  |  |
