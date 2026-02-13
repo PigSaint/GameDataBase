@@ -487,8 +487,9 @@ addon:
         printbooster: "NEC Print Booster"
     barcode:
       description: "Barcode reader"
-      barcodeboy: "NAMCOT Barcode Boy"
-      barcodereader: "Tam Barcode Reader / バーコードリーダー"
+      children:
+        barcodeboy: "NAMCOT Barcode Boy"
+        barcodereader: "Tam Barcode Reader / バーコードリーダー"
     rss:
       description: "Roland Sound Space"
     pocketcamera:
