@@ -83,7 +83,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:lightgun` | Lightgun |  |  |
 | `:optical` | Optical device |  |  |
 | `:positional` | Positional crank | `>2`<br>`>3` | Two positions<br>Three positions |
-| `:buttons` | In-game buttons | `>1`<br>`>2`<br>`>3`<br>`>4`<br>`>5`<br>`>6`<br>`>7`<br>`>8`<br>`>11`<br>`>12`<br>`>19`<br>`>23`<br>`>27`<br>`>pneumatic` | 1 button<br>2 buttons<br>3 buttons<br>4 buttons<br>5 buttons<br>6 buttons<br>7 buttons<br>8 buttons<br>11 buttons<br>12 buttons<br>19 keys<br>23 keys<br>27 keys<br>Pneumatic button |
+| `:buttons` | In-game buttons | `>1`<br>`>2`<br>`>3`<br>`>4`<br>`>5`<br>`>6`<br>`>7`<br>`>8`<br>`>9`<br>`>11`<br>`>12`<br>`>19`<br>`>23`<br>`>27`<br>`>pneumatic` | 1 button<br>2 buttons<br>3 buttons<br>4 buttons<br>5 buttons<br>6 buttons<br>7 buttons<br>8 buttons<br>9 buttons<br>11 buttons<br>12 buttons<br>19 keys<br>23 keys<br>27 keys<br>Pneumatic button |
 | `:pedals` | Foot pedals | `>1`<br>`>2` | One pedal<br>Two pedals |
 | `:puncher` | Puncher |  |  |
 | `:motion` | Motion detection device |  |  |
@@ -464,6 +464,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:c` | Revision C |
 | `:d` | Revision D |
 | `:e` | Revision E |
+| `:f` | Revision F |
 | `:g` | Revision G |
 
 </details>
