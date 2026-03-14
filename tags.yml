@@ -45,6 +45,7 @@ input:
         "6": "6 buttons"
         "7": "7 buttons"
         "8": "8 buttons"
+        "9": "9 buttons"
         "11": "11 buttons"
         "12": "12 buttons"
         "19": "19 keys"
@@ -1196,6 +1197,8 @@ rev:
       description: "Revision D"
     e:
       description: "Revision E"
+    f:
+      description: "Revision F"
     g:
       description: "Revision G"
 
