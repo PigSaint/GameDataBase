@@ -144,7 +144,7 @@ The `>` level only applies to its immediate `:` subtag.
 | Subcategory | Description | Children | Children Description |
 |-------------|-------------|----------|--------------------|
 | `:peripheral` | Peripheral | `>megacd`<br>`>super32x`<br>`>disksystem`<br>`>sufami`<br>`>64dd`<br>`>cdromrom` | SEGA Mega-CD / SEGA-CD<br>SEGA Super 32X / MegaDrive 32X / Genesis 32X<br>Nintendo Famicom Disk System / ディスクシステム<br>Bandai SuFami Turbo / スーファミターボ<br>Nintendo 64DD<br>NEC CD-ROM² / Super CD-ROM² / Arcade CD-ROM² / PC Engine Duo / TurboGrafx-CD / TurboDuo |
-| `:controller` | Special controller | `>bikehandle`<br>`>paddlecontrol`<br>`>sportspad`<br>`>6button`<br>`>activator`<br>`>3dpad`<br>`>missionstick`<br>`>twinstick`<br>`>arcaderacer`<br>`>xe1ap`<br>`>avenuepad3`<br>`>avenuepad6`<br>`>10key`<br>`>sbom`<br>`>arkanoid`<br>`>familytrainera`<br>`>familytrainerb`<br>`>reeladapter`<br>`>powerglove`<br>`>mahjong`<br>`>hypershot`<br>`>ddr`<br>`>ddrgb`<br>`>taikanfamicom`<br>`>hardwarebike`<br>`>pachinko`<br>`>hissatsupachinko`<br>`>pashislot`<br>`>sankyoff`<br>`>horitrack`<br>`>uforce`<br>`>smash`<br>`>denshadego`<br>`>computrainer`<br>`>lifefitness`<br>`>taptapmat`<br>`>teevgolf`<br>`>lasabirdie`<br>`>grip`<br>`>tsurikon64`<br>`>partytap`<br>`>climberstick`<br>`>juujikeycover` | SEGA Bike Handle<br>SEGA Paddle Control<br>SEGA Sports Pad<br>SEGA Six Button Control Pad<br>SEGA Activator<br>SEGA Multi Controller / セガマルチコントローラー / 3D Control Pad<br>SEGA Analog Controller Mission Stick / アナログコントローラー ミッションスティック / Mission Stick<br>SEGA Saturn Twin Stick / セガサターン ツインスティック<br>SEGA Saturn Racing Controller / セガサターン レーシングコントローラー / Arcade Racer<br>Dempa Micomsoft XE-1 AP<br>NEC Avenue Pad 3<br>NEC Avenue Pad 6<br>NEC 10 Key Controller Pad<br>Hudson SBom Joycard / エスボン ジョイカード<br>Taito Arkanoid controller<br>Bandai Family Trainer Mat A / ファミリートレーナー マットA / Power Pad Side A / Family Fun Fitness A<br>Bandai Family Trainer Mat B / ファミリートレーナー マットB / Power Pad Side B / Family Fun Fitness B<br>Bandai Reel Adapter<br>Mattel Power Glove<br>CAPCOM Mahjong Controller / Mahjong Controller II / 麻雀コントローラー<br>Konami HyperShot<br>Konami Dance Dance Revolution controller<br>Konami Sen'yō Yubi Controller / 専用指コントローラ<br>Konami Taikan Famicom / 大汗ファミコン<br>Varie Hardware Bike / ハードウーアバイク<br>Coconuts Pachinko Controller / パチンココントローラー<br>Sunsoft Hissatsu Pachinko Controller / 必殺パチンココントローラー<br>Sammy Jissen! PachiSlo Controller / 実戦! パチスロ コントローラー<br>TEN Kenkyūjo Sankyo FF / SegaSaturn用パチンコハンドル型コントローラー<br>Hori Track / ホリトラック<br>Brøderbund UForce<br>Realtec Smash Controller<br>Takara Densha de Go! Controller / 電車でGO!コントローラ<br>RacerMate CompuTrainer / RacerMate CompuTrainer Pro<br>Life Fitness Exertainment System<br>IGS Tap-Tap Mat + Tonkachi / タップタップマット + トンカチ<br>Sports Sciences TeeVGolf<br>Ricoh Lasabirdie / レーザーバーディー<br>ASCII Grip / アスキーグリップ / GripX / グリップX / GripV / グリップV<br>ASCII Tsurikon 64 / つりコン64<br>PR21 Party Tap<br>Nichibutsu Climber Stick / クライマー・スティック<br>NAMCO Jūji Key Cover / 十字キーカバー |
+| `:controller` | Special controller | `>bikehandle`<br>`>paddlecontrol`<br>`>sportspad`<br>`>6button`<br>`>activator`<br>`>3dpad`<br>`>missionstick`<br>`>twinstick`<br>`>arcaderacer`<br>`>xe1ap`<br>`>avenuepad3`<br>`>avenuepad6`<br>`>10key`<br>`>sbom`<br>`>arkanoid`<br>`>familytrainera`<br>`>familytrainerb`<br>`>reeladapter`<br>`>powerglove`<br>`>mahjong`<br>`>hypershot`<br>`>ddr`<br>`>ddrgb`<br>`>taikanfamicom`<br>`>hardwarebike`<br>`>pachinko`<br>`>hissatsupachinko`<br>`>pashislot`<br>`>sankyoff`<br>`>horitrack`<br>`>uforce`<br>`>smash`<br>`>denshadego`<br>`>computrainer`<br>`>lifefitness`<br>`>taptapmat`<br>`>teevgolf`<br>`>lasabirdie`<br>`>grip`<br>`>tsurikon64`<br>`>partytap`<br>`>fullchanger`<br>`>climberstick`<br>`>juujikeycover` | SEGA Bike Handle<br>SEGA Paddle Control<br>SEGA Sports Pad<br>SEGA Six Button Control Pad<br>SEGA Activator<br>SEGA Multi Controller / セガマルチコントローラー / 3D Control Pad<br>SEGA Analog Controller Mission Stick / アナログコントローラー ミッションスティック / Mission Stick<br>SEGA Saturn Twin Stick / セガサターン ツインスティック<br>SEGA Saturn Racing Controller / セガサターン レーシングコントローラー / Arcade Racer<br>Dempa Micomsoft XE-1 AP<br>NEC Avenue Pad 3<br>NEC Avenue Pad 6<br>NEC 10 Key Controller Pad<br>Hudson SBom Joycard / エスボン ジョイカード<br>Taito Arkanoid controller<br>Bandai Family Trainer Mat A / ファミリートレーナー マットA / Power Pad Side A / Family Fun Fitness A<br>Bandai Family Trainer Mat B / ファミリートレーナー マットB / Power Pad Side B / Family Fun Fitness B<br>Bandai Reel Adapter<br>Mattel Power Glove<br>CAPCOM Mahjong Controller / Mahjong Controller II / 麻雀コントローラー<br>Konami HyperShot<br>Konami Dance Dance Revolution controller<br>Konami Sen'yō Yubi Controller / 専用指コントローラ<br>Konami Taikan Famicom / 大汗ファミコン<br>Varie Hardware Bike / ハードウーアバイク<br>Coconuts Pachinko Controller / パチンココントローラー<br>Sunsoft Hissatsu Pachinko Controller / 必殺パチンココントローラー<br>Sammy Jissen! PachiSlo Controller / 実戦! パチスロ コントローラー<br>TEN Kenkyūjo Sankyo FF / SegaSaturn用パチンコハンドル型コントローラー<br>Hori Track / ホリトラック<br>Brøderbund UForce<br>Realtec Smash Controller<br>Takara Densha de Go! Controller / 電車でGO!コントローラ<br>RacerMate CompuTrainer / RacerMate CompuTrainer Pro<br>Life Fitness Exertainment System<br>IGS Tap-Tap Mat + Tonkachi / タップタップマット + トンカチ<br>Sports Sciences TeeVGolf<br>Ricoh Lasabirdie / レーザーバーディー<br>ASCII Grip / アスキーグリップ / GripX / グリップX / GripV / グリップV<br>ASCII Tsurikon 64 / つりコン64<br>PR21 Party Tap<br>Media Factory Full Changer / フルチェンジャー<br>Nichibutsu Climber Stick / クライマー・スティック<br>NAMCO Jūji Key Cover / 十字キーカバー |
 | `:lightgun` | Lightgun | `>lightphaser`<br>`>menacer`<br>`>virtuagun`<br>`>zapper`<br>`>superscope`<br>`>justifier`<br>`>laserscope`<br>`>bandaihypershot`<br>`>gamegun`<br>`>ap74` | SEGA Light Phaser<br>SEGA Menacer<br>SEGA Virtua Gun / バーチャガン / Stunner<br>Nintendo Zapper<br>Nintendo Super Scope<br>Konami The Justifier / サ・ジャスティファイアー<br>Konami LaserScope<br>Bandai Hyper Shot / ハイパーショット<br>American Laser GameGun<br>Jäger AP74 |
 | `:mouse` | Mouse | `>md`<br>`>saturn`<br>`>sfc`<br>`>pce`<br>`>pcfx`<br>`>n64` | SEGA Mouse<br>SEGA Saturn Shuttle Mouse / セガサターン シャトルマウス<br>Nintendo Super Famicom Mouse / スーパーファミコンマウス / Super NES Mouse<br>NEC PC Engine Mouse<br>NEC PC-FX Mouse<br>Nintendo 64 Mouse |
 | `:keyboard` | Typing keyboard | `>saturn`<br>`>fc`<br>`>n64`<br>`>workboy` | SEGA Saturn Keyboard<br>Famicom Keyboard<br>Nintendo 64 Keyboard<br>Fabtek WorkBoy |
@@ -170,6 +170,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:photoreader` | NEC Photo Reader |  |  |
 | `:develobox` | Tokuma Shoten Develo Box / でべろ Box |  |  |
 | `:teststation` | Nintendo NES Test Station |  |  |
+| `:pocketsakura` | Media Factory Pocket Sakura / ポケット・サクラ |  |  |
 | `:spectrumcommunicator` | Creatures Spectrum Communicator / スペクトラムコミュニケーター |  |  |
 
 </details>
@@ -187,7 +188,6 @@ The `>` level only applies to its immediate `:` subtag.
 | `:led` | LED |  |  |
 | `:gbkiss` | Hudson GB Kiss |  |  |
 | `:pocketsonar` | Bandai Pocket Sonar |  |  |
-| `:pocketsakura` | Media Factory Pocket Sakura / ポケット・サクラ |  |  |
 
 </details>
 
@@ -213,6 +213,9 @@ The `>` level only applies to its immediate `:` subtag.
 | `:taito` | Taito board | `>xsystem`<br>`>bsystem`<br>`>hsystem`<br>`>lsystem`<br>`>zsystem`<br>`>osystem`<br>`>f1system`<br>`>f2system`<br>`>f3system`<br>`>lgsystem` | Taito X System<br>Taito B System<br>Taito H System<br>Taito L System<br>Taito Z System<br>Taito O System<br>Taito F1 System / F2 System Extended<br>Taito F2 System<br>Taito F3 System<br>Taito LG System |
 | `:toaplan` | Toaplan board | `>version1`<br>`>version2` | Toaplan Version 1<br>Toaplan Version 2 |
 | `:jaleco` | Jaleco board | `>megasystem1` | Jaleco Mega System 1 |
+| `:nintendo` | Nintendo board | `>vssystem`<br>`>pc10`<br>`>nss` | Nintendo VS. System<br>Nintendo PlayChoice-10<br>Nintendo Super System |
+| `:nichibutsu` | Nichibutsu board |  |  |
+| `:tecfri` | Tecfri board | `>ambush` | Tecfri Ambush |
 
 </details>
 
@@ -282,11 +285,8 @@ The `>` level only applies to its immediate `:` subtag.
 </details>
 
 <details>
-<summary><strong>#multigame</strong> - Various games in one title</summary>
+<summary><strong>#compilation</strong> - Compilation of previously released games : ID</summary>
 
-| Subcategory | Description |
-|-------------|-------------|
-| `:compilation` | Compilation of previously released games |
 
 </details>
 
@@ -344,13 +344,13 @@ The `>` level only applies to its immediate `:` subtag.
 | `:elektronika60` | Elektronika 60 / Электроника 60 |  |  |
 | `:spectrum` | Sinclair ZX Spectrum |  |  |
 | `:amstrad` | Amstrad CPC |  |  |
-| `:atari` | Atari | `>atari400`<br>`>atarist`<br>`>atari2600`<br>`>lynx`<br>`>jaguar` | Atari 400<br>Atari ST<br>Atari 2600<br>Lynx<br>Jaguar |
+| `:atari` | Atari | `>atari400`<br>`>atarist`<br>`>falcon`<br>`>atari2600`<br>`>lynx`<br>`>jaguar` | Atari 400<br>Atari ST<br>Atari Falcon030<br>Atari 2600<br>Lynx<br>Jaguar |
 | `:nec` | NEC / Nippon Electric Company | `>pc88`<br>`>pc98`<br>`>pcengine`<br>`>cdromrom`<br>`>pcfx` | PC-8801<br>PC-9801<br>PC Engine / PCエンジン / TurboGrafx / TurboGrafx-16<br>CD-ROM² / シーディーロムロム / TurboGrafx-CD<br>PC-FX |
 | `:msx` | MSX | `>2` | MSX2 |
 | `:sharp` | Sharp | `>x1`<br>`>mz700`<br>`>x68000` | Sharp X1<br>Sharp MZ<br>X68000 |
 | `:pc` | PC DOS |  |  |
 | `:sega` | SEGA / セガ | `>sg1000`<br>`>mark3`<br>`>gamegear`<br>`>megadrive`<br>`>megacd`<br>`>32x`<br>`>saturn`<br>`>dreamcast` | SG-1000<br>Mark III / マークIII / Master System / マスターシステム<br>Game Gear / ゲームギア<br>MegaDrive / メガドライブ / Genesis<br>SEGA Mega-CD / メガシーディー / SEGA-CD<br>SEGA Super 32X / スーパー32X / Genesis 32X / MegaDrive 32X<br>SEGA Saturn / セガサターン<br>Dreamcast / ドリームキャスト |
-| `:nintendo` | Nintendo / 任天堂 | `>famicom`<br>`>superfamicom`<br>`>n64`<br>`>gameboy`<br>`>gbc`<br>`>gba`<br>`>gameandwatch` | Famicom / Family Computer / ファミリーコンピュータ / Nintendo Entertainment System / NES<br>Super Famicom / スーパーファミコン / Super Nintendo Entertainment System / SNES<br>Nintendo 64<br>GameBoy / ゲームボーイ<br>GameBoy Color / ゲームボーイカラー<br>GameBoy Advance / ゲームボーイアドバンス / GBA<br>Game & Watch / ゲーム&ウオッチ |
+| `:nintendo` | Nintendo / 任天堂 | `>famicom`<br>`>disksystem`<br>`>superfamicom`<br>`>n64`<br>`>gameboy`<br>`>gbc`<br>`>gba`<br>`>gameandwatch` | Famicom / Family Computer / ファミリーコンピュータ / Nintendo Entertainment System / NES<br>Famicom Disk System / Family Computer Disk System / ファミリーコンピュータ ディスクシステム<br>Super Famicom / スーパーファミコン / Super Nintendo Entertainment System / SNES<br>Nintendo 64<br>GameBoy / ゲームボーイ<br>GameBoy Color / ゲームボーイカラー<br>GameBoy Advance / ゲームボーイアドバンス / GBA<br>Game & Watch / ゲーム&ウオッチ |
 | `:sony` | Sony / ソニー | `>playstation` | PlayStation / プレイステーション |
 | `:3do` | Panasonic 3DO / スリーディーオー |  |  |
 | `:wonderswan` | Bandai WonderSwan / ワンダースワン |  |  |
@@ -425,6 +425,7 @@ The `>` level only applies to its immediate `:` subtag.
 | `:rockmanclassic` | Rockman Classic Collection / ロックマン クラシックス コレクション / Megaman Legacy Collection | `>1`<br>`>2`<br>`>x`<br>`>x2` | Rockman Classic Collection / ロックマン クラシックス コレクション / Megaman Legacy Collection<br>Rockman Classic Collection 2 / ロックマン クラシックス コレクション 2 / Megaman Legacy Collection 2<br>Rockman X Anniversary Collection / ロックマンX アニバーサリー コレクション / Megaman X Legacy Collection<br>Rockman X Anniversary Collection 2 / ロックマンX アニバーサリー コレクション 2 / Megaman X Legacy Collection 2 |
 | `:seikendensetsu` | Seiken Densetsu Collection / 聖剣伝説 Collection / Collection of Mana |  |  |
 | `:ninjajajamaru` | Ninja JaJaMaru Retro Collection / 忍者じゃじゃ丸 Collection |  |  |
+| `:zeldacollection` | The Legend of Zelda Collection / ゼルダコレクション / The Legend of Zelda: Collector's Edition |  |  |
 | `:disneyclassic` | Disney Classic Games Collection |  |  |
 | `:bubsytwofur` | Bubsy Two-Fur |  |  |
 | `:blizzardarcadecollection` | Blizzard Arcade Collection |  |  |
@@ -480,6 +481,8 @@ The `>` level only applies to its immediate `:` subtag.
 | `:6` | Set 6 |
 | `:7` | Set 7 |
 | `:8` | Set 8 |
+| `:f1` | Set F-1 |
+| `:f2` | Set F-2 |
 
 </details>
 
@@ -512,6 +515,12 @@ The `>` level only applies to its immediate `:` subtag.
 
 <details>
 <summary><strong>#mameparent</strong> - MAME parent file</summary>
+
+
+</details>
+
+<details>
+<summary><strong>#mamerom</strong> - Merged MAME ROM ZIP file > MAME ROM ZIP subfile</summary>
 
 
 </details>
