@@ -671,6 +671,8 @@ arcadeboard:
       description: "Tecfri board"
       children:
         ambush: "Tecfri Ambush"
+    tourvision:
+      description: "TourVisión board"
 
 compatibility:
   description: "System compatibility"
@@ -730,22 +732,22 @@ compatibility:
         color: "Color"
 
 disc:
-  description: "Disc Number"
+  description: "Number of discs"
   subtag:
-    "1": "Disc 1"
-    "2": "Disc 2"
-    "3": "Disc 3"
-    "4": "Disc 4"
-    "5": "Disc 5"
-    "6": "Disc 6"
-    "7": "Disc 7"
-    "8": "Disc 8"
-    children:
-      "2": "Two discs"
-      "3": "Three discs"
-      "4": "Four discs"
-      "5": "Five discs"
-      "8": "Eight discs"
+    "2": "Two discs"
+    "3": "Three discs"
+    "4": "Four discs"
+    "5": "Five discs"
+    "8": "Eight discs"
+      children:
+        "1": "Disc 1"
+        "2": "Disc 2"
+        "3": "Disc 3"
+        "4": "Disc 4"
+        "5": "Disc 5"
+        "6": "Disc 6"
+        "7": "Disc 7"
+        "8": "Disc 8"
 
 based:
   description: "Coming from another media"
