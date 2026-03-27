@@ -48,10 +48,11 @@ input:
         "9": "9 buttons"
         "11": "11 buttons"
         "12": "12 buttons"
-        "19": "19 keys"
-        "23": "23 keys"
-        "27": "27 keys"
         pneumatic: "Pneumatic button"
+    keyboard:
+      description: "Keyboard"
+      children:
+        mahjong: "Mahjong keyboard"
     pedals:
       description: "Foot pedals"
       children:
@@ -450,6 +451,7 @@ addon:
         segavr: "SEGA VR Headset"
         3dsystem: "Nintendo Famicom 3D System / ファミコン3Dシステム"
         3dgoggle: "Pioneer LaserActive 3D Goggle / 3D ゴーグル / 3-D Goggles"
+        mvd: "Mega Visor Display / メガバイザーディスプレイ / MVD"
     mic:
       description: "Microphone"
       children:
@@ -595,6 +597,7 @@ arcadeboard:
       description: "SEGA board"
       children:
         vco: "SEGA VCO Object"
+        g80: "SEGA G80"
         system1: "SEGA System 1"
         system2: "SEGA System 2"
         system16: "SEGA System 16"
@@ -667,6 +670,8 @@ arcadeboard:
         nss: "Nintendo Super System"
     nichibutsu:
       description: "Nichibutsu board"
+    taiyo:
+      description: "Taiyo System Board"
     tecfri:
       description: "Tecfri board"
       children:
@@ -813,6 +818,8 @@ search:
       children:
         stereo: "Stereoscopic 3D"
         anaglyph: "Anaglyph 3D"
+    vr:
+      description: "Virtual Reality"
     keyword:
       description: "Other specific game features"
       children:
