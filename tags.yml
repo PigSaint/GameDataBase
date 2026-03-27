@@ -361,7 +361,7 @@ addon:
       description: "Multitap for adding more controllers to the same system"
       children:
         segatap: "SEGA Tap / Multiplayer / Team Player / セガタップ"
-        6player: "SEGA Saturn 6 Player Adaptor Multi Terminal 6 / セガサターン6プレイヤーアダプタ マルチターミナル6 / 6Player / 6-Player Adaptor / Hudson SBom Multitap / エスボン　マルチタップ"
+        6player: "SEGA Saturn 6 Player Adaptor Multi Terminal 6 / セガサターン6プレイヤーアダプタ マルチターミナル6 / 6Player / 6-Player Adaptor / Hudson SBom Multitap / エスボン マルチタップ"
         4playersadaptor: "Hori 4 Player Adaptor / Nintendo Four Score"
         super: "Hudson Super Multitap"
         pce: "Hudson Multitap / NEC TurboTap"
@@ -416,7 +416,7 @@ addon:
       children:
         backupramcart: "SEGA Mega-CD Back Up RAM Cartridge / バックアップRAMカートリッジ"
         powermemory: "SEGA Saturn Gaibu Back-Up RAM Power Memory / セガサターン科外部バックアップRAM パワーメモリー / BackUp RAM Cartridge / BackUp Memory"
-        fddsaturn: "SEGA Saturn Floppy Disc Drive / SegaSaturn FDD / セガサターン　フロッピーディスクドライブ"
+        fddsaturn: "SEGA Saturn Floppy Disc Drive / SegaSaturn FDD / セガサターン フロッピーディスクドライブ"
         controllerpak: "Nintendo Controller Pak / コントローラパック"
         smartmediacard: "Hagiwara Syscom SmartMedia Card"
         datarecorder: "Panasonic Famicom Data Recorder / データレコーダ"
@@ -480,9 +480,9 @@ addon:
         powerantenna: "Smilesoft Power Antenna / パワーアンテナ"
         bugsensor: "Smilesoft Bug Sensor / バグセンサー"
     rob:
-      description: "Nintendo Family Computer Robot /  ファミリーコンピュータ　ロボット/ R.O.B. / Robotic Operating Buddy"
+      description: "Nintendo Family Computer Robot /  ファミリーコンピュータ ロボット/ R.O.B. / Robotic Operating Buddy"
       children:
-        gyro: "Gyro Set / ジャイロ　セット"
+        gyro: "Gyro Set / ジャイロ セット"
         block: "Block Set / ブロック セット"
     printer:
       description: "Printer"
@@ -827,7 +827,7 @@ search:
         promo: "Promotional not-for-sale limited product"
         qsound: "QSound support"
         dolby: "Dolby Surround"
-        rs: "Response Sound System / レスポンス　サウンド　システム / RS"
+        rs: "Response Sound System / レスポンス サウンド システム / RS"
         ubikey: "Ubi Key"
         official: "Official sports game"
         endorsed: "Endorsed by public figure"
@@ -1174,7 +1174,7 @@ rerelease:
     sfcmini:
       description: "Nintendo Super Famicom Classic Mini / スーパーファミコン クラシックミニ / Super Nintendo Entertainment System Classic Mini"
     pcemini:
-      description: "Konami PC Engine Mini / ピーシーエンジン　ミニ / Core Grafx Mini Mini / PCエンジン コアグラフィックス　ミニ / TurboGrafx 16 Mini"
+      description: "Konami PC Engine Mini / ピーシーエンジン ミニ / Core Grafx Mini Mini / PCエンジン コアグラフィックス ミニ / TurboGrafx 16 Mini"
     gamenokanzume:
       description: "Game no Kanzume / ゲームのかんづめ"
       children:
