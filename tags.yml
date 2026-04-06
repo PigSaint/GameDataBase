@@ -34,6 +34,7 @@ input:
       children:
         "2": "Two positions"
         "3": "Three positions"
+        "4": "Four positions"
     buttons:
       description: "In-game buttons"
       children:
@@ -58,6 +59,11 @@ input:
       children:
         "1": "One pedal"
         "2": "Two pedals"
+    touchscreen:
+      description: "Touch screen"
+      children:
+        resistive: "Resistive screen"
+        capacitive: "Capacitive screen"
     puncher:
       description: "Puncher"
     motion:
@@ -614,6 +620,12 @@ arcadeboard:
         xboard: "SEGA X Board"
         yboard: "SEGA Y Board"
         stv: "SEGA Titan Video"
+        model1: "SEGA Model 1"
+        model2a: "SEGA Model 2A"
+        model2b: "SEGA Model 2B"
+        model2C: "SEGA Model 2C"
+        model3: "SEGA Model 3"
+        naomi: "SEGA NAOMI"
     irem:
       description: "Irem board"
       children:
