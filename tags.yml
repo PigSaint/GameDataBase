@@ -163,7 +163,6 @@ genre:
       description: "Racing"
       children:
         combat: "Combat racing"
-        driving: "Non-competition driving"
     rpg:
       description: "Role-Playing Game"
       children:
@@ -209,6 +208,7 @@ genre:
         farm: "Farm simulator"
         pet: "Pet simulator"
         fishing: "Fishing"
+        driving: "Non-competition driving"
         god: "God simulator"
         derby: "Derby horse ride"
         building: "Building"
@@ -602,6 +602,7 @@ arcadeboard:
     sega:
       description: "SEGA board"
       children:
+        vicdual: "SEGA/Gremlin VIC Dual"
         vco: "SEGA VCO Object"
         g80: "SEGA G80"
         system1: "SEGA System 1"
@@ -614,6 +615,7 @@ arcadeboard:
         system24: "SEGA System 24"
         system32: "SEGA System 32"
         multi32: "SEGA System Multi 32"
+        h1: "SEGA H1 Board"
         systemc: "SEGA System C"
         systemc2: "SEGA System C-2"
         systeme: "SEGA System E"
@@ -623,8 +625,11 @@ arcadeboard:
         model1: "SEGA Model 1"
         model2a: "SEGA Model 2A"
         model2b: "SEGA Model 2B"
-        model2C: "SEGA Model 2C"
+        model2c: "SEGA Model 2C"
         model3: "SEGA Model 3"
+        model3s15: "SEGA Model 3 Step 1.5"
+        model3s2: "SEGA Model 3 Step 2.0"
+        model3s21: "SEGA Model 3 Step 2.1"
         naomi: "SEGA NAOMI"
     irem:
       description: "Irem board"
