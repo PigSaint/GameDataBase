@@ -9,7 +9,6 @@ input:
         "3": "3-way"
         "4": "4-way"
         "8": "8-way"
-        double: "Double joystick"
         rotary: "Rotary joystick"
     stick:
       description: "Stick"
@@ -670,6 +669,8 @@ arcadeboard:
         f2system: "Taito F2 System"
         f3system: "Taito F3 System"
         lgsystem: "Taito LG System"
+    konami:
+      description: "Konami board"
     toaplan:
       description: "Toaplan board"
       children:
@@ -687,6 +688,10 @@ arcadeboard:
         nss: "Nintendo Super System"
     nichibutsu:
       description: "Nichibutsu board"
+    stern:
+      description: "Stern Electronics board"
+    vectorbeam:
+      description: "Vectorbeam board"
     taiyo:
       description: "Taiyo System Board"
     tecfri:
