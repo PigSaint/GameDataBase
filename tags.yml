@@ -761,11 +761,16 @@ compatibility:
 disc:
   description: "Number of discs"
   subtag:
-    "2": "Two discs"
-    "3": "Three discs"
-    "4": "Four discs"
-    "5": "Five discs"
-    "8": "Eight discs"
+    "2": 
+      description: "Two discs"
+    "3": 
+      description: "Three discs"
+    "4": 
+      description: "Four discs"
+    "5": 
+      description: "Five discs"
+    "8": 
+      description: "Eight discs"
       children:
         "1": "Disc 1"
         "2": "Disc 2"
