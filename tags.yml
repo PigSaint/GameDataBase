@@ -870,7 +870,154 @@ search:
         brand: "Endorsed by company or brand"
 
 compilation:
-    description: "Compilation of previously released games : ID"
+  description: "Compilation of previously released games"
+  subtag:
+    adamandeve:
+      description: "Adam and Eve"
+    babyboomer:
+      description: "Baby Boomer"
+    balloonmonster:
+      description: "Balloon Monster"
+    baseballpros:
+      description: "Baseball Pros"
+    bignosefreaksout:
+      description: "Big Nose Freaks Out"
+    bignosethecaveman:
+      description: "Big Nose the Caveman"
+    blackjack:
+      description: "Blackjack"
+    bmxsimulator:
+      description: "BMX Simulator"
+    boomerangkid:
+      description: "Boomerang Kid"
+    bombliss:
+      description: "Bombliss"
+    brushroller:
+      description: "Brush Roller"
+    challengeofthedragon:
+      description: "Challenge of the Dragon"
+    chiller:
+      description: "Chiller"
+    cjselephantantics:
+      description: "C.J.'s Elephant Antics"
+    cosmoscop:
+      description: "Cosmoscop"
+    crystalmines:
+      description: "Crystal Mines"
+    deathbots:
+      description: "Death Bots"
+    deathrace:
+      description: "Death Race"
+    donkeykong:
+      description: "Donkey Kong"
+    donkeykongjr:
+      description: "Donkey Kong Jr."
+    donkeykongjrnosansuuasobi:
+      description: "Donkey Kong Jr. No Sansuu Asobi"
+    doublestrike:
+      description: "Double Strike"
+    duckhunt:
+      description: "Duck Hunt"
+    dudeswithattitude:
+      description: "Dudes with Attitude"
+    f15citywar:
+      description: "F-15 City War"
+    f16renegade:
+      description: "F-16 Renegade"
+    fantasticdizzy:
+      description: "Fantastic Dizzy"
+    finalfantasy:
+      description: "Final Fantasy"
+    finalfantasy2:
+      description: "Final Fantasy II"
+    galacticcrusader:
+      description: "Galactic Crusader"
+    godizzygo:
+      description: "Go Dizzy Go"
+    krazykreatures:
+      description: "Krazy Kreatures"
+    kingneptunesadventure:
+      description: "King Neptune's Adventure"
+    linusspacehead:
+      description: "Linus Spacehead"
+    magiccarpet1001:
+      description: "Magic Carpet 1001"
+    mahjonggmen89satsusaretaol:
+      description: "Mahjong G-Men '89 Satsusareta OL"
+    masterchuandthedrunkardhu:
+      description: "Master Chu and the Drunkard Hu"
+    menacebeach:
+      description: "Menace Beach"
+    micromachines:
+      description: "Micro Machines"
+    moonranger:
+      description: "Moon Ranger"
+    nekketsukoukoudodgeballbusoccerhen:
+      description: "Nekketsu Kōkō Dodgeball Bu Soccer Hen"
+    ohpaipee:
+      description: "Oh Pai Pee"
+    operationsecretstorm:
+      description: "Operation Secret Storm"
+    pesterminatorthewesternexterminator:
+      description: "Pesterminator the Western Exterminator"
+    porter:
+      description: "Porter"
+    pradikusconflict:
+      description: "Pradikus Conflict"
+    protennis:
+      description: "Pro Tennis"
+    puzzleideatek:
+      description: "Puzzle Idea Tek"
+    pyramid1:
+      description: "Pyramid 1"
+    raid2020:
+      description: "Raid 2020"
+    radrackettennis:
+      description: "Rad Racquet Tennis"
+    robodemons:
+      description: "Robo Demons"
+    runningstadium:
+      description: "Running Stadium"
+    secretscoutinthetempleofdemise:
+      description: "Secret Scout in the Temple of Demise"
+    sesamestreet123:
+      description: "Sesame Street 123"
+    sesamestreetabc:
+      description: "Sesame Street ABC"
+    shockwave:
+      description: "Shockwave"
+    soccercm:
+      description: "Soccer CM"
+    soccersimulator:
+      description: "Soccer Simulator"
+    solitairenes:
+      description: "Solitaire NES"
+    stakkm:
+      description: "Stakk M"
+    stuntbuggies:
+      description: "Stunt Buggies"
+    superrobinhood:
+      description: "Super Robin Hood"
+    supermariobros:
+      description: "Super Mario Bros."
+      children:
+        supermariobros2: "Super Mario Bros. 2"
+        supermariobros3: "Super Mario Bros. 3"
+        yumekoujoudokidokipanic: "Yume Kōjō Doki Doki Panic"
+    tetris2:
+      description: "Tetris 2"
+    theadventuresofcaptaincomic:
+      description: "The Adventures of Captain Comic"
+    theultimatestuntman:
+      description: "The Ultimate Stuntman"
+    tilesoffate:
+      description: "Tiles of Fate"
+    treasureislanddizzy:
+      description: "Treasure Island Dizzy"
+    uschampionshipvball:
+      description: "US Championship V'Ball"
+    venicebeachvolleyball:
+      description: "Venice Beach Volleyball"
 
 reboxed:
   description: "Reboxed"
