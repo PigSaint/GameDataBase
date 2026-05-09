@@ -870,7 +870,7 @@ search:
         brand: "Endorsed by company or brand"
 
 compilation:
-  description: "Compilation of previously released games"
+  description: "Compilation of previously released games ID"
   subtag:
     adamandeve:
       description: "Adam and Eve"
@@ -1448,6 +1448,5319 @@ mameparent:
 
 mamerom:
   description: "Merged MAME ROM ZIP file > MAME ROM ZIP subfile"
+  subtag:
+    005:
+      description: "005"
+      children:
+        005a: "005a"
+    10yard:
+      description: "10yard"
+      children:
+        10yard85: "10yard85"
+        10yardj: "10yardj"
+        vs10yard: "vs10yard"
+        vs10yardj: "vs10yardj"
+        vs10yardu: "vs10yardu"
+    1941:
+      description: "1941"
+      children:
+        1941j: "1941j"
+        1941r1: "1941r1"
+        1941u: "1941u"
+    1942:
+      description: "1942"
+      children:
+        1942a: "1942a"
+        1942b: "1942b"
+        1942h: "1942h"
+        1942w: "1942w"
+    1943:
+      description: "1943"
+      children:
+        1943j: "1943j"
+        1943ja: "1943ja"
+        1943jah: "1943jah"
+        1943u: "1943u"
+        1943ua: "1943ua"
+    1943kai:
+      description: "1943kai"
+    1943mii:
+      description: "1943mii"
+    1944:
+      description: "1944"
+      children:
+        1944d: "1944d"
+        1944j: "1944j"
+        1944u: "1944u"
+    19xx:
+      description: "19xx"
+      children:
+        19xxa: "19xxa"
+        19xxar1: "19xxar1"
+        19xxb: "19xxb"
+        19xxd: "19xxd"
+        19xxh: "19xxh"
+        19xxj: "19xxj"
+        19xxjr1: "19xxjr1"
+        19xxjr2: "19xxjr2"
+        19xxu: "19xxu"
+    2020bb:
+      description: "2020bb"
+      children:
+        2020bba: "2020bba"
+    2mindril:
+      description: "2mindril"
+      children:
+        2mindrila: "2mindrila"
+    3countb:
+      description: "3countb"
+    3wonders:
+      description: "3wonders"
+      children:
+        3wondersr1: "3wondersr1"
+        3wondersrh: "3wondersrh"
+        wonder3: "wonder3"
+    40love:
+      description: "40love"
+      children:
+        40lovej: "40lovej"
+    4dwarrio:
+      description: "4dwarrio"
+    abcop:
+      description: "abcop"
+      children:
+        abcopj: "abcopj"
+    abunai:
+      description: "abunai"
+    aburner2:
+      description: "aburner2"
+      children:
+        aburner: "aburner"
+        aburner2g: "aburner2g"
+    aceattac:
+      description: "aceattac"
+      children:
+        aceattaca: "aceattaca"
+    afighter:
+      description: "afighter"
+      children:
+        afightera: "afightera"
+        afighterb: "afighterb"
+        afighterc: "afighterc"
+        afighterd: "afighterd"
+        afightere: "afightere"
+        afighterf: "afighterf"
+        afighterg: "afighterg"
+        afighterh: "afighterh"
+    ainferno:
+      description: "ainferno"
+      children:
+        ainfernoj: "ainfernoj"
+        ainfernou: "ainfernou"
+    airass:
+      description: "airass"
+      children:
+        firebarr: "firebarr"
+    airduel:
+      description: "airduel"
+      children:
+        airdueljm72: "airdueljm72"
+        airduelm72: "airduelm72"
+        airduelu: "airduelu"
+    airwlkrs:
+      description: "airwlkrs"
+    ajax:
+      description: "ajax"
+      children:
+        ajaxj: "ajaxj"
+        typhoon: "typhoon"
+    alexkidd:
+      description: "alexkidd"
+      children:
+        alexkidd1: "alexkidd1"
+    alibaba:
+      description: "alibaba"
+      children:
+        alibabab: "alibabab"
+    alien3:
+      description: "alien3"
+      children:
+        alien3j: "alien3j"
+        alien3u: "alien3u"
+    aliensyn:
+      description: "aliensyn"
+      children:
+        aliensyn2: "aliensyn2"
+        aliensyn3: "aliensyn3"
+        aliensyn5: "aliensyn5"
+        aliensyn7: "aliensyn7"
+        aliensynj: "aliensynj"
+        aliensynjo: "aliensynjo"
+    alphaho:
+      description: "alphaho"
+      children:
+        alphahob: "alphahob"
+    alpham2:
+      description: "alpham2"
+      children:
+        alpham2p: "alpham2p"
+    alpine:
+      description: "alpine"
+      children:
+        alpinea: "alpinea"
+    altbeast:
+      description: "altbeast"
+      children:
+        altbeast2: "altbeast2"
+        altbeast4: "altbeast4"
+        altbeast5: "altbeast5"
+        altbeast6: "altbeast6"
+        altbeastj: "altbeastj"
+        altbeastj1: "altbeastj1"
+        altbeastj3: "altbeastj3"
+    amazon:
+      description: "amazon"
+      children:
+        amatelas: "amatelas"
+        amazont: "amazont"
+    amidar:
+      description: "amidar"
+      children:
+        amidar1: "amidar1"
+        amidarb: "amidarb"
+        amidarb2: "amidarb2"
+        amidarc: "amidarc"
+        amidaro: "amidaro"
+        amidars: "amidars"
+        amidaru: "amidaru"
+        amigo: "amigo"
+        amigo2: "amigo2"
+        mandinga: "mandinga"
+        mandingac: "mandingac"
+        mandingaeg: "mandingaeg"
+        mandingag: "mandingag"
+        mandingarf: "mandingarf"
+        mandinka: "mandinka"
+        olmandingc: "olmandingc"
+        olmandingo: "olmandingo"
+    androdun:
+      description: "androdun"
+    andromed:
+      description: "andromed"
+    angelkds:
+      description: "angelkds"
+    anpanman:
+      description: "anpanman"
+      children:
+        anpanmana: "anpanmana"
+    aodk:
+      description: "aodk"
+    aof:
+      description: "aof"
+    aof2:
+      description: "aof2"
+    aof3:
+      description: "aof3"
+      children:
+        aof3: "aof3"
+    apparel:
+      description: "apparel"
+    appoooh:
+      description: "appoooh"
+    aquajack:
+      description: "aquajack"
+      children:
+        aquajackj: "aquajackj"
+        aquajacku: "aquajacku"
+    aquastge:
+      description: "aquastge"
+    arabfgt:
+      description: "arabfgt"
+      children:
+        arabfgtj: "arabfgtj"
+        arabfgtu: "arabfgtu"
+    arabianm:
+      description: "arabianm"
+      children:
+        arabianmj: "arabianmj"
+        arabianmu: "arabianmu"
+    arescue:
+      description: "arescue"
+      children:
+        arescuej: "arescuej"
+        arescueu: "arescueu"
+    arkanoid:
+      description: "arkanoid"
+      children:
+        ark1ball: "ark1ball"
+        arkangc: "arkangc"
+        arkangc2: "arkangc2"
+        arkanoidj: "arkanoidj"
+        arkanoidja: "arkanoidja"
+        arkanoidjb: "arkanoidjb"
+        arkanoidjbl: "arkanoidjbl"
+        arkanoidjbl2: "arkanoidjbl2"
+        arkanoidu: "arkanoidu"
+        arkanoiduo: "arkanoiduo"
+        arkatayt: "arkatayt"
+        arkatayt2: "arkatayt2"
+        arkbloc2: "arkbloc2"
+        arkbloc3: "arkbloc3"
+        arkblock: "arkblock"
+        arkgcbl: "arkgcbl"
+        arkgcbla: "arkgcbla"
+        block2: "block2"
+    arknoid2:
+      description: "arknoid2"
+      children:
+        arknoid2b: "arknoid2b"
+        arknoid2j: "arknoid2j"
+        arknoid2u: "arknoid2u"
+    arkretrn:
+      description: "arkretrn"
+      children:
+        arkretrnj: "arkretrnj"
+        arkretrnu: "arkretrnu"
+    armedf:
+      description: "armedf"
+      children:
+        armedff: "armedff"
+    armwar:
+      description: "armwar"
+      children:
+        armwara: "armwara"
+        armwarar1: "armwarar1"
+        armwarb: "armwarb"
+        armward: "armward"
+        armwaru: "armwaru"
+        armwaru1: "armwaru1"
+        pgear: "pgear"
+        pgearr1: "pgearr1"
+    armwrest:
+      description: "armwrest"
+    ashura:
+      description: "ashura"
+      children:
+        ashuraj: "ashuraj"
+        ashurau: "ashurau"
+    aso:
+      description: "aso"
+      children:
+        alphamis: "alphamis"
+        arian: "arian"
+    astorm:
+      description: "astorm"
+      children:
+        astormj: "astormj"
+        astormu: "astormu"
+    astrass:
+      description: "astrass"
+    astrob:
+      description: "astrob"
+      children:
+        astrob1: "astrob1"
+        astrob2: "astrob2"
+        astrob2a: "astrob2a"
+        astrob2b: "astrob2b"
+        astrobf: "astrobf"
+        astrobg: "astrobg"
+    asuka:
+      description: "asuka"
+      children:
+        asukaj: "asukaj"
+        asukaja: "asukaja"
+    athena:
+      description: "athena"
+      children:
+        athenab: "athenab"
+        sathena: "sathena"
+    atomicp:
+      description: "atomicp"
+    aurail:
+      description: "aurail"
+      children:
+        aurail1: "aurail1"
+        aurailj: "aurailj"
+    av2mj1bb:
+      description: "av2mj1bb"
+    av2mj2rg:
+      description: "av2mj2rg"
+    avmjts:
+      description: "avmjts"
+    avmjyk:
+      description: "avmjyk"
+    avsp:
+      description: "avsp"
+      children:
+        avspa: "avspa"
+        avspd: "avspd"
+        avsph: "avsph"
+        avspj: "avspj"
+        avspu: "avspu"
+    b2b:
+      description: "b2b"
+    bakatono:
+      description: "bakatono"
+    bakubaku:
+      description: "bakubaku"
+    ballbomb:
+      description: "ballbomb"
+    ballbros:
+      description: "ballbros"
+    balonfgt:
+      description: "balonfgt"
+    bananadr:
+      description: "bananadr"
+    bangbead:
+      description: "bangbead"
+    bankp:
+      description: "bankp"
+    barline:
+      description: "barline"
+    bassdx:
+      description: "bassdx"
+      children:
+        getbass: "getbass"
+        getbassdx: "getbassdx"
+        getbassur: "getbassur"
+    batcir:
+      description: "batcir"
+      children:
+        batcira: "batcira"
+        batcird: "batcird"
+        batcirj: "batcirj"
+    batmanfr:
+      description: "batmanfr"
+    battlnts:
+      description: "battlnts"
+      children:
+        battlntsa: "battlntsa"
+        battlntsj: "battlntsj"
+    battroad:
+      description: "battroad"
+    bayroute:
+      description: "bayroute"
+      children:
+        bayroute1: "bayroute1"
+        bayroutej: "bayroutej"
+    bbmanw:
+      description: "bbmanw"
+      children:
+        bbmanwj: "bbmanwj"
+        bbmanwja: "bbmanwja"
+        bomblord: "bomblord"
+        newapunk: "newapunk"
+    bbusters:
+      description: "bbusters"
+      children:
+        bbustersj: "bbustersj"
+        bbustersja: "bbustersja"
+        bbustersu: "bbustersu"
+        bbustersua: "bbustersua"
+    bchopper:
+      description: "bchopper"
+      children:
+        mrheli: "mrheli"
+    bel:
+      description: "bel"
+    benberob:
+      description: "benberob"
+    bermudat:
+      description: "bermudat"
+      children:
+        bermudatj: "bermudatj"
+    bigevglf:
+      description: "bigevglf"
+      children:
+        bigevglfj: "bigevglfj"
+    bijokkog:
+      description: "bijokkog"
+    bijokkoy:
+      description: "bijokkoy"
+    bikkuri:
+      description: "bikkuri"
+    bioatack:
+      description: "bioatack"
+    bionicc:
+      description: "bionicc"
+      children:
+        bionicc1: "bionicc1"
+        bionicc2: "bionicc2"
+        bioniccbl: "bioniccbl"
+        bioniccbl2: "bioniccbl2"
+        topsecrt: "topsecrt"
+        topsecrt2: "topsecrt2"
+    bjourney:
+      description: "bjourney"
+    bking:
+      description: "bking"
+    bking2:
+      description: "bking2"
+    bking3:
+      description: "bking3"
+    blazstar:
+      description: "blazstar"
+    blkpnthr:
+      description: "blkpnthr"
+    blktiger:
+      description: "blktiger"
+      children:
+        blkdrgon: "blkdrgon"
+        blktigera: "blktigera"
+    block:
+      description: "block"
+      children:
+        blockj: "blockj"
+        blockr1: "blockr1"
+        blockr2: "blockr2"
+    blockfvr:
+      description: "blockfvr"
+    blockgal:
+      description: "blockgal"
+    bloxeed:
+      description: "bloxeed"
+      children:
+        bloxeedc: "bloxeedc"
+        bloxeedu: "bloxeedu"
+    bmaster:
+      description: "bmaster"
+      children:
+        crossbld: "crossbld"
+    bnglngby:
+      description: "bnglngby"
+    bnzabros:
+      description: "bnzabros"
+      children:
+        bnzabrosj: "bnzabrosj"
+    bodyslam:
+      description: "bodyslam"
+      children:
+        dumpmtmt: "dumpmtmt"
+    bonzeadv:
+      description: "bonzeadv"
+      children:
+        bonzeadvo: "bonzeadvo"
+        bonzeadvp: "bonzeadvp"
+        bonzeadvp2: "bonzeadvp2"
+        bonzeadvu: "bonzeadvu"
+        jigkmgri: "jigkmgri"
+        jigkmgria: "jigkmgria"
+    borench:
+      description: "borench"
+      children:
+        borencha: "borencha"
+        borenchj: "borenchj"
+    brain:
+      description: "brain"
+    brdrline:
+      description: "brdrline"
+      children:
+        brdrlinb: "brdrlinb"
+        brdrlinet: "brdrlinet"
+        brdrlins: "brdrlins"
+        starrkr: "starrkr"
+    breakers:
+      description: "breakers"
+    breakrev:
+      description: "breakrev"
+    brival:
+      description: "brival"
+      children:
+        brivalj: "brivalj"
+    bshark:
+      description: "bshark"
+      children:
+        bsharkj: "bsharkj"
+        bsharkjjs: "bsharkjjs"
+        bsharku: "bsharku"
+    bstars:
+      description: "bstars"
+    bstars2:
+      description: "bstars2"
+    btlecity:
+      description: "btlecity"
+    bubblem:
+      description: "bubblem"
+      children:
+        bubblemj: "bubblemj"
+        bubblemu: "bubblemu"
+    bublbob2:
+      description: "bublbob2"
+      children:
+        bublbob2e: "bublbob2e"
+        bublbob2j: "bublbob2j"
+        bublbob2o: "bublbob2o"
+        bublbob2p: "bublbob2p"
+        bublbob2u: "bublbob2u"
+        bubsymphb: "bubsymphb"
+    bublbobl:
+      description: "bublbobl"
+      children:
+        bbredux: "bbredux"
+        boblbobl: "boblbobl"
+        bub68705: "bub68705"
+        bub8749: "bub8749"
+        bublbobl1: "bublbobl1"
+        bublboblb: "bublboblb"
+        bublboblp: "bublboblp"
+        bublboblr: "bublboblr"
+        bublboblr1: "bublboblr1"
+        bublcave: "bublcave"
+        bublcave10: "bublcave10"
+        bublcave11: "bublcave11"
+        dland: "dland"
+        sboblbobl: "sboblbobl"
+        sboblbobla: "sboblbobla"
+        sboblboblb: "sboblboblb"
+        sboblboblc: "sboblboblc"
+        sboblbobld: "sboblbobld"
+        sboblboble: "sboblboble"
+        sboblboblf: "sboblboblf"
+    buckrog:
+      description: "buckrog"
+      children:
+        buckrogn: "buckrogn"
+        buckrogn2: "buckrogn2"
+        zoom909: "zoom909"
+    buggychl:
+      description: "buggychl"
+      children:
+        buggychlt: "buggychlt"
+    bullet:
+      description: "bullet"
+    bullfgt:
+      description: "bullfgt"
+      children:
+        thetogyu: "thetogyu"
+    burningf:
+      description: "burningf"
+      children:
+        burningfp: "burningfp"
+        burningfpa: "burningfpa"
+        burningfpb: "burningfpb"
+    bygone:
+      description: "bygone"
+    cachat:
+      description: "cachat"
+      children:
+        tubeit: "tubeit"
+    cadash:
+      description: "cadash"
+      children:
+        cadashf: "cadashf"
+        cadashg: "cadashg"
+        cadashgo: "cadashgo"
+        cadashi: "cadashi"
+        cadashj: "cadashj"
+        cadashj1: "cadashj1"
+        cadashjo: "cadashjo"
+        cadashs: "cadashs"
+        cadashu: "cadashu"
+        cadashu1: "cadashu1"
+    cameltry:
+      description: "cameltry"
+      children:
+        cameltrya: "cameltrya"
+        cameltryj: "cameltryj"
+    canvas:
+      description: "canvas"
+    captcomm:
+      description: "captcomm"
+      children:
+        captcommj: "captcommj"
+        captcommjr1: "captcommjr1"
+        captcommr1: "captcommr1"
+        captcommu: "captcommu"
+    carhntds:
+      description: "carhntds"
+    carnival:
+      description: "carnival"
+      children:
+        carnivalb: "carnivalb"
+        carnivalc: "carnivalc"
+        carnivalca: "carnivalca"
+        carnivalh: "carnivalh"
+        carnivalha: "carnivalha"
+        carnivalmm: "carnivalmm"
+    cavelon:
+      description: "cavelon"
+    cawing:
+      description: "cawing"
+      children:
+        cawingj: "cawingj"
+        cawingr1: "cawingr1"
+        cawingu: "cawingu"
+        cawingur1: "cawingur1"
+    cbombers:
+      description: "cbombers"
+      children:
+        cbombersj: "cbombersj"
+        cbombersp: "cbombersp"
+    cclimber:
+      description: "cclimber"
+      children:
+        ccboot: "ccboot"
+        ccboot2: "ccboot2"
+        ccbootmm: "ccbootmm"
+        ccbootmr: "ccbootmr"
+        cclimbera: "cclimbera"
+        cclimberj: "cclimberj"
+        cclimbroper: "cclimbroper"
+        cclimbrrod: "cclimbrrod"
+    cclimbr2:
+      description: "cclimbr2"
+      children:
+        cclimbr2a: "cclimbr2a"
+    chaknpop:
+      description: "chaknpop"
+    champwr:
+      description: "champwr"
+      children:
+        champwrj: "champwrj"
+        champwru: "champwru"
+    changela:
+      description: "changela"
+    chasehq:
+      description: "chasehq"
+      children:
+        chasehqj: "chasehqj"
+        chasehqju: "chasehqju"
+        chasehqu: "chasehqu"
+    chinhero:
+      description: "chinhero"
+      children:
+        chinhero2: "chinhero2"
+        chinhero3: "chinhero3"
+        chinherot: "chinherot"
+    chinmoku:
+      description: "chinmoku"
+    choko:
+      description: "choko"
+    choplift:
+      description: "choplift"
+      children:
+        chopliftu: "chopliftu"
+    chopliftu:
+      description: "chopliftu"
+      children:
+        chopliftbl: "chopliftbl"
+    chopper:
+      description: "chopper"
+      children:
+        choppera: "choppera"
+        chopperb: "chopperb"
+        legofair: "legofair"
+    chukatai:
+      description: "chukatai"
+      children:
+        chukataij: "chukataij"
+        chukataija: "chukataija"
+        chukataiu: "chukataiu"
+    circusc:
+      description: "circusc"
+      children:
+        circusc2: "circusc2"
+        circusc3: "circusc3"
+        circusc4: "circusc4"
+        circuscc: "circuscc"
+        circusce: "circusce"
+    citylove:
+      description: "citylove"
+      children:
+        mcitylov: "mcitylov"
+    ckong:
+      description: "ckong"
+      children:
+        bigkong: "bigkong"
+        bigkonggx: "bigkonggx"
+        ckongalc: "ckongalc"
+        ckongcv: "ckongcv"
+        ckongdks: "ckongdks"
+        ckongg: "ckongg"
+        ckonggx: "ckonggx"
+        ckongis: "ckongis"
+        ckongmc: "ckongmc"
+        ckongmc2: "ckongmc2"
+        ckongo: "ckongo"
+        ckongs: "ckongs"
+        dking: "dking"
+        monkeyd: "monkeyd"
+    ckongpt2:
+      description: "ckongpt2"
+      children:
+        ckongpt2b: "ckongpt2b"
+        ckongpt2b2: "ckongpt2b2"
+        ckongpt2j: "ckongpt2j"
+        ckongpt2ss: "ckongpt2ss"
+    ckongpt2a:
+      description: "ckongpt2a"
+      children:
+        ckongpt2jeu: "ckongpt2jeu"
+    cleopatr:
+      description: "cleopatr"
+      children:
+        cleopatro: "cleopatro"
+    cltchitr:
+      description: "cltchitr"
+      children:
+        cltchitrj: "cltchitrj"
+    club90s:
+      description: "club90s"
+      children:
+        club90sa: "club90sa"
+        lovehous: "lovehous"
+    cluclu:
+      description: "cluclu"
+    cmehyou:
+      description: "cmehyou"
+    cntrygrl:
+      description: "cntrygrl"
+      children:
+        cntrygrla: "cntrygrla"
+        fruitbun: "fruitbun"
+    colmns97:
+      description: "colmns97"
+    colony7:
+      description: "colony7"
+      children:
+        colony7a: "colony7a"
+    columns:
+      description: "columns"
+      children:
+        columnsj: "columnsj"
+        columnsu: "columnsu"
+    columns2:
+      description: "columns2"
+      children:
+        column2j: "column2j"
+    combh:
+      description: "combh"
+    commando:
+      description: "commando"
+      children:
+        commandob: "commandob"
+        commandob2: "commandob2"
+        commandob3: "commandob3"
+        commandoj: "commandoj"
+        commandou: "commandou"
+        commandou2: "commandou2"
+        sinvasn: "sinvasn"
+    commandw:
+      description: "commandw"
+    complexx:
+      description: "complexx"
+    congo:
+      description: "congo"
+      children:
+        congoa: "congoa"
+        tiptop: "tiptop"
+    contcirc:
+      description: "contcirc"
+      children:
+        contcircj: "contcircj"
+        contcircu: "contcircu"
+        contcircua: "contcircua"
+    coolridr:
+      description: "coolridr"
+    cop01:
+      description: "cop01"
+      children:
+        cop01a: "cop01a"
+    cosmccop:
+      description: "cosmccop"
+      children:
+        gallop: "gallop"
+        gallopm72: "gallopm72"
+    cothello:
+      description: "cothello"
+    cotton:
+      description: "cotton"
+      children:
+        cottonj: "cottonj"
+        cottonja: "cottonja"
+        cottonu: "cottonu"
+    cotton2:
+      description: "cotton2"
+    cottonbm:
+      description: "cottonbm"
+    countryc:
+      description: "countryc"
+    crbaloon:
+      description: "crbaloon"
+      children:
+        crbaloon2: "crbaloon2"
+    crimec:
+      description: "crimec"
+      children:
+        crimecj: "crimecj"
+        crimecu: "crimecu"
+    critcrsh:
+      description: "critcrsh"
+      children:
+        tatacot: "tatacot"
+    crkdown:
+      description: "crkdown"
+      children:
+        crkdownj: "crkdownj"
+        crkdownu: "crkdownu"
+    crsword:
+      description: "crsword"
+    crystal2:
+      description: "crystal2"
+    crystalg:
+      description: "crystalg"
+    csclub:
+      description: "csclub"
+      children:
+        csclub1: "csclub1"
+        csclub1d: "csclub1d"
+        cscluba: "cscluba"
+        csclubh: "csclubh"
+        csclubj: "csclubj"
+        csclubjy: "csclubjy"
+    cstlevna:
+      description: "cstlevna"
+    ctomaday:
+      description: "ctomaday"
+    cubybop:
+      description: "cubybop"
+    cupfinal:
+      description: "cupfinal"
+      children:
+        hthero93: "hthero93"
+        hthero93u: "hthero93u"
+    cworld:
+      description: "cworld"
+    cworld2j:
+      description: "cworld2j"
+      children:
+        cworld2ja: "cworld2ja"
+        cworld2jb: "cworld2jb"
+    cyberlip:
+      description: "cyberlip"
+    cybots:
+      description: "cybots"
+      children:
+        cybotsj: "cybotsj"
+        cybotsjd: "cybotsjd"
+        cybotsu: "cybotsu"
+        cybotsud: "cybotsud"
+    dacholer:
+      description: "dacholer"
+    daikaiju:
+      description: "daikaiju"
+    dakkochn:
+      description: "dakkochn"
+    danchih:
+      description: "danchih"
+    danchiq:
+      description: "danchiq"
+    dangar:
+      description: "dangar"
+      children:
+        dangara: "dangara"
+        dangarb: "dangarb"
+        dangarbt: "dangarbt"
+        dangarj: "dangarj"
+    dankuga:
+      description: "dankuga"
+    darius:
+      description: "darius"
+      children:
+        dariuse: "dariuse"
+        dariusj: "dariusj"
+        dariuso: "dariuso"
+        dariusu: "dariusu"
+    darius2:
+      description: "darius2"
+      children:
+        darius2d: "darius2d"
+        darius2do: "darius2do"
+        sagaia: "sagaia"
+    dariusg:
+      description: "dariusg"
+      children:
+        dariusgj: "dariusgj"
+        dariusgu: "dariusgu"
+    dariusgx:
+      description: "dariusgx"
+    darkedge:
+      description: "darkedge"
+      children:
+        darkedgej: "darkedgej"
+    dayto2pe:
+      description: "dayto2pe"
+    daytona:
+      description: "daytona"
+      children:
+        daytona93: "daytona93"
+        daytonam: "daytonam"
+        daytonas: "daytonas"
+        daytonase: "daytonase"
+        daytonat: "daytonat"
+        daytonata: "daytonata"
+    daytona2:
+      description: "daytona2"
+    dblaxle:
+      description: "dblaxle"
+      children:
+        dblaxleu: "dblaxleu"
+        dblaxleul: "dblaxleul"
+        pwheelsj: "pwheelsj"
+    dbreed:
+      description: "dbreed"
+      children:
+        dbreedjm72: "dbreedjm72"
+        dbreedm72: "dbreedm72"
+    dbzvrvs:
+      description: "dbzvrvs"
+    dcclub:
+      description: "dcclub"
+      children:
+        dcclubfd: "dcclubfd"
+        dcclubj: "dcclubj"
+    ddcrew:
+      description: "ddcrew"
+      children:
+        ddcrew2: "ddcrew2"
+        ddcrewj: "ddcrewj"
+        ddcrewj2: "ddcrewj2"
+        ddcrewu: "ddcrewu"
+    dddoor:
+      description: "dddoor"
+    ddribble:
+      description: "ddribble"
+      children:
+        ddribblep: "ddribblep"
+    ddsom:
+      description: "ddsom"
+      children:
+        ddsoma: "ddsoma"
+        ddsomar1: "ddsomar1"
+        ddsomb: "ddsomb"
+        ddsomh: "ddsomh"
+        ddsomj: "ddsomj"
+        ddsomjr1: "ddsomjr1"
+        ddsomjr2: "ddsomjr2"
+        ddsomr1: "ddsomr1"
+        ddsomr2: "ddsomr2"
+        ddsomr3: "ddsomr3"
+        ddsomu: "ddsomu"
+        ddsomud: "ddsomud"
+        ddsomur1: "ddsomur1"
+    ddtod:
+      description: "ddtod"
+      children:
+        ddtoda: "ddtoda"
+        ddtodar1: "ddtodar1"
+        ddtodh: "ddtodh"
+        ddtodhr1: "ddtodhr1"
+        ddtodhr2: "ddtodhr2"
+        ddtodj: "ddtodj"
+        ddtodjr1: "ddtodjr1"
+        ddtodjr2: "ddtodjr2"
+        ddtodr1: "ddtodr1"
+        ddtodu: "ddtodu"
+        ddtodur1: "ddtodur1"
+    ddux:
+      description: "ddux"
+      children:
+        ddux1: "ddux1"
+        dduxj2: "dduxj2"
+    deadconx:
+      description: "deadconx"
+      children:
+        deadconxj: "deadconxj"
+    decathlt:
+      description: "decathlt"
+      children:
+        decathlto: "decathlto"
+    demoneye:
+      description: "demoneye"
+    depthch:
+      description: "depthch"
+      children:
+        depthcho: "depthcho"
+        subhunt: "subhunt"
+    desert:
+      description: "desert"
+    desertbr:
+      description: "desertbr"
+      children:
+        desertbrj: "desertbrj"
+    dfjail:
+      description: "dfjail"
+    dicegame:
+      description: "dicegame"
+    diehard:
+      description: "diehard"
+      children:
+        dnmtdeka: "dnmtdeka"
+    digger:
+      description: "digger"
+    diggerma:
+      description: "diggerma"
+    dimahoo:
+      description: "dimahoo"
+      children:
+        dimahoou: "dimahoou"
+        dimahooud: "dimahooud"
+        gmahou: "gmahou"
+    dino:
+      description: "dino"
+      children:
+        dinoa: "dinoa"
+        dinoj: "dinoj"
+        dinou: "dinou"
+    dinorex:
+      description: "dinorex"
+      children:
+        dinorexj: "dinorexj"
+        dinorexu: "dinorexu"
+    dirtdvls:
+      description: "dirtdvls"
+      children:
+        dirtdvlsau: "dirtdvlsau"
+        dirtdvlsg: "dirtdvlsg"
+        dirtdvlsj: "dirtdvlsj"
+        dirtdvlsu: "dirtdvlsu"
+    dkong:
+      description: "dkong"
+      children:
+        dkongf: "dkongf"
+        dkonghrd: "dkonghrd"
+        dkonghs: "dkonghs"
+        dkongike: "dkongike"
+        dkongj: "dkongj"
+        dkongj1: "dkongj1"
+        dkongjo: "dkongjo"
+        dkongjrc: "dkongjrc"
+        dkongo: "dkongo"
+        dkongpe: "dkongpe"
+        dkongx: "dkongx"
+        dkongx11: "dkongx11"
+    dkong3:
+      description: "dkong3"
+      children:
+        dkong3abl: "dkong3abl"
+        dkong3b: "dkong3b"
+        dkong3hs: "dkong3hs"
+        dkong3j: "dkong3j"
+    dkongjr:
+      description: "dkongjr"
+      children:
+        dkingjr: "dkingjr"
+        dkingjrv: "dkingjrv"
+        dkongddk: "dkongddk"
+        dkongjnrj: "dkongjnrj"
+        dkongjr2: "dkongjr2"
+        dkongjrb: "dkongjrb"
+        dkongjre: "dkongjre"
+        dkongjrhs: "dkongjrhs"
+        dkongjrj: "dkongjrj"
+        dkongjrm: "dkongjrm"
+        dkongjrmc: "dkongjrmc"
+        dkongjrpb: "dkongjrpb"
+        jrking: "jrking"
+        maguila: "maguila"
+    dleague:
+      description: "dleague"
+      children:
+        dleaguej: "dleaguej"
+    doa:
+      description: "doa"
+      children:
+        doaa: "doaa"
+        doaae: "doaae"
+        doab: "doab"
+    dockman:
+      description: "dockman"
+      children:
+        dockmanb: "dockmanb"
+        dockmanc: "dockmanc"
+        porter: "porter"
+        portera: "portera"
+        portman: "portman"
+        portmanj: "portmanj"
+        theportr: "theportr"
+    dokaben:
+      description: "dokaben"
+    dondokod:
+      description: "dondokod"
+      children:
+        dondokodj: "dondokodj"
+        dondokodu: "dondokodu"
+    dotrikun:
+      description: "dotrikun"
+      children:
+        dotrikun2: "dotrikun2"
+    doubledr:
+      description: "doubledr"
+    dragonsh:
+      description: "dragonsh"
+    driftout:
+      description: "driftout"
+      children:
+        driftoutct: "driftoutct"
+        driftoutj: "driftoutj"
+        driveout: "driveout"
+    drmario:
+      description: "drmario"
+    drtoppel:
+      description: "drtoppel"
+      children:
+        drtoppelj: "drtoppelj"
+        drtoppelu: "drtoppelu"
+    dsoccr94:
+      description: "dsoccr94"
+      children:
+        dsoccr94j: "dsoccr94j"
+        dsoccr94k: "dsoccr94k"
+    dstlk:
+      description: "dstlk"
+      children:
+        dstlka: "dstlka"
+        dstlkh: "dstlkh"
+        dstlku: "dstlku"
+        dstlku1d: "dstlku1d"
+        dstlkur1: "dstlkur1"
+        vampj: "vampj"
+        vampja: "vampja"
+        vampjr1: "vampjr1"
+    duckhunt:
+      description: "duckhunt"
+    dunkshot:
+      description: "dunkshot"
+      children:
+        dunkshota: "dunkshota"
+        dunkshoto: "dunkshoto"
+    dynabb:
+      description: "dynabb"
+    dynabb97:
+      description: "dynabb97"
+    dynablst:
+      description: "dynablst"
+      children:
+        atompunk: "atompunk"
+        bombrman: "bombrman"
+    dynamcop:
+      description: "dynamcop"
+      children:
+        dynamcopb: "dynamcopb"
+        dynamcopc: "dynamcopc"
+        dyndeka2: "dyndeka2"
+        dyndeka2b: "dyndeka2b"
+    dynamski:
+      description: "dynamski"
+    dynwar:
+      description: "dynwar"
+      children:
+        dynwara: "dynwara"
+        dynwarj: "dynwarj"
+        dynwarjr: "dynwarjr"
+    earthjkr:
+      description: "earthjkr"
+      children:
+        earthjkra: "earthjkra"
+        earthjkrb: "earthjkrb"
+        earthjkrp: "earthjkrp"
+    eca:
+      description: "eca"
+      children:
+        ecaj: "ecaj"
+        ecap: "ecap"
+        ecau: "ecau"
+    ecofghtr:
+      description: "ecofghtr"
+      children:
+        ecofghtra: "ecofghtra"
+        ecofghtrd: "ecofghtrd"
+        ecofghtrh: "ecofghtrh"
+        ecofghtru: "ecofghtru"
+        ecofghtru1: "ecofghtru1"
+        uecology: "uecology"
+    eightman:
+      description: "eightman"
+    ejihon:
+      description: "ejihon"
+    elandore:
+      description: "elandore"
+    elecyoyo:
+      description: "elecyoyo"
+      children:
+        elecyoyoa: "elecyoyoa"
+    elevator:
+      description: "elevator"
+      children:
+        elevatora: "elevatora"
+        elevatorb: "elevatorb"
+    elvactr:
+      description: "elvactr"
+      children:
+        elvactrj: "elvactrj"
+        elvactru: "elvactru"
+    enduror:
+      description: "enduror"
+      children:
+        enduror1: "enduror1"
+        endurora: "endurora"
+        endurorb: "endurorb"
+    enforce:
+      description: "enforce"
+      children:
+        enforcej: "enforcej"
+        enforceja: "enforceja"
+    eswat:
+      description: "eswat"
+      children:
+        eswatj: "eswatj"
+        eswatj1: "eswatj1"
+        eswatu: "eswatu"
+    eto:
+      description: "eto"
+      children:
+        etoa: "etoa"
+    euroch92:
+      description: "euroch92"
+      children:
+        euroch92j: "euroch92j"
+    excitebk:
+      description: "excitebk"
+      children:
+        excitebkj: "excitebkj"
+        excitebko: "excitebko"
+    exctleag:
+      description: "exctleag"
+    exedexes:
+      description: "exedexes"
+      children:
+        savgbees: "savgbees"
+    extrmatn:
+      description: "extrmatn"
+      children:
+        extrmatnj: "extrmatnj"
+        extrmatnu: "extrmatnu"
+        extrmatnur: "extrmatnur"
+    exzisus:
+      description: "exzisus"
+      children:
+        exzisusa: "exzisusa"
+        exzisust: "exzisust"
+    f1dream:
+      description: "f1dream"
+    f1en:
+      description: "f1en"
+      children:
+        f1enj: "f1enj"
+        f1enu: "f1enu"
+    f1lap:
+      description: "f1lap"
+      children:
+        f1lapj: "f1lapj"
+        f1lapt: "f1lapt"
+    fantasyu:
+      description: "fantasyu"
+      children:
+        fantasyg: "fantasyg"
+        fantasyg2: "fantasyg2"
+        fantasyj: "fantasyj"
+    fantzn2:
+      description: "fantzn2"
+    fantzn2x:
+      description: "fantzn2x"
+      children:
+        fantzn2xp: "fantzn2xp"
+    fantzone:
+      description: "fantzone"
+      children:
+        fantzone1: "fantzone1"
+        fantzonee: "fantzonee"
+        fantzonep: "fantzonep"
+        fantzonepr: "fantzonepr"
+    fanzonem:
+      description: "fanzonem"
+    fatfursp:
+      description: "fatfursp"
+      children:
+        fatfurspa: "fatfurspa"
+    fatfury1:
+      description: "fatfury1"
+    fatfury2:
+      description: "fatfury2"
+    fatfury3:
+      description: "fatfury3"
+    fbfrenzy:
+      description: "fbfrenzy"
+    ffight:
+      description: "ffight"
+      children:
+        ffighta: "ffighta"
+        ffightae: "ffightae"
+        ffightj: "ffightj"
+        ffightj1: "ffightj1"
+        ffightj2: "ffightj2"
+        ffightj3: "ffightj3"
+        ffightj4: "ffightj4"
+        ffightu: "ffightu"
+        ffightu1: "ffightu1"
+        ffightua: "ffightua"
+        ffightub: "ffightub"
+        ffightuc: "ffightuc"
+    ffreveng:
+      description: "ffreveng"
+      children:
+        ffrevng10: "ffrevng10"
+    fgoal:
+      description: "fgoal"
+      children:
+        fgoala: "fgoala"
+    fhawk:
+      description: "fhawk"
+      children:
+        fhawkj: "fhawkj"
+    fhboxers:
+      description: "fhboxers"
+    fieldday:
+      description: "fieldday"
+      children:
+        undoukai: "undoukai"
+    fightfev:
+      description: "fightfev"
+      children:
+        fightfeva: "fightfeva"
+    finalb:
+      description: "finalb"
+      children:
+        finalbj: "finalbj"
+        finalbu: "finalbu"
+    finalizr:
+      description: "finalizr"
+      children:
+        finalizra: "finalizra"
+        finalizrb: "finalizrb"
+    findlove:
+      description: "findlove"
+    firebatl:
+      description: "firebatl"
+    fitegolf:
+      description: "fitegolf"
+      children:
+        fitegolfu: "fitegolfu"
+        fitegolfua: "fitegolfua"
+    flicky:
+      description: "flicky"
+    flipshot:
+      description: "flipshot"
+    flstory:
+      description: "flstory"
+      children:
+        flstoryo: "flstoryo"
+    footchmp:
+      description: "footchmp"
+      children:
+        footchmpbl: "footchmpbl"
+        hthero: "hthero"
+    forgottn:
+      description: "forgottn"
+      children:
+        forgottna: "forgottna"
+        forgottnj: "forgottnj"
+        forgottnu: "forgottnu"
+        forgottnua: "forgottnua"
+        forgottnuaa: "forgottnuaa"
+        forgottnuc: "forgottnuc"
+        forgottnue: "forgottnue"
+        lostwrld: "lostwrld"
+        lostwrldo: "lostwrldo"
+    fpoint:
+      description: "fpoint"
+      children:
+        fpoint1: "fpoint1"
+    friskyt:
+      description: "friskyt"
+      children:
+        friskyta: "friskyta"
+        friskytb: "friskytb"
+    frogger:
+      description: "frogger"
+      children:
+        frogf: "frogf"
+        frogg: "frogg"
+        froggeg: "froggeg"
+        froggeram: "froggeram"
+        froggereb: "froggereb"
+        froggermc: "froggermc"
+        froggers: "froggers"
+        froggers1: "froggers1"
+        froggers2: "froggers2"
+        froggers3: "froggers3"
+        froggert: "froggert"
+        froggerv: "froggerv"
+        froggervd: "froggervd"
+    frogs:
+      description: "frogs"
+    froman2b:
+      description: "froman2b"
+    fsoccer:
+      description: "fsoccer"
+      children:
+        fsoccerb: "fsoccerb"
+        fsoccerba: "fsoccerba"
+        fsoccerj: "fsoccerj"
+    futspy:
+      description: "futspy"
+    fvipers:
+      description: "fvipers"
+      children:
+        fvipersb: "fvipersb"
+    fvipers2:
+      description: "fvipers2"
+      children:
+        fvipers2o: "fvipers2o"
+    ga2:
+      description: "ga2"
+      children:
+        ga2j: "ga2j"
+        ga2u: "ga2u"
+    gal10ren:
+      description: "gal10ren"
+    galastrm:
+      description: "galastrm"
+    galaxyfg:
+      description: "galaxyfg"
+    galivan:
+      description: "galivan"
+      children:
+        galivan2: "galivan2"
+        galivan3: "galivan3"
+    galkaika:
+      description: "galkaika"
+    galkoku:
+      description: "galkoku"
+      children:
+        galkokua: "galkokua"
+        hyouban: "hyouban"
+    galmedes:
+      description: "galmedes"
+    ganbare:
+      description: "ganbare"
+    gangwars:
+      description: "gangwars"
+      children:
+        gangwarsb: "gangwarsb"
+        gangwarsj: "gangwarsj"
+        gangwarsu: "gangwarsu"
+    ganryu:
+      description: "ganryu"
+    gardia:
+      description: "gardia"
+      children:
+        gardiaj: "gardiaj"
+    garou:
+      description: "garou"
+      children:
+        garoubl: "garoubl"
+        garoup: "garoup"
+    gaxeduel:
+      description: "gaxeduel"
+    gberet:
+      description: "gberet"
+      children:
+        gberetb: "gberetb"
+        rushatck: "rushatck"
+    gekiridn:
+      description: "gekiridn"
+      children:
+        gekiridnj: "gekiridnj"
+    gforce2:
+      description: "gforce2"
+      children:
+        gforce2j: "gforce2j"
+        gforce2ja: "gforce2ja"
+        gforce2sd: "gforce2sd"
+    gground:
+      description: "gground"
+      children:
+        ggroundj: "ggroundj"
+    ghostlop:
+      description: "ghostlop"
+    ghouls:
+      description: "ghouls"
+      children:
+        daimakai: "daimakai"
+        daimakair: "daimakair"
+        ghoulsu: "ghoulsu"
+    gigandes:
+      description: "gigandes"
+      children:
+        gigandesa: "gigandesa"
+        gigandesj: "gigandesj"
+    gigawing:
+      description: "gigawing"
+      children:
+        gigawinga: "gigawinga"
+        gigawingb: "gigawingb"
+        gigawingd: "gigawingd"
+        gigawingh: "gigawingh"
+        gigawingj: "gigawingj"
+        gigawingjd: "gigawingjd"
+    gionbana:
+      description: "gionbana"
+    gloc:
+      description: "gloc"
+      children:
+        glocr360: "glocr360"
+        glocr360j: "glocr360j"
+        glocu: "glocu"
+    gng:
+      description: "gng"
+      children:
+        gnga: "gnga"
+        gngbl: "gngbl"
+        gngblita: "gngblita"
+        gngc: "gngc"
+        gngprot: "gngprot"
+        gngt: "gngt"
+        makaimur: "makaimur"
+        makaimurc: "makaimurc"
+        makaimurg: "makaimurg"
+    goalx3:
+      description: "goalx3"
+    goldmedl:
+      description: "goldmedl"
+    goldnaxe:
+      description: "goldnaxe"
+      children:
+        goldnaxe1: "goldnaxe1"
+        goldnaxe2: "goldnaxe2"
+        goldnaxe3: "goldnaxe3"
+        goldnaxej: "goldnaxej"
+        goldnaxeu: "goldnaxeu"
+    goonies:
+      description: "goonies"
+    gowcaizr:
+      description: "gowcaizr"
+    gpilots:
+      description: "gpilots"
+      children:
+        gpilotsp: "gpilotsp"
+    gprider:
+      description: "gprider"
+      children:
+        gpriderj: "gpriderj"
+        gpriderjs: "gpriderjs"
+        gpriders: "gpriders"
+        gprideru: "gprideru"
+        gpriderus: "gpriderus"
+    grchamp:
+      description: "grchamp"
+      children:
+        grchampa: "grchampa"
+        grchampb: "grchampb"
+    grdforce:
+      description: "grdforce"
+    greenber:
+      description: "greenber"
+    groovef:
+      description: "groovef"
+    groundfx:
+      description: "groundfx"
+    growl:
+      description: "growl"
+      children:
+        growla: "growla"
+        growlp: "growlp"
+        growlu: "growlu"
+        runark: "runark"
+    gseeker:
+      description: "gseeker"
+      children:
+        gseekerj: "gseekerj"
+        gseekeru: "gseekeru"
+    gsword:
+      description: "gsword"
+      children:
+        gsword2: "gsword2"
+    gulunpa:
+      description: "gulunpa"
+    gunblade:
+      description: "gunblade"
+    gunbustr:
+      description: "gunbustr"
+      children:
+        gunbustrj: "gunbustrj"
+        gunbustru: "gunbustru"
+    gunforc2:
+      description: "gunforc2"
+      children:
+        geostorm: "geostorm"
+        geostorma: "geostorma"
+    gunforce:
+      description: "gunforce"
+      children:
+        gunforcej: "gunforcej"
+        gunforceu: "gunforceu"
+    gunfront:
+      description: "gunfront"
+      children:
+        gunfrontj: "gunfrontj"
+    gunlock:
+      description: "gunlock"
+      children:
+        gunlocko: "gunlocko"
+        rayforce: "rayforce"
+        rayforcej: "rayforcej"
+    gunsmoke:
+      description: "gunsmoke"
+      children:
+        gunsmokeb: "gunsmokeb"
+        gunsmokeg: "gunsmokeg"
+        gunsmokej: "gunsmokej"
+        gunsmokeu: "gunsmokeu"
+        gunsmokeua: "gunsmokeua"
+        gunsmokeub: "gunsmokeub"
+    gururin:
+      description: "gururin"
+    gwar:
+      description: "gwar"
+      children:
+        gwara: "gwara"
+        gwarab: "gwarab"
+        gwarb: "gwarb"
+        gwarj: "gwarj"
+    gwarrior:
+      description: "gwarrior"
+    gyruss:
+      description: "gyruss"
+      children:
+        gyrussb: "gyrussb"
+        gyrussce: "gyrussce"
+        venus: "venus"
+    hal21:
+      description: "hal21"
+      children:
+        hal21j: "hal21j"
+    halleysc:
+      description: "halleysc"
+      children:
+        halleysc87: "halleysc87"
+        halleyscj: "halleyscj"
+        halleyscja: "halleyscja"
+        halleyscjp: "halleyscjp"
+    hamaway:
+      description: "hamaway"
+    hanagumi:
+      description: "hanagumi"
+    hanamomo:
+      description: "hanamomo"
+      children:
+        hanamomb: "hanamomb"
+    hanaoji:
+      description: "hanaoji"
+      children:
+        hanaojia: "hanaojia"
+    hangon:
+      description: "hangon"
+      children:
+        hangon1: "hangon1"
+        hangon2: "hangon2"
+    hangonjr:
+      description: "hangonjr"
+    harddunk:
+      description: "harddunk"
+      children:
+        harddunkj: "harddunkj"
+    harley:
+      description: "harley"
+      children:
+        harleya: "harleya"
+    hasamu:
+      description: "hasamu"
+    headon:
+      description: "headon"
+      children:
+        bumba: "bumba"
+        colision: "colision"
+        headon1: "headon1"
+        headonmz: "headonmz"
+        headonn: "headonn"
+        headons: "headons"
+        headonsa: "headonsa"
+        hocrash: "hocrash"
+        supcrash: "supcrash"
+    headon2:
+      description: "headon2"
+      children:
+        car2: "car2"
+        headon2s: "headon2s"
+        headon2sl: "headon2sl"
+    headoni:
+      description: "headoni"
+    heiankyo:
+      description: "heiankyo"
+    helifire:
+      description: "helifire"
+      children:
+        helifirea: "helifirea"
+    hharry:
+      description: "hharry"
+      children:
+        dkgensan: "dkgensan"
+        dkgensanm72: "dkgensanm72"
+        dkgensanm82: "dkgensanm82"
+        hharryu: "hharryu"
+    higemaru:
+      description: "higemaru"
+    highsplt:
+      description: "highsplt"
+      children:
+        highsplta: "highsplta"
+        highspltb: "highspltb"
+    hitice:
+      description: "hitice"
+      children:
+        hiticej: "hiticej"
+        hiticerb: "hiticerb"
+    hnageman:
+      description: "hnageman"
+    hnxmasev:
+      description: "hnxmasev"
+    hogalley:
+      description: "hogalley"
+    holo:
+      description: "holo"
+    hook:
+      description: "hook"
+      children:
+        hookj: "hookj"
+        hooku: "hooku"
+    horekid:
+      description: "horekid"
+      children:
+        boobhack: "boobhack"
+        horekidb: "horekidb"
+        horekidb2: "horekidb2"
+    horizon:
+      description: "horizon"
+    horshoes:
+      description: "horshoes"
+    hotd:
+      description: "hotd"
+      children:
+        hotdo: "hotdo"
+        hotdp: "hotdp"
+    hotrod:
+      description: "hotrod"
+      children:
+        hotroda: "hotroda"
+        hotrodj: "hotrodj"
+        hotrodja: "hotrodja"
+    housemn2:
+      description: "housemn2"
+    housemnq:
+      description: "housemnq"
+    hpyagu98:
+      description: "hpyagu98"
+    hsf2:
+      description: "hsf2"
+      children:
+        hsf2a: "hsf2a"
+        hsf2d: "hsf2d"
+        hsf2j: "hsf2j"
+        hsf2j1: "hsf2j1"
+    hustler:
+      description: "hustler"
+      children:
+        billiard: "billiard"
+        hustlerb: "hustlerb"
+        hustlerb2: "hustlerb2"
+        hustlerb4: "hustlerb4"
+        hustlerb5: "hustlerb5"
+        hustlerb6: "hustlerb6"
+        hustlerb7: "hustlerb7"
+        hustlerd: "hustlerd"
+        vpool: "vpool"
+    hvymetal:
+      description: "hvymetal"
+    hwchamp:
+      description: "hwchamp"
+      children:
+        hwchampa: "hwchampa"
+        hwchampj: "hwchampj"
+    hwrace:
+      description: "hwrace"
+    hyhoo:
+      description: "hyhoo"
+    hyhoo2:
+      description: "hyhoo2"
+    hyperspt:
+      description: "hyperspt"
+      children:
+        hpolym84: "hpolym84"
+        hypersptb: "hypersptb"
+    iceclimb:
+      description: "iceclimb"
+      children:
+        iceclimba: "iceclimba"
+    ichir:
+      description: "ichir"
+      children:
+        ichirj: "ichirj"
+        ichirk: "ichirk"
+    idhimitu:
+      description: "idhimitu"
+    iemoto:
+      description: "iemoto"
+      children:
+        iemotom: "iemotom"
+        ryuuha: "ryuuha"
+    ikari:
+      description: "ikari"
+      children:
+        ikaria: "ikaria"
+        ikaria2: "ikaria2"
+        ikarijp: "ikarijp"
+        ikarijpb: "ikarijpb"
+        ikarinc: "ikarinc"
+    ikari3:
+      description: "ikari3"
+      children:
+        ikari3j: "ikari3j"
+        ikari3k: "ikari3k"
+        ikari3u: "ikari3u"
+        ikari3w: "ikari3w"
+    imekura:
+      description: "imekura"
+    imgfight:
+      description: "imgfight"
+      children:
+        imgfightj: "imgfightj"
+    imsorry:
+      description: "imsorry"
+      children:
+        kimsorryj: "kimsorryj"
+    indy500:
+      description: "indy500"
+      children:
+        indy500d: "indy500d"
+        indy500to: "indy500to"
+    insectx:
+      description: "insectx"
+      children:
+        insectxbl: "insectxbl"
+        insectxj: "insectxj"
+    intcup94:
+      description: "intcup94"
+      children:
+        intcup94a: "intcup94a"
+    inthunt:
+      description: "inthunt"
+      children:
+        inthuntu: "inthuntu"
+        kaiteids: "kaiteids"
+    introdon:
+      description: "introdon"
+    invaders:
+      description: "invaders"
+      children:
+        alieninv: "alieninv"
+        alieninvp2: "alieninvp2"
+        cosmicin: "cosmicin"
+        cosmicm2: "cosmicm2"
+        cosmicmo: "cosmicmo"
+        darthvdr: "darthvdr"
+        galmonst: "galmonst"
+        invader4: "invader4"
+        invaderl: "invaderl"
+        invadernc: "invadernc"
+        invadersem: "invadersem"
+        invadrmr: "invadrmr"
+        invasion: "invasion"
+        invasiona: "invasiona"
+        invasiona2: "invasiona2"
+        invasionb: "invasionb"
+        invasionrz: "invasionrz"
+        invasionrza: "invasionrza"
+        jspecter: "jspecter"
+        jspecter2: "jspecter2"
+        searthie: "searthie"
+        searthin: "searthin"
+        searthina: "searthina"
+        sicv: "sicv"
+        sicv1: "sicv1"
+        sinvemag: "sinvemag"
+        sinvemag2: "sinvemag2"
+        sinvzen: "sinvzen"
+        sisv1: "sisv1"
+        sisv2: "sisv2"
+        sisv3: "sisv3"
+        sisv4: "sisv4"
+        sitv: "sitv"
+        sitv1: "sitv1"
+        spaceat2: "spaceat2"
+        spaceatt: "spaceatt"
+        spaceatt2k: "spaceatt2k"
+        spaceattbp: "spaceattbp"
+        spacecom: "spacecom"
+        spacerng: "spacerng"
+        spacewr3: "spacewr3"
+        spcebttl: "spcebttl"
+        spceking: "spceking"
+        spcewarla: "spcewarla"
+        spcewars: "spcewars"
+        superinv: "superinv"
+        supinvsion: "supinvsion"
+        swipeout: "swipeout"
+        tst_invd: "tst_invd"
+        ultrainv: "ultrainv"
+    invadpt2:
+      description: "invadpt2"
+      children:
+        invaddlx: "invaddlx"
+        invadpt2a: "invadpt2a"
+        invadpt2br: "invadpt2br"
+        moonbase: "moonbase"
+        moonbasea: "moonbasea"
+    invcarht:
+      description: "invcarht"
+    invds:
+      description: "invds"
+    invho2:
+      description: "invho2"
+      children:
+        invho2a: "invho2a"
+    invinco:
+      description: "invinco"
+    invqix:
+      description: "invqix"
+    ipminvad:
+      description: "ipminvad"
+      children:
+        ipminvad1: "ipminvad1"
+    ironclad:
+      description: "ironclad"
+      children:
+        ironclado: "ironclado"
+    ironhors:
+      description: "ironhors"
+      children:
+        dairesya: "dairesya"
+        farwest: "farwest"
+        ironhorsh: "ironhorsh"
+    irrmaze:
+      description: "irrmaze"
+    itaten:
+      description: "itaten"
+    ixion:
+      description: "ixion"
+    jackal:
+      description: "jackal"
+      children:
+        jackalbl: "jackalbl"
+        jackalj: "jackalj"
+        topgunbl: "topgunbl"
+        topgunr: "topgunr"
+    jailbrek:
+      description: "jailbrek"
+      children:
+        jailbrekb: "jailbrekb"
+        manhatan: "manhatan"
+    jajamaru:
+      description: "jajamaru"
+    janbari:
+      description: "janbari"
+      children:
+        mjanbari: "mjanbari"
+    jangou:
+      description: "jangou"
+    janshin:
+      description: "janshin"
+    jcross:
+      description: "jcross"
+      children:
+        jcrossa: "jcrossa"
+    jituroku:
+      description: "jituroku"
+    jngolady:
+      description: "jngolady"
+    jockeygp:
+      description: "jockeygp"
+      children:
+        jockeygpa: "jockeygpa"
+    jojo:
+      description: "jojo"
+      children:
+        jojoa: "jojoa"
+        jojoar1: "jojoar1"
+        jojoar2: "jojoar2"
+        jojoj: "jojoj"
+        jojojr1: "jojojr1"
+        jojojr2: "jojojr2"
+        jojon: "jojon"
+        jojonr1: "jojonr1"
+        jojonr2: "jojonr2"
+        jojor1: "jojor1"
+        jojor2: "jojor2"
+        jojou: "jojou"
+        jojour1: "jojour1"
+        jojour2: "jojour2"
+    jojoba:
+      description: "jojoba"
+      children:
+        jojobaj: "jojobaj"
+        jojobajr1: "jojobajr1"
+        jojoban: "jojoban"
+        jojobane: "jojobane"
+        jojobaner1: "jojobaner1"
+        jojobanr1: "jojobanr1"
+        jojobar1: "jojobar1"
+    jongbou:
+      description: "jongbou"
+    josvolly:
+      description: "josvolly"
+    joyfulr:
+      description: "joyfulr"
+      children:
+        mnchmobl: "mnchmobl"
+    joyjoy:
+      description: "joyjoy"
+    jpark:
+      description: "jpark"
+      children:
+        jparkj: "jparkj"
+        jparkja: "jparkja"
+        jparkjc: "jparkjc"
+    junglek:
+      description: "junglek"
+      children:
+        jungleby: "jungleby"
+        jungleh: "jungleh"
+        junglehbr: "junglehbr"
+        junglekas: "junglekas"
+        junglekj2: "junglekj2"
+        junglekj2a: "junglekj2a"
+        piratpet: "piratpet"
+    jungler:
+      description: "jungler"
+      children:
+        junglero: "junglero"
+        junglers: "junglers"
+        savanna: "savanna"
+    junofrst:
+      description: "junofrst"
+      children:
+        junofrstg: "junofrstg"
+    jyangoku:
+      description: "jyangoku"
+    kabukikl:
+      description: "kabukikl"
+    kabukiz:
+      description: "kabukiz"
+      children:
+        kabukizj: "kabukizj"
+    kageki:
+      description: "kageki"
+      children:
+        kagekih: "kagekih"
+        kagekij: "kagekij"
+        kagekiu: "kagekiu"
+    kaguya:
+      description: "kaguya"
+      children:
+        kaguyaa: "kaguyaa"
+    kaguya2:
+      description: "kaguya2"
+      children:
+        kaguya2f: "kaguya2f"
+    kaiserkn:
+      description: "kaiserkn"
+      children:
+        gblchmp: "gblchmp"
+        kaiserknj: "kaiserknj"
+    kamikaze:
+      description: "kamikaze"
+      children:
+        astinvad: "astinvad"
+        astinvadb: "astinvadb"
+        betafrce: "betafrce"
+        kosmokil: "kosmokil"
+    kanatuen:
+      description: "kanatuen"
+      children:
+        kyuhito: "kyuhito"
+    karnovr:
+      description: "karnovr"
+    kenseim:
+      description: "kenseim"
+    kickboy:
+      description: "kickboy"
+    kicker:
+      description: "kicker"
+      children:
+        shaolinb: "shaolinb"
+        shaolins: "shaolins"
+    kicknrun:
+      description: "kicknrun"
+      children:
+        kicknrunu: "kicknrunu"
+        mexico86: "mexico86"
+        mexico86a: "mexico86a"
+    kidniki:
+      description: "kidniki"
+      children:
+        kidnikiu: "kidnikiu"
+        lithero: "lithero"
+        yanchamr: "yanchamr"
+    kikcubic:
+      description: "kikcubic"
+      children:
+        kikcubicb: "kikcubicb"
+    kikikai:
+      description: "kikikai"
+      children:
+        knightb: "knightb"
+        knightba: "knightba"
+    kirameki:
+      description: "kirameki"
+    kiwames:
+      description: "kiwames"
+    kizuna:
+      description: "kizuna"
+    kizuna4p:
+      description: "kizuna4p"
+    knights:
+      description: "knights"
+      children:
+        knightsja: "knightsja"
+        knightsjb: "knightsjb"
+        knightsu: "knightsu"
+    kod:
+      description: "kod"
+      children:
+        kodj: "kodj"
+        kodja: "kodja"
+        kodr1: "kodr1"
+        kodr2: "kodr2"
+        kodu: "kodu"
+    kof2000:
+      description: "kof2000"
+      children:
+        kof2000n: "kof2000n"
+    kof2001:
+      description: "kof2001"
+      children:
+        ct2k3sa: "ct2k3sa"
+        ct2k3sp: "ct2k3sp"
+        cthd2003: "cthd2003"
+    kof2002:
+      description: "kof2002"
+      children:
+        kf10thep: "kf10thep"
+        kf2k2mp: "kf2k2mp"
+        kf2k2mp2: "kf2k2mp2"
+        kf2k2pla: "kf2k2pla"
+        kf2k2pls: "kf2k2pls"
+        kf2k5uni: "kf2k5uni"
+        kof10th: "kof10th"
+        kof2002b: "kof2002b"
+        kof2k4se: "kof2k4se"
+    kof2003:
+      description: "kof2003"
+      children:
+        kf2k3bl: "kf2k3bl"
+        kf2k3bla: "kf2k3bla"
+        kf2k3pl: "kf2k3pl"
+        kf2k3upl: "kf2k3upl"
+    kof94:
+      description: "kof94"
+    kof95:
+      description: "kof95"
+      children:
+        kof95a: "kof95a"
+    kof96:
+      description: "kof96"
+    kof97:
+      description: "kof97"
+      children:
+        kof97k: "kof97k"
+        kof97oro: "kof97oro"
+        kof97pls: "kof97pls"
+        kog: "kog"
+    kof98:
+      description: "kof98"
+      children:
+        kof98a: "kof98a"
+        kof98k: "kof98k"
+        kof98ka: "kof98ka"
+    kof99:
+      description: "kof99"
+      children:
+        kof99e: "kof99e"
+        kof99k: "kof99k"
+        kof99ka: "kof99ka"
+        kof99p: "kof99p"
+    koinomp:
+      description: "koinomp"
+    kokoroj:
+      description: "kokoroj"
+      children:
+        kokoroja: "kokoroja"
+    kokoroj2:
+      description: "kokoroj2"
+    konamigt:
+      description: "konamigt"
+      children:
+        rf2: "rf2"
+    korinai:
+      description: "korinai"
+      children:
+        korinaim: "korinaim"
+    koshien:
+      description: "koshien"
+    kotm:
+      description: "kotm"
+    kotm2:
+      description: "kotm2"
+      children:
+        kotm2a: "kotm2a"
+        kotm2p: "kotm2p"
+    kozure:
+      description: "kozure"
+    kram:
+      description: "kram"
+      children:
+        kram2: "kram2"
+        kram3: "kram3"
+    ksayakyu:
+      description: "ksayakyu"
+    kungfum:
+      description: "kungfum"
+      children:
+        spartanx: "spartanx"
+    kurikint:
+      description: "kurikint"
+      children:
+        kurikinta: "kurikinta"
+        kurikintj: "kurikintj"
+        kurikintu: "kurikintu"
+        kurikintw: "kurikintw"
+    lamachin:
+      description: "lamachin"
+    landmakr:
+      description: "landmakr"
+      children:
+        landmakrj: "landmakrj"
+        landmakrp: "landmakrp"
+    lasso:
+      description: "lasso"
+    lastblad:
+      description: "lastblad"
+      children:
+        lastsold: "lastsold"
+    lastbld2:
+      description: "lastbld2"
+    lastbrnx:
+      description: "lastbrnx"
+      children:
+        lastbrnxj: "lastbrnxj"
+        lastbrnxu: "lastbrnxu"
+    lasthope:
+      description: "lasthope"
+    lastsurv:
+      description: "lastsurv"
+    lbowling:
+      description: "lbowling"
+    ldmj1mbh:
+      description: "ldmj1mbh"
+    ldquiz4:
+      description: "ldquiz4"
+    ldrun:
+      description: "ldrun"
+      children:
+        ldruna: "ldruna"
+    ldrun2:
+      description: "ldrun2"
+    ldrun3:
+      description: "ldrun3"
+      children:
+        ldrun3j: "ldrun3j"
+    ldrun4:
+      description: "ldrun4"
+    legendos:
+      description: "legendos"
+    legion:
+      description: "legion"
+      children:
+        legionj: "legionj"
+        legionj2: "legionj2"
+        legionjb: "legionjb"
+        legionjb2: "legionjb2"
+    lemans24:
+      description: "lemans24"
+    lethalth:
+      description: "lethalth"
+      children:
+        thndblst: "thndblst"
+    lghost:
+      description: "lghost"
+      children:
+        lghostd: "lghostd"
+        lghostud: "lghostud"
+    lghostj:
+      description: "lghostj"
+    lghostu:
+      description: "lghostu"
+    lgp:
+      description: "lgp"
+      children:
+        lgpalt: "lgpalt"
+    lightbr:
+      description: "lightbr"
+      children:
+        dungeonmo: "dungeonmo"
+        dungeonmu: "dungeonmu"
+        lightbrj: "lightbrj"
+    liquidk:
+      description: "liquidk"
+      children:
+        liquidku: "liquidku"
+        mizubaku: "mizubaku"
+    livegal:
+      description: "livegal"
+    lkage:
+      description: "lkage"
+      children:
+        lkageb: "lkageb"
+        lkagebl1: "lkagebl1"
+        lkagebl2: "lkagebl2"
+        lkagebl3: "lkagebl3"
+        lkagebl4: "lkagebl4"
+    lockonph:
+      description: "lockonph"
+    locomotn:
+      description: "locomotn"
+      children:
+        cottong: "cottong"
+        gutangtn: "gutangtn"
+        gutangtns: "gutangtns"
+        guttangt: "guttangt"
+        guttangts3: "guttangts3"
+        locoboot: "locoboot"
+    loffire:
+      description: "loffire"
+      children:
+        loffirej: "loffirej"
+        loffireu: "loffireu"
+    loht:
+      description: "loht"
+      children:
+        lohtj: "lohtj"
+    lostwsga:
+      description: "lostwsga"
+      children:
+        lostwsgp: "lostwsgp"
+    lotlot:
+      description: "lotlot"
+    lrescue:
+      description: "lrescue"
+      children:
+        desterth: "desterth"
+        escmars: "escmars"
+        grescue: "grescue"
+        lrescueabl: "lrescueabl"
+        lrescuem: "lrescuem"
+        lrescuem2: "lrescuem2"
+        mlander: "mlander"
+        resclunar: "resclunar"
+    lresort:
+      description: "lresort"
+      children:
+        lresortp: "lresortp"
+    lsasquad:
+      description: "lsasquad"
+      children:
+        storming: "storming"
+        storminga: "storminga"
+    ltswords:
+      description: "ltswords"
+      children:
+        kengo: "kengo"
+        kengoj: "kengoj"
+    luckygrl:
+      description: "luckygrl"
+    lupin3:
+      description: "lupin3"
+      children:
+        lupin3a: "lupin3a"
+    lwings:
+      description: "lwings"
+      children:
+        lwings2: "lwings2"
+        lwingsb: "lwingsb"
+        lwingsj: "lwingsj"
+        lwingsja: "lwingsja"
+    macha:
+      description: "macha"
+    madcrash:
+      description: "madcrash"
+      children:
+        madcrush: "madcrush"
+    magdrop2:
+      description: "magdrop2"
+    magdrop3:
+      description: "magdrop3"
+    maglord:
+      description: "maglord"
+    magmax:
+      description: "magmax"
+      children:
+        magmaxa: "magmaxa"
+    magtruck:
+      description: "magtruck"
+    magzun:
+      description: "magzun"
+    mahmajn:
+      description: "mahmajn"
+    mahmajn2:
+      description: "mahmajn2"
+    mahretsu:
+      description: "mahretsu"
+    maiko:
+      description: "maiko"
+    mainsnk:
+      description: "mainsnk"
+    majtitl2:
+      description: "majtitl2"
+      children:
+        majtitl2a: "majtitl2a"
+        majtitl2b: "majtitl2b"
+        majtitl2j: "majtitl2j"
+        skingame: "skingame"
+        skingame2: "skingame2"
+    majtitle:
+      description: "majtitle"
+      children:
+        majtitlej: "majtitlej"
+    manxtt:
+      description: "manxtt"
+      children:
+        manxttc: "manxttc"
+        manxttdx: "manxttdx"
+    marinedt:
+      description: "marinedt"
+    mariner:
+      description: "mariner"
+      children:
+        800fath: "800fath"
+        800fatha: "800fatha"
+    mario:
+      description: "mario"
+      children:
+        mariobl: "mariobl"
+        mariobla: "mariobla"
+        mariof: "mariof"
+        marioj: "marioj"
+        pestplce: "pestplce"
+    maruchan:
+      description: "maruchan"
+    marukodq:
+      description: "marukodq"
+    marvins:
+      description: "marvins"
+    masterw:
+      description: "masterw"
+      children:
+        masterwj: "masterwj"
+        masterwu: "masterwu"
+        yukiwo: "yukiwo"
+    matchit:
+      description: "matchit"
+      children:
+        shisen: "shisen"
+        sichuan2: "sichuan2"
+        sichuan2a: "sichuan2a"
+    matchit2:
+      description: "matchit2"
+      children:
+        shisen2: "shisen2"
+    matrim:
+      description: "matrim"
+      children:
+        matrimbl: "matrimbl"
+    mausuke:
+      description: "mausuke"
+    mbombrd:
+      description: "mbombrd"
+      children:
+        mbombrdj: "mbombrdj"
+    mcontest:
+      description: "mcontest"
+    mechatt:
+      description: "mechatt"
+      children:
+        mechattj: "mechattj"
+        mechattu: "mechattu"
+        mechattu1: "mechattu1"
+    megablst:
+      description: "megablst"
+      children:
+        megablstj: "megablstj"
+        megablstu: "megablstu"
+    megaman:
+      description: "megaman"
+      children:
+        megamana: "megamana"
+        rmancp2j: "rmancp2j"
+        rmancp2u: "rmancp2u"
+        rmancp2ur1: "rmancp2ur1"
+        rmancp2ur2: "rmancp2ur2"
+        rockmanj: "rockmanj"
+    megaman2:
+      description: "megaman2"
+      children:
+        megaman2a: "megaman2a"
+        megaman2d: "megaman2d"
+        megaman2h: "megaman2h"
+        rockman2j: "rockman2j"
+    megazone:
+      description: "megazone"
+      children:
+        megazonea: "megazonea"
+        megazoneb: "megazoneb"
+        megazoneh: "megazoneh"
+        megazonei: "megazonei"
+        megazonej: "megazonej"
+    megrescu:
+      description: "megrescu"
+    meijinsn:
+      description: "meijinsn"
+      children:
+        meijinsna: "meijinsna"
+    mercs:
+      description: "mercs"
+      children:
+        mercsj: "mercsj"
+        mercsu: "mercsu"
+        mercsur1: "mercsur1"
+    metalb:
+      description: "metalb"
+      children:
+        metalbj: "metalbj"
+    mgion:
+      description: "mgion"
+    mgmen89:
+      description: "mgmen89"
+    miexchng:
+      description: "miexchng"
+    mightguy:
+      description: "mightguy"
+    mikie:
+      description: "mikie"
+      children:
+        mikiehs: "mikiehs"
+        mikiej: "mikiej"
+        mikiek: "mikiek"
+    minasan:
+      description: "minasan"
+    minivadr:
+      description: "minivadr"
+    missilex:
+      description: "missilex"
+    mjcamera:
+      description: "mjcamera"
+      children:
+        mjcameram: "mjcameram"
+        mjcamerao: "mjcamerao"
+    mjegolf:
+      description: "mjegolf"
+    mjfocus:
+      description: "mjfocus"
+      children:
+        mjfocusm: "mjfocusm"
+        peepshow: "peepshow"
+    mjgaiden:
+      description: "mjgaiden"
+    mjgottsu:
+      description: "mjgottsu"
+      children:
+        bakuhatu: "bakuhatu"
+    mjgottub:
+      description: "mjgottub"
+    mjkoiura:
+      description: "mjkoiura"
+      children:
+        mkoiuraa: "mkoiuraa"
+    mjlaman:
+      description: "mjlaman"
+    mjleague:
+      description: "mjleague"
+    mjlstory:
+      description: "mjlstory"
+      children:
+        ladymakr: "ladymakr"
+    mjnanpas:
+      description: "mjnanpas"
+      children:
+        mjnanpaa: "mjnanpaa"
+        mjnanpau: "mjnanpau"
+    mjnquest:
+      description: "mjnquest"
+      children:
+        mjnquestb: "mjnquestb"
+    mjsikaku:
+      description: "mjsikaku"
+      children:
+        mjsikakb: "mjsikakb"
+        mjsikakc: "mjsikakc"
+        mjsikakd: "mjsikakd"
+        mmsikaku: "mmsikaku"
+    mjuraden:
+      description: "mjuraden"
+    mkeibaou:
+      description: "mkeibaou"
+    mladyhtr:
+      description: "mladyhtr"
+    mlanding:
+      description: "mlanding"
+      children:
+        mlandingj: "mlandingj"
+    mmagic:
+      description: "mmagic"
+    mmaiko:
+      description: "mmaiko"
+    mmatrix:
+      description: "mmatrix"
+      children:
+        mmatrixa: "mmatrixa"
+        mmatrixd: "mmatrixd"
+        mmatrixj: "mmatrixj"
+    mmehyou:
+      description: "mmehyou"
+    mofflott:
+      description: "mofflott"
+    monsterb:
+      description: "monsterb"
+      children:
+        monsterb2: "monsterb2"
+    moshougi:
+      description: "moshougi"
+    motoraid:
+      description: "motoraid"
+      children:
+        motoraiddx: "motoraiddx"
+    mpang:
+      description: "mpang"
+      children:
+        mpanga: "mpanga"
+        mpangj: "mpangj"
+        mpangr1: "mpangr1"
+        mpangu: "mpangu"
+    mpatrol:
+      description: "mpatrol"
+      children:
+        mpatrolw: "mpatrolw"
+        mranger: "mranger"
+    mpumpkin:
+      description: "mpumpkin"
+    mrgoemon:
+      description: "mrgoemon"
+    mrviking:
+      description: "mrviking"
+    mscoutm:
+      description: "mscoutm"
+    msh:
+      description: "msh"
+      children:
+        msha: "msha"
+        mshb: "mshb"
+        mshbr1: "mshbr1"
+        mshh: "mshh"
+        mshj: "mshj"
+        mshjr1: "mshjr1"
+        mshu: "mshu"
+        mshud: "mshud"
+    mshvsf:
+      description: "mshvsf"
+      children:
+        mshvsfa: "mshvsfa"
+        mshvsfa1: "mshvsfa1"
+        mshvsfb: "mshvsfb"
+        mshvsfb1: "mshvsfb1"
+        mshvsfh: "mshvsfh"
+        mshvsfj: "mshvsfj"
+        mshvsfj1: "mshvsfj1"
+        mshvsfj2: "mshvsfj2"
+        mshvsfu: "mshvsfu"
+        mshvsfu1: "mshvsfu1"
+        mshvsfu1d: "mshvsfu1d"
+    msisaac:
+      description: "msisaac"
+    msjiken:
+      description: "msjiken"
+    mslug:
+      description: "mslug"
+    mslug2:
+      description: "mslug2"
+      children:
+        mslug2t: "mslug2t"
+    mslug3:
+      description: "mslug3"
+      children:
+        mslug3a: "mslug3a"
+        mslug3b6: "mslug3b6"
+    mslug4:
+      description: "mslug4"
+      children:
+        ms4plus: "ms4plus"
+    mslug5:
+      description: "mslug5"
+      children:
+        ms5plus: "ms5plus"
+        mslug5b: "mslug5b"
+    mslugx:
+      description: "mslugx"
+    msword:
+      description: "msword"
+      children:
+        mswordj: "mswordj"
+        mswordr1: "mswordr1"
+        mswordu: "mswordu"
+    mtwins:
+      description: "mtwins"
+      children:
+        chikij: "chikij"
+    mutnat:
+      description: "mutnat"
+    mvp:
+      description: "mvp"
+      children:
+        mvpj: "mvpj"
+    mvsc:
+      description: "mvsc"
+      children:
+        mvsca: "mvsca"
+        mvscar1: "mvscar1"
+        mvscb: "mvscb"
+        mvsch: "mvsch"
+        mvscj: "mvscj"
+        mvscjr1: "mvscjr1"
+        mvscjsing: "mvscjsing"
+        mvscr1: "mvscr1"
+        mvscu: "mvscu"
+        mvscud: "mvscud"
+        mvscur1: "mvscur1"
+    mwalk:
+      description: "mwalk"
+      children:
+        walkj: "walkj"
+        walku: "walku"
+    myfairld:
+      description: "myfairld"
+    myhero:
+      description: "myhero"
+      children:
+        sscandal: "sscandal"
+    mysticri:
+      description: "mysticri"
+      children:
+        gunhohki: "gunhohki"
+    nam1975:
+      description: "nam1975"
+    nameclub:
+      description: "nameclub"
+    nastar:
+      description: "nastar"
+      children:
+        nastarw: "nastarw"
+        rastsag2: "rastsag2"
+    nbbatman:
+      description: "nbbatman"
+      children:
+        leaguemn: "leaguemn"
+        leaguemna: "leaguemna"
+        nbbatmanu: "nbbatmanu"
+    nclubdis:
+      description: "nclubdis"
+    nclubv2:
+      description: "nclubv2"
+    nclubv3:
+      description: "nclubv3"
+    nclubv4:
+      description: "nclubv4"
+    ncombat:
+      description: "ncombat"
+    ncommand:
+      description: "ncommand"
+    nemesis:
+      description: "nemesis"
+      children:
+        gradius: "gradius"
+        gradiusuk: "gradiusuk"
+    nemo:
+      description: "nemo"
+      children:
+        nemoj: "nemoj"
+        nemor1: "nemor1"
+    neobombe:
+      description: "neobombe"
+    neocup98:
+      description: "neocup98"
+    neodrift:
+      description: "neodrift"
+    neomrdo:
+      description: "neomrdo"
+    netmerc:
+      description: "netmerc"
+    newsin7:
+      description: "newsin7"
+      children:
+        newsin7a: "newsin7a"
+    ngalsumr:
+      description: "ngalsumr"
+    ngpgal:
+      description: "ngpgal"
+    ngtbunny:
+      description: "ngtbunny"
+      children:
+        royalngt: "royalngt"
+    nightgal:
+      description: "nightgal"
+    nightlov:
+      description: "nightlov"
+    nightstr:
+      description: "nightstr"
+      children:
+        nightstrj: "nightstrj"
+        nightstru: "nightstru"
+    ninjakun:
+      description: "ninjakun"
+    ninjamas:
+      description: "ninjamas"
+    ninjaw:
+      description: "ninjaw"
+      children:
+        ninjaw1: "ninjaw1"
+        ninjawj: "ninjawj"
+        ninjawu: "ninjawu"
+    ninjemak:
+      description: "ninjemak"
+      children:
+        ninjemat: "ninjemat"
+        youma: "youma"
+        youma2: "youma2"
+        youmab: "youmab"
+        youmab2: "youmab2"
+    nitd:
+      description: "nitd"
+      children:
+        nitdbl: "nitdbl"
+    nob:
+      description: "nob"
+      children:
+        nobb: "nobb"
+    nostromo:
+      description: "nostromo"
+      children:
+        startrks: "startrks"
+    nspirit:
+      description: "nspirit"
+      children:
+        nspiritj: "nspiritj"
+    nss_actr:
+      description: "nss_actr"
+    nss_adam:
+      description: "nss_adam"
+    nss_aten:
+      description: "nss_aten"
+    nss_con3:
+      description: "nss_con3"
+    nss_fzer:
+      description: "nss_fzer"
+    nss_lwep:
+      description: "nss_lwep"
+    nss_ncaa:
+      description: "nss_ncaa"
+    nss_rob3:
+      description: "nss_rob3"
+    nss_skin:
+      description: "nss_skin"
+    nss_smas:
+      description: "nss_smas"
+    nss_smw:
+      description: "nss_smw"
+    nss_ssoc:
+      description: "nss_ssoc"
+    nss_sten:
+      description: "nss_sten"
+    nsub:
+      description: "nsub"
+      children:
+        nsubc: "nsubc"
+    ntopstar:
+      description: "ntopstar"
+    nvs_machrider:
+      description: "nvs_machrider"
+      children:
+        nvs_machridera: "nvs_machridera"
+    nwarr:
+      description: "nwarr"
+      children:
+        nwarra: "nwarra"
+        nwarrb: "nwarrb"
+        nwarrh: "nwarrh"
+        nwarru: "nwarru"
+        nwarrud: "nwarrud"
+        vhuntj: "vhuntj"
+        vhuntjr1: "vhuntjr1"
+        vhuntjr1s: "vhuntjr1s"
+        vhuntjr2: "vhuntjr2"
+    oceanhun:
+      description: "oceanhun"
+      children:
+        oceanhuna: "oceanhuna"
+    ohpaipee:
+      description: "ohpaipee"
+    ojousan:
+      description: "ojousan"
+      children:
+        ojousanm: "ojousanm"
+    omotesnd:
+      description: "omotesnd"
+    opaopa:
+      description: "opaopa"
+      children:
+        opaopan: "opaopan"
+    opwolf:
+      description: "opwolf"
+      children:
+        opwolfa: "opwolfa"
+        opwolfb: "opwolfb"
+        opwolfj: "opwolfj"
+        opwolfjsc: "opwolfjsc"
+        opwolfp: "opwolfp"
+        opwolfu: "opwolfu"
+    orangec:
+      description: "orangec"
+      children:
+        orangeci: "orangeci"
+        vipclub: "vipclub"
+    orunners:
+      description: "orunners"
+      children:
+        orunnersj: "orunnersj"
+        orunnersu: "orunnersu"
+    otatidai:
+      description: "otatidai"
+    othellos:
+      description: "othellos"
+    othunder:
+      description: "othunder"
+      children:
+        othunderj: "othunderj"
+        othunderjsc: "othunderjsc"
+        othunderua: "othunderua"
+    othundero:
+      description: "othundero"
+      children:
+        othunder: "othunder"
+    otonano:
+      description: "otonano"
+    outrun:
+      description: "outrun"
+      children:
+        outrundx: "outrundx"
+        outrundxa: "outrundxa"
+        outrundxeh: "outrundxeh"
+        outrundxeha: "outrundxeha"
+        outrundxj: "outrundxj"
+        outruneh: "outruneh"
+        outruneha: "outruneha"
+        outrunra: "outrunra"
+    overrev:
+      description: "overrev"
+      children:
+        overrevb: "overrevb"
+        overrevba: "overrevba"
+    overtop:
+      description: "overtop"
+    ozmawars:
+      description: "ozmawars"
+      children:
+        ozmawars2: "ozmawars2"
+        ozmawarsmr: "ozmawarsmr"
+        solfight: "solfight"
+        spaceph: "spaceph"
+    pachiten:
+      description: "pachiten"
+    paddlema:
+      description: "paddlema"
+    pairsnb:
+      description: "pairsnb"
+      children:
+        pairsten: "pairsten"
+    palamed:
+      description: "palamed"
+      children:
+        palamedj: "palamedj"
+    pandoras:
+      description: "pandoras"
+    pang:
+      description: "pang"
+      children:
+        bbros: "bbros"
+        pangb: "pangb"
+        pangb2: "pangb2"
+        pangba: "pangba"
+        pangbb: "pangbb"
+        pangbc: "pangbc"
+        pangbold: "pangbold"
+        pangbp: "pangbp"
+        pompingw: "pompingw"
+    pang3:
+      description: "pang3"
+      children:
+        pang3j: "pang3j"
+        pang3r1: "pang3r1"
+    panicbom:
+      description: "panicbom"
+    panicr:
+      description: "panicr"
+      children:
+        panicrg: "panicrg"
+    panther:
+      description: "panther"
+    parentj:
+      description: "parentj"
+    passsht:
+      description: "passsht"
+      children:
+        cencourt: "cencourt"
+        passsht16a: "passsht16a"
+        passshta: "passshta"
+        passshtj: "passshtj"
+    pastelg:
+      description: "pastelg"
+    patimono:
+      description: "patimono"
+    patocar:
+      description: "patocar"
+    pballoon:
+      description: "pballoon"
+      children:
+        pballoonr: "pballoonr"
+    pblbeach:
+      description: "pblbeach"
+    pbobbl2n:
+      description: "pbobbl2n"
+    pbobble:
+      description: "pbobble"
+      children:
+        bublbust: "bublbust"
+    pbobble2:
+      description: "pbobble2"
+      children:
+        pbobble2j: "pbobble2j"
+        pbobble2o: "pbobble2o"
+        pbobble2u: "pbobble2u"
+        pbobble2x: "pbobble2x"
+    pbobble3:
+      description: "pbobble3"
+      children:
+        pbobble3j: "pbobble3j"
+        pbobble3u: "pbobble3u"
+    pbobble4:
+      description: "pbobble4"
+      children:
+        pbobble4j: "pbobble4j"
+        pbobble4u: "pbobble4u"
+    pbobblen:
+      description: "pbobblen"
+      children:
+        pbobblenb: "pbobblenb"
+    pc_1942:
+      description: "pc_1942"
+    pc_bball:
+      description: "pc_bball"
+    pc_bfght:
+      description: "pc_bfght"
+    pc_bload:
+      description: "pc_bload"
+    pc_bstar:
+      description: "pc_bstar"
+    pc_cntra:
+      description: "pc_cntra"
+    pc_cshwk:
+      description: "pc_cshwk"
+    pc_cvnia:
+      description: "pc_cvnia"
+    pc_dbldr:
+      description: "pc_dbldr"
+    pc_ddrgn:
+      description: "pc_ddrgn"
+    pc_drmro:
+      description: "pc_drmro"
+      children:
+        pc_virus: "pc_virus"
+    pc_duckh:
+      description: "pc_duckh"
+    pc_ebike:
+      description: "pc_ebike"
+    pc_ftqst:
+      description: "pc_ftqst"
+    pc_gntlt:
+      description: "pc_gntlt"
+    pc_golf:
+      description: "pc_golf"
+    pc_goons:
+      description: "pc_goons"
+    pc_grdus:
+      description: "pc_grdus"
+      children:
+        pc_grdue: "pc_grdue"
+    pc_hgaly:
+      description: "pc_hgaly"
+    pc_kngfu:
+      description: "pc_kngfu"
+    pc_mario:
+      description: "pc_mario"
+    pc_miket:
+      description: "pc_miket"
+    pc_mman3:
+      description: "pc_mman3"
+    pc_moglf:
+      description: "pc_moglf"
+    pc_mtoid:
+      description: "pc_mtoid"
+    pc_ngai2:
+      description: "pc_ngai2"
+    pc_ngai3:
+      description: "pc_ngai3"
+    pc_ngaid:
+      description: "pc_ngaid"
+    pc_pinbt:
+      description: "pc_pinbt"
+    pc_pwbld:
+      description: "pc_pwbld"
+    pc_pwrst:
+      description: "pc_pwrst"
+    pc_radr2:
+      description: "pc_radr2"
+    pc_radrc:
+      description: "pc_radrc"
+    pc_rcpam:
+      description: "pc_rcpam"
+    pc_rkats:
+      description: "pc_rkats"
+    pc_rnatk:
+      description: "pc_rnatk"
+    pc_rrngr:
+      description: "pc_rrngr"
+    pc_rygar:
+      description: "pc_rygar"
+    pc_sjetm:
+      description: "pc_sjetm"
+    pc_smb:
+      description: "pc_smb"
+    pc_smb2:
+      description: "pc_smb2"
+    pc_smb3:
+      description: "pc_smb3"
+    pc_suprc:
+      description: "pc_suprc"
+    pc_tbowl:
+      description: "pc_tbowl"
+    pc_tenis:
+      description: "pc_tenis"
+    pc_tkfld:
+      description: "pc_tkfld"
+    pc_tmnt:
+      description: "pc_tmnt"
+    pc_tmnt2:
+      description: "pc_tmnt2"
+    pc_trjan:
+      description: "pc_trjan"
+    pc_ttoon:
+      description: "pc_ttoon"
+    pc_vball:
+      description: "pc_vball"
+    pc_wcup:
+      description: "pc_wcup"
+    pc_wgnmn:
+      description: "pc_wgnmn"
+    pc_ynoid:
+      description: "pc_ynoid"
+    pclub2:
+      description: "pclub2"
+    pclubj:
+      description: "pclubj"
+    pclubjv2:
+      description: "pclubjv2"
+      children:
+        pclub: "pclub"
+    pclubjv4:
+      description: "pclubjv4"
+    pclubjv5:
+      description: "pclubjv5"
+    pclubpok:
+      description: "pclubpok"
+    pdrift:
+      description: "pdrift"
+      children:
+        pdrifta: "pdrifta"
+        pdrifte: "pdrifte"
+        pdriftj: "pdriftj"
+    pdriftl:
+      description: "pdriftl"
+    pengo:
+      description: "pengo"
+      children:
+        pengo2: "pengo2"
+        pengo4: "pengo4"
+        pengo5: "pengo5"
+    pgoal:
+      description: "pgoal"
+    phoenix:
+      description: "phoenix"
+      children:
+        avefenix: "avefenix"
+        avefenixl: "avefenixl"
+        avefenixrf: "avefenixrf"
+        batman2: "batman2"
+        condor: "condor"
+        condorn: "condorn"
+        condorva: "condorva"
+        falcon: "falcon"
+        fenix: "fenix"
+        fenixn: "fenixn"
+        griffon: "griffon"
+        griffono: "griffono"
+        nextfase: "nextfase"
+        phoenix2: "phoenix2"
+        phoenix3: "phoenix3"
+        phoenixa: "phoenixa"
+        phoenixass: "phoenixass"
+        phoenixb: "phoenixb"
+        phoenixbl: "phoenixbl"
+        phoenixc: "phoenixc"
+        phoenixc2: "phoenixc2"
+        phoenixc3: "phoenixc3"
+        phoenixc4: "phoenixc4"
+        phoenixdal: "phoenixdal"
+        phoenixgu: "phoenixgu"
+        phoenixha: "phoenixha"
+        phoenixi: "phoenixi"
+        phoenixj: "phoenixj"
+        phoenixs: "phoenixs"
+        phoenixt: "phoenixt"
+        phoenxp2: "phoenxp2"
+        vautour: "vautour"
+        vautourz: "vautourz"
+        vautourza: "vautourza"
+    pignewt:
+      description: "pignewt"
+      children:
+        pignewta: "pignewta"
+    pingpong:
+      description: "pingpong"
+    pitfall2:
+      description: "pitfall2"
+      children:
+        pitfall2a: "pitfall2a"
+        pitfall2u: "pitfall2u"
+    pitnrun:
+      description: "pitnrun"
+      children:
+        pitnruna: "pitnruna"
+        pitnrunb: "pitnrunb"
+    platoon:
+      description: "platoon"
+    plgirls:
+      description: "plgirls"
+      children:
+        lagirl: "lagirl"
+    plgirls2:
+      description: "plgirls2"
+      children:
+        plgirls2b: "plgirls2b"
+    plotting:
+      description: "plotting"
+      children:
+        flipull: "flipull"
+        plottinga: "plottinga"
+        plottingb: "plottingb"
+        plottingu: "plottingu"
+    pltkids:
+      description: "pltkids"
+      children:
+        pltkidsa: "pltkidsa"
+    plumppop:
+      description: "plumppop"
+    pnickj:
+      description: "pnickj"
+    pnyaa:
+      description: "pnyaa"
+      children:
+        pnyaaa: "pnyaaa"
+    pokonyan:
+      description: "pokonyan"
+    pooyan:
+      description: "pooyan"
+      children:
+        pootan: "pootan"
+        pooyans: "pooyans"
+    popbounc:
+      description: "popbounc"
+    popeye:
+      description: "popeye"
+      children:
+        popeyeb2: "popeyeb2"
+        popeyeb3: "popeyeb3"
+        popeyebl: "popeyebl"
+        popeyef: "popeyef"
+        popeyej: "popeyej"
+        popeyejo: "popeyejo"
+        popeyeu: "popeyeu"
+    popnpop:
+      description: "popnpop"
+      children:
+        popnpopj: "popnpopj"
+        popnpopu: "popnpopu"
+    potopoto:
+      description: "potopoto"
+    poundfor:
+      description: "poundfor"
+      children:
+        poundforj: "poundforj"
+        poundforu: "poundforu"
+    pow:
+      description: "pow"
+      children:
+        powa: "powa"
+        powj: "powj"
+    powsled:
+      description: "powsled"
+      children:
+        powsledm: "powsledm"
+        powsledr: "powsledr"
+    prehisle:
+      description: "prehisle"
+      children:
+        gensitou: "gensitou"
+        prehisleb: "prehisleb"
+        prehislek: "prehislek"
+        prehisleu: "prehisleu"
+    preisle2:
+      description: "preisle2"
+    prikura:
+      description: "prikura"
+    progear:
+      description: "progear"
+      children:
+        progeara: "progeara"
+        progearj: "progearj"
+        progearjbl: "progearjbl"
+        progearjd: "progearjd"
+        progearud: "progearud"
+    psailor1:
+      description: "psailor1"
+    psailor2:
+      description: "psailor2"
+    pspikes2:
+      description: "pspikes2"
+    pstadium:
+      description: "pstadium"
+    psychos:
+      description: "psychos"
+      children:
+        psychosj: "psychosj"
+    puchicar:
+      description: "puchicar"
+      children:
+        puchicarj: "puchicarj"
+        puchicaru: "puchicaru"
+    pulirula:
+      description: "pulirula"
+      children:
+        pulirulaa: "pulirulaa"
+        pulirulaj: "pulirulaj"
+    pulsar:
+      description: "pulsar"
+    pulstar:
+      description: "pulstar"
+    punchout:
+      description: "punchout"
+      children:
+        punchita: "punchita"
+        punchouta: "punchouta"
+        punchoutj: "punchoutj"
+    punisher:
+      description: "punisher"
+      children:
+        punisherh: "punisherh"
+        punisherj: "punisherj"
+        punisheru: "punisheru"
+    puyo:
+      description: "puyo"
+      children:
+        puyoja: "puyoja"
+        puyojb: "puyojb"
+    puyopuy2:
+      description: "puyopuy2"
+    puyosun:
+      description: "puyosun"
+    puzzldpr:
+      description: "puzzldpr"
+    puzzledp:
+      description: "puzzledp"
+    puzznic:
+      description: "puzznic"
+      children:
+        puzznica: "puzznica"
+        puzznicb: "puzznicb"
+        puzznici: "puzznici"
+        puzznicj: "puzznicj"
+        puzznicu: "puzznicu"
+    pwrgoal:
+      description: "pwrgoal"
+      children:
+        hthero95: "hthero95"
+        hthero95a: "hthero95a"
+        hthero95u: "hthero95u"
+    pzloop2:
+      description: "pzloop2"
+      children:
+        pzloop2j: "pzloop2j"
+        pzloop2jd: "pzloop2jd"
+        pzloop2jr1: "pzloop2jr1"
+    qad:
+      description: "qad"
+      children:
+        qadjr: "qadjr"
+    qcrayon:
+      description: "qcrayon"
+    qcrayon2:
+      description: "qcrayon2"
+    qgh:
+      description: "qgh"
+    qix:
+      description: "qix"
+      children:
+        qix2: "qix2"
+        qixa: "qixa"
+        qixb: "qixb"
+        qixo: "qixo"
+    qjinsei:
+      description: "qjinsei"
+    qmhayaku:
+      description: "qmhayaku"
+    qndream:
+      description: "qndream"
+    qrouka:
+      description: "qrouka"
+    qsww:
+      description: "qsww"
+    qtheater:
+      description: "qtheater"
+    qtono2j:
+      description: "qtono2j"
+    qtorimon:
+      description: "qtorimon"
+    quartet:
+      description: "quartet"
+      children:
+        quartet2: "quartet2"
+        quartet2a: "quartet2a"
+        quarteta: "quarteta"
+    quizdai2:
+      description: "quizdai2"
+    quizdais:
+      description: "quizdais"
+      children:
+        quizdaisk: "quizdaisk"
+    quizf1:
+      description: "quizf1"
+    quizhq:
+      description: "quizhq"
+    quizhuhu:
+      description: "quizhuhu"
+    quizkof:
+      description: "quizkof"
+      children:
+        quizkofk: "quizkofk"
+    quizmeku:
+      description: "quizmeku"
+    qzchikyu:
+      description: "qzchikyu"
+    qzquest:
+      description: "qzquest"
+    qzshowby:
+      description: "qzshowby"
+    rachero:
+      description: "rachero"
+    racingb:
+      description: "racingb"
+      children:
+        racingbj: "racingbj"
+    radarscp:
+      description: "radarscp"
+      children:
+        radarscp1: "radarscp1"
+    radm:
+      description: "radm"
+      children:
+        radmu: "radmu"
+    radr:
+      description: "radr"
+      children:
+        radrj: "radrj"
+        radru: "radru"
+    radrad:
+      description: "radrad"
+      children:
+        radradj: "radradj"
+    raflesia:
+      description: "raflesia"
+    ragnagrd:
+      description: "ragnagrd"
+    raimais:
+      description: "raimais"
+      children:
+        raimaisj: "raimaisj"
+        raimaisjo: "raimaisjo"
+    rambo3:
+      description: "rambo3"
+      children:
+        rambo3p: "rambo3p"
+        rambo3u: "rambo3u"
+    rascot:
+      description: "rascot"
+    rascot2:
+      description: "rascot2"
+    rastan:
+      description: "rastan"
+      children:
+        rastana: "rastana"
+        rastanb: "rastanb"
+        rastanu: "rastanu"
+        rastanua: "rastanua"
+        rastanub: "rastanub"
+        rastsaga: "rastsaga"
+        rastsagaa: "rastsagaa"
+        rastsagab: "rastsagab"
+    razmataz:
+      description: "razmataz"
+    rbff1:
+      description: "rbff1"
+      children:
+        rbff1a: "rbff1a"
+        rbff1k: "rbff1k"
+        rbff1ka: "rbff1ka"
+    rbff2:
+      description: "rbff2"
+      children:
+        rbff2k: "rbff2k"
+    rbffspec:
+      description: "rbffspec"
+      children:
+        rbffspeck: "rbffspeck"
+    rbisland:
+      description: "rbisland"
+      children:
+        jumping: "jumping"
+        jumpinga: "jumpinga"
+        jumpingi: "jumpingi"
+        rbislando: "rbislando"
+    rbislande:
+      description: "rbislande"
+    rchase:
+      description: "rchase"
+      children:
+        rchasej: "rchasej"
+    rchase2:
+      description: "rchase2"
+      children:
+        rchase2a: "rchase2a"
+    realpunc:
+      description: "realpunc"
+      children:
+        realpuncj: "realpuncj"
+    recalh:
+      description: "recalh"
+    recordbr:
+      description: "recordbr"
+      children:
+        gogold: "gogold"
+    redalert:
+      description: "redalert"
+      children:
+        ww3: "ww3"
+    redearth:
+      description: "redearth"
+      children:
+        redearthn: "redearthn"
+        redearthnr1: "redearthnr1"
+        redearthr1: "redearthr1"
+        warzard: "warzard"
+        warzardr1: "warzardr1"
+    regulus:
+      description: "regulus"
+    renaiclb:
+      description: "renaiclb"
+    retofinv:
+      description: "retofinv"
+      children:
+        retofinvb: "retofinvb"
+        retofinvb1: "retofinvb1"
+        retofinvb2: "retofinvb2"
+        retofinvb3: "retofinvb3"
+        retofinvbv: "retofinvbv"
+    ribbit:
+      description: "ribbit"
+      children:
+        ribbitj: "ribbitj"
+    ridhero:
+      description: "ridhero"
+    ridingf:
+      description: "ridingf"
+      children:
+        ridingfj: "ridingfj"
+        ridingfu: "ridingfu"
+    ridleofp:
+      description: "ridleofp"
+    ringdest:
+      description: "ringdest"
+      children:
+        ringdesta: "ringdesta"
+        ringdestb: "ringdestb"
+        ringdestd: "ringdestd"
+        ringdesth: "ringdesth"
+        smbomb: "smbomb"
+        smbombr1: "smbombr1"
+    ringrage:
+      description: "ringrage"
+      children:
+        ringragej: "ringragej"
+        ringrageu: "ringrageu"
+    riotcity:
+      description: "riotcity"
+    riskchal:
+      description: "riskchal"
+      children:
+        gussun: "gussun"
+    rjammer:
+      description: "rjammer"
+    roadf:
+      description: "roadf"
+      children:
+        roadf2: "roadf2"
+        roadfh: "roadfh"
+        roadfu: "roadfu"
+    roboarmy:
+      description: "roboarmy"
+      children:
+        roboarmya: "roboarmya"
+    robowres:
+      description: "robowres"
+    rockclim:
+      description: "rockclim"
+    rockrage:
+      description: "rockrage"
+      children:
+        rockragea: "rockragea"
+        rockragej: "rockragej"
+    rocnrope:
+      description: "rocnrope"
+      children:
+        rocnropek: "rocnropek"
+        ropeman: "ropeman"
+    rollingc:
+      description: "rollingc"
+    rotd:
+      description: "rotd"
+    roughrac:
+      description: "roughrac"
+    royalqn:
+      description: "royalqn"
+    roylcrdn:
+      description: "roylcrdn"
+      children:
+        roylcrdna: "roylcrdna"
+    rsgun:
+      description: "rsgun"
+    rtype:
+      description: "rtype"
+      children:
+        rtypej: "rtypej"
+        rtypejp: "rtypejp"
+        rtypeu: "rtypeu"
+    rtype2:
+      description: "rtype2"
+      children:
+        rtype2j: "rtype2j"
+        rtype2jc: "rtype2jc"
+    rtypeleo:
+      description: "rtypeleo"
+      children:
+        rtypeleoj: "rtypeleoj"
+    ryujin:
+      description: "ryujin"
+      children:
+        ryujina: "ryujina"
+    ryukyu:
+      description: "ryukyu"
+      children:
+        ryukyua: "ryukyua"
+    s1945p:
+      description: "s1945p"
+    safari:
+      description: "safari"
+      children:
+        safaria: "safaria"
+    safarir:
+      description: "safarir"
+      children:
+        safarirj: "safarirj"
+    sailorws:
+      description: "sailorws"
+      children:
+        sailorwa: "sailorwa"
+        sailorwr: "sailorwr"
+    salamand:
+      description: "salamand"
+      children:
+        lifefrce: "lifefrce"
+        lifefrcej: "lifefrcej"
+        salamandj: "salamandj"
+        salamandt: "salamandt"
+    samsh5sp:
+      description: "samsh5sp"
+    samsho:
+      description: "samsho"
+    samsho2:
+      description: "samsho2"
+      children:
+        samsho2k: "samsho2k"
+    samsho3:
+      description: "samsho3"
+      children:
+        fswords: "fswords"
+    samsho4:
+      description: "samsho4"
+      children:
+        samsho4k: "samsho4k"
+    samsho5:
+      description: "samsho5"
+      children:
+        samsho5a: "samsho5a"
+        samsho5b: "samsho5b"
+    samurai:
+      description: "samurai"
+      children:
+        samuraij: "samuraij"
+    sandor:
+      description: "sandor"
+      children:
+        thunt: "thunt"
+        thuntk: "thuntk"
+    sasissu:
+      description: "sasissu"
+      children:
+        sanjeon: "sanjeon"
+    sasuke:
+      description: "sasuke"
+    satansat:
+      description: "satansat"
+      children:
+        satansata: "satansata"
+        satansatind: "satansatind"
+    savagere:
+      description: "savagere"
+    sbasebal:
+      description: "sbasebal"
+      children:
+        sbasebalj: "sbasebalj"
+    sbasketb:
+      description: "sbasketb"
+      children:
+        sbaskete: "sbaskete"
+        sbasketg: "sbasketg"
+        sbasketh: "sbasketh"
+    sbm:
+      description: "sbm"
+      children:
+        sbmj: "sbmj"
+    sbp:
+      description: "sbp"
+    scandal:
+      description: "scandal"
+      children:
+        scandalm: "scandalm"
+    scessjoe:
+      description: "scessjoe"
+      children:
+        ashnojoe: "ashnojoe"
+    scfinals:
+      description: "scfinals"
+      children:
+        scfinalso: "scfinalso"
+    schamp:
+      description: "schamp"
+      children:
+        sfight: "sfight"
+    schaser:
+      description: "schaser"
+      children:
+        crashrd: "crashrd"
+        schasera: "schasera"
+        schaserb: "schaserb"
+        schaserc: "schaserc"
+        schasercv: "schasercv"
+        schaserm: "schaserm"
+    sci:
+      description: "sci"
+      children:
+        scia: "scia"
+        scij: "scij"
+        scin: "scin"
+        sciu: "sciu"
+    scobra:
+      description: "scobra"
+      children:
+        scobrab: "scobrab"
+        scobrae: "scobrae"
+        scobrae2: "scobrae2"
+        scobrag: "scobrag"
+        scobraggi: "scobraggi"
+        scobras: "scobras"
+        scobrase: "scobrase"
+        suprheli: "suprheli"
+    scotrsht:
+      description: "scotrsht"
+    scramble:
+      description: "scramble"
+      children:
+        astroamb: "astroamb"
+        bomber: "bomber"
+        explorer: "explorer"
+        kamikazesp: "kamikazesp"
+        ncentury: "ncentury"
+        offensiv: "offensiv"
+        scrabbleo: "scrabbleo"
+        scramb2: "scramb2"
+        scramb3: "scramb3"
+        scramblb: "scramblb"
+        scramblebb: "scramblebb"
+        scramblebf: "scramblebf"
+        scramblebun: "scramblebun"
+        scrambleo: "scrambleo"
+        scrambler: "scrambler"
+        scrambles: "scrambles"
+        scrambles2: "scrambles2"
+        scrambp: "scrambp"
+        scramce: "scramce"
+        scrammr: "scrammr"
+        scrampt: "scrampt"
+        scramrf: "scramrf"
+        seainv: "seainv"
+        spcmission: "spcmission"
+        spctrek: "spctrek"
+        strfbomb: "strfbomb"
+    scross:
+      description: "scross"
+      children:
+        scrossa: "scrossa"
+        scrossu: "scrossu"
+    scud:
+      description: "scud"
+      children:
+        scudau: "scudau"
+        scuddx: "scuddx"
+        scuddxo: "scuddxo"
+        scudplus: "scudplus"
+        scudplusa: "scudplusa"
+    scyclone:
+      description: "scyclone"
+    sdi:
+      description: "sdi"
+      children:
+        defense: "defense"
+        sdia: "sdia"
+        sdib: "sdib"
+    sdodgeb:
+      description: "sdodgeb"
+    sdungeon:
+      description: "sdungeon"
+      children:
+        sdungeona: "sdungeona"
+    seabass:
+      description: "seabass"
+    searchar:
+      description: "searchar"
+      children:
+        searcharj: "searcharj"
+        searcharu: "searcharu"
+    secolove:
+      description: "secolove"
+    sectionz:
+      description: "sectionz"
+      children:
+        sectionza: "sectionza"
+    seganinj:
+      description: "seganinj"
+      children:
+        nprincess: "nprincess"
+    segawski:
+      description: "segawski"
+    seicross:
+      description: "seicross"
+      children:
+        sectrzon: "sectrzon"
+        sectrzona: "sectrzona"
+        sectrzont: "sectrzont"
+        seicrossa: "seicrossa"
+    seiha:
+      description: "seiha"
+      children:
+        seiham: "seiham"
+    selfeena:
+      description: "selfeena"
+    sengoku:
+      description: "sengoku"
+    sengoku2:
+      description: "sengoku2"
+    sengoku3:
+      description: "sengoku3"
+    sexygal:
+      description: "sexygal"
+      children:
+        sweetgal: "sweetgal"
+    sf:
+      description: "sf"
+      children:
+        sfan: "sfan"
+        sfj: "sfj"
+        sfjan: "sfjan"
+        sfjbl: "sfjbl"
+        sfp: "sfp"
+        sfua: "sfua"
+        sfw: "sfw"
+    sf2:
+      description: "sf2"
+      children:
+        sf2ea: "sf2ea"
+        sf2eb: "sf2eb"
+        sf2ed: "sf2ed"
+        sf2em: "sf2em"
+        sf2en: "sf2en"
+        sf2j: "sf2j"
+        sf2j17: "sf2j17"
+        sf2ja: "sf2ja"
+        sf2jc: "sf2jc"
+        sf2jf: "sf2jf"
+        sf2jh: "sf2jh"
+        sf2jl: "sf2jl"
+        sf2ua: "sf2ua"
+        sf2ub: "sf2ub"
+        sf2uc: "sf2uc"
+        sf2ud: "sf2ud"
+        sf2uf: "sf2uf"
+        sf2ug: "sf2ug"
+        sf2uh: "sf2uh"
+        sf2ui: "sf2ui"
+        sf2uk: "sf2uk"
+    sf2ce:
+      description: "sf2ce"
+      children:
+        sf2ceea: "sf2ceea"
+        sf2ceja: "sf2ceja"
+        sf2cejb: "sf2cejb"
+        sf2cejc: "sf2cejc"
+        sf2cet: "sf2cet"
+        sf2ceua: "sf2ceua"
+        sf2ceub: "sf2ceub"
+        sf2ceuc: "sf2ceuc"
+    sf2hf:
+      description: "sf2hf"
+      children:
+        sf2hfj: "sf2hfj"
+        sf2hfu: "sf2hfu"
+    sfa:
+      description: "sfa"
+      children:
+        sfad: "sfad"
+        sfar1: "sfar1"
+        sfar2: "sfar2"
+        sfar3: "sfar3"
+        sfau: "sfau"
+        sfza: "sfza"
+        sfzar1: "sfzar1"
+        sfzb: "sfzb"
+        sfzbr1: "sfzbr1"
+        sfzh: "sfzh"
+        sfzhr1: "sfzhr1"
+        sfzj: "sfzj"
+        sfzjr1: "sfzjr1"
+        sfzjr2: "sfzjr2"
+    sfa2:
+      description: "sfa2"
+      children:
+        sfa2u: "sfa2u"
+        sfa2ur1: "sfa2ur1"
+        sfz2a: "sfz2a"
+        sfz2ad: "sfz2ad"
+        sfz2b: "sfz2b"
+        sfz2br1: "sfz2br1"
+        sfz2h: "sfz2h"
+        sfz2j: "sfz2j"
+        sfz2jd: "sfz2jd"
+        sfz2jr1: "sfz2jr1"
+        sfz2n: "sfz2n"
+    sfa3:
+      description: "sfa3"
+      children:
+        sfa3b: "sfa3b"
+        sfa3h: "sfa3h"
+        sfa3hr1: "sfa3hr1"
+        sfa3u: "sfa3u"
+        sfa3ud: "sfa3ud"
+        sfa3ur1: "sfa3ur1"
+        sfa3us: "sfa3us"
+        sfz3a: "sfz3a"
+        sfz3ar1: "sfz3ar1"
+        sfz3j: "sfz3j"
+        sfz3jr1: "sfz3jr1"
+        sfz3jr2: "sfz3jr2"
+        sfz3jr2d: "sfz3jr2d"
+    sfach:
+      description: "sfach"
+    sfiii:
+      description: "sfiii"
+      children:
+        sfiiia: "sfiiia"
+        sfiiih: "sfiiih"
+        sfiiij: "sfiiij"
+        sfiiin: "sfiiin"
+        sfiiina: "sfiiina"
+        sfiiiu: "sfiiiu"
+    sfiii2:
+      description: "sfiii2"
+      children:
+        sfiii2h: "sfiii2h"
+        sfiii2j: "sfiii2j"
+        sfiii2n: "sfiii2n"
+    sfiii3:
+      description: "sfiii3"
+      children:
+        sfiii3j: "sfiii3j"
+        sfiii3jr1: "sfiii3jr1"
+        sfiii3n: "sfiii3n"
+        sfiii3nr1: "sfiii3nr1"
+        sfiii3r1: "sfiii3r1"
+        sfiii3u: "sfiii3u"
+        sfiii3ur1: "sfiii3ur1"
+    sfish2:
+      description: "sfish2"
+      children:
+        sfish2j: "sfish2j"
+    sflush:
+      description: "sflush"
+    sfz2al:
+      description: "sfz2al"
+      children:
+        sfz2alb: "sfz2alb"
+        sfz2ald: "sfz2ald"
+        sfz2alh: "sfz2alh"
+        sfz2alj: "sfz2alj"
+        sfz2alr1: "sfz2alr1"
+    sfzch:
+      description: "sfzch"
+      children:
+        sfzbch: "sfzbch"
+    sgaltrop:
+      description: "sgaltrop"
+      children:
+        sgaltropa: "sgaltropa"
+    sgemf:
+      description: "sgemf"
+      children:
+        pfghtj: "pfghtj"
+        sgemfa: "sgemfa"
+        sgemfd: "sgemfd"
+        sgemfh: "sgemfh"
+    sgladiat:
+      description: "sgladiat"
+    sgmast:
+      description: "sgmast"
+      children:
+        sgmastc: "sgmastc"
+        sgmastcj: "sgmastcj"
+    sgt24h:
+      description: "sgt24h"
+    shabdama:
+      description: "shabdama"
+    shangkid:
+      description: "shangkid"
+      children:
+        hiryuken: "hiryuken"
+    shangon:
+      description: "shangon"
+      children:
+        shangon1: "shangon1"
+        shangon2: "shangon2"
+        shangon3: "shangon3"
+        shangonle: "shangonle"
+        shangonro: "shangonro"
+    shanhigw:
+      description: "shanhigw"
+    sharrier:
+      description: "sharrier"
+      children:
+        sharrier1: "sharrier1"
+    shdancer:
+      description: "shdancer"
+      children:
+        shdancer1: "shdancer1"
+        shdancerj: "shdancerj"
+    sheriff:
+      description: "sheriff"
+      children:
+        bandido: "bandido"
+        westgun2: "westgun2"
+    shienryu:
+      description: "shienryu"
+    shinobi:
+      description: "shinobi"
+      children:
+        shinobi1: "shinobi1"
+        shinobi2: "shinobi2"
+        shinobi3: "shinobi3"
+        shinobi4: "shinobi4"
+        shinobi5: "shinobi5"
+        shinobi6: "shinobi6"
+    shocktr2:
+      description: "shocktr2"
+      children:
+        lans2004: "lans2004"
+    shocktro:
+      description: "shocktro"
+      children:
+        shocktroa: "shocktroa"
+    shtrider:
+      description: "shtrider"
+      children:
+        shtridera: "shtridera"
+    sidearms:
+      description: "sidearms"
+      children:
+        sidearmsj: "sidearmsj"
+        sidearmsu: "sidearmsu"
+        sidearmsur1: "sidearmsur1"
+    silentd:
+      description: "silentd"
+      children:
+        silentdj: "silentdj"
+        silentdu: "silentdu"
+    sindbadm:
+      description: "sindbadm"
+    sjryuko:
+      description: "sjryuko"
+      children:
+        sjryuko1: "sjryuko1"
+    skichamp:
+      description: "skichamp"
+    skisuprg:
+      description: "skisuprg"
+    skyadvnt:
+      description: "skyadvnt"
+      children:
+        skyadvntj: "skyadvntj"
+        skyadvntu: "skyadvntu"
+    skychut:
+      description: "skychut"
+    skyrobo:
+      description: "skyrobo"
+      children:
+        bigfghtr: "bigfghtr"
+        skyrobobl: "skyrobobl"
+    skyskipr:
+      description: "skyskipr"
+    skysoldr:
+      description: "skysoldr"
+      children:
+        skysoldrbl: "skysoldrbl"
+    skytargt:
+      description: "skytargt"
+    slammast:
+      description: "slammast"
+      children:
+        mbomberj: "mbomberj"
+        slammastu: "slammastu"
+    slapshtr:
+      description: "slapshtr"
+    slipstrm:
+      description: "slipstrm"
+      children:
+        slipstrmh: "slipstrmh"
+    smgolf:
+      description: "smgolf"
+      children:
+        ladygolf: "ladygolf"
+        ladygolfe: "ladygolfe"
+        smgolfb: "smgolfb"
+        smgolfj: "smgolfj"
+    smgp:
+      description: "smgp"
+      children:
+        smgpj: "smgpj"
+        smgpja: "smgpja"
+    smleague:
+      description: "smleague"
+      children:
+        finlarch: "finlarch"
+    snapper:
+      description: "snapper"
+    socbrawl:
+      description: "socbrawl"
+    sokyugrt:
+      description: "sokyugrt"
+    solfigtr:
+      description: "solfigtr"
+    sonic:
+      description: "sonic"
+      children:
+        sonicp: "sonicp"
+    sonicbom:
+      description: "sonicbom"
+    soniccar:
+      description: "soniccar"
+    sonicfgt:
+      description: "sonicfgt"
+      children:
+        sonicfgtj: "sonicfgtj"
+    sonicpop:
+      description: "sonicpop"
+    sonicwi2:
+      description: "sonicwi2"
+    sonicwi3:
+      description: "sonicwi3"
+    sonson:
+      description: "sonson"
+      children:
+        sonsonj: "sonsonj"
+    spacbeam:
+      description: "spacbeam"
+    spacecr:
+      description: "spacecr"
+    spacedx:
+      description: "spacedx"
+      children:
+        spacedxj: "spacedxj"
+        spacedxo: "spacedxo"
+        spcinvdj: "spcinvdj"
+    spacefb:
+      description: "spacefb"
+      children:
+        redbird: "redbird"
+        spacebrd: "spacebrd"
+        spacedem: "spacedem"
+        spacefba: "spacefba"
+        spacefbe: "spacefbe"
+        spacefbe2: "spacefbe2"
+        spacefbg: "spacefbg"
+        starwarr: "starwarr"
+    spacefev:
+      description: "spacefev"
+      children:
+        spacefevo: "spacefevo"
+        spacefevo2: "spacefevo2"
+    spacegun:
+      description: "spacegun"
+      children:
+        spacegunj: "spacegunj"
+        spacegunu: "spacegunu"
+    spacelnc:
+      description: "spacelnc"
+    spaceod:
+      description: "spaceod"
+      children:
+        spaceod2: "spaceod2"
+    spaceskr:
+      description: "spaceskr"
+    spacetrk:
+      description: "spacetrk"
+      children:
+        spacetrkc: "spacetrkc"
+    spang:
+      description: "spang"
+      children:
+        sbbros: "sbbros"
+        spangbl: "spangbl"
+        spangbl2: "spangbl2"
+        spangj: "spangj"
+    spatter:
+      description: "spatter"
+      children:
+        ssanchan: "ssanchan"
+    spcewarl:
+      description: "spcewarl"
+      children:
+        intruder: "intruder"
+        laser: "laser"
+        spclaser: "spclaser"
+    spcinv95:
+      description: "spcinv95"
+      children:
+        akkanvdr: "akkanvdr"
+        spcinv95u: "spcinv95u"
+    spcking2:
+      description: "spcking2"
+    spcpostn:
+      description: "spcpostn"
+    spelunk2:
+      description: "spelunk2"
+    spelunkr:
+      description: "spelunkr"
+      children:
+        spelunkrj: "spelunkrj"
+    spf2t:
+      description: "spf2t"
+      children:
+        spf2ta: "spf2ta"
+        spf2td: "spf2td"
+        spf2th: "spf2th"
+        spf2tu: "spf2tu"
+        spf2xj: "spf2xj"
+        spf2xjd: "spf2xjd"
+    spidman:
+      description: "spidman"
+      children:
+        spidmanj: "spidmanj"
+        spidmanu: "spidmanu"
+    spidmanj:
+      description: "spidmanj"
+    spikeofe:
+      description: "spikeofe"
+    spikeout:
+      description: "spikeout"
+    spinmast:
+      description: "spinmast"
+    spnchout:
+      description: "spnchout"
+      children:
+        spnchouta: "spnchouta"
+        spnchoutj: "spnchoutj"
+    srally2:
+      description: "srally2"
+      children:
+        srally2dx: "srally2dx"
+        srally2p: "srally2p"
+        srally2pa: "srally2pa"
+    srallyc:
+      description: "srallyc"
+      children:
+        srallyca: "srallyca"
+        srallycb: "srallycb"
+        srallycdx: "srallycdx"
+        srallycdxa: "srallycdxa"
+    srumbler:
+      description: "srumbler"
+      children:
+        rushcrsh: "rushcrsh"
+        srumbler2: "srumbler2"
+        srumbler3: "srumbler3"
+    ssf2:
+      description: "ssf2"
+      children:
+        ssf2a: "ssf2a"
+        ssf2ar1: "ssf2ar1"
+        ssf2h: "ssf2h"
+        ssf2j: "ssf2j"
+        ssf2jr1: "ssf2jr1"
+        ssf2jr2: "ssf2jr2"
+        ssf2r1: "ssf2r1"
+        ssf2tb: "ssf2tb"
+        ssf2tba: "ssf2tba"
+        ssf2tbd: "ssf2tbd"
+        ssf2tbh: "ssf2tbh"
+        ssf2tbj: "ssf2tbj"
+        ssf2tbj1: "ssf2tbj1"
+        ssf2tbr1: "ssf2tbr1"
+        ssf2tbu: "ssf2tbu"
+        ssf2u: "ssf2u"
+        ssf2ud: "ssf2ud"
+    ssf2t:
+      description: "ssf2t"
+      children:
+        ssf2ta: "ssf2ta"
+        ssf2tad: "ssf2tad"
+        ssf2th: "ssf2th"
+        ssf2tu: "ssf2tu"
+        ssf2tur1: "ssf2tur1"
+        ssf2xj: "ssf2xj"
+        ssf2xjr1: "ssf2xjr1"
+        ssf2xjr1d: "ssf2xjr1d"
+        ssf2xjr1r: "ssf2xjr1r"
+    ssi:
+      description: "ssi"
+      children:
+        majest12j: "majest12j"
+        majest12u: "majest12u"
+        ssia: "ssia"
+    ssideki:
+      description: "ssideki"
+    ssideki2:
+      description: "ssideki2"
+    ssideki3:
+      description: "ssideki3"
+    ssideki4:
+      description: "ssideki4"
+    ssoldier:
+      description: "ssoldier"
+      children:
+        psoldier: "psoldier"
+    ssonicbr:
+      description: "ssonicbr"
+    sspacaho:
+      description: "sspacaho"
+    sspaceat:
+      description: "sspaceat"
+      children:
+        sspaceat2: "sspaceat2"
+        sspaceat3: "sspaceat3"
+        sspaceatc: "sspaceatc"
+    sspirits:
+      description: "sspirits"
+      children:
+        sspiritj: "sspiritj"
+        sspirtfc: "sspirtfc"
+    ssrj:
+      description: "ssrj"
+    sss:
+      description: "sss"
+    stakwin:
+      description: "stakwin"
+      children:
+        stakwindev: "stakwindev"
+    stakwin2:
+      description: "stakwin2"
+    starjack:
+      description: "starjack"
+      children:
+        starjacks: "starjacks"
+    starlstr:
+      description: "starlstr"
+    stcc:
+      description: "stcc"
+      children:
+        stcca: "stcca"
+        stccb: "stccb"
+        stcco: "stcco"
+    steelwkr:
+      description: "steelwkr"
+    stkclmns:
+      description: "stkclmns"
+      children:
+        stkclmnsj: "stkclmnsj"
+    stratgyx:
+      description: "stratgyx"
+      children:
+        stratgys: "stratgys"
+        strongx: "strongx"
+    streetsm:
+      description: "streetsm"
+      children:
+        streetsm1: "streetsm1"
+        streetsmj: "streetsmj"
+        streetsmw: "streetsmw"
+    stress:
+      description: "stress"
+    strhoop:
+      description: "strhoop"
+    strider:
+      description: "strider"
+      children:
+        striderj: "striderj"
+        striderjr: "striderjr"
+        striderua: "striderua"
+        strideruc: "strideruc"
+    strkfgtr:
+      description: "strkfgtr"
+      children:
+        strkfgtrj: "strkfgtrj"
+    subroc3d:
+      description: "subroc3d"
+    suikoenb:
+      description: "suikoenb"
+    superchs:
+      description: "superchs"
+      children:
+        superchsj: "superchsj"
+        superchsp: "superchsp"
+        superchsp2: "superchsp2"
+        superchsu: "superchsu"
+    superman:
+      description: "superman"
+      children:
+        supermanj: "supermanj"
+        supermanu: "supermanu"
+    superspy:
+      description: "superspy"
+    suprleag:
+      description: "suprleag"
+    suprmrio:
+      description: "suprmrio"
+      children:
+        skatekds: "skatekds"
+        suprmrioa: "suprmrioa"
+        suprmriob2: "suprmriob2"
+        suprmriobl: "suprmriobl"
+    suprridr:
+      description: "suprridr"
+    supxevs:
+      description: "supxevs"
+    svc:
+      description: "svc"
+      children:
+        svcboot: "svcboot"
+        svcplus: "svcplus"
+        svcplusa: "svcplusa"
+        svcsplus: "svcsplus"
+    svf:
+      description: "svf"
+      children:
+        jleague: "jleague"
+        jleagueo: "jleagueo"
+        svfo: "svfo"
+        svs: "svs"
+    swa:
+      description: "swa"
+      children:
+        swaj: "swaj"
+    swat:
+      description: "swat"
+    swinggal:
+      description: "swinggal"
+    swtrilgy:
+      description: "swtrilgy"
+      children:
+        swtrilgya: "swtrilgya"
+    syvalion:
+      description: "syvalion"
+      children:
+        syvalionp: "syvalionp"
+        syvalionu: "syvalionu"
+        syvalionw: "syvalionw"
+    szaxxon:
+      description: "szaxxon"
+    tactcian:
+      description: "tactcian"
+      children:
+        tactcian2: "tactcian2"
+    taiwanmb:
+      description: "taiwanmb"
+    tantr:
+      description: "tantr"
+      children:
+        tantrkor: "tantrkor"
+    tcobra2:
+      description: "tcobra2"
+      children:
+        ktiger2: "ktiger2"
+        tcobra2u: "tcobra2u"
+    tdfever:
+      description: "tdfever"
+      children:
+        tdfever2: "tdfever2"
+        tdfever2b: "tdfever2b"
+        tdfeverj: "tdfeverj"
+    techbowl:
+      description: "techbowl"
+    teddybb:
+      description: "teddybb"
+    telmahjn:
+      description: "telmahjn"
+    terracre:
+      description: "terracre"
+      children:
+        terracrea: "terracrea"
+        terracren: "terracren"
+    terraf:
+      description: "terraf"
+      children:
+        terrafb: "terrafb"
+        terrafj: "terrafj"
+        terrafjb: "terrafjb"
+        terrafu: "terrafu"
+        terrafua: "terrafua"
+    tetris:
+      description: "tetris"
+      children:
+        tetris1: "tetris1"
+        tetris1d: "tetris1d"
+        tetris2: "tetris2"
+        tetris2d: "tetris2d"
+        tetris3: "tetris3"
+        tetris3d: "tetris3d"
+        tetrisbl: "tetrisbl"
+        tetrisse: "tetrisse"
+        tetrist: "tetrist"
+        tetrista: "tetrista"
+        tetristh: "tetristh"
+    tfrceac:
+      description: "tfrceac"
+      children:
+        tfrceacj: "tfrceacj"
+        tfrceacjpb: "tfrceacjpb"
+    thndrbld:
+      description: "thndrbld"
+      children:
+        thndrbld1: "thndrbld1"
+    threeds:
+      description: "threeds"
+      children:
+        galds: "galds"
+        threedsa: "threedsa"
+    thundfox:
+      description: "thundfox"
+      children:
+        thundfoxj: "thundfoxj"
+        thundfoxu: "thundfoxu"
+    tigeroad:
+      description: "tigeroad"
+      children:
+        toramich: "toramich"
+    timeplt:
+      description: "timeplt"
+      children:
+        spaceplt: "spaceplt"
+        spaceplta: "spaceplta"
+        timeplta: "timeplta"
+        timepltc: "timepltc"
+    timescan:
+      description: "timescan"
+      children:
+        timescan1: "timescan1"
+        timescan3: "timescan3"
+    timesold:
+      description: "timesold"
+      children:
+        btlfield: "btlfield"
+        btlfieldb: "btlfieldb"
+        timesold1: "timesold1"
+    timetunl:
+      description: "timetunl"
+    titlef:
+      description: "titlef"
+      children:
+        titlefj: "titlefj"
+        titlefu: "titlefu"
+    tkoboxng:
+      description: "tkoboxng"
+    tnextspc:
+      description: "tnextspc"
+      children:
+        tnextspc2: "tnextspc2"
+        tnextspcj: "tnextspcj"
+    tnk3:
+      description: "tnk3"
+      children:
+        tnk3b: "tnk3b"
+        tnk3j: "tnk3j"
+    tnzs:
+      description: "tnzs"
+      children:
+        tnzsj: "tnzsj"
+        tnzsjo: "tnzsjo"
+        tnzso: "tnzso"
+        tnzsoa: "tnzsoa"
+        tnzsop: "tnzsop"
+        tnzsuo: "tnzsuo"
+    togenkyo:
+      description: "togenkyo"
+    tokio:
+      description: "tokio"
+      children:
+        tokiob: "tokiob"
+        tokioo: "tokioo"
+        tokiou: "tokiou"
+    tokisens:
+      description: "tokisens"
+      children:
+        tokisensa: "tokisensa"
+    tokyogal:
+      description: "tokyogal"
+      children:
+        tokimbsj: "tokimbsj"
+    topgun:
+      description: "topgun"
+    tophuntr:
+      description: "tophuntr"
+    topland:
+      description: "topland"
+      children:
+        toplandj: "toplandj"
+    topskatr:
+      description: "topskatr"
+      children:
+        topskatrj: "topskatrj"
+        topskatru: "topskatru"
+        topskatruo: "topskatruo"
+    topspeed:
+      description: "topspeed"
+      children:
+        fullthrl: "fullthrl"
+        topspeedu: "topspeedu"
+    toryumon:
+      description: "toryumon"
+    toutrun:
+      description: "toutrun"
+      children:
+        toutrun1: "toutrun1"
+        toutrun2: "toutrun2"
+        toutrun3: "toutrun3"
+        toutrunj: "toutrunj"
+        toutrunj1: "toutrunj1"
+    tp84:
+      description: "tp84"
+      children:
+        tp84a: "tp84a"
+        tp84b: "tp84b"
+    tpgolf:
+      description: "tpgolf"
+    trackfld:
+      description: "trackfld"
+      children:
+        hipoly: "hipoly"
+        hyprolym: "hyprolym"
+        hyprolyma: "hyprolyma"
+        hyprolymb: "hyprolymb"
+        hyprolymba: "hyprolymba"
+        trackfldc: "trackfldc"
+        trackfldu: "trackfldu"
+    trally:
+      description: "trally"
+    tranqgun:
+      description: "tranqgun"
+    transfrm:
+      description: "transfrm"
+      children:
+        astrofl: "astrofl"
+    travrusa:
+      description: "travrusa"
+    travusa:
+      description: "travusa"
+      children:
+        motorace: "motorace"
+        mototour: "mototour"
+    triplew1:
+      description: "triplew1"
+    triplew2:
+      description: "triplew2"
+    troangel:
+      description: "troangel"
+      children:
+        newtangl: "newtangl"
+    trojan:
+      description: "trojan"
+      children:
+        trojana: "trojana"
+        trojanb: "trojanb"
+        trojanj: "trojanj"
+        trojanjo: "trojanjo"
+        trojanlt: "trojanlt"
+        trojanr: "trojanr"
+    trstar:
+      description: "trstar"
+      children:
+        prmtmfgt: "prmtmfgt"
+        prmtmfgto: "prmtmfgto"
+        trstarj: "trstarj"
+        trstaro: "trstaro"
+        trstaroj: "trstaroj"
+    tturf:
+      description: "tturf"
+      children:
+        tturfu: "tturfu"
+    tubep:
+      description: "tubep"
+      children:
+        tubepb: "tubepb"
+    turbo:
+      description: "turbo"
+      children:
+        turboa: "turboa"
+        turbob: "turbob"
+        turbobl: "turbobl"
+        turboc: "turboc"
+        turbod: "turbod"
+        turboe: "turboe"
+    turfmast:
+      description: "turfmast"
+    turtles:
+      description: "turtles"
+      children:
+        600: "600"
+        turpin: "turpin"
+        turpinnv: "turpinnv"
+        turpins: "turpins"
+    tutankhm:
+      description: "tutankhm"
+      children:
+        tutankhmb: "tutankhmb"
+        tutankhms: "tutankhms"
+    tvtcrst2:
+      description: "tvtcrst2"
+    twcup98:
+      description: "twcup98"
+      children:
+        twsoc98: "twsoc98"
+    twinbee:
+      description: "twinbee"
+    twinbeeb:
+      description: "twinbeeb"
+    twinhawk:
+      description: "twinhawk"
+      children:
+        daisenpu: "daisenpu"
+        twinhawku: "twinhawku"
+    twinqix:
+      description: "twinqix"
+    twinspri:
+      description: "twinspri"
+    twinsqua:
+      description: "twinsqua"
+    twsoc96:
+      description: "twsoc96"
+    uccops:
+      description: "uccops"
+      children:
+        uccopsar: "uccopsar"
+        uccopsaru: "uccopsaru"
+        uccopsj: "uccopsj"
+        uccopsu: "uccopsu"
+    uchuuai:
+      description: "uchuuai"
+    ufosensi:
+      description: "ufosensi"
+      children:
+        ufosensib: "ufosensib"
+    ultracin:
+      description: "ultracin"
+    ultramhm:
+      description: "ultramhm"
+    undrfire:
+      description: "undrfire"
+      children:
+        undrfirej: "undrfirej"
+        undrfireu: "undrfireu"
+    uniwars:
+      description: "uniwars"
+      children:
+        asideral: "asideral"
+        galemp: "galemp"
+        gteikoku: "gteikoku"
+        pajaroes: "pajaroes"
+        skyraidr: "skyraidr"
+        spacbat2: "spacbat2"
+        spacbatt: "spacbatt"
+        spacempr: "spacempr"
+    unsquad:
+      description: "unsquad"
+      children:
+        area88: "area88"
+        area88r: "area88r"
+    upndown:
+      description: "upndown"
+      children:
+        upndownu: "upndownu"
+    vangrd2:
+      description: "vangrd2"
+    vanguard:
+      description: "vanguard"
+      children:
+        vanguardc: "vanguardc"
+        vanguardg: "vanguardg"
+        vanguardj: "vanguardj"
+    vanilla:
+      description: "vanilla"
+      children:
+        finalbny: "finalbny"
+    varth:
+      description: "varth"
+      children:
+        varthj: "varthj"
+        varthjr: "varthjr"
+        varthr1: "varthr1"
+        varthu: "varthu"
+    vcop:
+      description: "vcop"
+      children:
+        vcopa: "vcopa"
+    vcop2:
+      description: "vcop2"
+    vf:
+      description: "vf"
+    vf2:
+      description: "vf2"
+      children:
+        vf2a: "vf2a"
+        vf2b: "vf2b"
+        vf2o: "vf2o"
+    vf3:
+      description: "vf3"
+      children:
+        vf3a: "vf3a"
+        vf3c: "vf3c"
+        vf3tb: "vf3tb"
+    vfkids:
+      description: "vfkids"
+    vfremix:
+      description: "vfremix"
+    vhunt2:
+      description: "vhunt2"
+      children:
+        vhunt2d: "vhunt2d"
+        vhunt2r1: "vhunt2r1"
+    victroad:
+      description: "victroad"
+      children:
+        dogosoke: "dogosoke"
+    viewpoin:
+      description: "viewpoin"
+      children:
+        viewpoinp: "viewpoinp"
+    vigilant:
+      description: "vigilant"
+      children:
+        vigilanta: "vigilanta"
+        vigilantb: "vigilantb"
+        vigilantc: "vigilantc"
+        vigilantd: "vigilantd"
+        vigilantg: "vigilantg"
+        vigilanto: "vigilanto"
+    viofight:
+      description: "viofight"
+      children:
+        viofightj: "viofightj"
+        viofightu: "viofightu"
+    vliner:
+      description: "vliner"
+      children:
+        vliner53: "vliner53"
+        vliner54: "vliner54"
+        vliner6e: "vliner6e"
+        vliner7e: "vliner7e"
+    vmahjong:
+      description: "vmahjong"
+    volfied:
+      description: "volfied"
+      children:
+        volfiedj: "volfiedj"
+        volfiedjo: "volfiedjo"
+        volfiedu: "volfiedu"
+        volfieduo: "volfieduo"
+    von:
+      description: "von"
+      children:
+        vonj: "vonj"
+        vonr: "vonr"
+        vonu: "vonu"
+    von2:
+      description: "von2"
+      children:
+        von254g: "von254g"
+        von2a: "von2a"
+        von2o: "von2o"
+    vr:
+      description: "vr"
+      children:
+        vformula: "vformula"
+    vs2:
+      description: "vs2"
+      children:
+        vs215: "vs215"
+        vs215o: "vs215o"
+    vs298:
+      description: "vs298"
+      children:
+        vs29815: "vs29815"
+    vs2v991:
+      description: "vs2v991"
+      children:
+        vs299: "vs299"
+        vs29915: "vs29915"
+        vs29915a: "vs29915a"
+        vs29915j: "vs29915j"
+        vs299a: "vs299a"
+        vs299j: "vs299j"
+    vsav:
+      description: "vsav"
+      children:
+        vsava: "vsava"
+        vsavb: "vsavb"
+        vsavd: "vsavd"
+        vsavh: "vsavh"
+        vsavj: "vsavj"
+        vsavu: "vsavu"
+    vsav2:
+      description: "vsav2"
+      children:
+        vsav2d: "vsav2d"
+    vsbball:
+      description: "vsbball"
+      children:
+        vsbballj: "vsbballj"
+        vsbballja: "vsbballja"
+        vsbballjb: "vsbballjb"
+    vsfdf:
+      description: "vsfdf"
+    vsgongf:
+      description: "vsgongf"
+      children:
+        ringfgt: "ringfgt"
+        ringfgta: "ringfgta"
+    vsgradus:
+      description: "vsgradus"
+    vsgshoe:
+      description: "vsgshoe"
+    vsmahjng:
+      description: "vsmahjng"
+    vspinbal:
+      description: "vspinbal"
+      children:
+        vspinbalj: "vspinbalj"
+    vsskykid:
+      description: "vsskykid"
+    vsslalom:
+      description: "vsslalom"
+    vssoccer:
+      description: "vssoccer"
+      children:
+        vssoccera: "vssoccera"
+    vstennis:
+      description: "vstennis"
+      children:
+        vstennisa: "vstennisa"
+        vstennisb: "vstennisb"
+    vstriker:
+      description: "vstriker"
+      children:
+        vstrikero: "vstrikero"
+    vulgus:
+      description: "vulgus"
+      children:
+        mach9: "mach9"
+        vulgusa: "vulgusa"
+        vulgusj: "vulgusj"
+    wakuwak7:
+      description: "wakuwak7"
+    wantsega:
+      description: "wantsega"
+    warriorb:
+      description: "warriorb"
+    wasafari:
+      description: "wasafari"
+    waterski:
+      description: "waterski"
+    waverunr:
+      description: "waverunr"
+    wb3:
+      description: "wb3"
+      children:
+        wb31: "wb31"
+        wb32: "wb32"
+        wb33: "wb33"
+        wb34: "wb34"
+        wb35: "wb35"
+    wbml:
+      description: "wbml"
+      children:
+        wbmljo: "wbmljo"
+        wbmlvc: "wbmlvc"
+    wboy:
+      description: "wboy"
+      children:
+        wboy2: "wboy2"
+        wboy3: "wboy3"
+        wboy6: "wboy6"
+        wboysys2: "wboysys2"
+        wboysys2a: "wboysys2a"
+    wcatcher:
+      description: "wcatcher"
+    wecleman:
+      description: "wecleman"
+      children:
+        weclemana: "weclemana"
+        weclemanb: "weclemanb"
+        weclemanc: "weclemanc"
+    wgp:
+      description: "wgp"
+      children:
+        wgp2: "wgp2"
+        wgpj: "wgpj"
+        wgpjoy: "wgpjoy"
+        wgpjoya: "wgpjoya"
+        wgpu: "wgpu"
+    wh1:
+      description: "wh1"
+    wh2:
+      description: "wh2"
+    wh2j:
+      description: "wh2j"
+    whp:
+      description: "whp"
+    willow:
+      description: "willow"
+      children:
+        willowj: "willowj"
+        willowu: "willowu"
+        willowuo: "willowuo"
+    wilytowr:
+      description: "wilytowr"
+      children:
+        atomboy: "atomboy"
+        atomboya: "atomboya"
+    wingwar:
+      description: "wingwar"
+      children:
+        wingwar360: "wingwar360"
+        wingwarj: "wingwarj"
+        wingwaru: "wingwaru"
+    winterht:
+      description: "winterht"
+    wiping:
+      description: "wiping"
+      children:
+        rugrats: "rugrats"
+    wizzquiz:
+      description: "wizzquiz"
+      children:
+        wizzquiza: "wizzquiza"
+    wjammers:
+      description: "wjammers"
+    wmatch:
+      description: "wmatch"
+    wof:
+      description: "wof"
+      children:
+        wofa: "wofa"
+        wofj: "wofj"
+        wofr1: "wofr1"
+        wofu: "wofu"
+    wofch:
+      description: "wofch"
+    worldwar:
+      description: "worldwar"
+    wpksoc:
+      description: "wpksoc"
+      children:
+        kftgoal: "kftgoal"
+    wrecking:
+      description: "wrecking"
+    wrestwar:
+      description: "wrestwar"
+      children:
+        wrestwar1: "wrestwar1"
+        wrestwar2: "wrestwar2"
+    wwallyj:
+      description: "wwallyj"
+      children:
+        wwallyja: "wwallyja"
+        wwallyja3p: "wwallyja3p"
+    wwanpanm:
+      description: "wwanpanm"
+    wwestern:
+      description: "wwestern"
+      children:
+        wwestern1: "wwestern1"
+    wwmarine:
+      description: "wwmarine"
+    wyvernf0:
+      description: "wyvernf0"
+      children:
+        wyvernf0a: "wyvernf0a"
+    xmcota:
+      description: "xmcota"
+      children:
+        xmcotaa: "xmcotaa"
+        xmcotaar1: "xmcotaar1"
+        xmcotaar2: "xmcotaar2"
+        xmcotab: "xmcotab"
+        xmcotah: "xmcotah"
+        xmcotahr1: "xmcotahr1"
+        xmcotaj: "xmcotaj"
+        xmcotaj1: "xmcotaj1"
+        xmcotaj2: "xmcotaj2"
+        xmcotaj3: "xmcotaj3"
+        xmcotajr: "xmcotajr"
+        xmcotar1: "xmcotar1"
+        xmcotar1d: "xmcotar1d"
+        xmcotau: "xmcotau"
+    xmultipl:
+      description: "xmultipl"
+      children:
+        xmultiplm72: "xmultiplm72"
+    xmvsf:
+      description: "xmvsf"
+      children:
+        xmvsfa: "xmvsfa"
+        xmvsfar1: "xmvsfar1"
+        xmvsfar2: "xmvsfar2"
+        xmvsfar3: "xmvsfar3"
+        xmvsfb: "xmvsfb"
+        xmvsfh: "xmvsfh"
+        xmvsfj: "xmvsfj"
+        xmvsfjr1: "xmvsfjr1"
+        xmvsfjr2: "xmvsfjr2"
+        xmvsfjr3: "xmvsfjr3"
+        xmvsfr1: "xmvsfr1"
+        xmvsfu: "xmvsfu"
+        xmvsfu1d: "xmvsfu1d"
+        xmvsfur1: "xmvsfur1"
+        xmvsfur2: "xmvsfur2"
+    yattrmnp:
+      description: "yattrmnp"
+    yesnoj:
+      description: "yesnoj"
+    yiear:
+      description: "yiear"
+      children:
+        yiear2: "yiear2"
+        yieartf: "yieartf"
+    yosimoto:
+      description: "yosimoto"
+      children:
+        yosimotm: "yosimotm"
+    youjyudn:
+      description: "youjyudn"
+    yuyugogo:
+      description: "yuyugogo"
+    zaxxon:
+      description: "zaxxon"
+    zedblade:
+      description: "zedblade"
+    zerogun:
+      description: "zerogun"
+      children:
+        zeroguna: "zeroguna"
+        zerogunaj: "zerogunaj"
+        zerogunj: "zerogunj"
+    zintrckb:
+      description: "zintrckb"
+    znpwfv:
+      description: "znpwfv"
+      children:
+        znpwfvt: "znpwfvt"
+    zookeep:
+      description: "zookeep"
+      children:
+        zookeep2: "zookeep2"
+        zookeep3: "zookeep3"
+        zookeepbl: "zookeepbl"
+    zunkyou:
+      description: "zunkyou"
+    zupapa:
+      description: "zupapa"
 
 tag_structure:
   symbols:
