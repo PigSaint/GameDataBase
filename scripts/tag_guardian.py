@@ -31,6 +31,7 @@ REGION_LIST = [
     "Germany",
     "Hispanic",
     "Hong Kong",
+    "Ireland",
     "Italy",
     "Japan",
     "Mexico",
