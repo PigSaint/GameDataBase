@@ -678,6 +678,7 @@ arcadeboard:
         gx330: "Konami GX330"
         gx361: "Konami GX361"
         gx400: "Konami GX400"
+        twin16: "Konami Twin 16"
     namco:
       description: "NAMCO board"
     toaplan:
@@ -871,6 +872,7 @@ search:
 
 compilation:
     description: "Compilation of previously released games : ID"
+    skip:
 
 reboxed:
   description: "Reboxed"
@@ -1301,6 +1303,7 @@ mameparent:
 
 mamerom:
   description: "Merged MAME ROM ZIP file > MAME ROM ZIP subfile"
+  skip:
 
 tag_structure:
   symbols:
