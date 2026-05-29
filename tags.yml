@@ -21,7 +21,7 @@ input:
     spinner:
       description: "Spinner"
     wheel:
-      description: "Wheel"
+      description: "Steering wheel"
     dial:
       description: "Dial"
     lightgun:
@@ -679,6 +679,11 @@ arcadeboard:
         gx361: "Konami GX361"
         gx400: "Konami GX400"
         twin16: "Konami Twin 16"
+        polygonet: "Konami Polygonet"
+        gx: "Konami GX"
+        gv: "Konami GV"
+        ultra: "Konami Ultra Sports"
+        zr107: "Konami ZR-107"
     namco:
       description: "NAMCO board"
     toaplan:
