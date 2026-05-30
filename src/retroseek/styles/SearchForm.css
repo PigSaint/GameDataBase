@@ -9,6 +9,26 @@
     margin-bottom: 2rem;
 }
 
+.status-message,
+.error-message {
+    margin: 0 0 1rem 0;
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.status-message {
+    background-color: rgba(59, 130, 246, 0.12);
+    color: var(--text-color);
+    border: 1px solid rgba(59, 130, 246, 0.35);
+}
+
+.error-message {
+    background-color: rgba(239, 68, 68, 0.12);
+    color: #b91c1c;
+    border: 1px solid rgba(239, 68, 68, 0.45);
+}
+
 .form-group {
     display: flex;
     flex-direction: column;
@@ -55,6 +75,11 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: var(--primary-hover);
+}
+
+button[type="submit"]:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
 }
 
 .unknown-release-date-btn {

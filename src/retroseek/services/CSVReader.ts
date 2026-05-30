@@ -64,11 +64,18 @@ export class CSVReader {
 
     private static parseCSV(csv: string, platform: string): Game[] {
         const lines = csv.split('\n');
-        const headers = lines[0].split(',');
+        const headers = lines[0].split(',').map(header => header.trim());
+
+        const titleColumn =
+            headers.indexOf('Title screen') !== -1
+                ? 'Title screen'
+                : headers.indexOf('Title screen (exact)') !== -1
+                    ? 'Title screen (exact)'
+                    : 'Screen title @ Exact';
         
         const columnIndexes = {
             id: headers.indexOf('ID'),
-            screenTitle: headers.indexOf('Screen title @ Exact'),
+            screenTitle: headers.indexOf(titleColumn),
             releaseDate: headers.indexOf('Release date'),
             developer: headers.indexOf('Developer'),
             publisher: headers.indexOf('Publisher'),
