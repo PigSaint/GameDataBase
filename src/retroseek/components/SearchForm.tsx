@@ -125,14 +125,20 @@ export const SearchForm: React.FC<SearchFormProps> = ({ onSearch }) => {
                     <label>Release Date From</label>
                     <input 
                         type="date"
-                        onChange={e => setCriteria({...criteria, dateFrom: new Date(e.target.value)})}
+                        onChange={e => setCriteria({
+                            ...criteria,
+                            dateFrom: e.target.value ? new Date(e.target.value) : undefined
+                        })}
                     />
                 </div>
                 <div className="form-group">
                     <label>Release Date To</label>
                     <input 
                         type="date"
-                        onChange={e => setCriteria({...criteria, dateTo: new Date(e.target.value)})}
+                        onChange={e => setCriteria({
+                            ...criteria,
+                            dateTo: e.target.value ? new Date(e.target.value) : undefined
+                        })}
                     />
                 </div>
                 <div className="form-group unknown-release-date-group">

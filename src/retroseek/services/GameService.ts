@@ -19,34 +19,60 @@ export class GameService {
 
     async searchGames(criteria: GameSearchCriteria & { includeUnknownReleaseDate?: boolean }): Promise<Game[]> {
         await this.initialize();
+
+        const dateFrom = criteria.dateFrom instanceof Date && !isNaN(criteria.dateFrom.getTime())
+            ? criteria.dateFrom
+            : undefined;
+        const dateTo = criteria.dateTo instanceof Date && !isNaN(criteria.dateTo.getTime())
+            ? criteria.dateTo
+            : undefined;
+
+        const selectedRegions = criteria.region?.map(region => region.trim().toLowerCase()) || [];
+
+        let normalizedDateFrom = dateFrom;
+        let normalizedDateTo = dateTo;
+
+        if (normalizedDateFrom && normalizedDateTo && normalizedDateFrom > normalizedDateTo) {
+            const temp = normalizedDateFrom;
+            normalizedDateFrom = normalizedDateTo;
+            normalizedDateTo = temp;
+        }
         
         return this.games.filter(game => {
             let matches = true;
+            const isUnknownReleaseDate = game.releaseDate.getTime() === 0 || isNaN(game.releaseDate.getTime());
             
             if (criteria.title) {
-                matches = matches && game.title.toLowerCase().includes(criteria.title.toLowerCase());
+                matches = matches && game.title.toLowerCase().includes(criteria.title.trim().toLowerCase());
             }
             if (criteria.platform?.length) {
                 matches = matches && game.platform.some(p => criteria.platform?.includes(p));
             }
-            if (criteria.region?.length) {
-                matches = matches && criteria.region.some(region => game.region.some(r => r.split('/').includes(region)));
+            if (selectedRegions.length) {
+                matches = matches && game.region.some(regionGroup =>
+                    regionGroup
+                        .split('/')
+                        .map(region => region.trim().toLowerCase())
+                        .some(region => selectedRegions.includes(region))
+                );
             }
             if (criteria.developer) {
-                matches = matches && game.developer.toLowerCase().includes(criteria.developer.toLowerCase());
+                matches = matches && game.developer.toLowerCase().includes(criteria.developer.trim().toLowerCase());
             }
             if (criteria.publisher) {
-                matches = matches && game.publisher.toLowerCase().includes(criteria.publisher.toLowerCase());
+                matches = matches && game.publisher.toLowerCase().includes(criteria.publisher.trim().toLowerCase());
             }
             if (criteria.includeUnknownReleaseDate) {
-                matches = matches && game.releaseDate.getTime() === 0;
-            } else {
-                if (criteria.dateFrom || criteria.dateTo) {
-                    matches = matches && (
-                        (criteria.dateFrom && new Date(game.releaseDate) >= new Date(criteria.dateFrom)) ||
-                        (criteria.dateTo && new Date(game.releaseDate) <= new Date(criteria.dateTo)) ||
-                        game.releaseDate.getTime() === 0
-                    );
+                matches = matches && isUnknownReleaseDate;
+            } else if (normalizedDateFrom || normalizedDateTo) {
+                if (isUnknownReleaseDate) {
+                    return false;
+                }
+                if (normalizedDateFrom) {
+                    matches = matches && game.releaseDate >= normalizedDateFrom;
+                }
+                if (normalizedDateTo) {
+                    matches = matches && game.releaseDate <= normalizedDateTo;
                 }
             }
             
@@ -56,11 +82,18 @@ export class GameService {
 
     async getAvailablePlatforms(): Promise<string[]> {
         await this.initialize();
-        return [...new Set(this.games.flatMap(game => game.platform))];
+        return [...new Set(this.games.flatMap(game => game.platform))]
+            .sort((a, b) => a.localeCompare(b, 'en', { sensitivity: 'base' }));
     }
 
     async getAvailableRegions(): Promise<string[]> {
         await this.initialize();
-        return [...new Set(this.games.flatMap(game => game.region.flatMap(r => r.split('/'))))];
+        return [...new Set(
+            this.games
+                .flatMap(game => game.region.flatMap(r => r.split('/')))
+                .map(region => region.trim())
+                .filter(region => region.length > 0)
+        )]
+            .sort((a, b) => a.localeCompare(b, 'en', { sensitivity: 'base' }));
     }
 }
