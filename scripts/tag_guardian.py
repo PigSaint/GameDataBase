@@ -107,13 +107,20 @@ def validate_main_category(main_category: str, tags_definitions: dict) -> list:
 def validate_subtag_groups(subtag_groups: list, main_category: str, tags_definitions: dict) -> list:
     """Validate all subtag groups after the main category"""
     errors = []
+    category_definition = tags_definitions.get(main_category, {})
+
+    # Skip full branch validation for this main tag if requested in tags.yml.
+    if isinstance(category_definition, dict) and 'skip' in category_definition:
+        return errors
+
+    category_subtags = category_definition.get('subtag', {})
+
     for subtag_group in subtag_groups:
         subtag_parts = subtag_group.split('>')
         if not subtag_parts:
             continue
 
         subtag_name = subtag_parts[0].split(':')[0]
-        category_subtags = tags_definitions[main_category].get('subtag', {})
         errors.extend(validate_subtags(subtag_parts[0], category_subtags, main_category))
         if len(subtag_parts) > 1:
             errors.extend(validate_children(subtag_parts[1:], subtag_name, category_subtags, main_category))
@@ -132,8 +139,16 @@ def validate_subtags(subtag_group: str, category_subtags: dict, main_category: s
 def validate_children(children: list, subtag_name: str, category_subtags: dict, main_category: str) -> list:
     """Validate each child in the subtag group"""
     errors = []
-    if subtag_name in category_subtags and 'children' in category_subtags[subtag_name]:
-        valid_children = category_subtags[subtag_name]['children']
+    if not isinstance(category_subtags, dict):
+        return errors
+
+    subtag_definition = category_subtags.get(subtag_name)
+    if isinstance(subtag_definition, dict) and 'skip' in subtag_definition:
+        return errors
+
+    if isinstance(subtag_definition, dict) and 'children' in subtag_definition:
+        valid_children = subtag_definition['children']
+
         for child in children:
             if child not in valid_children:
                 errors.append((f"Invalid child: '{child}' for '{main_category}:{subtag_name}'", None))
