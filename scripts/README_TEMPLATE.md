@@ -12,9 +12,12 @@ GameDataBase project aims to provide the most detailed information about every v
 
 | **Field** | Description |
 |-----------|-------------|
-| **Screen title @ Exact** | Original title exactly as displayed in-game, particularly useful for preserving Japanese titles in their original characters |
-| **Cover Title @ Exact** | Title exactly as shown on physical media cover/packaging |
+| **Title** | Game title |
+| **Title (exact)** | Game title exactly as displayed in box covers, flyers, or broadcasts, particularly useful for preserving Japanese original characters |
+| **Title screen** | In-game title |
+| **Title screen (exact)** | Title exactly as shown on screen, particularly useful for preserving Japanese original characters |
 | **ID** | Unique identifier for different versions/releases of the same game |
+| **Region** | Release region |
 | **Date** | Release date in YYYY-MM-DD format (partial dates like YYYY or YYYY-MM are acceptable) |
 | **Developer** | Company/team that developed the game |
 | **Publisher** | Company that published/distributed the game |
