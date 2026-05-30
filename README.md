@@ -1,7 +1,7 @@
 # GameDataBase
 
 [![Patrons](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dgamedatabase%26type%3Dpatrons%26suffix%3D%2520Patrons&color=FF5441&logo=patreon&logoColor=FF5441&style=for-the-badge)](https://patreon.com/GameDataBase)
-[![Monthly](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldcn.dev%2Fbadge%2Fdynamic%2Fjson%2Fshields.json%3Furl%3Dhttps%253A%252F%252Fwww.patreon.com%252Fapi%252Fcampaigns%252F11667791%26query%3D%2524.data.attributes.pledge_sum%26suffix%3D%2520EUR%2520cents%252FMONTH%26label%3DPatreon%26color%3DFF5481&color=FF5481&logo=patreon&logoColor=FF5441&style=for-the-badge)](https://patreon.com/gamedatabase)
+[![Monthly](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dgamedatabase%26type%3Dpledges%26suffix%3D%2520USD%2520%252F%2520MO&color=FF5481&label=Patreon&logo=Patreon&logoColor=FF5441&style=for-the-badge)](https://patreon.com/gamedatabase)
 [![Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldcn.dev%2Fbadge%2FStatus-Active-22c55e%2Fshields.json&style=for-the-badge)](https://patreon.com/GameDataBase)
 [![Creation Count](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldcn.dev%2Fbadge%2Fdynamic%2Fjson%2Fshields.json%3Furl%3Dhttps%253A%252F%252Fwww.patreon.com%252Fapi%252Fcampaigns%252F11667791%26query%3D%2524.data.attributes.creation_count%26suffix%3D%2520Entries%26label%3DPublications%26color%3D3b82f6&color=3b82f6&style=for-the-badge)](https://patreon.com/GameDataBase)
 
