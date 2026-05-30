@@ -15,6 +15,9 @@ on:
       - 'tags.yml'
       - 'scripts/tag_guardian.py'
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   generate-report:
     runs-on: ubuntu-latest
@@ -36,7 +39,7 @@ jobs:
         run: echo "dir=$(pip cache dir)" >> $GITHUB_OUTPUT
           
       - name: Cache pip packages
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ${{ steps.pip-cache.outputs.dir }}
           key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
