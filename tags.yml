@@ -703,6 +703,8 @@ arcadeboard:
         nss: "Nintendo Super System"
     nichibutsu:
       description: "Nichibutsu board"
+    midway:
+      description: "Midway board"
     stern:
       description: "Stern Electronics board"
     vectorbeam:
