@@ -53,10 +53,16 @@ jobs:
         run: |
           python -m scripts.tag_guardian
 
+      - name: Build artifact name
+        id: artifact-meta
+        run: |
+          safe_branch="${GITHUB_REF_NAME//\//-}"
+          echo "bundle_name=tg-${safe_branch}-${GITHUB_RUN_ID}" >> "$GITHUB_OUTPUT"
+
       - name: Upload Reports Bundle
         uses: actions/upload-artifact@v4
         with:
-          name: tag-guardian-report-bundle
+          name: ${{ steps.artifact-meta.outputs.bundle_name }}
           path: |
             tag_guardian_report.md
             reports/
@@ -167,7 +173,9 @@ jobs:
               .addRaw(reportForSummary)
               .addEOL()
               .addSeparator()
+              .addEOL()
               .addRaw(
-                detailsSection || 'No detailed markdown reports were generated in this run.'
+                detailsSection || 'No detailed markdown reports were generated in this run.',
+                true
               )
               .write();
