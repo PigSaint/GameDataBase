@@ -56,7 +56,8 @@ jobs:
       - name: Build artifact name
         id: artifact-meta
         run: |
-          safe_branch="${GITHUB_REF_NAME//\//-}"
+          branch="${GITHUB_HEAD_REF:-$GITHUB_REF_NAME}"
+          safe_branch="${branch//\//-}"
           echo "bundle_name=tg-${safe_branch}-${GITHUB_RUN_ID}" >> "$GITHUB_OUTPUT"
 
       - name: Upload Reports Bundle
