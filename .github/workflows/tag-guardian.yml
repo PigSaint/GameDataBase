@@ -67,8 +67,8 @@ jobs:
           script: |
             const fs = require('fs');
             const report = fs.readFileSync('tag_guardian_report.md', 'utf8');
-              const runId = process.env.GITHUB_RUN_ID;
-              const repository = process.env.GITHUB_REPOSITORY;
+            const runId = process.env.GITHUB_RUN_ID;
+            const repository = process.env.GITHUB_REPOSITORY;
 
             const toAnchorId = (reportPath) => {
               const fileName = reportPath.split('/').pop() || reportPath;
@@ -77,27 +77,98 @@ jobs:
               return `report-${safe}`;
             };
 
+            const extractCount = (content) => (content.match(/^\|\s*\d+\s*\|/gm) || []).length;
+
+            const stemToCsvName = (fileName) => {
+              const stem = fileName.replace(/\.md$/i, '');
+              return stem
+                .replace(/_errors$/i, '')
+                .replace(/_warnings$/i, '') + '.csv';
+            };
+
+            const cleanDetailContent = (content) => {
+              return content
+                .replace(/^#\s+.*\n+/m, '')
+                .trim();
+            };
+
+            const runUrl = `https://github.com/${repository}/actions/runs/${runId}`;
+
             const reportForSummary = report
+              .replace(/##\s+📑\s+Detailed Reports by File[\s\S]*$/g, '')
+              .replace(/##\s+Detailed Reports by File[\s\S]*$/g, '')
               .replace(/##\s+📑\s+Detailed Reports by File/g, '### Detailed Reports (Inline)')
               .replace(/##\s+Detailed Reports by File/g, '### Detailed Reports (Inline)')
               .replace(/\[([^\]]+)\]\((reports\/[^)]+)\)/g, (_match, label, reportPath) => {
-                  const anchor = toAnchorId(reportPath);
-                  return `[${label}](https://github.com/${repository}/actions/runs/${runId}#${anchor})`;
+                const anchor = toAnchorId(reportPath);
+                return `[${label}](${runUrl}#${anchor})`;
               });
 
             const detailFiles = fs.existsSync('reports')
               ? fs.readdirSync('reports').filter((name) => name.endsWith('.md')).sort()
               : [];
 
-            let detailsSection = '';
-            for (const fileName of detailFiles) {
+            const detailedReports = detailFiles.map((fileName) => {
               const relativePath = `reports/${fileName}`;
               const anchor = toAnchorId(relativePath);
-              const fileContent = fs.readFileSync(relativePath, 'utf8').trim();
-              detailsSection += `<a id="${anchor}"></a>\n`;
-              detailsSection += `<details>\n<summary><strong>${fileName}</strong></summary>\n\n`;
-              detailsSection += `${fileContent}\n\n`;
-              detailsSection += `</details>\n\n`;
+              const content = fs.readFileSync(relativePath, 'utf8').trim();
+              const count = extractCount(content);
+              const type = fileName.endsWith('_errors.md') ? 'errors' : 'warnings';
+              const csvName = stemToCsvName(fileName);
+              return {
+                fileName,
+                relativePath,
+                anchor,
+                content: cleanDetailContent(content),
+                type,
+                count,
+                csvName,
+                link: `${runUrl}#${anchor}`
+              };
+            });
+
+            const invalidReports = detailedReports.filter((r) => r.type === 'errors');
+            const warningReports = detailedReports.filter((r) => r.type === 'warnings');
+
+            let detailsSection = '### Detailed Reports (Inline)\n\n';
+
+            if (detailedReports.length === 0) {
+              detailsSection += 'No detailed markdown reports were generated in this run.\n';
+            } else {
+              detailsSection += '| Metric | Value |\n';
+              detailsSection += '|---|---:|\n';
+              detailsSection += `| Total detailed report files | ${detailedReports.length} |\n`;
+              detailsSection += `| Invalid tag report files | ${invalidReports.length} |\n`;
+              detailsSection += `| Warning report files | ${warningReports.length} |\n\n`;
+
+              detailsSection += '### ❌ Invalid Tags Reports\n\n';
+              if (invalidReports.length === 0) {
+                detailsSection += '- None\n\n';
+              } else {
+                for (const reportItem of invalidReports) {
+                  detailsSection += `- [📋 ${reportItem.csvName} (${reportItem.count} errors)](${reportItem.link})\n`;
+                }
+                detailsSection += '\n';
+              }
+
+              detailsSection += '### ⚠️ Warning Reports\n\n';
+              if (warningReports.length === 0) {
+                detailsSection += '- None\n\n';
+              } else {
+                for (const reportItem of warningReports) {
+                  detailsSection += `- [📋 ${reportItem.csvName} (${reportItem.count} warnings)](${reportItem.link})\n`;
+                }
+                detailsSection += '\n';
+              }
+
+              for (const reportItem of detailedReports) {
+                const typeLabel = reportItem.type === 'errors' ? 'Invalid Tags' : 'Warnings';
+                detailsSection += `<a id="${reportItem.anchor}"></a>\n`;
+                detailsSection += `<details>\n<summary><strong>${reportItem.fileName}</strong> · ${typeLabel}: ${reportItem.count}</summary>\n\n`;
+                detailsSection += `[⬆️ Back to run top](${runUrl})\n\n`;
+                detailsSection += `${reportItem.content}\n\n`;
+                detailsSection += `</details>\n\n`;
+              }
             }
 
             await core.summary
