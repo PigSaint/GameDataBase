@@ -632,8 +632,7 @@ def write_inline_detailed_reports(report_file, stats, file_results):
         report_file.write("- None\n\n")
     else:
         for file_result, file_errors in error_files:
-            games_str = f"{file_result.get('games', '?')} games"
-            report_file.write(f"<details>\n<summary><strong>{file_result['file']}</strong> · ❌ {len(file_errors)} invalid tag(s) · {games_str}</summary>\n\n")
+            report_file.write(f"<details>\n<summary><strong>{file_result['file']}</strong> · ❌ {len(file_errors)} invalid tag(s)</summary>\n\n")
             write_error_section(report_file, file_errors, [file_result])
             report_file.write("\n</details>\n\n")
 
@@ -642,9 +641,8 @@ def write_inline_detailed_reports(report_file, stats, file_results):
         report_file.write("- None\n\n")
     else:
         for file_result, file_warnings in warning_files:
-            games_str = f"{file_result.get('games', '?')} games"
             total_issues = sum(len(w['warnings']) for w in file_warnings)
-            report_file.write(f"<details>\n<summary><strong>{file_result['file']}</strong> · ⚠️ {total_issues} issue(s) in {len(file_warnings)} game(s) · {games_str}</summary>\n\n")
+            report_file.write(f"<details>\n<summary><strong>{file_result['file']}</strong> · ⚠️ {total_issues} issue(s) in {len(file_warnings)} game(s)</summary>\n\n")
             write_warning_section(report_file, file_warnings, [file_result])
             report_file.write("\n</details>\n\n")
 
