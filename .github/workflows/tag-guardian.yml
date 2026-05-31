@@ -133,26 +133,33 @@ jobs:
             const invalidReports = detailedReports.filter((r) => r.type === 'errors');
             const warningReports = detailedReports.filter((r) => r.type === 'warnings');
 
-            const orderedReports = [...invalidReports, ...warningReports]
-              .sort((a, b) => {
-                if (a.type !== b.type) {
-                  return a.type === 'errors' ? -1 : 1;
-                }
-                return a.csvName.localeCompare(b.csvName);
-              });
+            invalidReports.sort((a, b) => a.csvName.localeCompare(b.csvName));
+            warningReports.sort((a, b) => a.csvName.localeCompare(b.csvName));
+
+            const renderCollapsibleGroup = (title, reports, typeLabel) => {
+              let block = `#### ${title}\n\n`;
+              if (reports.length === 0) {
+                block += '- None\n\n';
+                return block;
+              }
+
+              for (const reportItem of reports) {
+                block += `<a id="${reportItem.anchor}"></a>\n`;
+                block += `<details>\n<summary><strong>${reportItem.csvName}</strong> · ${typeLabel}: ${reportItem.count}</summary>\n\n`;
+                block += `${reportItem.content}\n\n`;
+                block += `</details>\n\n`;
+              }
+              return block;
+            };
 
             let detailsSection = '';
 
             if (detailedReports.length === 0) {
               detailsSection += 'No detailed markdown reports were generated in this run.\n';
             } else {
-              for (const reportItem of orderedReports) {
-                const typeLabel = reportItem.type === 'errors' ? 'Invalid Tags' : 'Warnings';
-                detailsSection += `<a id="${reportItem.anchor}"></a>\n`;
-                detailsSection += `<details>\n<summary><strong>${reportItem.csvName}</strong> · ${typeLabel}: ${reportItem.count}</summary>\n\n`;
-                detailsSection += `${reportItem.content}\n\n`;
-                detailsSection += `</details>\n\n`;
-              }
+              detailsSection += '### Detailed Reports (Inline)\n\n';
+              detailsSection += renderCollapsibleGroup('❌ Invalid Tags Reports', invalidReports, 'Invalid Tags');
+              detailsSection += renderCollapsibleGroup('⚠️ Warning Reports', warningReports, 'Warnings');
             }
 
             await core.summary
