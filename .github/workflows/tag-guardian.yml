@@ -75,9 +75,12 @@ jobs:
               return `report-${safe}`;
             };
 
-            const reportForSummary = report.replace(/\[([^\]]+)\]\((reports\/[^)]+)\)/g, (_match, label, reportPath) => {
-              return `[${label}](#${toAnchorId(reportPath)})`;
-            });
+            const reportForSummary = report
+              .replace(/##\s+📑\s+Detailed Reports by File/g, '### Detailed Reports (Inline)')
+              .replace(/##\s+Detailed Reports by File/g, '### Detailed Reports (Inline)')
+              .replace(/\[([^\]]+)\]\((reports\/[^)]+)\)/g, (_match, label, reportPath) => {
+                return `[${label}](#${toAnchorId(reportPath)})`;
+              });
 
             const detailFiles = fs.existsSync('reports')
               ? fs.readdirSync('reports').filter((name) => name.endsWith('.md')).sort()
