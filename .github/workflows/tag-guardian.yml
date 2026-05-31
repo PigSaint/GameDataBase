@@ -67,6 +67,8 @@ jobs:
           script: |
             const fs = require('fs');
             const report = fs.readFileSync('tag_guardian_report.md', 'utf8');
+              const runId = process.env.GITHUB_RUN_ID;
+              const repository = process.env.GITHUB_REPOSITORY;
 
             const toAnchorId = (reportPath) => {
               const fileName = reportPath.split('/').pop() || reportPath;
@@ -79,7 +81,8 @@ jobs:
               .replace(/##\s+📑\s+Detailed Reports by File/g, '### Detailed Reports (Inline)')
               .replace(/##\s+Detailed Reports by File/g, '### Detailed Reports (Inline)')
               .replace(/\[([^\]]+)\]\((reports\/[^)]+)\)/g, (_match, label, reportPath) => {
-                return `[${label}](#${toAnchorId(reportPath)})`;
+                  const anchor = toAnchorId(reportPath);
+                  return `[${label}](https://github.com/${repository}/actions/runs/${runId}#${anchor})`;
               });
 
             const detailFiles = fs.existsSync('reports')
@@ -102,7 +105,6 @@ jobs:
               .addRaw(reportForSummary)
               .addEOL()
               .addSeparator()
-              .addHeading('Detailed Reports (Inline)', 3)
               .addRaw(
                 detailsSection || 'No detailed markdown reports were generated in this run.'
               )
