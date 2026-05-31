@@ -1,7 +1,22 @@
 import { Game } from '../models/Game';
+import { STORAGE_KEYS } from '../constants/storageKeys';
+import { readJsonLocalStorage, writeJsonLocalStorage } from '../utils/localStorage';
+
+type CachedGameEntry = Omit<Game, 'releaseDate'> & {
+    releaseDate: number;
+};
+
+type MetadataCachePayload = {
+    version: 1;
+    cachedAt: number;
+    games: CachedGameEntry[];
+};
 
 export class CSVReader {
     private static baseUrl = 'https://raw.githubusercontent.com/PigSaint/GameDataBase/main';
+    private static metadataCacheTtlMs = 1000 * 60 * 60 * 24 * 7;
+    private static cachedGames: Game[] | null = null;
+    private static loadingPromise: Promise<Game[]> | null = null;
     private static platformFiles = {
         'Arcade CAPCOM': 'arcade_capcom.csv',
         'Arcade IREM': 'arcade_irem.csv',
@@ -49,39 +64,140 @@ export class CSVReader {
     ];
 
     static async readAllGames(): Promise<Game[]> {
-        const allGames: Game[] = [];
-        
-        for (const [platform, fileName] of Object.entries(this.platformFiles)) {
-            try {
-                const response = await fetch(`${this.baseUrl}/${fileName}`);
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                const text = await response.text();
-                const games = this.parseCSV(text, platform);
-                allGames.push(...games);
-            } catch (error) {
-                console.error(`Error loading ${platform} games:`, error);
-            }
+        if (this.cachedGames) {
+            return this.cachedGames;
         }
-        
-        return allGames;
+
+        if (this.loadingPromise) {
+            return this.loadingPromise;
+        }
+
+        this.loadingPromise = this.loadAllGames();
+
+        try {
+            this.cachedGames = await this.loadingPromise;
+            return this.cachedGames;
+        } finally {
+            this.loadingPromise = null;
+        }
+    }
+
+    private static toCachedGame(game: Game): CachedGameEntry {
+        return {
+            ...game,
+            releaseDate: game.releaseDate.getTime()
+        };
+    }
+
+    private static fromCachedGame(game: CachedGameEntry): Game {
+        return {
+            ...game,
+            releaseDate: new Date(game.releaseDate)
+        };
+    }
+
+    private static saveMetadataCache(games: Game[]): void {
+        const payload: MetadataCachePayload = {
+            version: 1,
+            cachedAt: Date.now(),
+            games: games.map(game => this.toCachedGame(game))
+        };
+
+        writeJsonLocalStorage(STORAGE_KEYS.metadataCache, payload);
+    }
+
+    private static loadMetadataCache(): Game[] {
+        const fallback: MetadataCachePayload = { version: 1, cachedAt: 0, games: [] };
+        const payload = readJsonLocalStorage<MetadataCachePayload>(STORAGE_KEYS.metadataCache, fallback);
+
+        if (!payload.cachedAt || !payload.games.length) {
+            return [];
+        }
+
+        if (Date.now() - payload.cachedAt > this.metadataCacheTtlMs) {
+            return [];
+        }
+
+        return payload.games.map(game => this.fromCachedGame(game));
+    }
+
+    private static async loadAllGames(): Promise<Game[]> {
+        const fileEntries = Object.entries(this.platformFiles);
+        const batches = await Promise.all(
+            fileEntries.map(async ([platform, fileName]) => {
+                try {
+                    const response = await fetch(`${this.baseUrl}/${fileName}`);
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    const text = await response.text();
+                    return {
+                        platform,
+                        loaded: true,
+                        games: this.parseCSV(text, platform)
+                    };
+                } catch (error) {
+                    console.error(`Error loading ${platform} games:`, error);
+                    return {
+                        platform,
+                        loaded: false,
+                        games: [] as Game[]
+                    };
+                }
+            })
+        );
+
+        const loadedPlatforms = new Set(
+            batches
+                .filter(batch => batch.loaded)
+                .map(batch => batch.platform)
+        );
+
+        let games = batches.flatMap(batch => batch.games);
+        const cachedGames = this.loadMetadataCache();
+
+        if (!games.length && cachedGames.length) {
+            return cachedGames;
+        }
+
+        if (cachedGames.length && loadedPlatforms.size < fileEntries.length) {
+            const fallbackGames = cachedGames.filter(game => {
+                const primaryPlatform = game.platform[0] || '';
+                return !loadedPlatforms.has(primaryPlatform);
+            });
+            games = [...games, ...fallbackGames];
+        }
+
+        if (games.length) {
+            this.saveMetadataCache(games);
+        }
+
+        return games;
     }
 
     private static parseCSV(csv: string, platform: string): Game[] {
         const lines = csv.split('\n');
         const headers = lines[0].split(',').map(header => header.trim());
 
-        const titleColumn =
+        const titleScreenColumn =
             headers.indexOf('Title screen') !== -1
                 ? 'Title screen'
-                : headers.indexOf('Title screen (exact)') !== -1
-                    ? 'Title screen (exact)'
+                : headers.indexOf('Screen title') !== -1
+                    ? 'Screen title'
                     : 'Screen title @ Exact';
+        const titleScreenExactColumn =
+            headers.indexOf('Title screen (exact)') !== -1
+                ? 'Title screen (exact)'
+                : headers.indexOf('Screen title @ Exact') !== -1
+                    ? 'Screen title @ Exact'
+                    : 'Title screen';
         
         const columnIndexes = {
             id: headers.indexOf('ID'),
-            screenTitle: headers.indexOf(titleColumn),
+            title: headers.indexOf('Title'),
+            titleExact: headers.indexOf('Title (exact)'),
+            titleScreen: headers.indexOf(titleScreenColumn),
+            titleScreenExact: headers.indexOf(titleScreenExactColumn),
             releaseDate: headers.indexOf('Release date'),
             developer: headers.indexOf('Developer'),
             publisher: headers.indexOf('Publisher'),
@@ -93,15 +209,26 @@ export class CSVReader {
             .filter(line => line.trim() !== '')
             .map((line) => {
                 const values = line.split(',');
+                const getValue = (index: number): string => (index >= 0 ? values[index]?.trim() || '' : '');
+
+                const title =
+                    getValue(columnIndexes.titleScreen) ||
+                    getValue(columnIndexes.titleScreenExact) ||
+                    getValue(columnIndexes.title) ||
+                    getValue(columnIndexes.titleExact);
+
                 const game: Game = {
-                    id: values[columnIndexes.id]?.trim() || '',
-                    title: values[columnIndexes.screenTitle]?.trim() || '',
+                    id: getValue(columnIndexes.id),
+                    title,
+                    titleExact: getValue(columnIndexes.titleExact),
+                    titleScreen: getValue(columnIndexes.titleScreen),
+                    titleScreenExact: getValue(columnIndexes.titleScreenExact),
                     platform: [platform],
-                    region: [values[columnIndexes.region]?.trim() || 'Unknown'],
-                    developer: values[columnIndexes.developer]?.trim() || 'Unknown',
-                    publisher: values[columnIndexes.publisher]?.trim() || 'Unknown',
-                    releaseDate: this.parseDate(values[columnIndexes.releaseDate]),
-                    tags: this.parseTags(values[columnIndexes.tags] || '')
+                    region: this.parseRegions(getValue(columnIndexes.region)),
+                    developer: getValue(columnIndexes.developer) || 'Unknown',
+                    publisher: getValue(columnIndexes.publisher) || 'Unknown',
+                    releaseDate: this.parseDate(getValue(columnIndexes.releaseDate)),
+                    tags: this.parseTags(getValue(columnIndexes.tags))
                 };
                 return game;
             })
