@@ -578,6 +578,7 @@ def generate_markdown_report(stats: dict, file_results: list, file_path: str, ar
         # List of detailed reports
         if not args.no_errors or not args.no_warnings:
             write_detailed_reports_index(report_file, stats, file_results)
+            write_inline_detailed_reports(report_file, stats, file_results)
 
         # Generate individual reports by file
         for file_result in file_results:
@@ -604,6 +605,40 @@ def write_detailed_reports_index(report_file, stats, file_results):
             csv_name = os.path.splitext(file_result['file'])[0]
             report_file.write(f"- [📋 {file_result['file']} ({len(file_warnings)} warnings)](reports/{csv_name}_warnings.md)\n")
     report_file.write("\n")
+
+
+def write_inline_detailed_reports(report_file, stats, file_results):
+    """Write the detailed per-file reports inline in the main markdown report."""
+    report_file.write("### Detailed Reports (Inline)\n\n")
+
+    error_files = []
+    warning_files = []
+    for file_result in file_results:
+        file_errors = [e for e in stats['errors'] if e['file'] == file_result['file']]
+        if file_errors:
+            error_files.append((file_result, file_errors))
+
+        file_warnings = [w for w in stats['warnings'] if w['file'] == file_result['file']]
+        if file_warnings:
+            warning_files.append((file_result, file_warnings))
+
+    report_file.write("#### ❌ Invalid Tags Reports\n\n")
+    if not error_files:
+        report_file.write("- None\n\n")
+    else:
+        for file_result, file_errors in error_files:
+            report_file.write(f"<details>\n<summary><strong>{file_result['file']}</strong> · Invalid Tags: {len(file_errors)}</summary>\n\n")
+            write_error_section(report_file, file_errors, [file_result])
+            report_file.write("\n</details>\n\n")
+
+    report_file.write("#### ⚠️ Warning Reports\n\n")
+    if not warning_files:
+        report_file.write("- None\n\n")
+    else:
+        for file_result, file_warnings in warning_files:
+            report_file.write(f"<details>\n<summary><strong>{file_result['file']}</strong> · Warnings: {len(file_warnings)}</summary>\n\n")
+            write_warning_section(report_file, file_warnings, [file_result])
+            report_file.write("\n</details>\n\n")
 
 def write_main_report(report_file, stats, file_results, args):
     """Write main sections of the report"""
