@@ -5,7 +5,6 @@ import time
 import argparse
 import sys
 import platform
-import random
 from colorama import init, Fore, Style, AnsiToWin32
 
 # Initialize colorama for Windows support
@@ -469,9 +468,10 @@ def process_csv_file(file_path: str, tags_definitions: dict) -> tuple:
 def process_game_row(row: pd.Series, idx: int, file_path: str, tags_definitions: dict) -> tuple:
     """Process single game row and return results"""
     game_title = resolve_game_title(row)
+    file_name = os.path.basename(file_path)
 
-    # Create internal row tracking without showing it in reports
-    internal_id = f"{game_title}__row_{idx + 1}"  # Double underscore to avoid conflicts
+    # Include source file in the internal key so rows from different CSVs never collide.
+    internal_id = f"{file_name}__{game_title}__row_{idx + 1}"
     display_id = game_title  # Only show game title in reports
 
     tags_str = row['Tags']
@@ -745,6 +745,19 @@ def collect_unregistered_tags(all_errors):
     return [(tag, count, tag_suggestions[tag])
             for tag, count in sorted(tag_counts.items(), key=lambda x: x[1], reverse=True)]
 
+
+def format_percentage(part: int, whole: int) -> str:
+    """Format percentages with better precision for very small non-zero values."""
+    if whole <= 0:
+        return "0%"
+
+    value = (part / whole) * 100
+    if value == 0:
+        return "0%"
+    if value < 0.1:
+        return f"{value:.3f}%"
+    return f"{value:.1f}%"
+
 def write_header_stats(report_file, stats):
     """Write header statistics to report file"""
     # Common column headers for both tables
@@ -755,18 +768,18 @@ def write_header_stats(report_file, stats):
     report_file.write("### 🎮 Games Stats\n")
     report_file.write(header_format)
     report_file.write(separator)
-    report_file.write(f"| ✅ Valid Games | **{stats['valid_games']}** | `{stats['valid_games']/stats['total_games']*100:.1f}%` | 🟢 | No issues found |\n")
-    report_file.write(f"| ❌ Invalid Games | **{stats['games_with_errors']}** | `{stats['games_with_errors']/stats['total_games']*100:.1f}%` | 🔴 | Need fixes |\n")
-    report_file.write(f"| ⚠️ Warning Games | **{stats['games_with_warnings']}** | `{stats['games_with_warnings']/stats['total_games']*100:.1f}%` | 🟡 | Review suggested |\n")
+    report_file.write(f"| ✅ Valid Games | **{stats['valid_games']}** | `{format_percentage(stats['valid_games'], stats['total_games'])}` | 🟢 | No issues found |\n")
+    report_file.write(f"| ❌ Invalid Games | **{stats['games_with_errors']}** | `{format_percentage(stats['games_with_errors'], stats['total_games'])}` | 🔴 | Need fixes |\n")
+    report_file.write(f"| ⚠️ Warning Games | **{stats['games_with_warnings']}** | `{format_percentage(stats['games_with_warnings'], stats['total_games'])}` | 🟡 | Review suggested |\n")
     report_file.write(f"| 🎲 Total Processed | **{stats['total_games']}** | `100%` | ⚪ | Unique entries |\n\n")
 
     # Tags Statistics
     report_file.write("### 🏷️ Tags Stats\n")
     report_file.write(header_format)
     report_file.write(separator)
-    report_file.write(f"| ✅ Valid Tags | **{stats['valid_tags']}** | `{stats['valid_tags']/stats['total_tags']*100:.1f}%` | 🟢 | Correct format |\n")
-    report_file.write(f"| ❌ Invalid Tags | **{stats['invalid_tags']}** | `{stats['invalid_tags']/stats['total_tags']*100:.1f}%` | 🔴 | Format errors |\n")
-    report_file.write(f"| ⚠️ Warning Tags | **{stats['warnings_count']}** | `{stats['warnings_count']/stats['total_tags']*100:.1f}%` | 🟡 | Need review |\n")
+    report_file.write(f"| ✅ Valid Tags | **{stats['valid_tags']}** | `{format_percentage(stats['valid_tags'], stats['total_tags'])}` | 🟢 | Correct format |\n")
+    report_file.write(f"| ❌ Invalid Tags | **{stats['invalid_tags']}** | `{format_percentage(stats['invalid_tags'], stats['total_tags'])}` | 🔴 | Format errors |\n")
+    report_file.write(f"| ⚠️ Warning Tags | **{stats['warnings_count']}** | `{format_percentage(stats['warnings_count'], stats['total_tags'])}` | 🟡 | Need review |\n")
     report_file.write(f"| 📝 Total Tags | **{stats['total_tags']}** | `100%` | ⚪ | All entries |\n\n")
 
 def write_overview_section(report_file, stats):
@@ -829,7 +842,7 @@ def write_suggested_actions(report_file):
         description = details.get('description', 'No description available')
         subtags = details.get('subtag', {})
         example = (
-            f"#{category}:{random.choice(list(subtags.keys()))}"
+            f"#{category}:{sorted(subtags.keys())[0]}"
             if subtags else 'No example available'
         )
         report_file.write(f"| `#{category}` | {description} | `{example}` |\n")
