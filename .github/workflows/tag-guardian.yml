@@ -89,6 +89,9 @@ jobs:
             const cleanDetailContent = (content) => {
               return content
                 .replace(/^#\s+.*\n+/m, '')
+                .replace(/^##\s+❌\s+Invalid Tags Found\s*\n+/m, '')
+                .replace(/^##\s+⚠️\s+Warnings\s*\n+/m, '')
+                .replace(/^###\s+📄\s+.*\n+/m, '')
                 .trim();
             };
 
@@ -130,42 +133,23 @@ jobs:
             const invalidReports = detailedReports.filter((r) => r.type === 'errors');
             const warningReports = detailedReports.filter((r) => r.type === 'warnings');
 
-            let detailsSection = '### Detailed Reports (Inline)\n\n';
+            const orderedReports = [...invalidReports, ...warningReports]
+              .sort((a, b) => {
+                if (a.type !== b.type) {
+                  return a.type === 'errors' ? -1 : 1;
+                }
+                return a.csvName.localeCompare(b.csvName);
+              });
+
+            let detailsSection = '';
 
             if (detailedReports.length === 0) {
               detailsSection += 'No detailed markdown reports were generated in this run.\n';
             } else {
-              detailsSection += '| Metric | Value |\n';
-              detailsSection += '|---|---:|\n';
-              detailsSection += `| Total detailed report files | ${detailedReports.length} |\n`;
-              detailsSection += `| Invalid tag report files | ${invalidReports.length} |\n`;
-              detailsSection += `| Warning report files | ${warningReports.length} |\n\n`;
-
-              detailsSection += '### ❌ Invalid Tags Reports\n\n';
-              if (invalidReports.length === 0) {
-                detailsSection += '- None\n\n';
-              } else {
-                for (const reportItem of invalidReports) {
-                  detailsSection += `- [📋 ${reportItem.csvName} (${reportItem.count} errors)](${reportItem.link})\n`;
-                }
-                detailsSection += '\n';
-              }
-
-              detailsSection += '### ⚠️ Warning Reports\n\n';
-              if (warningReports.length === 0) {
-                detailsSection += '- None\n\n';
-              } else {
-                for (const reportItem of warningReports) {
-                  detailsSection += `- [📋 ${reportItem.csvName} (${reportItem.count} warnings)](${reportItem.link})\n`;
-                }
-                detailsSection += '\n';
-              }
-
-              for (const reportItem of detailedReports) {
+              for (const reportItem of orderedReports) {
                 const typeLabel = reportItem.type === 'errors' ? 'Invalid Tags' : 'Warnings';
                 detailsSection += `<a id="${reportItem.anchor}"></a>\n`;
-                detailsSection += `<details>\n<summary><strong>${reportItem.fileName}</strong> · ${typeLabel}: ${reportItem.count}</summary>\n\n`;
-                detailsSection += `[⬆️ Back to run top](${runUrl})\n\n`;
+                detailsSection += `<details>\n<summary><strong>${reportItem.csvName}</strong> · ${typeLabel}: ${reportItem.count}</summary>\n\n`;
                 detailsSection += `${reportItem.content}\n\n`;
                 detailsSection += `</details>\n\n`;
               }
