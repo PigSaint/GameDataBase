@@ -21,8 +21,6 @@ env:
 jobs:
   generate-report:
     runs-on: ubuntu-latest
-    outputs:
-      report_matrix: ${{ steps.build-matrix.outputs.report_matrix }}
     
     steps:
       - uses: actions/checkout@v4
@@ -55,36 +53,6 @@ jobs:
         run: |
           python -m scripts.tag_guardian
 
-      - name: Build report artifact matrix
-        id: build-matrix
-        run: |
-          python - <<'PY'
-          import glob
-          import json
-          import os
-          import re
-
-          def sanitize(name: str) -> str:
-              return re.sub(r'[^a-z0-9._-]+', '-', name.lower()).strip('-')
-
-          matrix = [
-              {
-                  'file_path': 'tag_guardian_report.md',
-                  'artifact_name': 'tag-guardian-main-report'
-              }
-          ]
-
-          for report_path in sorted(glob.glob('reports/*.md')):
-              stem = os.path.splitext(os.path.basename(report_path))[0]
-              matrix.append({
-                  'file_path': report_path,
-                  'artifact_name': f'tag-guardian-report-{sanitize(stem)}'
-              })
-
-          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as fh:
-              fh.write('report_matrix=' + json.dumps(matrix) + '\n')
-          PY
-          
       - name: Upload Reports Bundle
         uses: actions/upload-artifact@v4
         with:
@@ -93,37 +61,6 @@ jobs:
             tag_guardian_report.md
             reports/
 
-  upload-individual-reports:
-    needs: generate-report
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        report: ${{ fromJson(needs.generate-report.outputs.report_matrix) }}
-
-    steps:
-      - name: Download reports bundle
-        uses: actions/download-artifact@v4
-        with:
-          name: tag-guardian-report-bundle
-
-      - name: Upload individual report artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ matrix.report.artifact_name }}
-          path: ${{ matrix.report.file_path }}
-          if-no-files-found: error
-
-  publish-summary:
-    needs: [generate-report, upload-individual-reports]
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Download reports bundle
-        uses: actions/download-artifact@v4
-        with:
-          name: tag-guardian-report-bundle
-
       - name: Add Main Report to Summary
         uses: actions/github-script@v7
         with:
@@ -131,62 +68,39 @@ jobs:
             const fs = require('fs');
             const report = fs.readFileSync('tag_guardian_report.md', 'utf8');
 
-            const artifactNameForPath = (reportPath) => {
-              if (reportPath === 'tag_guardian_report.md') {
-                return 'tag-guardian-main-report';
-              }
+            const toAnchorId = (reportPath) => {
               const fileName = reportPath.split('/').pop() || reportPath;
               const stem = fileName.replace(/\.md$/i, '');
               const safe = stem.toLowerCase().replace(/[^a-z0-9._-]+/g, '-').replace(/^-+|-+$/g, '');
-              return `tag-guardian-report-${safe}`;
+              return `report-${safe}`;
             };
 
-            const runId = process.env.GITHUB_RUN_ID;
-            const repository = process.env.GITHUB_REPOSITORY;
-            const [owner, repo] = repository.split('/');
-
-            const artifacts = await github.paginate(github.rest.actions.listWorkflowRunArtifacts, {
-              owner,
-              repo,
-              run_id: Number(runId),
-              per_page: 100
-            });
-
-            const artifactIdByName = new Map();
-            for (const artifact of artifacts) {
-              artifactIdByName.set(artifact.name, artifact.id);
-            }
-
             const reportForSummary = report.replace(/\[([^\]]+)\]\((reports\/[^)]+)\)/g, (_match, label, reportPath) => {
-              const artifactName = artifactNameForPath(reportPath);
-              const artifactId = artifactIdByName.get(artifactName);
-              if (!artifactId) {
-                return `${label} (missing artifact: ${artifactName})`;
-              }
-              const artifactUrl = `https://github.com/${repository}/actions/runs/${runId}/artifacts/${artifactId}`;
-              return `[${label}](${artifactUrl})`;
+              return `[${label}](#${toAnchorId(reportPath)})`;
             });
 
-            const individualArtifacts = artifacts
-              .filter((artifact) => artifact.name === 'tag-guardian-main-report' || artifact.name.startsWith('tag-guardian-report-'))
-              .sort((a, b) => a.name.localeCompare(b.name));
+            const detailFiles = fs.existsSync('reports')
+              ? fs.readdirSync('reports').filter((name) => name.endsWith('.md')).sort()
+              : [];
+
+            let detailsSection = '';
+            for (const fileName of detailFiles) {
+              const relativePath = `reports/${fileName}`;
+              const anchor = toAnchorId(relativePath);
+              const fileContent = fs.readFileSync(relativePath, 'utf8').trim();
+              detailsSection += `<a id="${anchor}"></a>\n`;
+              detailsSection += `<details>\n<summary><strong>${fileName}</strong></summary>\n\n`;
+              detailsSection += `${fileContent}\n\n`;
+              detailsSection += `</details>\n\n`;
+            }
 
             await core.summary
               .addHeading('Tag Guardian Validation Report')
               .addRaw(reportForSummary)
               .addEOL()
               .addSeparator()
-              .addHeading('Detailed Report Artifacts', 3);
-
-            if (individualArtifacts.length === 0) {
-              await core.summary.addRaw('No individual report artifacts were found.').write();
-              return;
-            }
-
-            await core.summary.addList(
-              individualArtifacts.map((artifact) => {
-                const artifactUrl = `https://github.com/${repository}/actions/runs/${runId}/artifacts/${artifact.id}`;
-                return `[${artifact.name}](${artifactUrl})`;
-              })
-            )
+              .addHeading('Detailed Reports (Inline)', 3)
+              .addRaw(
+                detailsSection || 'No detailed markdown reports were generated in this run.'
+              )
               .write();
