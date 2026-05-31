@@ -5,7 +5,7 @@ import time
 import argparse
 import sys
 import platform
-import random
+from datetime import datetime
 from colorama import init, Fore, Style, AnsiToWin32
 
 # Initialize colorama for Windows support
@@ -49,6 +49,14 @@ REGION_LIST = [
     "Unknown",
     "USA",
     "World"
+]
+
+TITLE_COLUMN_ALIASES = [
+    "Screen title @ Exact",
+    "Title screen (exact)",
+    "Title (exact)",
+    "Title screen",
+    "Title"
 ]
 
 
@@ -216,6 +224,27 @@ def validate_tags(tags_str, tags_definitions):
     tag_errors = repeated_tag_errors + tag_errors
 
     return tag_errors, warnings, valid_count, total_tags
+
+
+def normalize_cell_value(value):
+    """Normalize CSV cell values and ignore placeholders used in this dataset."""
+    if value is None or pd.isna(value):
+        return None
+
+    text = str(value).strip()
+    if not text or text in {'=', '-'}:
+        return None
+    return text
+
+
+def resolve_game_title(row: pd.Series) -> str:
+    """Resolve the best available game title using known column aliases."""
+    for column in TITLE_COLUMN_ALIASES:
+        if column in row.index:
+            normalized = normalize_cell_value(row[column])
+            if normalized:
+                return normalized
+    return 'Unknown'
 
 
 def validate_region(region_value):
@@ -419,7 +448,7 @@ def process_csv_file(file_path: str, tags_definitions: dict) -> tuple:
 
     file_result = {
         'file': os.path.basename(file_path),
-        'valid': 0, 'total': 0, 'invalid': 0, 'warnings': 0
+        'valid': 0, 'total': 0, 'invalid': 0, 'warnings': 0, 'games': 0
     }
 
     file_errors = []
@@ -439,13 +468,15 @@ def process_csv_file(file_path: str, tags_definitions: dict) -> tuple:
 
 def process_game_row(row: pd.Series, idx: int, file_path: str, tags_definitions: dict) -> tuple:
     """Process single game row and return results"""
-    game_title = row['Screen title @ Exact'] if 'Screen title @ Exact' in row else 'Unknown'
+    game_title = resolve_game_title(row)
+    file_name = os.path.basename(file_path)
 
-    # Create internal row tracking without showing it in reports
-    internal_id = f"{game_title}__row_{idx + 1}"  # Double underscore to avoid conflicts
+    # Include source file in the internal key so rows from different CSVs never collide.
+    internal_id = f"{file_name}__{game_title}__row_{idx + 1}"
     display_id = game_title  # Only show game title in reports
 
     tags_str = row['Tags']
+    tags_str_for_matching = tags_str if isinstance(tags_str, str) else ''
     tag_errors, warnings, valid_count, total_tags = validate_tags(tags_str, tags_definitions)
 
     # Validate region from REGION_LIST list
@@ -457,10 +488,13 @@ def process_game_row(row: pd.Series, idx: int, file_path: str, tags_definitions:
     # Ensure warnings are associated with the correct tag
     warning_details = []
     for warning in warnings:
-        related_tag = next((tag for tag in tags_str.split() if warning.lower() in tag.lower()), None)
+        if warning.startswith('Region not defined') or warning.startswith('Invalid region'):
+            related_tag = 'Column: Region'
+        else:
+            related_tag = extract_relevant_tag(tags_str_for_matching, warning)
         warning_details.append({
             'warning': warning,
-            'related_tag': related_tag or "Unknown"
+            'related_tag': related_tag or 'N/A'
         })
 
     game_stats = {
@@ -511,6 +545,7 @@ def update_file_stats(file_result: dict, game_stats: dict):
         file_result['invalid'] = file_result['total'] - file_result['valid']
         # Accumulate warnings instead of overwriting
         file_result['warnings'] += stats['warnings_count']
+        file_result['games'] += 1
 
 def generate_markdown_report(stats: dict, file_results: list, file_path: str, args):
     """Generate markdown report with given statistics based on command line arguments"""
@@ -539,12 +574,16 @@ def generate_markdown_report(stats: dict, file_results: list, file_path: str, ar
 
     # Generate new reports
     with open(file_path, 'w', encoding='utf-8') as report_file:
+        stats['generated_at'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        stats['files_with_issues'] = sum(
+            1 for r in file_results if r['invalid'] > 0 or r['warnings'] > 0
+        )
         # Write header and basic sections
         write_main_report(report_file, stats, file_results, args)
 
         # List of detailed reports
         if not args.no_errors or not args.no_warnings:
-            write_detailed_reports_index(report_file, stats, file_results)
+            write_inline_detailed_reports(report_file, stats, file_results)
 
         # Generate individual reports by file
         for file_result in file_results:
@@ -572,9 +611,56 @@ def write_detailed_reports_index(report_file, stats, file_results):
             report_file.write(f"- [📋 {file_result['file']} ({len(file_warnings)} warnings)](reports/{csv_name}_warnings.md)\n")
     report_file.write("\n")
 
+
+def write_inline_detailed_reports(report_file, stats, file_results):
+    """Write the detailed per-file reports inline in the main markdown report."""
+    report_file.write("\n## 📑 Detailed Reports\n\n")
+
+    error_files = []
+    warning_files = []
+    for file_result in file_results:
+        file_errors = [e for e in stats['errors'] if e['file'] == file_result['file']]
+        if file_errors:
+            error_files.append((file_result, file_errors))
+
+        file_warnings = [w for w in stats['warnings'] if w['file'] == file_result['file']]
+        if file_warnings:
+            warning_files.append((file_result, file_warnings))
+
+    report_file.write("### ❌ Invalid Tags\n\n")
+    if not error_files:
+        report_file.write("- None\n\n")
+    else:
+        for file_result, file_errors in error_files:
+            report_file.write(f"<details>\n<summary><strong>{file_result['file']}</strong> · ❌ {len(file_errors)} invalid tag(s)</summary>\n\n")
+            write_error_section(report_file, file_errors, [file_result])
+            report_file.write("\n</details>\n\n")
+
+    report_file.write("### ⚠️ Warnings\n\n")
+    if not warning_files:
+        report_file.write("- None\n\n")
+    else:
+        for file_result, file_warnings in warning_files:
+            total_issues = sum(len(w['warnings']) for w in file_warnings)
+            report_file.write(f"<details>\n<summary><strong>{file_result['file']}</strong> · ⚠️ {total_issues} issue(s) in {len(file_warnings)} game(s)</summary>\n\n")
+            write_warning_section(report_file, file_warnings, [file_result])
+            report_file.write("\n</details>\n\n")
+
 def write_main_report(report_file, stats, file_results, args):
     """Write main sections of the report"""
     report_file.write("# 📊 Tag Guardian Report\n\n")
+
+    # Health summary callout block
+    health_pct = format_percentage(stats['valid_games'], stats['total_games'])
+    if stats['games_with_errors'] == 0 and stats['games_with_warnings'] == 0:
+        health_icon, health_label = "🟢", "Excellent"
+    elif stats['games_with_errors'] == 0:
+        health_icon, health_label = "🟡", "Good — warnings present"
+    else:
+        health_icon, health_label = "🔴", "Needs Attention"
+    report_file.write(f"> **Database Health:** {health_icon} **{health_pct}** clean games — {health_label}  \n")
+    report_file.write(f"> 📅 Generated: `{stats['generated_at']}`  \n")
+    report_file.write(f"> 📁 `{stats['files_processed']}` files processed · `{stats['files_with_issues']}` with issues\n\n")
 
     if not args.no_stats and not args.compact:
         write_header_stats(report_file, stats)
@@ -712,6 +798,19 @@ def collect_unregistered_tags(all_errors):
     return [(tag, count, tag_suggestions[tag])
             for tag, count in sorted(tag_counts.items(), key=lambda x: x[1], reverse=True)]
 
+
+def format_percentage(part: int, whole: int) -> str:
+    """Format percentages with better precision for very small non-zero values."""
+    if whole <= 0:
+        return "0%"
+
+    value = (part / whole) * 100
+    if value == 0:
+        return "0%"
+    if value < 0.1:
+        return f"{value:.3f}%"
+    return f"{value:.1f}%"
+
 def write_header_stats(report_file, stats):
     """Write header statistics to report file"""
     # Common column headers for both tables
@@ -722,19 +821,18 @@ def write_header_stats(report_file, stats):
     report_file.write("### 🎮 Games Stats\n")
     report_file.write(header_format)
     report_file.write(separator)
-    report_file.write(f"| ✅ Valid Games | **{stats['valid_games']}** | `{stats['valid_games']/stats['total_games']*100:.1f}%` | 🟢 | No issues found |\n")
-    report_file.write(f"| ❌ Invalid Games | **{stats['games_with_errors']}** | `{stats['games_with_errors']/stats['total_games']*100:.1f}%` | 🔴 | Need fixes |\n")
-    report_file.write(f"| ⚠️ Warning Games | **{stats['games_with_warnings']}** | `{stats['games_with_warnings']/stats['total_games']*100:.1f}%` | 🟡 | Review suggested |\n")
+    report_file.write(f"| ✅ Valid Games | **{stats['valid_games']}** | `{format_percentage(stats['valid_games'], stats['total_games'])}` | 🟢 | No issues found |\n")
+    report_file.write(f"| ❌ Invalid Games | **{stats['games_with_errors']}** | `{format_percentage(stats['games_with_errors'], stats['total_games'])}` | 🔴 | Need fixes |\n")
+    report_file.write(f"| ⚠️ Warning Games | **{stats['games_with_warnings']}** | `{format_percentage(stats['games_with_warnings'], stats['total_games'])}` | 🟡 | Review suggested |\n")
     report_file.write(f"| 🎲 Total Processed | **{stats['total_games']}** | `100%` | ⚪ | Unique entries |\n\n")
 
     # Tags Statistics
     report_file.write("### 🏷️ Tags Stats\n")
     report_file.write(header_format)
     report_file.write(separator)
-    report_file.write(f"| ✅ Valid Tags | **{stats['valid_tags']}** | `{stats['valid_tags']/stats['total_tags']*100:.1f}%` | 🟢 | Correct format |\n")
-    report_file.write(f"| ❌ Invalid Tags | **{stats['invalid_tags']}** | `{stats['invalid_tags']/stats['total_tags']*100:.1f}%` | 🔴 | Format errors |\n")
-    report_file.write(f"| ⚠️ Warning Tags | **{stats['warnings_count']}** | `{stats['warnings_count']/stats['total_tags']*100:.1f}%` | 🟡 | Need review |\n")
-    report_file.write(f"| 📝 Total Tags | **{stats['total_tags']}** | `100%` | ⚪ | All entries |\n\n")
+    report_file.write(f"| ✅ Valid Tags | **{stats['valid_tags']}** | `{format_percentage(stats['valid_tags'], stats['total_tags'])}` | 🟢 | Correct format |\n")
+    report_file.write(f"| ❌ Invalid Tags | **{stats['invalid_tags']}** | `{format_percentage(stats['invalid_tags'], stats['total_tags'])}` | 🔴 | Format errors |\n")
+    report_file.write(f"| 📝 Total Tags | **{stats['total_tags']}** | `100%` | ⚪ | All tag entries |\n\n")
 
 def write_overview_section(report_file, stats):
     """Write overview section to report file"""
@@ -751,11 +849,19 @@ def write_overview_section(report_file, stats):
 def write_validation_results(report_file, file_results):
     """Write validation results to report file"""
     report_file.write("### 📊 Validation Results\n")
-    report_file.write("_Note: Total Tags are the non-unique Individual tags in each file_\n\n")
-    report_file.write("| 📁 File | ✅ Valid | ❌ Invalid | ⚠️ Warnings | 📝 Total |\n")
-    report_file.write("|---------|-----------|------------|-------------|----------|\n")
-    for result in file_results:
-        report_file.write(f"| `{result['file']}` | **{result['valid']}** | **{result['invalid']}** | **{result['warnings']}** | {result['total']} |\n")
+    report_file.write("_Tag columns count individual tag entries per file. Issues column counts game-level validation flags._\n\n")
+    report_file.write("| 🚦 | 📁 File | 🎮 Games | ✅ Valid Tags | ❌ Invalid Tags | ⚠️ Issues | 📝 Total Tags |\n")
+    report_file.write("|---|---------|---------|-------------|----------------|----------|-------------|\n")
+    sorted_results = sorted(file_results, key=lambda r: (-r['invalid'], -r['warnings'], r['file']))
+    for result in sorted_results:
+        if result['invalid'] > 0:
+            status = "🔴"
+        elif result['warnings'] > 0:
+            status = "🟡"
+        else:
+            status = "🟢"
+        games_count = result.get('games', '-')
+        report_file.write(f"| {status} | `{result['file']}` | {games_count} | **{result['valid']}** | **{result['invalid']}** | **{result['warnings']}** | {result['total']} |\n")
 
 def write_suggested_actions(report_file):
     """Write suggested actions to report file"""
@@ -795,10 +901,9 @@ def write_suggested_actions(report_file):
     for category, details in tags_definitions.items():
         description = details.get('description', 'No description available')
         subtags = details.get('subtag', {})
-        example = (
-            f"#{category}:{random.choice(list(subtags.keys()))}"
-            if subtags else 'No example available'
-        )
+        if not subtags:
+            continue
+        example = f"#{category}:{sorted(subtags.keys())[0]}"
         report_file.write(f"| `#{category}` | {description} | `{example}` |\n")
 
     report_file.write("\n")
@@ -842,7 +947,7 @@ def write_suggested_actions(report_file):
 
 def write_unregistered_tags(report_file, unregistered_tags):
     """Write unregistered tags section to report file"""
-    report_file.write("\n## Unregistered Tags\n")
+    report_file.write("\n## 🔍 Unregistered Tags\n")
     report_file.write("| Tag | Usage Count | Suggestion |\n")
     report_file.write("|-----|-------------|------------|\n")
     for tag, count, suggestion in unregistered_tags:

@@ -52,22 +52,49 @@ jobs:
       - name: Run Tag Guardian
         run: |
           python -m scripts.tag_guardian
-          
+
+      - name: Build artifact name
+        id: artifact-meta
+        run: |
+          branch="${GITHUB_HEAD_REF:-$GITHUB_REF_NAME}"
+          safe_branch="${branch//\//-}"
+          echo "bundle_name=tg-${safe_branch}-${GITHUB_RUN_ID}" >> "$GITHUB_OUTPUT"
+
+      - name: Upload Reports Bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.artifact-meta.outputs.bundle_name }}
+          path: |
+            tag_guardian_report.md
+            reports/
+
       - name: Add Main Report to Summary
         uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
             const report = fs.readFileSync('tag_guardian_report.md', 'utf8');
+            const runId = process.env.GITHUB_RUN_ID;
+            const repository = process.env.GITHUB_REPOSITORY;
+
+            const toAnchorId = (reportPath) => {
+              const fileName = reportPath.split('/').pop() || reportPath;
+              const stem = fileName.replace(/\.md$/i, '');
+              const safe = stem.toLowerCase().replace(/[^a-z0-9._-]+/g, '-').replace(/^-+|-+$/g, '');
+              return `report-${safe}`;
+            };
+
+            const runUrl = `https://github.com/${repository}/actions/runs/${runId}`;
+
+            const reportForSummary = report
+              .replace(/##\s+📑\s+Detailed Reports by File[\s\S]*$/g, '')
+              .replace(/##\s+Detailed Reports by File[\s\S]*$/g, '')
+              .replace(/\[([^\]]+)\]\((reports\/[^)]+)\)/g, (_match, label, reportPath) => {
+                const anchor = toAnchorId(reportPath);
+                return `[${label}](${runUrl}#${anchor})`;
+              });
+
             await core.summary
               .addHeading('Tag Guardian Validation Report')
-              .addRaw(report)
+              .addRaw(reportForSummary)
               .write();
-
-      - name: Upload All Reports
-        uses: actions/upload-artifact@v4
-        with:
-          name: tag-guardian-reports
-          path: |
-            tag_guardian_report.md
-            reports/
