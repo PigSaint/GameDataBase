@@ -1,13 +1,22 @@
 :root {
-  --primary-color: #007bff; /* Cambia a un azul más claro */
-  --primary-hover: #3399ff; /* Cambia a un azul más suave para el hover */
-  --background-color: #f9f9f9;
-  --text-color: #333;
+  --primary-color: #0969da;
+  --primary-hover: #0860ca;
+  --background-color: #f6f8fa;
+  --text-color: #1f2328;
   --card-background: #ffffff;
-  --border-color: #ddd;
-  --accent-color: var(--primary-color);
-  --hover-color: #e0e0e0;
-  --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --border-color: #d0d7de;
+  --accent-color: #0969da;
+  --hover-color: #eef2f6;
+  --muted-text-color: #57606a;
+  --card-shadow: 0 1px 0 rgba(27, 31, 36, 0.04), 0 3px 8px rgba(140, 149, 159, 0.15);
+  --table-header-bg: #f6f8fa;
+  --table-header-border: #d0d7de;
+  --table-header-text: #57606a;
+  --z-results-header: 1200;
+  --z-dropdown-anchor: 1210;
+  --z-dropdown-menu: 20000;
+  --z-overlay-base: 30000;
+  --z-tag-overlay: 50000;
   font-family: system-ui, -apple-system, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -19,13 +28,23 @@ body {
   min-height: 100vh;
   color: var(--text-color);
   background-color: var(--background-color);
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif;
 }
 
-.retroseek {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body.dark-mode {
+  --primary-color: #539bf5;
+  --primary-hover: #6cb6ff;
+  --background-color: #22272e;
+  --text-color: #cdd9e5;
+  --card-background: #2d333b;
+  --border-color: #444c56;
+  --accent-color: #539bf5;
+  --hover-color: #373e47;
+  --muted-text-color: #909dab;
+  --card-shadow: 0 1px 0 rgba(27, 31, 36, 0.12), 0 8px 24px rgba(1, 4, 9, 0.2);
+  --table-header-bg: #2d333b;
+  --table-header-border: #444c56;
+  --table-header-text: #adbac7;
 }
 
 button {
