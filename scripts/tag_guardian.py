@@ -51,6 +51,14 @@ REGION_LIST = [
     "World"
 ]
 
+TITLE_COLUMN_ALIASES = [
+    "Screen title @ Exact",
+    "Title screen (exact)",
+    "Title (exact)",
+    "Title screen",
+    "Title"
+]
+
 
 # Simplified argument processing
 parser = argparse.ArgumentParser(description='Tag Guardian - Validate game tags in CSV files')
@@ -216,6 +224,27 @@ def validate_tags(tags_str, tags_definitions):
     tag_errors = repeated_tag_errors + tag_errors
 
     return tag_errors, warnings, valid_count, total_tags
+
+
+def normalize_cell_value(value):
+    """Normalize CSV cell values and ignore placeholders used in this dataset."""
+    if value is None or pd.isna(value):
+        return None
+
+    text = str(value).strip()
+    if not text or text in {'=', '-'}:
+        return None
+    return text
+
+
+def resolve_game_title(row: pd.Series) -> str:
+    """Resolve the best available game title using known column aliases."""
+    for column in TITLE_COLUMN_ALIASES:
+        if column in row.index:
+            normalized = normalize_cell_value(row[column])
+            if normalized:
+                return normalized
+    return 'Unknown'
 
 
 def validate_region(region_value):
@@ -439,13 +468,14 @@ def process_csv_file(file_path: str, tags_definitions: dict) -> tuple:
 
 def process_game_row(row: pd.Series, idx: int, file_path: str, tags_definitions: dict) -> tuple:
     """Process single game row and return results"""
-    game_title = row['Screen title @ Exact'] if 'Screen title @ Exact' in row else 'Unknown'
+    game_title = resolve_game_title(row)
 
     # Create internal row tracking without showing it in reports
     internal_id = f"{game_title}__row_{idx + 1}"  # Double underscore to avoid conflicts
     display_id = game_title  # Only show game title in reports
 
     tags_str = row['Tags']
+    tags_str_for_matching = tags_str if isinstance(tags_str, str) else ''
     tag_errors, warnings, valid_count, total_tags = validate_tags(tags_str, tags_definitions)
 
     # Validate region from REGION_LIST list
@@ -457,10 +487,13 @@ def process_game_row(row: pd.Series, idx: int, file_path: str, tags_definitions:
     # Ensure warnings are associated with the correct tag
     warning_details = []
     for warning in warnings:
-        related_tag = next((tag for tag in tags_str.split() if warning.lower() in tag.lower()), None)
+        if warning.startswith('Region not defined') or warning.startswith('Invalid region'):
+            related_tag = 'Column: Region'
+        else:
+            related_tag = extract_relevant_tag(tags_str_for_matching, warning)
         warning_details.append({
             'warning': warning,
-            'related_tag': related_tag or "Unknown"
+            'related_tag': related_tag or 'N/A'
         })
 
     game_stats = {
