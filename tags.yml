@@ -65,8 +65,16 @@ input:
         capacitive: "Capacitive screen"
     puncher:
       description: "Puncher"
+      children:
+        "6": "Six punchers"
     motion:
       description: "Motion detection device"
+    hrm:
+      description: "Heart Rate Monitor"
+    ddrpad:
+      description: "Konami Dance Dance Revolution pad"
+    accelerometer:
+      description: "Motion sensor"
 
 players:
   description: "Players"
@@ -684,6 +692,12 @@ arcadeboard:
         gv: "Konami GV"
         ultra: "Konami Ultra Sports"
         zr107: "Konami ZR-107"
+        m2: "Konami M2"
+        djmain: "Konami Bemani DJ-Main"
+        cobra: "Konami Cobra System"
+        "573": "Konami System 573"
+        hornet: "Konami Hornet"
+        nwrtr: "Konami NWK-TR"
     namco:
       description: "NAMCO board"
     toaplan:

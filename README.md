@@ -130,8 +130,11 @@ Behavior summary:
 | `:keyboard` | Keyboard | `>mahjong` | Mahjong keyboard |
 | `:pedals` | Foot pedals | `>1`<br>`>2` | One pedal<br>Two pedals |
 | `:touchscreen` | Touch screen | `>resistive`<br>`>capacitive` | Resistive screen<br>Capacitive screen |
-| `:puncher` | Puncher |  |  |
+| `:puncher` | Puncher | `>6` | Six punchers |
 | `:motion` | Motion detection device |  |  |
+| `:hrm` | Heart Rate Monitor |  |  |
+| `:ddrpad` | Konami Dance Dance Revolution pad |  |  |
+| `:accelerometer` | Motion sensor |  |  |
 
 </details>
 
@@ -257,7 +260,7 @@ Behavior summary:
 | `:irem` | Irem board | `>m10`<br>`>m15`<br>`>m27`<br>`>m52`<br>`>m57`<br>`>m58`<br>`>m62`<br>`>m63`<br>`>m72`<br>`>m75`<br>`>m77`<br>`>m81`<br>`>m82`<br>`>m84`<br>`>m85`<br>`>m90`<br>`>m92`<br>`>m97`<br>`>m107` | Irem M10<br>Irem M15<br>Irem M27<br>Irem M52<br>Irem M57<br>Irem M58<br>Irem M62<br>Irem M63<br>Irem M72<br>Irem M75<br>Irem M77<br>Irem M81<br>Irem M82<br>Irem M84<br>Irem M85<br>Irem M90<br>Irem M92<br>Irem M97<br>Irem M107 |
 | `:snk` | SNK board | `>mvs` | SNK Multi Video System / MVS |
 | `:taito` | Taito board | `>xsystem`<br>`>bsystem`<br>`>hsystem`<br>`>lsystem`<br>`>zsystem`<br>`>osystem`<br>`>f1system`<br>`>f2system`<br>`>f3system`<br>`>lgsystem` | Taito X System<br>Taito B System<br>Taito H System<br>Taito L System<br>Taito Z System<br>Taito O System<br>Taito F1 System / F2 System Extended<br>Taito F2 System<br>Taito F3 System<br>Taito LG System |
-| `:konami` | Konami board | `>bubble`<br>`>gx330`<br>`>gx361`<br>`>gx400`<br>`>twin16`<br>`>polygonet`<br>`>gx`<br>`>gv`<br>`>ultra`<br>`>zr107` | Konami Bubble System<br>Konami GX330<br>Konami GX361<br>Konami GX400<br>Konami Twin 16<br>Konami Polygonet<br>Konami GX<br>Konami GV<br>Konami Ultra Sports<br>Konami ZR-107 |
+| `:konami` | Konami board | `>bubble`<br>`>gx330`<br>`>gx361`<br>`>gx400`<br>`>twin16`<br>`>polygonet`<br>`>gx`<br>`>gv`<br>`>ultra`<br>`>zr107`<br>`>m2`<br>`>djmain`<br>`>cobra`<br>`>573`<br>`>hornet`<br>`>nwrtr` | Konami Bubble System<br>Konami GX330<br>Konami GX361<br>Konami GX400<br>Konami Twin 16<br>Konami Polygonet<br>Konami GX<br>Konami GV<br>Konami Ultra Sports<br>Konami ZR-107<br>Konami M2<br>Konami Bemani DJ-Main<br>Konami Cobra System<br>Konami System 573<br>Konami Hornet<br>Konami NWK-TR |
 | `:namco` | NAMCO board |  |  |
 | `:toaplan` | Toaplan board | `>version1`<br>`>version2` | Toaplan Version 1<br>Toaplan Version 2 |
 | `:jaleco` | Jaleco board | `>megasystem1` | Jaleco Mega System 1 |
