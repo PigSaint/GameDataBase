@@ -696,7 +696,9 @@ arcadeboard:
         djmain: "Konami Bemani DJ-Main"
         cobra: "Konami Cobra System"
         "573": "Konami System 573"
+        573a: "Konami System 573 Analog"
         hornet: "Konami Hornet"
+        viper: "Konami Viper"
         nwrtr: "Konami NWK-TR"
     namco:
       description: "NAMCO board"
