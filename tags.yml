@@ -58,6 +58,7 @@ input:
       children:
         "1": "One pedal"
         "2": "Two pedals"
+        "3": "Three pedals"
     touchscreen:
       description: "Touch screen"
       children:
@@ -67,6 +68,7 @@ input:
       description: "Puncher"
       children:
         "6": "Six punchers"
+        "7": "Seven punchers"
     motion:
       description: "Motion detection device"
     hrm:
@@ -699,7 +701,7 @@ arcadeboard:
         573a: "Konami System 573 Analog"
         hornet: "Konami Hornet"
         viper: "Konami Viper"
-        nwrtr: "Konami NWK-TR"
+        nwktr: "Konami NWK-TR"
     namco:
       description: "NAMCO board"
     toaplan:
