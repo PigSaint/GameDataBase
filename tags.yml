@@ -270,6 +270,7 @@ genre:
         rowing: "Rowing"
         kayak: "Kayak"
         surf: "Surf"
+        roller: "Roller skating"
     notagame:
       description: "Not a game"
       children:
@@ -1053,6 +1054,7 @@ port:
       description: "Sony / ソニー"
       children:
         playstation: "PlayStation / プレイステーション"
+        playstation2: "PlayStation 2 / プレイステーション2"
     3do:
       description: "Panasonic 3DO / スリーディーオー"
     wonderswan:
