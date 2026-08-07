@@ -510,11 +510,15 @@ addon:
       children:
         pocketprinter: "Nintendo Pocket Printer / ポケットプリンタ / GameBoy Printer"
         printbooster: "NEC Print Booster"
-    barcode:
-      description: "Barcode reader"
+    reader:
+      description: "Reader"
       children:
         barcodeboy: "NAMCOT Barcode Boy"
         barcodereader: "Tam Barcode Reader / バーコードリーダー"
+        cardereader: "Nintendo Card e Reader / カードeリーダー"
+        cardereaderplus: "Nintendo Card e-Reader+ / カードeリーダー+ / e Reader"
+        battlechip: "CAPCOM BattleChip Gate + Chip / バトルチップゲート + チップ"
+        multipluston: "Takara Multi Plust On System + Pluster Figure / マルチプラストオンシステム + プラスターフィギュア / Ver.EX"
     rss:
       description: "Roland Sound Space"
     pocketcamera:
@@ -588,6 +592,8 @@ embedded:
       description: "Vibration"
       children:
         rumble: "Includes Rumble Feature"
+    uvsensor:
+      description: "Ultraviolet light sensor"
     accelerometer:
       description: "Motion sensor"
     led:
@@ -970,6 +976,10 @@ reboxed:
       description: "Nintendo FamicomBox"
     superfamicombox:
       description: "Nintendo Super FamicomBox"
+    konamithebest:
+      description: "Konami The Best: Best Price de Tōjō! / コナミ ザ・ベスト ベストプライスで登場!"
+    hudsonthebest:
+      description: "Hudson The Best: Good Choice / ハドソン・ザ・ベスト"
 
 port:
   description: "Port, remaster, remake or conversion from another system"
@@ -1065,6 +1075,8 @@ port:
       description: "Pioneer LaserActive / レーザーアクティブ"
     fmtowns:
       description: "Fujitsu FM Towns / エフエムタウンズ"
+    gp32:
+      description: "Game Park GP32"
 
 lang:
   description: "Language"
@@ -1194,6 +1206,8 @@ rerelease:
         "x2": "Rockman X Anniversary Collection 2 / ロックマンX アニバーサリー コレクション 2 / Megaman X Legacy Collection 2"
     seikendensetsu:
       description: "Seiken Densetsu Collection / 聖剣伝説 Collection / Collection of Mana"
+    rockmanexeadvance:
+      description: "Rockman EXE Advance Collection / ロックマン エグゼ アドバンスドコレクション / Megaman Battle Network Legacy Collection"
     ninjajajamaru:
       description: "Ninja JaJaMaru Retro Collection / 忍者じゃじゃ丸 Collection"
     zeldacollection:
@@ -1279,6 +1293,8 @@ rev:
       description: "Revision F"
     g:
       description: "Revision G"
+    nobattery:
+      description: "Flash RAM version of previously battery backed SRAM release with the same ROM"
 
 set:
   description: "Set"

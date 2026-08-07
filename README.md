@@ -212,7 +212,7 @@ Behavior summary:
 | `:led` | LED accessory | `>powerantenna`<br>`>bugsensor` | Smilesoft Power Antenna / パワーアンテナ<br>Smilesoft Bug Sensor / バグセンサー |
 | `:rob` | Nintendo Family Computer Robot /  ファミリーコンピュータ ロボット/ R.O.B. / Robotic Operating Buddy | `>gyro`<br>`>block` | Gyro Set / ジャイロ セット<br>Block Set / ブロック セット |
 | `:printer` | Printer | `>pocketprinter`<br>`>printbooster` | Nintendo Pocket Printer / ポケットプリンタ / GameBoy Printer<br>NEC Print Booster |
-| `:barcode` | Barcode reader | `>barcodeboy`<br>`>barcodereader` | NAMCOT Barcode Boy<br>Tam Barcode Reader / バーコードリーダー |
+| `:reader` | Reader | `>barcodeboy`<br>`>barcodereader`<br>`>cardereader`<br>`>cardereaderplus`<br>`>battlechip`<br>`>multipluston` | NAMCOT Barcode Boy<br>Tam Barcode Reader / バーコードリーダー<br>Nintendo Card e Reader / カードeリーダー<br>Nintendo Card e-Reader+ / カードeリーダー+ / e Reader<br>CAPCOM BattleChip Gate + Chip / バトルチップゲート + チップ<br>Takara Multi Plust On System + Pluster Figure / マルチプラストオンシステム + プラスターフィギュア / Ver.EX |
 | `:rss` | Roland Sound Space |  |  |
 | `:pocketcamera` | Nintendo Pocket Camera / ポケットカメラ / GameBoy Camera |  |  |
 | `:capturecassette` | Nintendo 64 Capture Cassette |  |  |
@@ -233,6 +233,7 @@ Behavior summary:
 | `:chip` | Enhancement chip | `>ram`<br>`>rtc`<br>`>svp`<br>`>mmc5`<br>`>dsp1`<br>`>dsp1a`<br>`>dsp1b`<br>`>dsp2`<br>`>dsp3`<br>`>dsp4`<br>`>sa1`<br>`>sdd1`<br>`>sfx1`<br>`>sfx2`<br>`>obc1`<br>`>vrc6`<br>`>vrc7`<br>`>n163`<br>`>fme7`<br>`>5a`<br>`>5b`<br>`>m50805`<br>`>7755`<br>`>7756`<br>`>cx4`<br>`>spc7110`<br>`>st010`<br>`>st011`<br>`>st018` | Extra RAM<br>Real-Time Clock<br>SEGA Virtua Processor / SVP<br>Nintendo MMC5<br>Nintendo DSP-1<br>Nintendo DSP-1a<br>Nintendo DSP-1b<br>Nintendo DSP-2<br>Nintendo DSP-3<br>Nintendo DSP-4<br>Nintendo SA-1<br>Nintendo S-DD1<br>Nintendo Super FX GSU-1<br>Nintendo Super FX GSU-2<br>Nintendo OBC-1<br>Konami VRC VI<br>Konami VRC VII<br>NAMCO 163<br>Sunsoft FME-7<br>Sunsoft 5A<br>Sunsoft 5B<br>Mitsubishi M50805<br>NEC µPD7755C<br>NEC µPD7756C<br>CAPCOM CX4<br>Epson SPC7110<br>SETA ST010<br>SETA ST011<br>SETA ST018 |
 | `:slot` | Slot in cartridge | `>rj11`<br>`>jcart`<br>`>lockon`<br>`>kogame`<br>`>gameboy`<br>`>gamelink`<br>`>smartmedia` | RJ-11 port<br>Codemasters J-Cart<br>SEGA Sonic & Knuckles Lock-On Technology<br>Sunsoft Kogame Cassette / 子ガメカセット<br>Nintendo GameBoy cartridge<br>Nintendo Tsūshin Cable port / 通信ケーブル / GameLink<br>Tokyo Electron SmartMedia Double Slot |
 | `:vibration` | Vibration | `>rumble` | Includes Rumble Feature |
+| `:uvsensor` | Ultraviolet light sensor |  |  |
 | `:accelerometer` | Motion sensor |  |  |
 | `:led` | LED |  |  |
 | `:gbkiss` | Hudson GB Kiss |  |  |
@@ -380,6 +381,8 @@ Behavior summary:
 | `:limitedrun` | Limited Run |
 | `:famicombox` | Nintendo FamicomBox |
 | `:superfamicombox` | Nintendo Super FamicomBox |
+| `:konamithebest` | Konami The Best: Best Price de Tōjō! / コナミ ザ・ベスト ベストプライスで登場! |
+| `:hudsonthebest` | Hudson The Best: Good Choice / ハドソン・ザ・ベスト |
 
 </details>
 
@@ -410,6 +413,7 @@ Behavior summary:
 | `:cdi` | Philips CD-i |  |  |
 | `:laseractive` | Pioneer LaserActive / レーザーアクティブ |  |  |
 | `:fmtowns` | Fujitsu FM Towns / エフエムタウンズ |  |  |
+| `:gp32` | Game Park GP32 |  |  |
 
 </details>
 
@@ -477,6 +481,7 @@ Behavior summary:
 | `:dariuscozmic` | Darius Cozmic Collection |  |  |
 | `:rockmanclassic` | Rockman Classic Collection / ロックマン クラシックス コレクション / Megaman Legacy Collection | `>1`<br>`>2`<br>`>x`<br>`>x2` | Rockman Classic Collection / ロックマン クラシックス コレクション / Megaman Legacy Collection<br>Rockman Classic Collection 2 / ロックマン クラシックス コレクション 2 / Megaman Legacy Collection 2<br>Rockman X Anniversary Collection / ロックマンX アニバーサリー コレクション / Megaman X Legacy Collection<br>Rockman X Anniversary Collection 2 / ロックマンX アニバーサリー コレクション 2 / Megaman X Legacy Collection 2 |
 | `:seikendensetsu` | Seiken Densetsu Collection / 聖剣伝説 Collection / Collection of Mana |  |  |
+| `:rockmanexeadvance` | Rockman EXE Advance Collection / ロックマン エグゼ アドバンスドコレクション / Megaman Battle Network Legacy Collection |  |  |
 | `:ninjajajamaru` | Ninja JaJaMaru Retro Collection / 忍者じゃじゃ丸 Collection |  |  |
 | `:zeldacollection` | The Legend of Zelda Collection / ゼルダコレクション / The Legend of Zelda: Collector's Edition |  |  |
 | `:disneyclassic` | Disney Classic Games Collection |  |  |
@@ -519,6 +524,7 @@ Behavior summary:
 | `:e` | Revision E |
 | `:f` | Revision F |
 | `:g` | Revision G |
+| `:nobattery` | Flash RAM version of previously battery backed SRAM release with the same ROM |
 
 </details>
 
