@@ -181,6 +181,7 @@ genre:
         j: "JRPG"
         s: "SRPG / Tactics RPG"
         dungeoncrawler: "Dungeon crawler"
+        roguelike: "Roguelike"
         mmo: "MMO / Massively Multiplayer Online"
     rhythm:
       description: "Rhythm"
@@ -444,7 +445,7 @@ addon:
         battlebox: "IGS Battle Box / バトルボックス"
         tennokoe: "Hudson Ten no Koe 2 / Ten no Koe Bank / 天の声 / NEC Backup Booster I / Backup Booster II / バックアップブースター / NEC TurboBooster-Plus"
         memorybase128: "NEC Memory Base 128 / メモリーベース128"
-        turbofile: "ASCII Turbo File / Turbo File II / Turbo File GB / ターボファイル / Turbo File Adapter / ターボファイルアダプター / Turbo File Twin / ターボファイルツイン"
+        turbofile: "ASCII Turbo File / Turbo File II / Turbo File GB / ターボファイル / Turbo File GBA / Turbo File Adapter / ターボファイルアダプター / Turbo File Twin / ターボファイルツイン"
     online:
       description: "Online based accessory"
       children:
@@ -892,6 +893,10 @@ search:
         anaglyph: "Anaglyph 3D"
     vr:
       description: "Virtual Reality"
+    software:
+      description: "Software tool, engine or somekind of middleware used"
+      children:
+        musyx: "Factor 5 MusyX"
     keyword:
       description: "Other specific game features"
       children:
@@ -952,6 +957,8 @@ reboxed:
       description: "Accolade Video Game Classics"
     koeibest:
       description: "Koei Best Collection / Koei Best コレクション"
+    ebikore:
+      description: "Enterbrain EBColle Price / エビコレプライズ"
     gamenokanzume:
       description: "Game no Kanzume Otokuyō / ゲームのかんづめ お徳用"
     soundware:
@@ -1067,6 +1074,8 @@ port:
         playstation2: "PlayStation 2 / プレイステーション2"
     3do:
       description: "Panasonic 3DO / スリーディーオー"
+    xbox:
+      description: "Microsoft XBox"
     wonderswan:
       description: "Bandai WonderSwan / ワンダースワン"
     cdi:
