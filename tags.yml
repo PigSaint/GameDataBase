@@ -327,7 +327,7 @@ addon:
         ddr: "Konami Dance Dance Revolution controller"
         ddrgb: "Konami Sen'yō Yubi Controller / 専用指コントローラ"
         taikanfamicom: "Konami Taikan Famicom / 大汗ファミコン"
-        hardwarebike: "Varie Hardware Bike / ハードウーアバイク"
+        hardwarebike: "Varie Hardware Bike / ハードウェアバイク"
         pachinko: "Coconuts Pachinko Controller / パチンココントローラー"
         hissatsupachinko: "Sunsoft Hissatsu Pachinko Controller / 必殺パチンココントローラー"
         pashislot: "Sammy Jissen! PachiSlo Controller / 実戦! パチスロ コントローラー"
@@ -995,7 +995,7 @@ reboxed:
     gamenokanzume:
       description: "Game no Kanzume Otokuyō / ゲームのかんづめ お徳用"
     okaidokuban:
-      description: "KSG Okaidoku-ban / お買い得版"	  
+      description: "KSG Okaidoku-ban / お買い得版"
     soundware:
       description: "Koei SoundWare audio CD"
     playerschoice:
