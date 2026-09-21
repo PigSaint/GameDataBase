@@ -181,7 +181,6 @@ genre:
         j: "JRPG"
         s: "SRPG / Tactics RPG"
         dungeoncrawler: "Dungeon crawler"
-        roguelike: "Roguelike"
         mmo: "MMO / Massively Multiplayer Online"
     rhythm:
       description: "Rhythm"
@@ -216,6 +215,7 @@ genre:
         train: "Train simulator"
         date: "Date simulator"
         otome: "Otome game / 乙女ゲーム"
+        management: "Management"
         life: "Life simulator"
         farm: "Farm simulator"
         pet: "Pet simulator"
@@ -462,6 +462,7 @@ addon:
         ndm24: "NTT Data Tsūshin Modem NDM24 / 通信モデムNDM24"
         satellaview: "Nintendo SatellaView / サテラビュー"
         randnetmodem: "Randnet Modem / ランドネット"
+        netcard: "Nintendo NetCard"
     vibration:
       description: "Vibration"
       children:
@@ -582,6 +583,7 @@ embedded:
     slot:
       description: "Slot in cartridge"
       children:
+        aaabattery: "AAA battery"
         rj11: "RJ-11 port"
         jcart: "Codemasters J-Cart"
         lockon: "SEGA Sonic & Knuckles Lock-On Technology"
@@ -589,20 +591,28 @@ embedded:
         gameboy: "Nintendo GameBoy cartridge"
         gamelink: "Nintendo Tsūshin Cable port / 通信ケーブル / GameLink"
         smartmedia: "Tokyo Electron SmartMedia Double Slot"
+        compactflash: "SanDisk CompactFlash card"
     vibration:
       description: "Vibration"
       children:
-        rumble: "Includes Rumble Feature"
+        rumble: "Shindō Cartridge / 振動カートリッジ / Includes Rumble Feature"
     uvsensor:
       description: "Ultraviolet light sensor"
-    accelerometer:
+    motion:
       description: "Motion sensor"
+      children:
+        accelerometer: "Accelerometer"
+        gyroscope: "Gyroscope"
+    health:
+      description: "Health monitoring"
+      children:
+        bloodglucose: "Blood glucose monitor"
     led:
       description: "LED"
     gbkiss:
-      description: "Hudson GB Kiss"
+      description: "Hudson GB Kiss / ジービーキッス"
     pocketsonar:
-      description: "Bandai Pocket Sonar"
+      description: "Bandai Pocket Sonar / ポケットソナー"
 
 save:
   description: "The way you can save your progress"
@@ -852,6 +862,12 @@ based:
       description: "Star Wars"
     tmnt:
       description: "Teenage Mutant Ninja Turtles"
+    cartoonnetwork:
+      description: "Cartoon Network"
+    nickelodeon:
+      description: "Nickelodeon / Nick"
+    hannabarbera:
+      description: "Hanna-Barbera"
 
 search:
   description: "Keywords for searching"
@@ -894,9 +910,18 @@ search:
     vr:
       description: "Virtual Reality"
     software:
-      description: "Software tool, engine or somekind of middleware used"
+      description: "Software tool, engine, driver, codec, or somekind of middleware used"
       children:
-        musyx: "Factor 5 MusyX"
+        cinepak: "SuperMatch Cinepak video codec"
+        truemotion: "Duck TrueMotion audio/video codec"
+        cybersound: "inVision Cybersound sound library"
+        segasound: "inVision SEGA Sound library"
+        sofdec: "CRI Sofdek video codec"
+        adx: "CRI ADX audio codec"
+        gems: "SEGA G.E.M.S. sound tool"
+        krisalis: "Krisalis sound driver"
+        musyx: "Factor 5 MusyX audio tools"
+        gax: "Shin'en GAX sound engine"
     keyword:
       description: "Other specific game features"
       children:
@@ -957,10 +982,20 @@ reboxed:
       description: "Accolade Video Game Classics"
     koeibest:
       description: "Koei Best Collection / Koei Best コレクション"
+    banprestobest:
+      description: "Banpresto Best"
+    bestprice:
+      description: "Atlus Best Price / ベスト・プライス"
+    kikangentei:
+      description: "CAPCOM Best Price! Kikan Gentei / 期間限定"
+    valueselection:
+      description: "NAMCO Value Selection / バリュー　セレクション"
     ebikore:
       description: "Enterbrain EBColle Price / エビコレプライズ"
     gamenokanzume:
       description: "Game no Kanzume Otokuyō / ゲームのかんづめ お徳用"
+    okaidokuban:
+      description: "KSG Okaidoku-ban / お買い得版"	  
     soundware:
       description: "Koei SoundWare audio CD"
     playerschoice:
