@@ -108,7 +108,7 @@ players:
     mmo:
       description: "MMO / Massively Multiplayer Online"
     vs:
-      description: "Versus"
+      description: "Versus / Competitive"
     coop:
       description: "Cooperative"
     alt:
@@ -185,8 +185,8 @@ genre:
     rhythm:
       description: "Rhythm"
       children:
-          karaoke: "Karaoke"
-          dance: "Dance"
+        karaoke: "Karaoke"
+        dance: "Dance"
     shmup:
       description: "Shoot'em up"
       children:
@@ -395,6 +395,7 @@ addon:
         mobileadaptergb: "Nintendo Mobile Adapter GB / モバイルアダプタGB"
         gbalinkcable: "Nintendo GameBoy Advance Tsūshin Cable / 通信ケーブル / Link Cable"
         gbacable: "Nintendo GameCube GBA Cable / ニンテンドー　ゲームキューブ GBAケーブル / GameCube – GameBoy Advance Link Cable"
+        joycarry: "Nintendo Sen'yō Joy Carry Cartridge / 専用ジョイキャリーカートリッジ"
         wirelessadapter: "Nintendo/Motorola GameBoy Advance Sen'yō Wireless Adapter / ゲームボーイアドバンス専用ワイヤレスアダプタ"
         comcable: "NEC COM Cable / TurboExpress"
         linkup: "Technopop Link-up Cable"
@@ -580,6 +581,7 @@ embedded:
         st010: "SETA ST010"
         st011: "SETA ST011"
         st018: "SETA ST018"
+        flashdacs: "Flash DACS (Debugging And Communication System"
     slot:
       description: "Slot in cartridge"
       children:
