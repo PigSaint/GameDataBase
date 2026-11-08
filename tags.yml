@@ -521,7 +521,10 @@ addon:
         cardereader: "Nintendo Card e Reader / カードeリーダー"
         cardereaderplus: "Nintendo Card e-Reader+ / カードeリーダー+ / e Reader"
         battlechip: "CAPCOM BattleChip Gate + Chip / バトルチップゲート + チップ"
+        progresschip: "CAPCOM Progress Chip Gate + Chip / プログレスチップゲート + チップ"
+        beastlink: "CAPCOM Beast Link Gate + Chip / ビーストリンクゲート + チップ"
         multipluston: "Takara Multi Plust On System + Pluster Figure / マルチプラストオンシステム + プラスターフィギュア / Ver.EX"
+        souldoll: "Bandai Souldoll Adapter + Souldoll / ソウルドール アダプタ + ソウルドール"
     rss:
       description: "Roland Sound Space"
     pocketcamera:
@@ -604,7 +607,8 @@ embedded:
       description: "Motion sensor"
       children:
         accelerometer: "Accelerometer"
-        gyroscope: "Gyroscope"
+        gyro: "Gyro sensor"
+        tilt: "Tilt sensor"
     health:
       description: "Health monitoring"
       children:
@@ -924,6 +928,8 @@ search:
         krisalis: "Krisalis sound driver"
         musyx: "Factor 5 MusyX audio tools"
         gax: "Shin'en GAX sound engine"
+        onp: "Inti Creates ONP 3D Engine"
+        cuef: "Inti Creates Cue-f Rasterizer"
     keyword:
       description: "Other specific game features"
       children:
@@ -992,6 +998,8 @@ reboxed:
       description: "CAPCOM Best Price! Kikan Gentei / 期間限定"
     valueselection:
       description: "NAMCO Value Selection / バリュー　セレクション"
+    ultimatehits:
+      description: "Square-Enix Ultimate Hits / アルティメット ヒッツ"
     ebikore:
       description: "Enterbrain EBColle Price / エビコレプライズ"
     gamenokanzume:

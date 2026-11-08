@@ -212,7 +212,7 @@ Behavior summary:
 | `:led` | LED accessory | `>powerantenna`<br>`>bugsensor` | Smilesoft Power Antenna / パワーアンテナ<br>Smilesoft Bug Sensor / バグセンサー |
 | `:rob` | Nintendo Family Computer Robot /  ファミリーコンピュータ ロボット/ R.O.B. / Robotic Operating Buddy | `>gyro`<br>`>block` | Gyro Set / ジャイロ セット<br>Block Set / ブロック セット |
 | `:printer` | Printer | `>pocketprinter`<br>`>printbooster` | Nintendo Pocket Printer / ポケットプリンタ / GameBoy Printer<br>NEC Print Booster |
-| `:reader` | Reader | `>barcodeboy`<br>`>barcodereader`<br>`>cardereader`<br>`>cardereaderplus`<br>`>battlechip`<br>`>multipluston` | NAMCOT Barcode Boy<br>Tam Barcode Reader / バーコードリーダー<br>Nintendo Card e Reader / カードeリーダー<br>Nintendo Card e-Reader+ / カードeリーダー+ / e Reader<br>CAPCOM BattleChip Gate + Chip / バトルチップゲート + チップ<br>Takara Multi Plust On System + Pluster Figure / マルチプラストオンシステム + プラスターフィギュア / Ver.EX |
+| `:reader` | Reader | `>barcodeboy`<br>`>barcodereader`<br>`>cardereader`<br>`>cardereaderplus`<br>`>battlechip`<br>`>progresschip`<br>`>beastlink`<br>`>multipluston`<br>`>souldoll` | NAMCOT Barcode Boy<br>Tam Barcode Reader / バーコードリーダー<br>Nintendo Card e Reader / カードeリーダー<br>Nintendo Card e-Reader+ / カードeリーダー+ / e Reader<br>CAPCOM BattleChip Gate + Chip / バトルチップゲート + チップ<br>CAPCOM Progress Chip Gate + Chip / プログレスチップゲート + チップ<br>CAPCOM Beast Link Gate + Chip / ビーストリンクゲート + チップ<br>Takara Multi Plust On System + Pluster Figure / マルチプラストオンシステム + プラスターフィギュア / Ver.EX<br>Bandai Souldoll Adapter + Souldoll / ソウルドール アダプタ + ソウルドール |
 | `:rss` | Roland Sound Space |  |  |
 | `:pocketcamera` | Nintendo Pocket Camera / ポケットカメラ / GameBoy Camera |  |  |
 | `:capturecassette` | Nintendo 64 Capture Cassette |  |  |
@@ -234,7 +234,7 @@ Behavior summary:
 | `:slot` | Slot in cartridge | `>aaabattery`<br>`>rj11`<br>`>jcart`<br>`>lockon`<br>`>kogame`<br>`>gameboy`<br>`>gamelink`<br>`>smartmedia`<br>`>compactflash` | AAA battery<br>RJ-11 port<br>Codemasters J-Cart<br>SEGA Sonic & Knuckles Lock-On Technology<br>Sunsoft Kogame Cassette / 子ガメカセット<br>Nintendo GameBoy cartridge<br>Nintendo Tsūshin Cable port / 通信ケーブル / GameLink<br>Tokyo Electron SmartMedia Double Slot<br>SanDisk CompactFlash card |
 | `:vibration` | Vibration | `>rumble` | Shindō Cartridge / 振動カートリッジ / Includes Rumble Feature |
 | `:uvsensor` | Ultraviolet light sensor |  |  |
-| `:motion` | Motion sensor | `>accelerometer`<br>`>gyroscope` | Accelerometer<br>Gyroscope |
+| `:motion` | Motion sensor | `>accelerometer`<br>`>gyro`<br>`>tilt` | Accelerometer<br>Gyro sensor<br>Tilt sensor |
 | `:health` | Health monitoring | `>bloodglucose` | Blood glucose monitor |
 | `:led` | LED |  |  |
 | `:gbkiss` | Hudson GB Kiss / ジービーキッス |  |  |
@@ -338,7 +338,7 @@ Behavior summary:
 | `:tate` | Vertical screen orientation | `>cw`<br>`>ccw` | Clockwise<br>Counter clockwise |
 | `:3d` | Game uses some kind of 3D effect | `>stereo`<br>`>anaglyph` | Stereoscopic 3D<br>Anaglyph 3D |
 | `:vr` | Virtual Reality |  |  |
-| `:software` | Software tool, engine, driver, codec, or somekind of middleware used | `>cinepak`<br>`>truemotion`<br>`>cybersound`<br>`>segasound`<br>`>sofdec`<br>`>adx`<br>`>gems`<br>`>krisalis`<br>`>musyx`<br>`>gax` | SuperMatch Cinepak video codec<br>Duck TrueMotion audio/video codec<br>inVision Cybersound sound library<br>inVision SEGA Sound library<br>CRI Sofdek video codec<br>CRI ADX audio codec<br>SEGA G.E.M.S. sound tool<br>Krisalis sound driver<br>Factor 5 MusyX audio tools<br>Shin'en GAX sound engine |
+| `:software` | Software tool, engine, driver, codec, or somekind of middleware used | `>cinepak`<br>`>truemotion`<br>`>cybersound`<br>`>segasound`<br>`>sofdec`<br>`>adx`<br>`>gems`<br>`>krisalis`<br>`>musyx`<br>`>gax`<br>`>onp`<br>`>cuef` | SuperMatch Cinepak video codec<br>Duck TrueMotion audio/video codec<br>inVision Cybersound sound library<br>inVision SEGA Sound library<br>CRI Sofdek video codec<br>CRI ADX audio codec<br>SEGA G.E.M.S. sound tool<br>Krisalis sound driver<br>Factor 5 MusyX audio tools<br>Shin'en GAX sound engine<br>Inti Creates ONP 3D Engine<br>Inti Creates Cue-f Rasterizer |
 | `:keyword` | Other specific game features | `>strip`<br>`>promo`<br>`>qsound`<br>`>dolby`<br>`>rs`<br>`>ubikey`<br>`>official`<br>`>endorsed`<br>`>brand` | Stripped girls as a stage clear reward<br>Promotional not-for-sale limited product<br>QSound support<br>Dolby Surround<br>Response Sound System / レスポンス サウンド システム / RS<br>Ubi Key<br>Official sports game<br>Endorsed by public figure<br>Endorsed by company or brand |
 
 </details>
@@ -378,6 +378,7 @@ Behavior summary:
 | `:bestprice` | Atlus Best Price / ベスト・プライス |
 | `:kikangentei` | CAPCOM Best Price! Kikan Gentei / 期間限定 |
 | `:valueselection` | NAMCO Value Selection / バリュー　セレクション |
+| `:ultimatehits` | Square-Enix Ultimate Hits / アルティメット ヒッツ |
 | `:ebikore` | Enterbrain EBColle Price / エビコレプライズ |
 | `:gamenokanzume` | Game no Kanzume Otokuyō / ゲームのかんづめ お徳用 |
 | `:okaidokuban` | KSG Okaidoku-ban / お買い得版 |
